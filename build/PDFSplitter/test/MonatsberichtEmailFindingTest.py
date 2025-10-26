@@ -10,22 +10,22 @@ def clean_path(path: str) -> str:
 
 try:
     rawFilePath = input(
-        "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen \nPfad: "
+        "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen \n\nPfad: "
     )
     rawFilePath = clean_path(rawFilePath)
-    print(f"✅ Eingabepfad erkannt: {rawFilePath}")
+    print(f"\n✅ Eingabepfad erkannt: {rawFilePath}\n")
 
     destinationFolderPath = input(
-        "Pfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen \nPfad: "
+        "\nPfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen \n\nPfad: "
     )
     destinationFolderPath = clean_path(destinationFolderPath)
-    print(f"✅ Zielordner erkannt: {destinationFolderPath}")
+    print(f"\n✅ Zielordner erkannt: {destinationFolderPath}")
 
     os.makedirs(destinationFolderPath, exist_ok=True)
-    print("✅ Zielordner erstellt oder bereits vorhanden")
+    print("✅ Zielordner erstellt oder bereits vorhandenen gefunden")
 
     doc = fitz.open(rawFilePath)
-    print("✅ PDF erfolgreich geöffnet")
+    print("✅ PDF erfolgreich geöffnet\n\n")
 
 except Exception as e:
     print(f"❌ FEHLER BEIM DATEI-ZUGRIFF: {e}")
@@ -78,7 +78,7 @@ def createIndividualPDF(_newNamePageIndex, _pageIndex, _name):
 
 
 def iteratePages():
-    lastName = "GbR Alexej Bergmann"
+    lastName = getPageName(0)
     lastNewNamePageIndex = 0
 
     for pageIndex in range(doc.page_count):
@@ -95,9 +95,9 @@ def iteratePages():
 
 try:
     iteratePages()
-    print("✅✅✅ PDFs wurden erfolgreich erstellt ✅✅✅")
+    print("\n\n✅✅✅ PDFs wurden erfolgreich erstellt ✅✅✅\n\n")
 except Exception as e:
     print(f"❌ FEHLER BEIM ITERIEREN: {e}")
     print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
 
-input("Zum BEENDEN des Programms beliebige Taste drücken...")
+input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
