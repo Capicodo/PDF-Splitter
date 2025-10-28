@@ -131,11 +131,11 @@ def search_contact_data(_name):
     pli_id = extract_pli_id(_name)
     print(f"Current PLI ID:-->{pli_id}<--")
 
-    contact_data = getDataFromPLIID(_name)
-
-    if not contact_data:
+    try:
+        contact_data = getDataFromPLIID(_name)
         print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
-        raise Exception(f"{pli_id}")
+    except Exception as e:
+        raise Exception(f"{e}, {pli_id}")
 
     print(
         f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"

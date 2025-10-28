@@ -1,7 +1,7 @@
 import csv
 import os
 import re
-
+from ContactData import ContactData
 
 csv_data = []
 
@@ -57,8 +57,10 @@ def getDataFromPLIID(pli_id: str):
     TODO
 
     """
-
+    pli_id_str = str(pli_id)
+    
     for row in csv_data:
-        if row["PLI - #"] == pli_id:
-            return (sheets_formated_str_to_bool(row["Papierbericht"]), row["Mail-Adresse"])
-    return False
+        print (row["PLI - #"])
+        if row["PLI - #"] == pli_id_str:
+            return ContactData(sheets_formated_str_to_bool(row["Papierbericht"]), row["Mail-Adresse"])
+    raise Exception ("❌ No Deliver Information found")
