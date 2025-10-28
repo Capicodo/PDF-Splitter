@@ -92,10 +92,10 @@ def search_contact_data(_name):
     deliverInformationFound = getDataFromName(_name)
     
     if (not deliverInformationFound):
-        print(f"⚠️⚠️⚠️⚠️ For Name: {first_name} {surname} was NO deliver Information found! ⚠️⚠️⚠️⚠️")
+        print(f"⚠️⚠️⚠️⚠️ For Name: {first_name} {surname} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
         raise Exception(f"_{first_name}_{surname}_") 
     
-    print(f"✅✅✅✅✅✅✅ For Name: {first_name} {surname} was deliver Information successfull found ✅✅✅✅✅✅")
+    print(f"✅✅✅✅✅✅✅ For Name: {first_name} {surname} was deliver-information successfully found ✅✅✅✅✅✅")
     return ContactData(False, "test@testmail.test")
 
 def iteratePages():
