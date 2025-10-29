@@ -10,6 +10,7 @@ def extract_pli_id(name: str) -> int:
     """
     Extracts the leading number (PLI-#) from a name string.
 
+
     Examples:
         "32 casdf vadsf" -> 32
         "6 adsfa adf" -> 6
@@ -51,16 +52,26 @@ def sheets_formated_str_to_bool(s: str) -> bool:
         raise ValueError(f"Cannot convert '{s}' to boolean")
 
 
-def getDataFromPLIID(pli_id: str):
+def getDataFromPLIID(pli_id: int) -> ContactData:
     """This function finds the information, where the monthly report should be send, or if it should be printed
 
     TODO
 
     """
+
     pli_id_str = str(pli_id)
-    
+    print(f"COMPARE ID: --{pli_id_str}--")
+
     for row in csv_data:
-        print (row["PLI - #"])
+
         if row["PLI - #"] == pli_id_str:
-            return ContactData(sheets_formated_str_to_bool(row["Papierbericht"]), row["Mail-Adresse"])
-    raise Exception ("❌ No Deliver Information found")
+            print(
+                f"Found Contact Data. -> {row["Papierbericht"]}, {row["Mail-Adresse"]}"
+            )
+            contact_data = ContactData(
+                sheets_formated_str_to_bool(row["Papierbericht"]), row["Mail-Adresse"]
+            )
+            print(contact_data.deliver_via_paper, contact_data.email)
+            return contact_data
+
+    raise Exception("❌ No Deliver Information found")

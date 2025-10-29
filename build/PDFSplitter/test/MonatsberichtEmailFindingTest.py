@@ -86,21 +86,23 @@ def getPagePersonInfos(_index):
     currentPage = report_doc[_index]
     currentText = currentPage.get_text()
 
-    print("-------------START Scanning--------------")
+    # print("-------------START Scanning--------------")
     currentName = regexSearchText(reGexNameFindingPattern, currentText)
 
     if currentName:
-        print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+        # print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+        None
     else:
         raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
 
     currentDienstplan = regexSearchText(reGexDienstplanFindingPattern, currentText)
 
     if currentName:
-        print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+        None
+        #print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
     else:
         raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
-    print("-------------END Scanning----------------")
+    # print("-------------END Scanning----------------")
 
     return currentName, currentDienstplan
 
@@ -128,20 +130,23 @@ def createIndividualPDF(_newNamePageIndex, _pageIndex, _name):
 
 def search_contact_data(_name):
 
-    pli_id = extract_pli_id(_name)
+    pli_id: int = extract_pli_id(_name)
     print(f"Current PLI ID:-->{pli_id}<--")
 
     try:
-        contact_data = getDataFromPLIID(_name)
-        print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
+
+        contact_data = getDataFromPLIID(pli_id)
+        print(
+            f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"
+        )
+        print("")
+
     except Exception as e:
+
+        print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
         raise Exception(f"{e}, {pli_id}")
 
-    print(
-        f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"
-    )
-
-    return ContactData(contact_data)
+    return contact_data
 
 
 def iteratePages():
@@ -155,13 +160,15 @@ def iteratePages():
     for pageIndex in range(report_doc.page_count):
 
         currentName, current_dienstplan = getPagePersonInfos(pageIndex)
-        
+
         if lastName != currentName:
 
             if sort_by_deliver_method:
                 try:
                     contact_data = search_contact_data(last_dienstplan)
-                    print(f"Print Contact Data: {contact_data.__dict__}")
+                    # print(
+                    #     f"Print Contact Data: {contact_data.deliver_via_paper}, {contact_data.email}"
+                    # )
                     contact_datas.append(contact_data)
                 except Exception as e:
                     contact_fails.append(e)
@@ -174,7 +181,7 @@ def iteratePages():
             lastNewNamePageIndex = pageIndex
         lastName = currentName
         last_dienstplan = current_dienstplan
-        
+
         print("")
 
     for current_contact_data in contact_datas:
