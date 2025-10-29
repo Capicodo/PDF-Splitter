@@ -1,5 +1,6 @@
 import os
 import fitz  # PyMuPDF
+import pyfiglet
 import re
 
 from ContactData import ContactData
@@ -15,13 +16,22 @@ def clean_path(path: str) -> str:
     return path.strip().strip('"').strip("'")
 
 
-import pyfiglet
 
+print("\033[32m" +"""
+ ____  ____  _____   ____        _ _ _   _
+|  _ \\|  _ \\|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
+| |_) | | | | |_    \\___ \\| '_ \\| | | __| __/ _ \\ '__|
+|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
+|_|   |____/|_|     |____/| .__/|_|_|\\__|\\__\\___|_|
+                          |_|
+                  _             __  __
+                 | |__  _   _  |  \\/  |_   _
+                 | '_ \\| | | | | |\\/| | | | |
+                 | |_) | |_| | | |  | | |_| |
+                 |_.__/ \\__, | |_|  |_|\\__,_|
+                        |___/
+""" + "\033[0m")
 
-ascii_banner = pyfiglet.figlet_format("PDF Splitter\n                 by Mu")
-# Colorize and reset
-green_banner = f"\033[32m{ascii_banner}\033[0m"
-print(green_banner)
 print()
 print()
 print()
