@@ -99,7 +99,7 @@ def getPagePersonInfos(_index):
 
     if currentName:
         None
-        #print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+        # print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
     else:
         raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
     # print("-------------END Scanning----------------")
@@ -107,14 +107,27 @@ def getPagePersonInfos(_index):
     return currentName, currentDienstplan
 
 
-def createIndividualPDF(_newNamePageIndex, _pageIndex, _name):
+def createIndividualPDF(
+    _newNamePageIndex, _pageIndex, _name, contact_data: ContactData = None
+):
+
+    group_folder_path: str = destinationFolderPath
+
+    if contact_data:
+        group_folder_path += r"\print" if contact_data.deliver_via_paper else r"\send"
+    else:
+        group_folder_path += r"\unsorted"
+
+    os.makedirs(group_folder_path, exist_ok=True)
+
     new_doc = fitz.open()
+
     try:
         safe_name = re.sub(
             r'[<>:"/\\|?*]', "_", _name
         )  # sanitize for Windows filenames
         joinedPath = os.path.join(
-            destinationFolderPath,
+            group_folder_path,
             f"Monatsbericht_{safe_name}_{_newNamePageIndex+1}-{_pageIndex+1}.pdf",
         )
 
@@ -163,6 +176,8 @@ def iteratePages():
 
         if lastName != currentName:
 
+            contact_data = None
+
             if sort_by_deliver_method:
                 try:
                     contact_data = search_contact_data(last_dienstplan)
@@ -171,23 +186,35 @@ def iteratePages():
                     # )
                     contact_datas.append(contact_data)
                 except Exception as e:
-                    contact_fails.append(e)
+                    contact_fails.append(
+                        f"⚠️ Für {lastName} war Kontaktdatensuche fehlerhaft: {e} \n⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️"
+                    )
 
             print("\n\n")
             print(
                 f"🎯 Seitenwechsel bei Seite {pageIndex+1} → Neuer Name: {currentName}"
             )
-            createIndividualPDF(lastNewNamePageIndex, pageIndex - 1, lastName)
+
+            createIndividualPDF(
+                lastNewNamePageIndex, pageIndex - 1, lastName, contact_data
+            )
+
             lastNewNamePageIndex = pageIndex
         lastName = currentName
         last_dienstplan = current_dienstplan
 
         print("")
 
+    if contact_data:
+        print(
+            f"\n\n✅✅✅ {len(contact_fails)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
+        )
     for current_contact_data in contact_datas:
-        print(current_contact_data.__dict__)
+
+        print(f"✅ {current_contact_data.__dict__}")
 
     if contact_fails:
+        print("\n\n")
         print(
             f"\n\n⚠️⚠️⚠️ {len(contact_fails)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n"
         )
