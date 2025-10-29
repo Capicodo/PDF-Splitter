@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Sync test.exe to network",
+      "label": "Ship Monatsbericht to network",
       "type": "shell",
       "command": "powershell",
       "args": [
