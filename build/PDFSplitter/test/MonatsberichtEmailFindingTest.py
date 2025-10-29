@@ -114,9 +114,9 @@ def createIndividualPDF(
     group_folder_path: str = destinationFolderPath
 
     if contact_data:
-        group_folder_path += r"\print" if contact_data.deliver_via_paper else r"\send"
+        group_folder_path += rf"\print" if contact_data.deliver_via_paper else rf"\send"
     else:
-        group_folder_path += r"\unsorted"
+        group_folder_path += rf"\unsorted"
 
     os.makedirs(group_folder_path, exist_ok=True)
 
