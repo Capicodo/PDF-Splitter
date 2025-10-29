@@ -224,7 +224,7 @@ def iteratePages():
 
 try:
     iteratePages()
-    print("\n\n✅✅✅ PDFs wurden erfolgreich erstellt ✅✅✅\n\n")
+    print("\n\n✅✅✅ PDFs wurden erstellt ✅✅✅\n\n")
 
 except Exception as e:
     print(f"❌ FEHLER BEIM ITERIEREN: {e}")
