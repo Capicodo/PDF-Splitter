@@ -10,74 +10,71 @@ from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
 
 sort_by_deliver_method: bool = True
 
+contact_fails = []
+contact_datas = []
+
+reGexNameFindingPattern = r"Name:\s*(.*?)\n"
+reGexDienstplanFindingPattern = r"Dienstplan:\s*(.*?)\n"
+
+rawReportFilePath: str
+destinationFolderPath: str
+contact_data_csv_path: str
+
+report_doc: fitz.Document
+
 
 def clean_path(path: str) -> str:
     """Remove quotes and surrounding whitespace from a file/folder path."""
     return path.strip().strip('"').strip("'")
 
 
-
-print("\033[32m" +"""
- ____  ____  _____   ____        _ _ _   _
-|  _ \\|  _ \\|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
-| |_) | | | | |_    \\___ \\| '_ \\| | | __| __/ _ \\ '__|
-|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
-|_|   |____/|_|     |____/| .__/|_|_|\\__|\\__\\___|_|
-                          |_|
-                  _             __  __
-                 | |__  _   _  |  \\/  |_   _
-                 | '_ \\| | | | | |\\/| | | | |
-                 | |_) | |_| | | |  | | |_| |
-                 |_.__/ \\__, | |_|  |_|\\__,_|
-                        |___/
-""" + "\033[0m")
-
-print()
-print()
-print()
-
-
-try:
-    rawReportFilePath = input(
+def input_paths():
+    
+    global sort_by_deliver_method
+    
+    global rawReportFilePath
+    global destinationFolderPath
+    global contact_data_csv_path
+    global report_doc
+    
+    try:
+        rawReportFilePath = input(
         "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
     )
-    rawReportFilePath = clean_path(rawReportFilePath)
-    print(f"\n✅ Eingabepfad erkannt: {rawReportFilePath}\n")
+        rawReportFilePath = clean_path(rawReportFilePath)
+        print(f"\n✅ Eingabepfad erkannt: {rawReportFilePath}\n")
 
-    destinationFolderPath = input(
+        destinationFolderPath = input(
         "\nPfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
     )
-    destinationFolderPath = clean_path(destinationFolderPath)
-    print(f"\n✅ Zielordner erkannt: {destinationFolderPath}\n")
+        destinationFolderPath = clean_path(destinationFolderPath)
+        print(f"\n✅ Zielordner erkannt: {destinationFolderPath}\n")
 
-    contact_data_csv_path = input(
+        contact_data_csv_path = input(
         "\nPfad zur Kontaktdaten(CSV)-Datei eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen. \n\nPfad: "
     )
-    contact_data_csv_path = clean_path(contact_data_csv_path)
-    print(f"\n✅ Eingabepfad erkannt: {contact_data_csv_path}\n")
+        contact_data_csv_path = clean_path(contact_data_csv_path)
+        print(f"\n✅ Eingabepfad erkannt: {contact_data_csv_path}\n")
 
-    try:
-        init(contact_data_csv_path)
-        print("✅ Kontaktdaten erfolgreich initialisiert")
+        try:
+            init(contact_data_csv_path)
+            print("✅ Kontaktdaten erfolgreich initialisiert")
+        except Exception as e:
+            sort_by_deliver_method = False
+            destinationFolderPath += f"/Kontaktdatenlos_und_Unsortiert"
+            print(f"❌ FEHLER BEIM DATEI-ZUGRIFF: {e}")
+            print(f"ℹ️ Es wird ohne Kontaktdatenliste gearbeitet")
+
+        os.makedirs(destinationFolderPath, exist_ok=True)
+        print("✅ Zielordner erstellt oder bereits vorhandenen gefunden")
+
+        report_doc = fitz.open(rawReportFilePath)
+        print("✅ PDF erfolgreich geöffnet\n\n")
+
     except Exception as e:
-        sort_by_deliver_method = False
-        destinationFolderPath += f"/Unsortiert"
         print(f"❌ FEHLER BEIM DATEI-ZUGRIFF: {e}")
-        print(f"ℹ️ Es wird ohne Kontaktdatenliste gearbeitet")
-
-    os.makedirs(destinationFolderPath, exist_ok=True)
-    print("✅ Zielordner erstellt oder bereits vorhandenen gefunden")
-
-    report_doc = fitz.open(rawReportFilePath)
-    print("✅ PDF erfolgreich geöffnet\n\n")
-
-except Exception as e:
-    print(f"❌ FEHLER BEIM DATEI-ZUGRIFF: {e}")
-    input("Zum Beenden beliebige Taste drücken...")
-    raise SystemExit
-
-reGexNameFindingPattern = r"Name:\s*(.*?)\n"
-reGexDienstplanFindingPattern = r"Dienstplan:\s*(.*?)\n"
+        input("Zum Beenden beliebige Taste drücken...")
+        raise SystemExit
 
 
 def regexSearchText(_regex, _text):
@@ -177,9 +174,6 @@ def iteratePages():
     lastName, last_dienstplan = getPagePersonInfos(0)
     lastNewNamePageIndex = 0
 
-    contact_fails = []
-    contact_datas = []
-
     for pageIndex in range(report_doc.page_count):
 
         currentName, current_dienstplan = getPagePersonInfos(pageIndex)
@@ -191,9 +185,6 @@ def iteratePages():
             if sort_by_deliver_method:
                 try:
                     contact_data = search_contact_data(last_dienstplan)
-                    # print(
-                    #     f"Print Contact Data: {contact_data.deliver_via_paper}, {contact_data.email}"
-                    # )
                     contact_datas.append(contact_data)
                 except Exception as e:
                     contact_fails.append(
@@ -210,14 +201,15 @@ def iteratePages():
             )
 
             lastNewNamePageIndex = pageIndex
+
         lastName = currentName
         last_dienstplan = current_dienstplan
 
         print("")
 
-    if contact_data:
+    if contact_datas:
         print(
-            f"\n\n✅✅✅ {len(contact_data)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
+            f"\n\n✅✅✅ {len(contact_datas)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
         )
     for current_contact_data in contact_datas:
 
@@ -232,6 +224,62 @@ def iteratePages():
             print(f"⚠️ NICHT GEFUNDEN: {current_fail}")
 
 
+def getAnswerYesNo():
+
+    while True:
+
+        print("\n (Y -> Ja) | (N -> Nein)")
+        answer: str = input("\nEingabe:")
+
+        if str.lower(answer) == "y":
+            return True
+        elif str.lower(answer) == "n":
+            return False
+        else:
+            print("\n ❌ Ungültige Eingabe. Du wirst erneut zur Eingabe aufgefordert.")
+
+
+def print_banner():
+    print(
+        "\033[32m"
+        + """
+ ____  ____  _____   ____        _ _ _   _
+|  _ \\|  _ \\|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
+| |_) | | | | |_    \\___ \\| '_ \\| | | __| __/ _ \\ '__|
+|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
+|_|   |____/|_|     |____/| .__/|_|_|\\__|\\__\\___|_|
+                          |_|
+                  _             __  __
+                 | |__  _   _  |  \\/  |_   _
+                 | '_ \\| | | | | |\\/| | | | |
+                 | |_) | |_| | | |  | | |_| |
+                 |_.__/ \\__, | |_|  |_|\\__,_|
+                        |___/
+"""
+        + "\033[0m"
+    )
+
+    print()
+    print()
+    print()
+
+
+def send_emails():
+
+    for current_contact_data in [current_contact_data for current_contact_data in contact_datas if not current_contact_data.deliver_via_paper]:
+
+        print(f"✅ {current_contact_data.__dict__}")
+
+
+########################################
+############### MAIN ###################
+########################################
+
+
+print_banner()
+
+input_paths()
+
 try:
     iteratePages()
     print("\n\n✅✅✅ PDFs wurden erstellt ✅✅✅\n\n")
@@ -240,5 +288,13 @@ except Exception as e:
     print(f"❌ FEHLER BEIM ITERIEREN: {e}")
     print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
 
+
+print(
+    "\n\nWillst du JETZT alle digital zu verarbeitenden Monatsberichte per Email senden?"
+)
+
+decision: bool = getAnswerYesNo()
+if decision:
+    send_emails()
 
 input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
