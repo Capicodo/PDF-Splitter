@@ -217,7 +217,7 @@ def iteratePages():
 
     if contact_data:
         print(
-            f"\n\n✅✅✅ {len(contact_fails)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
+            f"\n\n✅✅✅ {len(contact_data)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
         )
     for current_contact_data in contact_datas:
 
