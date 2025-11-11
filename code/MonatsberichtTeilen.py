@@ -339,9 +339,9 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         set_sender(mail, sender_email)
 
         mail.To = recipient_email
-        mail.Subject = "PL2O6y23 Monatsbericht Python Script Test"
-        mail.Body = "PDFS Python Script Test Body"
-        mail.HTMLBody = "<h2>PDFS Python Script Test Body HTML Message body</h2>"  # this field is optional
+        mail.Subject = "x8sl3x Monatsbericht Python Script Test"
+        mail.Body = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},\n\n anbei findest du deinen Monatsbericht.\n\n\n Mit freundlichen Grüßen<br><br>Der Monatsbericht Algorithmus\nNUR EIN TEST. email geht eigentlich an: {report.contact_data.email}"
+        # mail.HTMLBody = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},<br><br> anbei findest du deinen Monatsbericht.<br><br><br> Mit freundlichen Grüßen<br><br>Der Monatsbericht Algorithmus<h2>NUR EIN TEST. email geht eigentlich an: {report.contact_data.email}</h2>"  # this field is optional
 
         mail.Attachments.Add(report.document)
         mail.Send()
