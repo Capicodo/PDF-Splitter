@@ -27,6 +27,9 @@ contact_data_csv_path: str
 
 raw_report_doc: fitz.Document
 
+outlook: win32.CDispatch
+accounts = None
+
 
 def clean_path(path: str) -> str:
     """Remove quotes and surrounding whitespace from a file/folder path."""
@@ -287,15 +290,16 @@ def print_banner():
 
 def send_emails():
 
+    global accounts
+    global outlook
+
     print_people_getting_emailed()
 
-    sender_email = input("\nGib nun die Absender-Email an:\n")
-
-    outlook: win32.CDispatch = win32.Dispatch("outlook.application")
+    outlook = win32.Dispatch("outlook.application")
     accounts = outlook.Session.Accounts
-    mail = outlook.CreateItem(0)
 
-    try_loop_set_sender(sender_email, accounts, mail)
+    sender_email = input("\nGib nun die Absender-Email an:\n")
+    loop_check_sender(sender_email)
 
     print(f"\n❗Willst du wirklich JETZT die Berichte senden?")
     print(f"❗Diese Aktion kann nicht revidiert werden❗\n")
@@ -305,10 +309,8 @@ def send_emails():
     if decision:
         print("ℹ️ Starting sending Emails")
         for report in reports.values():
-            print(report.__dict__)
             if not report.contact_data.deliver_via_paper:
-                print(f"will send {report.contact_data.last_name}")
-                send_report_to(report, "dev@ite-pli.de", mail)
+                send_report_to(report, "dev@ite-pli.de", sender_email)
 
     print("\n\n✔️ Die Emails wurden gesendet ✔️")
     print("⚠️ Schaue in deinem Postfach nach, ob die Emails wirklich rausgegangen sind!")
@@ -328,27 +330,35 @@ def print_people_getting_emailed():
         )
 
 
-def send_report_to(report: Report, recipient_email: str, mail):
+def send_report_to(report: Report, recipient_email: str, sender_email: str):
 
     try:
 
+        mail = outlook.CreateItem(0)
+
+        set_sender(mail, sender_email)
+
         mail.To = recipient_email
-        mail.Subject = "7faK8 Monatsbericht Python Script Test"
+        mail.Subject = "PL2O6y23 Monatsbericht Python Script Test"
         mail.Body = "PDFS Python Script Test Body"
         mail.HTMLBody = "<h2>PDFS Python Script Test Body HTML Message body</h2>"  # this field is optional
 
         mail.Attachments.Add(report.document)
         mail.Send()
 
+        print(
+            f"✅ Bericht von {report.contact_data.first_name} {report.contact_data.last_name} erfolgreich zu {recipient_email} gesendet"
+        )
     except Exception as e:
         print(f"❌ Error sending Email ❌ \n {e}")
+        raise e
 
 
-def try_loop_set_sender(sender_email, accounts, mail):
+def loop_check_sender(sender_email):
 
     while True:
         try:
-            set_sender(accounts, mail, sender_email)
+            check_sender(sender_email)
             break
         except Exception as e:
             print(e)
@@ -356,7 +366,19 @@ def try_loop_set_sender(sender_email, accounts, mail):
             sender_email = input("Bitte gib eine gültige Absenderadresse ein:\n")
 
 
-def set_sender(accounts, mail, sender_email: str):
+def check_sender(sender_email: str):
+
+    for account in accounts:
+
+        if account.SmtpAddress.lower() == sender_email.lower():
+            return
+
+    raise Exception(
+        "\n❌ Die Eingegebene Email konnte nicht in deinen Outlook-Konten gefunden werden ❌"
+    )
+
+
+def set_sender(mail, sender_email: str):
 
     for account in accounts:
 
@@ -366,9 +388,7 @@ def set_sender(accounts, mail, sender_email: str):
             )  # This sets SendUsingAccount
             return
 
-    raise Exception(
-        "\n❌ Die Eingegebene Email konnte nicht in deinen Outlook-Konten gefunden werden ❌"
-    )
+    raise Exception("\n❌ Problem Beim Setzen der Sender Email ❌")
 
 
 ########################################
