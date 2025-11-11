@@ -68,9 +68,15 @@ def getDataFromPLIID(pli_id: int) -> ContactData:
                 f"Found Contact Data. -> {row["Papierbericht"]}, {row["Mail-Adresse"]}"
             )
             contact_data = ContactData(
-                sheets_formated_str_to_bool(row["Papierbericht"]), row["Mail-Adresse"]
+                sheets_formated_str_to_bool(row["Papierbericht"]),
+                row["Mail-Adresse"],
+                pli_id,
+                row["Rufname"],
+                row["Nachname"],
             )
+
             print(contact_data.deliver_via_paper, contact_data.email)
+
             return contact_data
 
     raise Exception("❌ No Deliver Information found")

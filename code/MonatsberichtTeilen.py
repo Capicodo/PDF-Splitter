@@ -6,6 +6,7 @@ import re
 import win32com.client as win32
 
 from ContactData import ContactData
+from Report import Report
 
 from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
 
@@ -15,6 +16,8 @@ sort_by_deliver_method: bool = True
 contact_fails = []
 contact_datas = []
 
+reports = {}
+
 reGexNameFindingPattern = r"Name:\s*(.*?)\n"
 reGexDienstplanFindingPattern = r"Dienstplan:\s*(.*?)\n"
 
@@ -22,7 +25,7 @@ rawReportFilePath: str
 destinationFolderPath: str
 contact_data_csv_path: str
 
-report_doc: fitz.Document
+raw_report_doc: fitz.Document
 
 
 def clean_path(path: str) -> str:
@@ -37,7 +40,7 @@ def input_paths():
     global rawReportFilePath
     global destinationFolderPath
     global contact_data_csv_path
-    global report_doc
+    global raw_report_doc
 
     try:
         rawReportFilePath = input(
@@ -70,7 +73,7 @@ def input_paths():
         os.makedirs(destinationFolderPath, exist_ok=True)
         print("✅ Zielordner erstellt oder bereits vorhandenen gefunden")
 
-        report_doc = fitz.open(rawReportFilePath)
+        raw_report_doc = fitz.open(rawReportFilePath)
         print("✅ PDF erfolgreich geöffnet\n\n")
 
     except Exception as e:
@@ -90,33 +93,7 @@ def regexSearchText(_regex, _text):
         return None
 
 
-def getPagePersonInfos(_index):
-
-    currentPage = report_doc[_index]
-    currentText = currentPage.get_text()
-
-    # print("-------------START Scanning--------------")
-    currentName = regexSearchText(reGexNameFindingPattern, currentText)
-
-    if currentName:
-        # print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
-        None
-    else:
-        raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
-
-    currentDienstplan = regexSearchText(reGexDienstplanFindingPattern, currentText)
-
-    if currentName:
-        None
-        # print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
-    else:
-        raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
-    # print("-------------END Scanning----------------")
-
-    return currentName, currentDienstplan
-
-
-def createIndividualPDF(
+def create_report(
     _newNamePageIndex, _pageIndex, _name, contact_data: ContactData = None
 ):
 
@@ -140,8 +117,16 @@ def createIndividualPDF(
             f"Monatsbericht_{safe_name}_{_newNamePageIndex+1}-{_pageIndex+1}.pdf",
         )
 
-        new_doc.insert_pdf(report_doc, from_page=_newNamePageIndex, to_page=_pageIndex)
+        new_doc.insert_pdf(
+            raw_report_doc, from_page=_newNamePageIndex, to_page=_pageIndex
+        )
         new_doc.save(joinedPath)
+
+        if contact_data:
+
+            pli_id: int = contact_data.pli_id
+            new_report: Report = Report(pli_id, joinedPath, contact_data)
+            reports[pli_id] = new_report
 
         print(f"💾 Datei gespeichert: {joinedPath}")
 
@@ -150,14 +135,47 @@ def createIndividualPDF(
         print(f"❌ Fehler beim Speichern: {e}")
 
 
-def search_contact_data(_name):
+def getPagePersonInfos(_index):
 
-    pli_id: int = extract_pli_id(_name)
-    print(f"Current PLI ID:-->{pli_id}<--")
+    currentPage = raw_report_doc[_index]
+    currentText = currentPage.get_text()
+
+    print("-------------START Scanning--------------")
+    currentName = regexSearchText(reGexNameFindingPattern, currentText)
+
+    if currentName:
+        print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+    else:
+        raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
+
+    currentDienstplan = regexSearchText(reGexDienstplanFindingPattern, currentText)
+
+    if currentName:
+        print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
+    else:
+        raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
+    print("-------------END Scanning----------------")
+
+    try:
+
+        pli_id: int = extract_pli_id(currentDienstplan)
+        print(f"Found PLI ID:-->{pli_id}<--")
+
+    except Exception as e:
+
+        print("❌❌❌ Fehler beim Bearbeiten der PLI-# ❌❌❌")
+        print(e)
+        return currentName, None
+
+    return currentName, pli_id
+
+
+def get_searched_contact_data(pli_id):
 
     try:
 
         contact_data = getDataFromPLIID(pli_id)
+
         print(
             f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"
         )
@@ -173,24 +191,25 @@ def search_contact_data(_name):
 
 def iteratePages():
 
-    lastName, last_dienstplan = getPagePersonInfos(0)
+    last_name, last_pli_id = getPagePersonInfos(0)
     lastNewNamePageIndex = 0
 
-    for pageIndex in range(report_doc.page_count):
+    for pageIndex in range(raw_report_doc.page_count):
 
-        currentName, current_dienstplan = getPagePersonInfos(pageIndex)
+        currentName, current_pli_id = getPagePersonInfos(pageIndex)
 
-        if lastName != currentName:
+        if last_name != currentName:
 
             contact_data = None
 
             if sort_by_deliver_method:
+
                 try:
-                    contact_data = search_contact_data(last_dienstplan)
+                    contact_data = get_searched_contact_data(last_pli_id)
                     contact_datas.append(contact_data)
                 except Exception as e:
                     contact_fails.append(
-                        f"⚠️ Für {lastName} war Kontaktdatensuche fehlerhaft: {e} \n⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️"
+                        f"⚠️ Für {last_name} war Kontaktdatensuche fehlerhaft: {e} \n⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️"
                     )
 
             print("\n\n")
@@ -198,16 +217,16 @@ def iteratePages():
                 f"🎯 Seitenwechsel bei Seite {pageIndex+1} → Neuer Name: {currentName}"
             )
 
-            createIndividualPDF(
-                lastNewNamePageIndex, pageIndex - 1, lastName, contact_data
-            )
+            create_report(lastNewNamePageIndex, pageIndex - 1, last_name, contact_data)
 
             lastNewNamePageIndex = pageIndex
 
-        lastName = currentName
-        last_dienstplan = current_dienstplan
+        last_name = currentName
+        last_pli_id = current_pli_id
 
         print("")
+
+    print("\n\n✅✅✅ PDFs wurden erstellt ✅✅✅\n\n")
 
     if contact_datas:
         print(
@@ -238,7 +257,7 @@ def getAnswerYesNo():
         elif str.lower(answer) == "n":
             return False
         else:
-            print("\n ❌ Ungültige Eingabe. Du wirst erneut zur Eingabe aufgefordert.")
+            print("\n ❌ Ungültige Eingabe. Bitte erneut Eingeben")
 
 
 def print_banner():
@@ -268,6 +287,35 @@ def print_banner():
 
 def send_emails():
 
+    print_people_getting_emailed()
+
+    sender_email = input("\nGib nun die Absender-Email an:\n")
+
+    outlook: win32.CDispatch = win32.Dispatch("outlook.application")
+    accounts = outlook.Session.Accounts
+    mail = outlook.CreateItem(0)
+
+    try_loop_set_sender(sender_email, accounts, mail)
+
+    print(f"\n❗Willst du wirklich JETZT die Berichte senden?")
+    print(f"❗Diese Aktion kann nicht revidiert werden❗\n")
+
+    decision: bool = getAnswerYesNo()
+
+    if decision:
+        print("ℹ️ Starting sending Emails")
+        for report in reports.values():
+            print(report.__dict__)
+            if not report.contact_data.deliver_via_paper:
+                print(f"will send {report.contact_data.last_name}")
+                send_report_to(report, "dev@ite-pli.de", mail)
+
+    print("\n\n✔️ Die Emails wurden gesendet ✔️")
+    print("⚠️ Schaue in deinem Postfach nach, ob die Emails wirklich rausgegangen sind!")
+
+
+def print_people_getting_emailed():
+
     print(f"\nAn die folgenden Personen werden die Monatsberichte gesendet:\n")
 
     for current_contact_data in [
@@ -275,41 +323,21 @@ def send_emails():
         for current_contact_data in contact_datas
         if not current_contact_data.deliver_via_paper
     ]:
-        print(f"✅ {current_contact_data.__dict__}")
+        print(
+            f"✅ {current_contact_data.first_name} {current_contact_data.last_name} | {current_contact_data.email}"
+        )
 
-    send_example_email()
 
-
-def send_example_email():
-
-    test_example_goal_email: str = "calvin.delloro@piluweri.de"
-    test_example_sender_email: str = "dev@ite-pli.de"
-    test_example_sender_email = input("\nGib nun die Absender-Email an:\n")
+def send_report_to(report: Report, recipient_email: str, mail):
 
     try:
 
-        outlook: win32.CDispatch = win32.Dispatch("outlook.application")
-
-        accounts = outlook.Session.Accounts
-
-        mail = outlook.CreateItem(0)
-
-        try_loop_set_sender(test_example_sender_email, accounts, mail)
-
-        mail.To = test_example_goal_email
-        mail.Subject = "PDFS Python Script Test"
+        mail.To = recipient_email
+        mail.Subject = "7faK8 Monatsbericht Python Script Test"
         mail.Body = "PDFS Python Script Test Body"
-        mail.HTMLBody = "<h2>HTML Message body</h2>"  # this field is optional
+        mail.HTMLBody = "<h2>PDFS Python Script Test Body HTML Message body</h2>"  # this field is optional
 
-        # To attach a file to the email (optional):
-        # attachment = "Path to the attachment"
-
-        full_path = next(
-            os.path.join(destinationFolderPath, "send", f)
-            for f in os.listdir(os.path.join(destinationFolderPath, "send"))
-        )
-
-        mail.Attachments.Add(full_path)
+        mail.Attachments.Add(report.document)
         mail.Send()
 
     except Exception as e:
@@ -353,20 +381,21 @@ print_banner()
 input_paths()
 
 try:
+
     iteratePages()
-    print("\n\n✅✅✅ PDFs wurden erstellt ✅✅✅\n\n")
+
+    print(
+        f"\n\nWillst du {f"⚠️⚠️ Trotz {len(contact_fails)} Kontaktdaten-Fehlern ⚠️⚠️ \n" if contact_fails else ""} alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
+    )
+
+    decision: bool = getAnswerYesNo()
+    if decision:
+        send_emails()
+
 
 except Exception as e:
     print(f"❌ FEHLER BEIM ITERIEREN: {e}")
     print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
 
-
-print(
-    "\n\nWillst du JETZT alle digital zu verarbeitenden Monatsberichte per Email senden?"
-)
-
-decision: bool = getAnswerYesNo()
-if decision:
-    send_emails()
 
 input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
