@@ -3,6 +3,8 @@ import fitz  # PyMuPDF
 import pyfiglet
 import re
 
+import win32com.client as win32
+
 from ContactData import ContactData
 
 from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
@@ -29,30 +31,30 @@ def clean_path(path: str) -> str:
 
 
 def input_paths():
-    
+
     global sort_by_deliver_method
-    
+
     global rawReportFilePath
     global destinationFolderPath
     global contact_data_csv_path
     global report_doc
-    
+
     try:
         rawReportFilePath = input(
-        "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
-    )
+            "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
+        )
         rawReportFilePath = clean_path(rawReportFilePath)
         print(f"\n✅ Eingabepfad erkannt: {rawReportFilePath}\n")
 
         destinationFolderPath = input(
-        "\nPfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
-    )
+            "\nPfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
+        )
         destinationFolderPath = clean_path(destinationFolderPath)
         print(f"\n✅ Zielordner erkannt: {destinationFolderPath}\n")
 
         contact_data_csv_path = input(
-        "\nPfad zur Kontaktdaten(CSV)-Datei eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen. \n\nPfad: "
-    )
+            "\nPfad zur Kontaktdaten(CSV)-Datei eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen. \n\nPfad: "
+        )
         contact_data_csv_path = clean_path(contact_data_csv_path)
         print(f"\n✅ Eingabepfad erkannt: {contact_data_csv_path}\n")
 
@@ -266,9 +268,79 @@ def print_banner():
 
 def send_emails():
 
-    for current_contact_data in [current_contact_data for current_contact_data in contact_datas if not current_contact_data.deliver_via_paper]:
+    print(f"\nAn die folgenden Personen werden die Monatsberichte gesendet:\n")
 
+    for current_contact_data in [
+        current_contact_data
+        for current_contact_data in contact_datas
+        if not current_contact_data.deliver_via_paper
+    ]:
         print(f"✅ {current_contact_data.__dict__}")
+
+    send_example_email()
+
+
+def send_example_email():
+
+    test_example_goal_email: str = "calvin.delloro@piluweri.de"
+    test_example_sender_email: str = "dev@ite-pli.de"
+    test_example_sender_email = input("\nGib nun die Absender-Email an:\n")
+
+    try:
+
+        outlook: win32.CDispatch = win32.Dispatch("outlook.application")
+
+        accounts = outlook.Session.Accounts
+
+        mail = outlook.CreateItem(0)
+
+        try_loop_set_sender(test_example_sender_email, accounts, mail)
+
+        mail.To = test_example_goal_email
+        mail.Subject = "PDFS Python Script Test"
+        mail.Body = "PDFS Python Script Test Body"
+        mail.HTMLBody = "<h2>HTML Message body</h2>"  # this field is optional
+
+        # To attach a file to the email (optional):
+        # attachment = "Path to the attachment"
+
+        full_path = next(
+            os.path.join(destinationFolderPath, "send", f)
+            for f in os.listdir(os.path.join(destinationFolderPath, "send"))
+        )
+
+        mail.Attachments.Add(full_path)
+        mail.Send()
+
+    except Exception as e:
+        print(f"❌ Error sending Email ❌ \n {e}")
+
+
+def try_loop_set_sender(sender_email, accounts, mail):
+
+    while True:
+        try:
+            set_sender(accounts, mail, sender_email)
+            break
+        except Exception as e:
+            print(e)
+            print("⚠️ Bitte versuche es erneut\n")
+            sender_email = input("Bitte gib eine gültige Absenderadresse ein:\n")
+
+
+def set_sender(accounts, mail, sender_email: str):
+
+    for account in accounts:
+
+        if account.SmtpAddress.lower() == sender_email.lower():
+            mail._oleobj_.Invoke(
+                *(64209, 0, 8, 0, account)
+            )  # This sets SendUsingAccount
+            return
+
+    raise Exception(
+        "\n❌ Die Eingegebene Email konnte nicht in deinen Outlook-Konten gefunden werden ❌"
+    )
 
 
 ########################################
