@@ -1,8 +1,11 @@
+import datetime
+import locale
 import logging
 import os
 import random
 import sys
 import time
+from typing import Dict
 import fitz  # PyMuPDF
 import pyfiglet
 import re
@@ -15,12 +18,14 @@ from Report import Report
 from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
 
 
+logger: logging.Logger
+
 sort_by_deliver_method: bool = True
 
 contact_fails = []
 contact_datas = []
 
-reports = {}
+reports: Dict[int, Report] = {}
 
 reGexNameFindingPattern = r"Name:\s*(.*?)\n"
 reGexDienstplanFindingPattern = r"Dienstplan:\s*(.*?)\n"
@@ -33,6 +38,9 @@ raw_report_doc: fitz.Document
 
 outlook: win32.CDispatch
 accounts = None
+
+year = ""
+month_name = ""
 
 
 def setup_logging(log_file="log.txt", override_print=True):
@@ -84,8 +92,39 @@ def setup_logging(log_file="log.txt", override_print=True):
     return logger
 
 
-# --- Usage ---
-logger = setup_logging("log.txt")  # prints automatically go to console + file
+def setup_date_month_year():
+    global year
+    global month_name
+    try:
+
+        # Set locale to German
+        try:
+            locale.setlocale(locale.LC_TIME, "German_Germany.1252")
+        except locale.Error as e:
+
+            print(f"German locale not available on this system. {e}")
+            locale.setlocale(locale.LC_TIME, "de_DE.UTF-8")
+
+        # Get current date
+        now = datetime.datetime.now()
+
+        # Compute the previous month
+        if now.month == 1:
+            prev_month = 12
+            prev_year = now.year - 1
+        else:
+            prev_month = now.month - 1
+            prev_year = now.year
+
+        # Create a date object for the previous month (use day=1)
+        prev_date = datetime.datetime(prev_year, prev_month, 1)
+        # Get full month name in German
+        month_name = prev_date.strftime("%B")
+        # Get 4-digit year
+        year = prev_date.strftime("%Y")
+
+    except Exception as e:
+        print(f"Fehler im erkennen des Monats und des Jahres")
 
 
 def clean_path(path: str) -> str:
@@ -364,7 +403,8 @@ def send_emails():
         print("ℹ️ Starting sending Emails")
         for report in reports.values():
             if not report.contact_data.deliver_via_paper:
-                send_report_to(report, "dev@ite-pli.de", sender_email)
+                if report.contact_data.last_name == "Dell'Oro":
+                    send_report_to(report, report.contact_data.email, sender_email)
 
     print("\n\n✔️ Die Emails wurden gesendet ✔️")
     print("⚠️ Schaue in deinem Postfach nach, ob die Emails wirklich rausgegangen sind!")
@@ -372,7 +412,7 @@ def send_emails():
 
 def print_people_getting_emailed():
 
-    print(f"\nAn die folgenden Personen werden die Monatsberichte gesendet:\n")
+    print(f"\nAn die folgenden Personen werden Monatsberichte gesendet:\n")
 
     for current_contact_data in [
         current_contact_data
@@ -393,10 +433,10 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         set_sender(mail, sender_email)
 
         mail.To = recipient_email
-        # Monatsbericht von --Monat-- Jahreszahl
-        mail.Subject = (
-            str(random.randint(0, 100000)) + " Monatsbericht Python Script Test"
-        )
+
+        print("Monat:", month_name)
+        print("Jahr:", year)
+        mail.Subject = f"Monatsbericht {month_name} {year}"
 
         mail.Display(False)
         # time.sleep(0.05)
@@ -408,19 +448,12 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         <p>Hallo {report.contact_data.first_name} {report.contact_data.last_name},</p>
         <p>Anbei findest Du Deinen aktuellen Monatsbericht.</p>
         <br>
-        <p>Viele Grüße<br>
+        <p>Viele Grüße</p>
         <br>
-        Fabian Winkler</p>
-        <br>
-        <h3>NUR EIN TEST. Email geht eigentlich an: {report.contact_data.email}</h3>
         """
 
         # Append your custom message *before* the signature
         mail.HTMLBody = custom_body + signature
-
-        # # Nicht "Der Monatsbericht Algorithmus"
-        # mail.Body = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},\n\n anbei findest du deinen Monatsbericht.\n\n\n Mit freundlichen Grüßen\n\nDer Monatsbericht Algorithmus\nNUR EIN TEST. email geht eigentlich an: {report.contact_data.email}"
-        # mail.HTMLBody = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},<br><br> anbei findest du deinen Monatsbericht.<br><br><br> Mit freundlichen Grüßen<br><br>Der Monatsbericht Algorithmus<h2>NUR EIN TEST. email geht eigentlich an: {report.contact_data.email}</h2>"  # this field is optional
 
         mail.Attachments.Add(report.document)
         mail.Send()
@@ -475,26 +508,34 @@ def set_sender(mail, sender_email: str):
 ########################################
 
 
-print_banner()
+def main():
 
-input_paths()
+    global logger
+    logger = setup_logging("log.txt")  # prints automatically go to console + file
 
-try:
+    setup_date_month_year()
 
-    iteratePages()
+    print_banner()
 
-    print(
-        f"\n\nWillst du {f"⚠️⚠️ Trotz {len(contact_fails)} Kontaktdaten-Fehlern ⚠️⚠️ \n" if contact_fails else ""} alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
-    )
+    input_paths()
 
-    decision: bool = getAnswerYesNo()
-    if decision:
-        send_emails()
+    try:
+        iteratePages()
+
+        print(
+            f"\n\nWillst du {f'⚠️⚠️ Trotz {len(contact_fails)} Kontaktdaten-Fehlern ⚠️⚠️ \n' if contact_fails else ''}alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
+        )
+
+        decision: bool = getAnswerYesNo()
+        if decision:
+            send_emails()
+
+    except Exception as e:
+        print(f"❌ FEHLER BEIM ITERIEREN: {e}")
+        print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
+
+    input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
 
 
-except Exception as e:
-    print(f"❌ FEHLER BEIM ITERIEREN: {e}")
-    print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
-
-
-input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
+if __name__ == "__main__":
+    main()
