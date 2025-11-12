@@ -18,12 +18,32 @@
       "problemMatcher": []
     },
     {
-      "label": "Build MonatsberichtTeilen",
+      "label": "Build Monatsbericht Automat",
       "type": "shell",
       "command": "pyinstaller",
       "args": [
         "--onefile",
-        ".\\code\\MonatsberichtTeilen.py"
+        ".\\code\\Monatsbericht Automat.py"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Build Monatsbericht Automat Test",
+      "type": "shell",
+      "command": "pyinstaller",
+      "args": [
+        "--onefile",
+        ".\\code\\Monatsbericht Automat Test.py"
       ],
       "group": {
         "kind": "build",
