@@ -1,4 +1,8 @@
+import logging
 import os
+import random
+import sys
+import time
 import fitz  # PyMuPDF
 import pyfiglet
 import re
@@ -29,6 +33,59 @@ raw_report_doc: fitz.Document
 
 outlook: win32.CDispatch
 accounts = None
+
+
+def setup_logging(log_file="log.txt", override_print=True):
+    """
+    Set up logging to file (with timestamp) and console (without timestamp).
+
+    Parameters:
+        log_file (str): Path to the log file.
+        override_print (bool): If True, overrides the built-in print() to log automatically.
+    """
+    # Create logger
+    logger = logging.getLogger("my_logger")
+    logger.setLevel(logging.INFO)  # log everything INFO and above
+    logger.propagate = False  # avoid duplicate logs if root logger exists
+
+    # Clear existing handlers
+    if logger.hasHandlers():
+        logger.handlers.clear()
+
+    # --- File handler with timestamp ---
+    file_handler = logging.FileHandler(log_file, encoding="utf-8")
+    file_formatter = logging.Formatter("%(asctime)s | %(message)s")
+    file_handler.setFormatter(file_formatter)
+
+    # --- Console handler without timestamp ---
+    console_handler = logging.StreamHandler(sys.stdout)
+    console_formatter = logging.Formatter("%(message)s")
+    console_handler.setFormatter(console_formatter)
+
+    # Add handlers
+    logger.addHandler(file_handler)
+    logger.addHandler(console_handler)
+
+    # Optional: override print()
+    if override_print:
+
+        def custom_print(*args, **kwargs):
+            sep = kwargs.get("sep", " ")
+            end = kwargs.get("end", "\n")
+            message = sep.join(str(a) for a in args) + end
+            logger.info(
+                message.rstrip()
+            )  # remove extra newline since logger adds its own
+
+        # Override built-in print
+        builtins = __import__("builtins")
+        builtins.print = custom_print
+
+    return logger
+
+
+# --- Usage ---
+logger = setup_logging("log.txt")  # prints automatically go to console + file
 
 
 def clean_path(path: str) -> str:
@@ -240,10 +297,7 @@ def iteratePages():
         print(f"✅ {current_contact_data.__dict__}")
 
     if contact_fails:
-        print("\n\n")
-        print(
-            f"\n\n⚠️⚠️⚠️ {len(contact_fails)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n"
-        )
+        print(f"\n⚠️⚠️⚠️ {len(contact_fails)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n")
         for current_fail in contact_fails:
             print(f"⚠️ NICHT GEFUNDEN: {current_fail}")
 
@@ -339,8 +393,33 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         set_sender(mail, sender_email)
 
         mail.To = recipient_email
-        mail.Subject = "x8sl3x Monatsbericht Python Script Test"
-        mail.Body = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},\n\n anbei findest du deinen Monatsbericht.\n\n\n Mit freundlichen Grüßen<br><br>Der Monatsbericht Algorithmus\nNUR EIN TEST. email geht eigentlich an: {report.contact_data.email}"
+        # Monatsbericht von --Monat-- Jahreszahl
+        mail.Subject = (
+            str(random.randint(0, 100000)) + " Monatsbericht Python Script Test"
+        )
+
+        mail.Display(False)
+        # time.sleep(0.05)
+        # Generate a temporary signature by creating a new mail (this preserves Outlook’s default signature)
+        # The default signature is automatically included when accessing mail.HTMLBody before setting it manually.
+        signature = mail.HTMLBody  # This retrieves the default Outlook signature
+
+        custom_body = f"""
+        <p>Hallo {report.contact_data.first_name} {report.contact_data.last_name},</p>
+        <p>Anbei findest Du Deinen aktuellen Monatsbericht.</p>
+        <br>
+        <p>Viele Grüße<br>
+        <br>
+        Fabian Winkler</p>
+        <br>
+        <h3>NUR EIN TEST. Email geht eigentlich an: {report.contact_data.email}</h3>
+        """
+
+        # Append your custom message *before* the signature
+        mail.HTMLBody = custom_body + signature
+
+        # # Nicht "Der Monatsbericht Algorithmus"
+        # mail.Body = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},\n\n anbei findest du deinen Monatsbericht.\n\n\n Mit freundlichen Grüßen\n\nDer Monatsbericht Algorithmus\nNUR EIN TEST. email geht eigentlich an: {report.contact_data.email}"
         # mail.HTMLBody = f"Hallo {report.contact_data.first_name} {report.contact_data.last_name},<br><br> anbei findest du deinen Monatsbericht.<br><br><br> Mit freundlichen Grüßen<br><br>Der Monatsbericht Algorithmus<h2>NUR EIN TEST. email geht eigentlich an: {report.contact_data.email}</h2>"  # this field is optional
 
         mail.Attachments.Add(report.document)
