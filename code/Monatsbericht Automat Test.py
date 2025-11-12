@@ -372,14 +372,14 @@ def print_banner():
                  | |_) | |_| | | |  | | |_| |
                  |_.__/ \\__, | |_|  |_|\\__,_|
                         |___/
-"""
-        + "\033[0m"
-    )
+""")
 
     print()
-    print()
-    print()
-
+    print("v2.0")
+    print("12.11.2025")
+    print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
+    print("Das Drucken wird in dieser Version noch NICHT unterstützt")
+    print("\033[0m")
 
 def send_emails():
 
