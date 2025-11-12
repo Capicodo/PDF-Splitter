@@ -375,7 +375,7 @@ def print_banner():
 """)
 
     print()
-    print("v2.0")
+    print("v2.0 TEST VERSION")
     print("12.11.2025")
     print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
     print("Das Drucken wird in dieser Version noch NICHT unterstützt")
@@ -419,9 +419,10 @@ def print_people_getting_emailed():
         for current_contact_data in contact_datas
         if not current_contact_data.deliver_via_paper
     ]:
-        print(
-            f"✅ {current_contact_data.first_name} {current_contact_data.last_name} | {current_contact_data.email}"
-        )
+        if current_contact_data.last_name == "Dell'Oro":
+            print(
+                f"✅ {current_contact_data.first_name} {current_contact_data.last_name} | {current_contact_data.email}"
+            )
 
 
 def send_report_to(report: Report, recipient_email: str, sender_email: str):

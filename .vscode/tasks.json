@@ -2,14 +2,30 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Ship Monatsbericht to network",
+      "label": "Ship Monatsbericht Automat to network",
       "type": "shell",
       "command": "powershell",
       "args": [
         "-ExecutionPolicy",
         "Bypass",
         "-File",
-        "${workspaceFolder}/tools/sync.ps1"
+        "${workspaceFolder}/tools/Ship Monatsbericht Automat.ps1"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Ship Monatsbericht Automat Test to network",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-ExecutionPolicy",
+        "Bypass",
+        "-File",
+        "${workspaceFolder}/tools/Ship Monatsbericht Automat Test.ps1"
       ],
       "group": {
         "kind": "build",
