@@ -445,7 +445,8 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
 
         custom_body = f"""
         <p>Hallo {report.contact_data.first_name} {report.contact_data.last_name},</p>
-        <p>Anbei findest Du Deinen aktuellen Monatsbericht.</p>
+        <p>Anbei findest Du Deinen aktuellen Monatsbericht.<br>
+        Diese Nachricht wurde automatisch erstellt. Falls Schwierigkeiten auftreten, wende Dich bitte an mich.</p>
         <br>
         <p>Viele Grüße</p>
         <br>
