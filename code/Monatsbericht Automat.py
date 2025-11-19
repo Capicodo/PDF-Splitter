@@ -1,3 +1,7 @@
+########################################
+############# IMPORTS ##################
+########################################
+
 import datetime
 import locale
 import logging
@@ -17,6 +21,9 @@ from Report import Report
 
 from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
 
+########################################
+############# GLOBALS ##################
+########################################
 
 logger: logging.Logger
 
@@ -42,14 +49,20 @@ accounts = None
 year = ""
 month_name = ""
 
+########################################
+############ FUNCTIONS #################
+########################################
 
 def setup_logging(log_file="log.txt", override_print=True):
     """
     Set up logging to file (with timestamp) and console (without timestamp).
 
-    Parameters:
+    Args:
         log_file (str): Path to the log file.
         override_print (bool): If True, overrides the built-in print() to log automatically.
+
+    Returns:
+        logging.Logger: Configured logger instance.
     """
     # Create logger
     logger = logging.getLogger("my_logger")
