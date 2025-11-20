@@ -1,24 +1,47 @@
+"""
+PeopleEmailLookup
+------------------
+
+Helper functions for reading a contact CSV and resolving delivery
+preferences and email addresses for Piluweri IDs (PLI-#).
+
+Author: Mu Dell'Oro
+Version: v2.0 
+Date: 12.11.2025
+Git: https://github.com/Capicodo/PDF-Splitter.git
+"""
+
 import csv
+from typing import List
 
 from ContactData import ContactData
 
-csv_data = []
+csv_data: List[dict] = []
 
 
 def extract_pli_id(name: str) -> int:
     """
-    Extracts the leading number (PLI-#) from a name string.
-
+    Extract the leading integer PLI ID from the beginning of a ``Dienstplan``
+    text field.
 
     Examples:
         "32 casdf vadsf" -> 32
         "6 adsfa adf" -> 6
         "68 safd adf" -> 68
+
+    Args:
+        name: The text extracted from the Dienstplan field which should start
+            with the numeric PLI ID.
+
+    Returns:
+        The extracted PLI ID as an integer.
+
+    Raises:
+        ValueError: If the first token is not an integer.
     """
     # Split the string by spaces and take the first part
     first_part = name.split()[0]
 
-    # Convert it to an integer
     try:
         pli_id = int(first_part)
         return pli_id
@@ -27,8 +50,19 @@ def extract_pli_id(name: str) -> int:
 
 
 def init(path: str):
+    """
+    Load the contact CSV into memory for later lookups.
+
+    This function reads the CSV file at ``path`` using ``csv.DictReader`` and
+    stores the rows in the module-level ``csv_data`` list.
+
+    Args:
+        path: Filesystem path to the CSV file encoded in UTF-8.
+
+    Raises:
+        Exception: If the file cannot be read or parsed.
+    """
     global csv_data
-    # Read the CSV once and store it in a variable
     try:
         with open(path, newline="", encoding="utf-8") as csv_fh:
             csv_data = list(csv.DictReader(csv_fh))
@@ -39,8 +73,16 @@ def init(path: str):
 
 def sheets_formated_str_to_bool(s: str) -> bool:
     """
-    Converts a string like 'TRUE'/'FALSE' (case-insensitive) to a boolean.
-    Raises ValueError if the string is not recognized.
+    Convert spreadsheet-like TRUE/FALSE strings to booleans.
+
+    Args:
+        s: Input string such as 'TRUE' or 'FALSE' (case-insensitive).
+
+    Returns:
+        True if the string represents a truthy value, False if falsy.
+
+    Raises:
+        ValueError: If the string cannot be recognized as a boolean.
     """
     s = s.strip().lower()
     if s == "true":
@@ -51,22 +93,29 @@ def sheets_formated_str_to_bool(s: str) -> bool:
         raise ValueError(f"Cannot convert '{s}' to boolean")
 
 
-def getDataFromPLIID(pli_id: int) -> ContactData:
-    """This function finds the information, where the monthly report should be send, or if it should be printed
-
-    TODO
-
+def get_data_from_pli_id(pli_id: int) -> ContactData:
     """
+    Find contact data for a given PLI ID from the loaded CSV rows.
 
+    The CSV is expected to contain a column named "PLI - #" which stores the
+    Piluweri ID. When a matching row is found this function builds and
+    returns a ``ContactData`` instance.
+
+    Args:
+        pli_id: Piluweri ID to search for.
+
+    Returns:
+        A ``ContactData`` object for the matched row.
+
+    Raises:
+        Exception: If no matching deliver information is found.
+    """
     pli_id_str = str(pli_id)
     print(f"COMPARE ID: --{pli_id_str}--")
 
     for row in csv_data:
-
         if row["PLI - #"] == pli_id_str:
-            print(
-                f"Found Contact Data. -> {row["Papierbericht"]}, {row["Mail-Adresse"]}"
-            )
+            print(f"Found Contact Data. -> {row.get('Papierbericht')}, {row.get('Mail-Adresse')}")
             contact_data = ContactData(
                 sheets_formated_str_to_bool(row["Papierbericht"]),
                 row["Mail-Adresse"],

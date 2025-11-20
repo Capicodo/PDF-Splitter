@@ -1,0 +1,1500 @@
+2025-11-20 16:29:40,305 | [32m
+ ____  ____  _____   ____        _ _ _   _
+|  _ \|  _ \|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
+| |_) | | | | |_    \___ \| '_ \| | | __| __/ _ \ '__|
+|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
+|_|   |____/|_|     |____/| .__/|_|_|\__|\__\___|_|
+                          |_|
+                  _             __  __
+                 | |__  _   _  |  \/  |_   _
+                 | '_ \| | | | | |\/| | | | |
+                 | |_) | |_| | | |  | | |_| |
+                 |_.__/ \__, | |_|  |_|\__,_|
+                        |___/
+2025-11-20 16:29:40,306 | 
+2025-11-20 16:29:40,306 | v2.0
+2025-11-20 16:29:40,306 | 12.11.2025
+2025-11-20 16:29:40,307 | Diese Version unterstützt das Teilen und Senden der Monatsberichte
+2025-11-20 16:29:40,307 | Das Drucken wird in dieser Version noch NICHT unterstützt
+2025-11-20 16:29:40,307 | [0m
+2025-11-20 16:29:47,428 | 
+✅ Eingabepfad erkannt: C:\Github Repositories\PDF-Splitter\data\gesamtx.pdf
+2025-11-20 16:29:57,101 | 
+✅ Zielordner erkannt: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner
+2025-11-20 16:29:58,881 | 
+✅ Eingabepfad erkannt: C:\Github Repositories\PDF-Splitter\data\Kontaktdatei.csv
+2025-11-20 16:29:58,882 | ✅ Kontaktdaten erfolgreich initialisiert
+2025-11-20 16:29:58,882 | ✅ Zielordner erstellt oder bereits vorhandenen gefunden
+2025-11-20 16:29:58,885 | ✅ PDF erfolgreich geöffnet
+2025-11-20 16:29:58,892 | -------------START Scanning--------------
+2025-11-20 16:29:58,893 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,893 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,893 | -------------END Scanning----------------
+2025-11-20 16:29:58,893 | Found PLI ID:-->44<--
+2025-11-20 16:29:58,894 | -------------START Scanning--------------
+2025-11-20 16:29:58,895 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,895 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,895 | -------------END Scanning----------------
+2025-11-20 16:29:58,895 | Found PLI ID:-->44<--
+2025-11-20 16:29:58,895 | 
+2025-11-20 16:29:58,896 | -------------START Scanning--------------
+2025-11-20 16:29:58,896 | ✅ Seite 2: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,897 | ✅ Seite 2: Name gefunden → GbR Alexej Bergmann
+2025-11-20 16:29:58,897 | -------------END Scanning----------------
+2025-11-20 16:29:58,897 | Found PLI ID:-->44<--
+2025-11-20 16:29:58,897 | 
+2025-11-20 16:29:58,899 | -------------START Scanning--------------
+2025-11-20 16:29:58,899 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2025-11-20 16:29:58,899 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2025-11-20 16:29:58,899 | -------------END Scanning----------------
+2025-11-20 16:29:58,899 | Found PLI ID:-->69<--
+2025-11-20 16:29:58,900 | COMPARE ID: --44--
+2025-11-20 16:29:58,900 | ⚠️⚠️⚠️⚠️ For PLI-#: 44 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,900 | 
+2025-11-20 16:29:58,900 | 🎯 Seitenwechsel bei Seite 3 → Neuer Name: GbR Alina Steiner
+2025-11-20 16:29:58,902 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Alexej Bergmann_1-2.pdf
+2025-11-20 16:29:58,903 | 
+2025-11-20 16:29:58,904 | -------------START Scanning--------------
+2025-11-20 16:29:58,905 | ✅ Seite 4: Name gefunden → GbR Alina Steiner
+2025-11-20 16:29:58,905 | ✅ Seite 4: Name gefunden → GbR Alina Steiner
+2025-11-20 16:29:58,905 | -------------END Scanning----------------
+2025-11-20 16:29:58,905 | Found PLI ID:-->69<--
+2025-11-20 16:29:58,906 | 
+2025-11-20 16:29:58,907 | -------------START Scanning--------------
+2025-11-20 16:29:58,907 | ✅ Seite 5: Name gefunden → OHG Amadeus Stratz
+2025-11-20 16:29:58,907 | ✅ Seite 5: Name gefunden → OHG Amadeus Stratz
+2025-11-20 16:29:58,907 | -------------END Scanning----------------
+2025-11-20 16:29:58,908 | Found PLI ID:-->27<--
+2025-11-20 16:29:58,908 | COMPARE ID: --69--
+2025-11-20 16:29:58,908 | ⚠️⚠️⚠️⚠️ For PLI-#: 69 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,908 | 
+2025-11-20 16:29:58,908 | 🎯 Seitenwechsel bei Seite 5 → Neuer Name: OHG Amadeus Stratz
+2025-11-20 16:29:58,910 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Alina Steiner_3-4.pdf
+2025-11-20 16:29:58,910 | 
+2025-11-20 16:29:58,912 | -------------START Scanning--------------
+2025-11-20 16:29:58,912 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2025-11-20 16:29:58,912 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2025-11-20 16:29:58,912 | -------------END Scanning----------------
+2025-11-20 16:29:58,912 | Found PLI ID:-->52<--
+2025-11-20 16:29:58,913 | COMPARE ID: --27--
+2025-11-20 16:29:58,913 | ⚠️⚠️⚠️⚠️ For PLI-#: 27 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,913 | 
+2025-11-20 16:29:58,913 | 🎯 Seitenwechsel bei Seite 6 → Neuer Name: OHG Andrea Drewski
+2025-11-20 16:29:58,915 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Amadeus Stratz_5-5.pdf
+2025-11-20 16:29:58,916 | 
+2025-11-20 16:29:58,917 | -------------START Scanning--------------
+2025-11-20 16:29:58,917 | ✅ Seite 7: Name gefunden → OHG Andrea Drewski
+2025-11-20 16:29:58,917 | ✅ Seite 7: Name gefunden → OHG Andrea Drewski
+2025-11-20 16:29:58,918 | -------------END Scanning----------------
+2025-11-20 16:29:58,918 | Found PLI ID:-->52<--
+2025-11-20 16:29:58,918 | 
+2025-11-20 16:29:58,920 | -------------START Scanning--------------
+2025-11-20 16:29:58,920 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2025-11-20 16:29:58,920 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2025-11-20 16:29:58,920 | -------------END Scanning----------------
+2025-11-20 16:29:58,921 | Found PLI ID:-->91<--
+2025-11-20 16:29:58,921 | COMPARE ID: --52--
+2025-11-20 16:29:58,921 | ⚠️⚠️⚠️⚠️ For PLI-#: 52 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,922 | 
+2025-11-20 16:29:58,922 | 🎯 Seitenwechsel bei Seite 8 → Neuer Name: OHG Andrea Gregor
+2025-11-20 16:29:58,924 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Andrea Drewski_6-7.pdf
+2025-11-20 16:29:58,924 | 
+2025-11-20 16:29:58,925 | -------------START Scanning--------------
+2025-11-20 16:29:58,926 | ✅ Seite 9: Name gefunden → OHG Andrea Gregor
+2025-11-20 16:29:58,926 | ✅ Seite 9: Name gefunden → OHG Andrea Gregor
+2025-11-20 16:29:58,926 | -------------END Scanning----------------
+2025-11-20 16:29:58,926 | Found PLI ID:-->91<--
+2025-11-20 16:29:58,926 | 
+2025-11-20 16:29:58,928 | -------------START Scanning--------------
+2025-11-20 16:29:58,928 | ✅ Seite 10: Name gefunden → GbR Andrea Häfelinger
+2025-11-20 16:29:58,928 | ✅ Seite 10: Name gefunden → GbR Andrea Häfelinger
+2025-11-20 16:29:58,928 | -------------END Scanning----------------
+2025-11-20 16:29:58,929 | Found PLI ID:-->54<--
+2025-11-20 16:29:58,929 | COMPARE ID: --91--
+2025-11-20 16:29:58,929 | ⚠️⚠️⚠️⚠️ For PLI-#: 91 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,929 | 
+2025-11-20 16:29:58,930 | 🎯 Seitenwechsel bei Seite 10 → Neuer Name: GbR Andrea Häfelinger
+2025-11-20 16:29:58,932 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Andrea Gregor_8-9.pdf
+2025-11-20 16:29:58,932 | 
+2025-11-20 16:29:58,933 | -------------START Scanning--------------
+2025-11-20 16:29:58,933 | ✅ Seite 11: Name gefunden → GbR Andrea Häfelinger
+2025-11-20 16:29:58,933 | ✅ Seite 11: Name gefunden → GbR Andrea Häfelinger
+2025-11-20 16:29:58,933 | -------------END Scanning----------------
+2025-11-20 16:29:58,934 | Found PLI ID:-->54<--
+2025-11-20 16:29:58,934 | 
+2025-11-20 16:29:58,935 | -------------START Scanning--------------
+2025-11-20 16:29:58,935 | ✅ Seite 12: Name gefunden → OHG Anja Schrader
+2025-11-20 16:29:58,936 | ✅ Seite 12: Name gefunden → OHG Anja Schrader
+2025-11-20 16:29:58,936 | -------------END Scanning----------------
+2025-11-20 16:29:58,936 | Found PLI ID:-->87<--
+2025-11-20 16:29:58,936 | COMPARE ID: --54--
+2025-11-20 16:29:58,936 | ⚠️⚠️⚠️⚠️ For PLI-#: 54 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,937 | 
+2025-11-20 16:29:58,937 | 🎯 Seitenwechsel bei Seite 12 → Neuer Name: OHG Anja Schrader
+2025-11-20 16:29:58,939 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Andrea Häfelinger_10-11.pdf
+2025-11-20 16:29:58,939 | 
+2025-11-20 16:29:58,940 | -------------START Scanning--------------
+2025-11-20 16:29:58,940 | ✅ Seite 13: Name gefunden → OHG Anja Schrader
+2025-11-20 16:29:58,940 | ✅ Seite 13: Name gefunden → OHG Anja Schrader
+2025-11-20 16:29:58,941 | -------------END Scanning----------------
+2025-11-20 16:29:58,941 | Found PLI ID:-->87<--
+2025-11-20 16:29:58,941 | 
+2025-11-20 16:29:58,942 | -------------START Scanning--------------
+2025-11-20 16:29:58,942 | ✅ Seite 14: Name gefunden → OHG Anna Volk
+2025-11-20 16:29:58,942 | ✅ Seite 14: Name gefunden → OHG Anna Volk
+2025-11-20 16:29:58,942 | -------------END Scanning----------------
+2025-11-20 16:29:58,943 | Found PLI ID:-->60<--
+2025-11-20 16:29:58,943 | COMPARE ID: --87--
+2025-11-20 16:29:58,943 | ⚠️⚠️⚠️⚠️ For PLI-#: 87 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,943 | 
+2025-11-20 16:29:58,943 | 🎯 Seitenwechsel bei Seite 14 → Neuer Name: OHG Anna Volk
+2025-11-20 16:29:58,945 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Anja Schrader_12-13.pdf
+2025-11-20 16:29:58,945 | 
+2025-11-20 16:29:58,946 | -------------START Scanning--------------
+2025-11-20 16:29:58,946 | ✅ Seite 15: Name gefunden → OHG Anna Volk
+2025-11-20 16:29:58,946 | ✅ Seite 15: Name gefunden → OHG Anna Volk
+2025-11-20 16:29:58,946 | -------------END Scanning----------------
+2025-11-20 16:29:58,947 | Found PLI ID:-->60<--
+2025-11-20 16:29:58,947 | 
+2025-11-20 16:29:58,948 | -------------START Scanning--------------
+2025-11-20 16:29:58,948 | ✅ Seite 16: Name gefunden → GbR Anna Habermehl
+2025-11-20 16:29:58,948 | ✅ Seite 16: Name gefunden → GbR Anna Habermehl
+2025-11-20 16:29:58,948 | -------------END Scanning----------------
+2025-11-20 16:29:58,949 | Found PLI ID:-->64<--
+2025-11-20 16:29:58,949 | COMPARE ID: --60--
+2025-11-20 16:29:58,949 | ⚠️⚠️⚠️⚠️ For PLI-#: 60 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,949 | 
+2025-11-20 16:29:58,950 | 🎯 Seitenwechsel bei Seite 16 → Neuer Name: GbR Anna Habermehl
+2025-11-20 16:29:58,952 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Anna Volk_14-15.pdf
+2025-11-20 16:29:58,952 | 
+2025-11-20 16:29:58,953 | -------------START Scanning--------------
+2025-11-20 16:29:58,953 | ✅ Seite 17: Name gefunden → GbR Anna Habermehl
+2025-11-20 16:29:58,953 | ✅ Seite 17: Name gefunden → GbR Anna Habermehl
+2025-11-20 16:29:58,953 | -------------END Scanning----------------
+2025-11-20 16:29:58,954 | Found PLI ID:-->64<--
+2025-11-20 16:29:58,954 | 
+2025-11-20 16:29:58,955 | -------------START Scanning--------------
+2025-11-20 16:29:58,955 | ✅ Seite 18: Name gefunden → OHG Beate OHG Weltle
+2025-11-20 16:29:58,955 | ✅ Seite 18: Name gefunden → OHG Beate OHG Weltle
+2025-11-20 16:29:58,956 | -------------END Scanning----------------
+2025-11-20 16:29:58,956 | Found PLI ID:-->49<--
+2025-11-20 16:29:58,956 | COMPARE ID: --64--
+2025-11-20 16:29:58,956 | ⚠️⚠️⚠️⚠️ For PLI-#: 64 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,956 | 
+2025-11-20 16:29:58,956 | 🎯 Seitenwechsel bei Seite 18 → Neuer Name: OHG Beate OHG Weltle
+2025-11-20 16:29:58,958 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Anna Habermehl_16-17.pdf
+2025-11-20 16:29:58,958 | 
+2025-11-20 16:29:58,959 | -------------START Scanning--------------
+2025-11-20 16:29:58,959 | ✅ Seite 19: Name gefunden → OHG Beate OHG Weltle
+2025-11-20 16:29:58,959 | ✅ Seite 19: Name gefunden → OHG Beate OHG Weltle
+2025-11-20 16:29:58,960 | -------------END Scanning----------------
+2025-11-20 16:29:58,960 | Found PLI ID:-->49<--
+2025-11-20 16:29:58,960 | 
+2025-11-20 16:29:58,961 | -------------START Scanning--------------
+2025-11-20 16:29:58,961 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2025-11-20 16:29:58,961 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2025-11-20 16:29:58,962 | -------------END Scanning----------------
+2025-11-20 16:29:58,962 | Found PLI ID:-->72<--
+2025-11-20 16:29:58,962 | COMPARE ID: --49--
+2025-11-20 16:29:58,962 | ⚠️⚠️⚠️⚠️ For PLI-#: 49 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,962 | 
+2025-11-20 16:29:58,962 | 🎯 Seitenwechsel bei Seite 20 → Neuer Name: GbR Carlo Seibel
+2025-11-20 16:29:58,964 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Beate OHG Weltle_18-19.pdf
+2025-11-20 16:29:58,964 | 
+2025-11-20 16:29:58,965 | -------------START Scanning--------------
+2025-11-20 16:29:58,965 | ✅ Seite 21: Name gefunden → GbR Carlo Seibel
+2025-11-20 16:29:58,966 | ✅ Seite 21: Name gefunden → GbR Carlo Seibel
+2025-11-20 16:29:58,966 | -------------END Scanning----------------
+2025-11-20 16:29:58,966 | Found PLI ID:-->72<--
+2025-11-20 16:29:58,966 | 
+2025-11-20 16:29:58,968 | -------------START Scanning--------------
+2025-11-20 16:29:58,968 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2025-11-20 16:29:58,968 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2025-11-20 16:29:58,968 | -------------END Scanning----------------
+2025-11-20 16:29:58,968 | Found PLI ID:-->71<--
+2025-11-20 16:29:58,968 | COMPARE ID: --72--
+2025-11-20 16:29:58,969 | ⚠️⚠️⚠️⚠️ For PLI-#: 72 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,969 | 
+2025-11-20 16:29:58,969 | 🎯 Seitenwechsel bei Seite 22 → Neuer Name: OHG Carolin Klein
+2025-11-20 16:29:58,971 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Carlo Seibel_20-21.pdf
+2025-11-20 16:29:58,971 | 
+2025-11-20 16:29:58,972 | -------------START Scanning--------------
+2025-11-20 16:29:58,972 | ✅ Seite 23: Name gefunden → OHG Carolin Klein
+2025-11-20 16:29:58,972 | ✅ Seite 23: Name gefunden → OHG Carolin Klein
+2025-11-20 16:29:58,972 | -------------END Scanning----------------
+2025-11-20 16:29:58,972 | Found PLI ID:-->71<--
+2025-11-20 16:29:58,973 | 
+2025-11-20 16:29:58,974 | -------------START Scanning--------------
+2025-11-20 16:29:58,974 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2025-11-20 16:29:58,974 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2025-11-20 16:29:58,974 | -------------END Scanning----------------
+2025-11-20 16:29:58,975 | Found PLI ID:-->46<--
+2025-11-20 16:29:58,975 | COMPARE ID: --71--
+2025-11-20 16:29:58,975 | ⚠️⚠️⚠️⚠️ For PLI-#: 71 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,975 | 
+2025-11-20 16:29:58,975 | 🎯 Seitenwechsel bei Seite 24 → Neuer Name: OHG Christian Wegener
+2025-11-20 16:29:58,977 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Carolin Klein_22-23.pdf
+2025-11-20 16:29:58,977 | 
+2025-11-20 16:29:58,978 | -------------START Scanning--------------
+2025-11-20 16:29:58,978 | ✅ Seite 25: Name gefunden → OHG Christian Wegener
+2025-11-20 16:29:58,978 | ✅ Seite 25: Name gefunden → OHG Christian Wegener
+2025-11-20 16:29:58,978 | -------------END Scanning----------------
+2025-11-20 16:29:58,978 | Found PLI ID:-->46<--
+2025-11-20 16:29:58,978 | 
+2025-11-20 16:29:58,980 | -------------START Scanning--------------
+2025-11-20 16:29:58,980 | ✅ Seite 26: Name gefunden → OHG Christopher Zerna
+2025-11-20 16:29:58,980 | ✅ Seite 26: Name gefunden → OHG Christopher Zerna
+2025-11-20 16:29:58,980 | -------------END Scanning----------------
+2025-11-20 16:29:58,980 | Found PLI ID:-->68<--
+2025-11-20 16:29:58,980 | COMPARE ID: --46--
+2025-11-20 16:29:58,980 | ⚠️⚠️⚠️⚠️ For PLI-#: 46 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,980 | 
+2025-11-20 16:29:58,980 | 🎯 Seitenwechsel bei Seite 26 → Neuer Name: OHG Christopher Zerna
+2025-11-20 16:29:58,982 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Christian Wegener_24-25.pdf
+2025-11-20 16:29:58,983 | 
+2025-11-20 16:29:58,984 | -------------START Scanning--------------
+2025-11-20 16:29:58,984 | ✅ Seite 27: Name gefunden → OHG Clara Schmid
+2025-11-20 16:29:58,984 | ✅ Seite 27: Name gefunden → OHG Clara Schmid
+2025-11-20 16:29:58,985 | -------------END Scanning----------------
+2025-11-20 16:29:58,985 | Found PLI ID:-->83<--
+2025-11-20 16:29:58,985 | COMPARE ID: --68--
+2025-11-20 16:29:58,985 | ⚠️⚠️⚠️⚠️ For PLI-#: 68 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,985 | 
+2025-11-20 16:29:58,985 | 🎯 Seitenwechsel bei Seite 27 → Neuer Name: OHG Clara Schmid
+2025-11-20 16:29:58,987 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Christopher Zerna_26-26.pdf
+2025-11-20 16:29:58,987 | 
+2025-11-20 16:29:58,988 | -------------START Scanning--------------
+2025-11-20 16:29:58,988 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2025-11-20 16:29:58,988 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2025-11-20 16:29:58,989 | -------------END Scanning----------------
+2025-11-20 16:29:58,989 | Found PLI ID:-->83<--
+2025-11-20 16:29:58,989 | 
+2025-11-20 16:29:58,990 | -------------START Scanning--------------
+2025-11-20 16:29:58,990 | ✅ Seite 29: Name gefunden → OHG Cosmea Linemann
+2025-11-20 16:29:58,990 | ✅ Seite 29: Name gefunden → OHG Cosmea Linemann
+2025-11-20 16:29:58,991 | -------------END Scanning----------------
+2025-11-20 16:29:58,991 | Found PLI ID:-->70<--
+2025-11-20 16:29:58,991 | COMPARE ID: --83--
+2025-11-20 16:29:58,991 | ⚠️⚠️⚠️⚠️ For PLI-#: 83 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,991 | 
+2025-11-20 16:29:58,991 | 🎯 Seitenwechsel bei Seite 29 → Neuer Name: OHG Cosmea Linemann
+2025-11-20 16:29:58,993 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Clara Schmid_27-28.pdf
+2025-11-20 16:29:58,993 | 
+2025-11-20 16:29:58,994 | -------------START Scanning--------------
+2025-11-20 16:29:58,994 | ✅ Seite 30: Name gefunden → OHG Cosmea Linemann
+2025-11-20 16:29:58,994 | ✅ Seite 30: Name gefunden → OHG Cosmea Linemann
+2025-11-20 16:29:58,994 | -------------END Scanning----------------
+2025-11-20 16:29:58,994 | Found PLI ID:-->70<--
+2025-11-20 16:29:58,994 | 
+2025-11-20 16:29:58,996 | -------------START Scanning--------------
+2025-11-20 16:29:58,996 | ✅ Seite 31: Name gefunden → OHG Doreen Vinzelberg
+2025-11-20 16:29:58,996 | ✅ Seite 31: Name gefunden → OHG Doreen Vinzelberg
+2025-11-20 16:29:58,996 | -------------END Scanning----------------
+2025-11-20 16:29:58,996 | Found PLI ID:-->80<--
+2025-11-20 16:29:58,997 | COMPARE ID: --70--
+2025-11-20 16:29:58,997 | ⚠️⚠️⚠️⚠️ For PLI-#: 70 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:58,997 | 
+2025-11-20 16:29:58,997 | 🎯 Seitenwechsel bei Seite 31 → Neuer Name: OHG Doreen Vinzelberg
+2025-11-20 16:29:58,999 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Cosmea Linemann_29-30.pdf
+2025-11-20 16:29:58,999 | 
+2025-11-20 16:29:59,000 | -------------START Scanning--------------
+2025-11-20 16:29:59,000 | ✅ Seite 32: Name gefunden → OHG Doreen Vinzelberg
+2025-11-20 16:29:59,000 | ✅ Seite 32: Name gefunden → OHG Doreen Vinzelberg
+2025-11-20 16:29:59,000 | -------------END Scanning----------------
+2025-11-20 16:29:59,000 | Found PLI ID:-->80<--
+2025-11-20 16:29:59,000 | 
+2025-11-20 16:29:59,002 | -------------START Scanning--------------
+2025-11-20 16:29:59,002 | ✅ Seite 33: Name gefunden → OHG Doris Gräßlin
+2025-11-20 16:29:59,002 | ✅ Seite 33: Name gefunden → OHG Doris Gräßlin
+2025-11-20 16:29:59,002 | -------------END Scanning----------------
+2025-11-20 16:29:59,002 | Found PLI ID:-->61<--
+2025-11-20 16:29:59,002 | COMPARE ID: --80--
+2025-11-20 16:29:59,003 | ⚠️⚠️⚠️⚠️ For PLI-#: 80 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,003 | 
+2025-11-20 16:29:59,003 | 🎯 Seitenwechsel bei Seite 33 → Neuer Name: OHG Doris Gräßlin
+2025-11-20 16:29:59,005 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Doreen Vinzelberg_31-32.pdf
+2025-11-20 16:29:59,005 | 
+2025-11-20 16:29:59,006 | -------------START Scanning--------------
+2025-11-20 16:29:59,007 | ✅ Seite 34: Name gefunden → GbR Fabian Winkler
+2025-11-20 16:29:59,007 | ✅ Seite 34: Name gefunden → GbR Fabian Winkler
+2025-11-20 16:29:59,007 | -------------END Scanning----------------
+2025-11-20 16:29:59,007 | Found PLI ID:-->25<--
+2025-11-20 16:29:59,007 | COMPARE ID: --61--
+2025-11-20 16:29:59,007 | ⚠️⚠️⚠️⚠️ For PLI-#: 61 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,007 | 
+2025-11-20 16:29:59,007 | 🎯 Seitenwechsel bei Seite 34 → Neuer Name: GbR Fabian Winkler
+2025-11-20 16:29:59,009 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Doris Gräßlin_33-33.pdf
+2025-11-20 16:29:59,009 | 
+2025-11-20 16:29:59,010 | -------------START Scanning--------------
+2025-11-20 16:29:59,010 | ✅ Seite 35: Name gefunden → GbR Fabian Winkler
+2025-11-20 16:29:59,010 | ✅ Seite 35: Name gefunden → GbR Fabian Winkler
+2025-11-20 16:29:59,010 | -------------END Scanning----------------
+2025-11-20 16:29:59,011 | Found PLI ID:-->25<--
+2025-11-20 16:29:59,011 | 
+2025-11-20 16:29:59,012 | -------------START Scanning--------------
+2025-11-20 16:29:59,012 | ✅ Seite 36: Name gefunden → GbR Felix Dorau
+2025-11-20 16:29:59,012 | ✅ Seite 36: Name gefunden → GbR Felix Dorau
+2025-11-20 16:29:59,012 | -------------END Scanning----------------
+2025-11-20 16:29:59,012 | Found PLI ID:-->34<--
+2025-11-20 16:29:59,012 | COMPARE ID: --25--
+2025-11-20 16:29:59,012 | ⚠️⚠️⚠️⚠️ For PLI-#: 25 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,013 | 
+2025-11-20 16:29:59,013 | 🎯 Seitenwechsel bei Seite 36 → Neuer Name: GbR Felix Dorau
+2025-11-20 16:29:59,014 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Fabian Winkler_34-35.pdf
+2025-11-20 16:29:59,015 | 
+2025-11-20 16:29:59,016 | -------------START Scanning--------------
+2025-11-20 16:29:59,016 | ✅ Seite 37: Name gefunden → GbR Felix Dorau
+2025-11-20 16:29:59,016 | ✅ Seite 37: Name gefunden → GbR Felix Dorau
+2025-11-20 16:29:59,016 | -------------END Scanning----------------
+2025-11-20 16:29:59,016 | Found PLI ID:-->34<--
+2025-11-20 16:29:59,016 | 
+2025-11-20 16:29:59,017 | -------------START Scanning--------------
+2025-11-20 16:29:59,018 | ✅ Seite 38: Name gefunden → GbR Frank Walther
+2025-11-20 16:29:59,018 | ✅ Seite 38: Name gefunden → GbR Frank Walther
+2025-11-20 16:29:59,018 | -------------END Scanning----------------
+2025-11-20 16:29:59,018 | Found PLI ID:-->24<--
+2025-11-20 16:29:59,018 | COMPARE ID: --34--
+2025-11-20 16:29:59,018 | ⚠️⚠️⚠️⚠️ For PLI-#: 34 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,018 | 
+2025-11-20 16:29:59,018 | 🎯 Seitenwechsel bei Seite 38 → Neuer Name: GbR Frank Walther
+2025-11-20 16:29:59,020 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Felix Dorau_36-37.pdf
+2025-11-20 16:29:59,021 | 
+2025-11-20 16:29:59,021 | -------------START Scanning--------------
+2025-11-20 16:29:59,022 | ✅ Seite 39: Name gefunden → GbR Frank Walther
+2025-11-20 16:29:59,022 | ✅ Seite 39: Name gefunden → GbR Frank Walther
+2025-11-20 16:29:59,022 | -------------END Scanning----------------
+2025-11-20 16:29:59,022 | Found PLI ID:-->24<--
+2025-11-20 16:29:59,022 | 
+2025-11-20 16:29:59,023 | -------------START Scanning--------------
+2025-11-20 16:29:59,024 | ✅ Seite 40: Name gefunden → OHG Fritz Kessler
+2025-11-20 16:29:59,024 | ✅ Seite 40: Name gefunden → OHG Fritz Kessler
+2025-11-20 16:29:59,024 | -------------END Scanning----------------
+2025-11-20 16:29:59,024 | Found PLI ID:-->84<--
+2025-11-20 16:29:59,024 | COMPARE ID: --24--
+2025-11-20 16:29:59,024 | ⚠️⚠️⚠️⚠️ For PLI-#: 24 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,024 | 
+2025-11-20 16:29:59,024 | 🎯 Seitenwechsel bei Seite 40 → Neuer Name: OHG Fritz Kessler
+2025-11-20 16:29:59,026 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Frank Walther_38-39.pdf
+2025-11-20 16:29:59,027 | 
+2025-11-20 16:29:59,027 | -------------START Scanning--------------
+2025-11-20 16:29:59,027 | ✅ Seite 41: Name gefunden → OHG Fritz Kessler
+2025-11-20 16:29:59,027 | ✅ Seite 41: Name gefunden → OHG Fritz Kessler
+2025-11-20 16:29:59,027 | -------------END Scanning----------------
+2025-11-20 16:29:59,027 | Found PLI ID:-->84<--
+2025-11-20 16:29:59,028 | 
+2025-11-20 16:29:59,029 | -------------START Scanning--------------
+2025-11-20 16:29:59,029 | ✅ Seite 42: Name gefunden → OHG Grem Wangler
+2025-11-20 16:29:59,029 | ✅ Seite 42: Name gefunden → OHG Grem Wangler
+2025-11-20 16:29:59,029 | -------------END Scanning----------------
+2025-11-20 16:29:59,029 | Found PLI ID:-->81<--
+2025-11-20 16:29:59,029 | COMPARE ID: --84--
+2025-11-20 16:29:59,029 | ⚠️⚠️⚠️⚠️ For PLI-#: 84 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,029 | 
+2025-11-20 16:29:59,030 | 🎯 Seitenwechsel bei Seite 42 → Neuer Name: OHG Grem Wangler
+2025-11-20 16:29:59,031 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Fritz Kessler_40-41.pdf
+2025-11-20 16:29:59,032 | 
+2025-11-20 16:29:59,032 | -------------START Scanning--------------
+2025-11-20 16:29:59,033 | ✅ Seite 43: Name gefunden → OHG Grem Wangler
+2025-11-20 16:29:59,033 | ✅ Seite 43: Name gefunden → OHG Grem Wangler
+2025-11-20 16:29:59,033 | -------------END Scanning----------------
+2025-11-20 16:29:59,033 | Found PLI ID:-->81<--
+2025-11-20 16:29:59,033 | 
+2025-11-20 16:29:59,035 | -------------START Scanning--------------
+2025-11-20 16:29:59,035 | ✅ Seite 44: Name gefunden → OHG Hartmut Staats
+2025-11-20 16:29:59,035 | ✅ Seite 44: Name gefunden → OHG Hartmut Staats
+2025-11-20 16:29:59,035 | -------------END Scanning----------------
+2025-11-20 16:29:59,035 | Found PLI ID:-->30<--
+2025-11-20 16:29:59,035 | COMPARE ID: --81--
+2025-11-20 16:29:59,036 | ⚠️⚠️⚠️⚠️ For PLI-#: 81 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,036 | 
+2025-11-20 16:29:59,036 | 🎯 Seitenwechsel bei Seite 44 → Neuer Name: OHG Hartmut Staats
+2025-11-20 16:29:59,038 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Grem Wangler_42-43.pdf
+2025-11-20 16:29:59,038 | 
+2025-11-20 16:29:59,039 | -------------START Scanning--------------
+2025-11-20 16:29:59,039 | ✅ Seite 45: Name gefunden → GbR Ida Skroblin
+2025-11-20 16:29:59,040 | ✅ Seite 45: Name gefunden → GbR Ida Skroblin
+2025-11-20 16:29:59,040 | -------------END Scanning----------------
+2025-11-20 16:29:59,040 | ❌❌❌ Fehler beim Bearbeiten der PLI-# ❌❌❌
+2025-11-20 16:29:59,040 | No valid PLI ID found in 'Personal Nr.:'
+2025-11-20 16:29:59,040 | COMPARE ID: --30--
+2025-11-20 16:29:59,040 | ⚠️⚠️⚠️⚠️ For PLI-#: 30 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,040 | 
+2025-11-20 16:29:59,041 | 🎯 Seitenwechsel bei Seite 45 → Neuer Name: GbR Ida Skroblin
+2025-11-20 16:29:59,042 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Hartmut Staats_44-44.pdf
+2025-11-20 16:29:59,042 | 
+2025-11-20 16:29:59,043 | -------------START Scanning--------------
+2025-11-20 16:29:59,043 | ✅ Seite 46: Name gefunden → GbR Ida Skroblin
+2025-11-20 16:29:59,043 | ✅ Seite 46: Name gefunden → GbR Ida Skroblin
+2025-11-20 16:29:59,043 | -------------END Scanning----------------
+2025-11-20 16:29:59,044 | ❌❌❌ Fehler beim Bearbeiten der PLI-# ❌❌❌
+2025-11-20 16:29:59,044 | No valid PLI ID found in 'Personal Nr.:'
+2025-11-20 16:29:59,044 | 
+2025-11-20 16:29:59,045 | -------------START Scanning--------------
+2025-11-20 16:29:59,045 | ✅ Seite 47: Name gefunden → GbR Ingrid Glaser
+2025-11-20 16:29:59,045 | ✅ Seite 47: Name gefunden → GbR Ingrid Glaser
+2025-11-20 16:29:59,046 | -------------END Scanning----------------
+2025-11-20 16:29:59,046 | Found PLI ID:-->10<--
+2025-11-20 16:29:59,046 | COMPARE ID: --None--
+2025-11-20 16:29:59,046 | ⚠️⚠️⚠️⚠️ For PLI-#: None was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,046 | 
+2025-11-20 16:29:59,046 | 🎯 Seitenwechsel bei Seite 47 → Neuer Name: GbR Ingrid Glaser
+2025-11-20 16:29:59,048 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Ida Skroblin_45-46.pdf
+2025-11-20 16:29:59,048 | 
+2025-11-20 16:29:59,049 | -------------START Scanning--------------
+2025-11-20 16:29:59,049 | ✅ Seite 48: Name gefunden → GbR Ingrid Glaser
+2025-11-20 16:29:59,049 | ✅ Seite 48: Name gefunden → GbR Ingrid Glaser
+2025-11-20 16:29:59,049 | -------------END Scanning----------------
+2025-11-20 16:29:59,050 | Found PLI ID:-->10<--
+2025-11-20 16:29:59,050 | 
+2025-11-20 16:29:59,051 | -------------START Scanning--------------
+2025-11-20 16:29:59,051 | ✅ Seite 49: Name gefunden → GbR Inka Harms
+2025-11-20 16:29:59,051 | ✅ Seite 49: Name gefunden → GbR Inka Harms
+2025-11-20 16:29:59,051 | -------------END Scanning----------------
+2025-11-20 16:29:59,051 | Found PLI ID:-->23<--
+2025-11-20 16:29:59,051 | COMPARE ID: --10--
+2025-11-20 16:29:59,051 | ⚠️⚠️⚠️⚠️ For PLI-#: 10 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,052 | 
+2025-11-20 16:29:59,052 | 🎯 Seitenwechsel bei Seite 49 → Neuer Name: GbR Inka Harms
+2025-11-20 16:29:59,053 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Ingrid Glaser_47-48.pdf
+2025-11-20 16:29:59,054 | 
+2025-11-20 16:29:59,055 | -------------START Scanning--------------
+2025-11-20 16:29:59,055 | ✅ Seite 50: Name gefunden → GbR Inka Harms
+2025-11-20 16:29:59,055 | ✅ Seite 50: Name gefunden → GbR Inka Harms
+2025-11-20 16:29:59,055 | -------------END Scanning----------------
+2025-11-20 16:29:59,055 | Found PLI ID:-->23<--
+2025-11-20 16:29:59,055 | 
+2025-11-20 16:29:59,057 | -------------START Scanning--------------
+2025-11-20 16:29:59,057 | ✅ Seite 51: Name gefunden → OHG Jeremias
+2025-11-20 16:29:59,057 | ✅ Seite 51: Name gefunden → OHG Jeremias
+2025-11-20 16:29:59,057 | -------------END Scanning----------------
+2025-11-20 16:29:59,057 | Found PLI ID:-->13<--
+2025-11-20 16:29:59,058 | COMPARE ID: --23--
+2025-11-20 16:29:59,058 | ⚠️⚠️⚠️⚠️ For PLI-#: 23 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,058 | 
+2025-11-20 16:29:59,058 | 🎯 Seitenwechsel bei Seite 51 → Neuer Name: OHG Jeremias
+2025-11-20 16:29:59,060 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Inka Harms_49-50.pdf
+2025-11-20 16:29:59,060 | 
+2025-11-20 16:29:59,062 | -------------START Scanning--------------
+2025-11-20 16:29:59,062 | ✅ Seite 52: Name gefunden → OHG Jette Fortmann
+2025-11-20 16:29:59,062 | ✅ Seite 52: Name gefunden → OHG Jette Fortmann
+2025-11-20 16:29:59,062 | -------------END Scanning----------------
+2025-11-20 16:29:59,062 | Found PLI ID:-->38<--
+2025-11-20 16:29:59,062 | COMPARE ID: --13--
+2025-11-20 16:29:59,063 | ⚠️⚠️⚠️⚠️ For PLI-#: 13 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,063 | 
+2025-11-20 16:29:59,063 | 🎯 Seitenwechsel bei Seite 52 → Neuer Name: OHG Jette Fortmann
+2025-11-20 16:29:59,065 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Jeremias_51-51.pdf
+2025-11-20 16:29:59,065 | 
+2025-11-20 16:29:59,066 | -------------START Scanning--------------
+2025-11-20 16:29:59,066 | ✅ Seite 53: Name gefunden → OHG Jette Fortmann
+2025-11-20 16:29:59,066 | ✅ Seite 53: Name gefunden → OHG Jette Fortmann
+2025-11-20 16:29:59,066 | -------------END Scanning----------------
+2025-11-20 16:29:59,067 | Found PLI ID:-->38<--
+2025-11-20 16:29:59,067 | 
+2025-11-20 16:29:59,068 | -------------START Scanning--------------
+2025-11-20 16:29:59,068 | ✅ Seite 54: Name gefunden → OHG Joachim Ruppenthal
+2025-11-20 16:29:59,068 | ✅ Seite 54: Name gefunden → OHG Joachim Ruppenthal
+2025-11-20 16:29:59,069 | -------------END Scanning----------------
+2025-11-20 16:29:59,069 | Found PLI ID:-->28<--
+2025-11-20 16:29:59,069 | COMPARE ID: --38--
+2025-11-20 16:29:59,069 | ⚠️⚠️⚠️⚠️ For PLI-#: 38 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,069 | 
+2025-11-20 16:29:59,069 | 🎯 Seitenwechsel bei Seite 54 → Neuer Name: OHG Joachim Ruppenthal
+2025-11-20 16:29:59,071 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Jette Fortmann_52-53.pdf
+2025-11-20 16:29:59,072 | 
+2025-11-20 16:29:59,072 | -------------START Scanning--------------
+2025-11-20 16:29:59,072 | ✅ Seite 55: Name gefunden → OHG Joachim Ruppenthal
+2025-11-20 16:29:59,072 | ✅ Seite 55: Name gefunden → OHG Joachim Ruppenthal
+2025-11-20 16:29:59,073 | -------------END Scanning----------------
+2025-11-20 16:29:59,073 | Found PLI ID:-->28<--
+2025-11-20 16:29:59,073 | 
+2025-11-20 16:29:59,074 | -------------START Scanning--------------
+2025-11-20 16:29:59,074 | ✅ Seite 56: Name gefunden → OHG Johannes Kolonko
+2025-11-20 16:29:59,074 | ✅ Seite 56: Name gefunden → OHG Johannes Kolonko
+2025-11-20 16:29:59,074 | -------------END Scanning----------------
+2025-11-20 16:29:59,075 | Found PLI ID:-->17<--
+2025-11-20 16:29:59,075 | COMPARE ID: --28--
+2025-11-20 16:29:59,075 | ⚠️⚠️⚠️⚠️ For PLI-#: 28 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,075 | 
+2025-11-20 16:29:59,075 | 🎯 Seitenwechsel bei Seite 56 → Neuer Name: OHG Johannes Kolonko
+2025-11-20 16:29:59,077 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Joachim Ruppenthal_54-55.pdf
+2025-11-20 16:29:59,077 | 
+2025-11-20 16:29:59,078 | -------------START Scanning--------------
+2025-11-20 16:29:59,079 | ✅ Seite 57: Name gefunden → GbR Johannes Loewe
+2025-11-20 16:29:59,079 | ✅ Seite 57: Name gefunden → GbR Johannes Loewe
+2025-11-20 16:29:59,079 | -------------END Scanning----------------
+2025-11-20 16:29:59,079 | Found PLI ID:-->33<--
+2025-11-20 16:29:59,079 | COMPARE ID: --17--
+2025-11-20 16:29:59,079 | ⚠️⚠️⚠️⚠️ For PLI-#: 17 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,079 | 
+2025-11-20 16:29:59,079 | 🎯 Seitenwechsel bei Seite 57 → Neuer Name: GbR Johannes Loewe
+2025-11-20 16:29:59,081 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Johannes Kolonko_56-56.pdf
+2025-11-20 16:29:59,082 | 
+2025-11-20 16:29:59,083 | -------------START Scanning--------------
+2025-11-20 16:29:59,083 | ✅ Seite 58: Name gefunden → GbR Johannes Loewe
+2025-11-20 16:29:59,083 | ✅ Seite 58: Name gefunden → GbR Johannes Loewe
+2025-11-20 16:29:59,084 | -------------END Scanning----------------
+2025-11-20 16:29:59,084 | Found PLI ID:-->33<--
+2025-11-20 16:29:59,084 | 
+2025-11-20 16:29:59,085 | -------------START Scanning--------------
+2025-11-20 16:29:59,085 | ✅ Seite 59: Name gefunden → GbR Jonatan Argueta
+2025-11-20 16:29:59,085 | ✅ Seite 59: Name gefunden → GbR Jonatan Argueta
+2025-11-20 16:29:59,085 | -------------END Scanning----------------
+2025-11-20 16:29:59,086 | Found PLI ID:-->90<--
+2025-11-20 16:29:59,086 | COMPARE ID: --33--
+2025-11-20 16:29:59,086 | ⚠️⚠️⚠️⚠️ For PLI-#: 33 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,086 | 
+2025-11-20 16:29:59,086 | 🎯 Seitenwechsel bei Seite 59 → Neuer Name: GbR Jonatan Argueta
+2025-11-20 16:29:59,088 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Johannes Loewe_57-58.pdf
+2025-11-20 16:29:59,088 | 
+2025-11-20 16:29:59,089 | -------------START Scanning--------------
+2025-11-20 16:29:59,089 | ✅ Seite 60: Name gefunden → GbR Jonatan Argueta
+2025-11-20 16:29:59,089 | ✅ Seite 60: Name gefunden → GbR Jonatan Argueta
+2025-11-20 16:29:59,090 | -------------END Scanning----------------
+2025-11-20 16:29:59,090 | Found PLI ID:-->90<--
+2025-11-20 16:29:59,090 | 
+2025-11-20 16:29:59,091 | -------------START Scanning--------------
+2025-11-20 16:29:59,091 | ✅ Seite 61: Name gefunden → GbR Jonathan Stoffel
+2025-11-20 16:29:59,091 | ✅ Seite 61: Name gefunden → GbR Jonathan Stoffel
+2025-11-20 16:29:59,091 | -------------END Scanning----------------
+2025-11-20 16:29:59,091 | Found PLI ID:-->58<--
+2025-11-20 16:29:59,091 | COMPARE ID: --90--
+2025-11-20 16:29:59,092 | ⚠️⚠️⚠️⚠️ For PLI-#: 90 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,092 | 
+2025-11-20 16:29:59,092 | 🎯 Seitenwechsel bei Seite 61 → Neuer Name: GbR Jonathan Stoffel
+2025-11-20 16:29:59,094 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Jonatan Argueta_59-60.pdf
+2025-11-20 16:29:59,094 | 
+2025-11-20 16:29:59,095 | -------------START Scanning--------------
+2025-11-20 16:29:59,095 | ✅ Seite 62: Name gefunden → GbR Jonathan Stoffel
+2025-11-20 16:29:59,095 | ✅ Seite 62: Name gefunden → GbR Jonathan Stoffel
+2025-11-20 16:29:59,096 | -------------END Scanning----------------
+2025-11-20 16:29:59,096 | Found PLI ID:-->58<--
+2025-11-20 16:29:59,096 | 
+2025-11-20 16:29:59,097 | -------------START Scanning--------------
+2025-11-20 16:29:59,097 | ✅ Seite 63: Name gefunden → GbR Josepha Brehm
+2025-11-20 16:29:59,097 | ✅ Seite 63: Name gefunden → GbR Josepha Brehm
+2025-11-20 16:29:59,097 | -------------END Scanning----------------
+2025-11-20 16:29:59,098 | Found PLI ID:-->73<--
+2025-11-20 16:29:59,098 | COMPARE ID: --58--
+2025-11-20 16:29:59,098 | ⚠️⚠️⚠️⚠️ For PLI-#: 58 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,098 | 
+2025-11-20 16:29:59,098 | 🎯 Seitenwechsel bei Seite 63 → Neuer Name: GbR Josepha Brehm
+2025-11-20 16:29:59,100 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Jonathan Stoffel_61-62.pdf
+2025-11-20 16:29:59,101 | 
+2025-11-20 16:29:59,102 | -------------START Scanning--------------
+2025-11-20 16:29:59,102 | ✅ Seite 64: Name gefunden → GbR Josepha Brehm
+2025-11-20 16:29:59,102 | ✅ Seite 64: Name gefunden → GbR Josepha Brehm
+2025-11-20 16:29:59,102 | -------------END Scanning----------------
+2025-11-20 16:29:59,102 | Found PLI ID:-->73<--
+2025-11-20 16:29:59,102 | 
+2025-11-20 16:29:59,104 | -------------START Scanning--------------
+2025-11-20 16:29:59,104 | ✅ Seite 65: Name gefunden → GbR Judith Muschiol
+2025-11-20 16:29:59,104 | ✅ Seite 65: Name gefunden → GbR Judith Muschiol
+2025-11-20 16:29:59,104 | -------------END Scanning----------------
+2025-11-20 16:29:59,104 | Found PLI ID:-->8<--
+2025-11-20 16:29:59,104 | COMPARE ID: --73--
+2025-11-20 16:29:59,105 | ⚠️⚠️⚠️⚠️ For PLI-#: 73 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,105 | 
+2025-11-20 16:29:59,105 | 🎯 Seitenwechsel bei Seite 65 → Neuer Name: GbR Judith Muschiol
+2025-11-20 16:29:59,107 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Josepha Brehm_63-64.pdf
+2025-11-20 16:29:59,107 | 
+2025-11-20 16:29:59,108 | -------------START Scanning--------------
+2025-11-20 16:29:59,108 | ✅ Seite 66: Name gefunden → GbR Judith Muschiol
+2025-11-20 16:29:59,108 | ✅ Seite 66: Name gefunden → GbR Judith Muschiol
+2025-11-20 16:29:59,108 | -------------END Scanning----------------
+2025-11-20 16:29:59,108 | Found PLI ID:-->8<--
+2025-11-20 16:29:59,108 | 
+2025-11-20 16:29:59,110 | -------------START Scanning--------------
+2025-11-20 16:29:59,110 | ✅ Seite 67: Name gefunden → GbR Julia Plath
+2025-11-20 16:29:59,110 | ✅ Seite 67: Name gefunden → GbR Julia Plath
+2025-11-20 16:29:59,110 | -------------END Scanning----------------
+2025-11-20 16:29:59,110 | Found PLI ID:-->67<--
+2025-11-20 16:29:59,110 | COMPARE ID: --8--
+2025-11-20 16:29:59,110 | ⚠️⚠️⚠️⚠️ For PLI-#: 8 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,111 | 
+2025-11-20 16:29:59,111 | 🎯 Seitenwechsel bei Seite 67 → Neuer Name: GbR Julia Plath
+2025-11-20 16:29:59,112 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Judith Muschiol_65-66.pdf
+2025-11-20 16:29:59,113 | 
+2025-11-20 16:29:59,113 | -------------START Scanning--------------
+2025-11-20 16:29:59,113 | ✅ Seite 68: Name gefunden → GbR Julia Plath
+2025-11-20 16:29:59,114 | ✅ Seite 68: Name gefunden → GbR Julia Plath
+2025-11-20 16:29:59,114 | -------------END Scanning----------------
+2025-11-20 16:29:59,114 | Found PLI ID:-->67<--
+2025-11-20 16:29:59,114 | 
+2025-11-20 16:29:59,116 | -------------START Scanning--------------
+2025-11-20 16:29:59,116 | ✅ Seite 69: Name gefunden → OHG Julia Weigl
+2025-11-20 16:29:59,116 | ✅ Seite 69: Name gefunden → OHG Julia Weigl
+2025-11-20 16:29:59,116 | -------------END Scanning----------------
+2025-11-20 16:29:59,116 | Found PLI ID:-->26<--
+2025-11-20 16:29:59,116 | COMPARE ID: --67--
+2025-11-20 16:29:59,116 | ⚠️⚠️⚠️⚠️ For PLI-#: 67 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,117 | 
+2025-11-20 16:29:59,117 | 🎯 Seitenwechsel bei Seite 69 → Neuer Name: OHG Julia Weigl
+2025-11-20 16:29:59,119 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Julia Plath_67-68.pdf
+2025-11-20 16:29:59,119 | 
+2025-11-20 16:29:59,120 | -------------START Scanning--------------
+2025-11-20 16:29:59,120 | ✅ Seite 70: Name gefunden → OHG Julia Weigl
+2025-11-20 16:29:59,120 | ✅ Seite 70: Name gefunden → OHG Julia Weigl
+2025-11-20 16:29:59,120 | -------------END Scanning----------------
+2025-11-20 16:29:59,120 | Found PLI ID:-->26<--
+2025-11-20 16:29:59,121 | 
+2025-11-20 16:29:59,122 | -------------START Scanning--------------
+2025-11-20 16:29:59,122 | ✅ Seite 71: Name gefunden → OHG Julius Klein
+2025-11-20 16:29:59,122 | ✅ Seite 71: Name gefunden → OHG Julius Klein
+2025-11-20 16:29:59,122 | -------------END Scanning----------------
+2025-11-20 16:29:59,122 | Found PLI ID:-->37<--
+2025-11-20 16:29:59,123 | COMPARE ID: --26--
+2025-11-20 16:29:59,123 | ⚠️⚠️⚠️⚠️ For PLI-#: 26 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,123 | 
+2025-11-20 16:29:59,123 | 🎯 Seitenwechsel bei Seite 71 → Neuer Name: OHG Julius Klein
+2025-11-20 16:29:59,125 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Julia Weigl_69-70.pdf
+2025-11-20 16:29:59,125 | 
+2025-11-20 16:29:59,126 | -------------START Scanning--------------
+2025-11-20 16:29:59,126 | ✅ Seite 72: Name gefunden → OHG Julius Klein
+2025-11-20 16:29:59,126 | ✅ Seite 72: Name gefunden → OHG Julius Klein
+2025-11-20 16:29:59,126 | -------------END Scanning----------------
+2025-11-20 16:29:59,126 | Found PLI ID:-->37<--
+2025-11-20 16:29:59,127 | 
+2025-11-20 16:29:59,128 | -------------START Scanning--------------
+2025-11-20 16:29:59,128 | ✅ Seite 73: Name gefunden → OHG Katrin Mertel
+2025-11-20 16:29:59,128 | ✅ Seite 73: Name gefunden → OHG Katrin Mertel
+2025-11-20 16:29:59,128 | -------------END Scanning----------------
+2025-11-20 16:29:59,128 | Found PLI ID:-->55<--
+2025-11-20 16:29:59,128 | COMPARE ID: --37--
+2025-11-20 16:29:59,129 | ⚠️⚠️⚠️⚠️ For PLI-#: 37 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,129 | 
+2025-11-20 16:29:59,129 | 🎯 Seitenwechsel bei Seite 73 → Neuer Name: OHG Katrin Mertel
+2025-11-20 16:29:59,131 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Julius Klein_71-72.pdf
+2025-11-20 16:29:59,131 | 
+2025-11-20 16:29:59,132 | -------------START Scanning--------------
+2025-11-20 16:29:59,133 | ✅ Seite 74: Name gefunden → GbR Laura Müller
+2025-11-20 16:29:59,133 | ✅ Seite 74: Name gefunden → GbR Laura Müller
+2025-11-20 16:29:59,133 | -------------END Scanning----------------
+2025-11-20 16:29:59,133 | Found PLI ID:-->41<--
+2025-11-20 16:29:59,133 | COMPARE ID: --55--
+2025-11-20 16:29:59,133 | ⚠️⚠️⚠️⚠️ For PLI-#: 55 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,134 | 
+2025-11-20 16:29:59,134 | 🎯 Seitenwechsel bei Seite 74 → Neuer Name: GbR Laura Müller
+2025-11-20 16:29:59,136 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Katrin Mertel_73-73.pdf
+2025-11-20 16:29:59,136 | 
+2025-11-20 16:29:59,137 | -------------START Scanning--------------
+2025-11-20 16:29:59,137 | ✅ Seite 75: Name gefunden → GbR Laura Müller
+2025-11-20 16:29:59,137 | ✅ Seite 75: Name gefunden → GbR Laura Müller
+2025-11-20 16:29:59,137 | -------------END Scanning----------------
+2025-11-20 16:29:59,138 | Found PLI ID:-->41<--
+2025-11-20 16:29:59,138 | 
+2025-11-20 16:29:59,139 | -------------START Scanning--------------
+2025-11-20 16:29:59,139 | ✅ Seite 76: Name gefunden → GbR Leonie Rief
+2025-11-20 16:29:59,139 | ✅ Seite 76: Name gefunden → GbR Leonie Rief
+2025-11-20 16:29:59,139 | -------------END Scanning----------------
+2025-11-20 16:29:59,139 | Found PLI ID:-->51<--
+2025-11-20 16:29:59,140 | COMPARE ID: --41--
+2025-11-20 16:29:59,140 | ⚠️⚠️⚠️⚠️ For PLI-#: 41 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,140 | 
+2025-11-20 16:29:59,140 | 🎯 Seitenwechsel bei Seite 76 → Neuer Name: GbR Leonie Rief
+2025-11-20 16:29:59,142 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Laura Müller_74-75.pdf
+2025-11-20 16:29:59,142 | 
+2025-11-20 16:29:59,143 | -------------START Scanning--------------
+2025-11-20 16:29:59,143 | ✅ Seite 77: Name gefunden → GbR Leonie Rief
+2025-11-20 16:29:59,143 | ✅ Seite 77: Name gefunden → GbR Leonie Rief
+2025-11-20 16:29:59,144 | -------------END Scanning----------------
+2025-11-20 16:29:59,144 | Found PLI ID:-->51<--
+2025-11-20 16:29:59,144 | 
+2025-11-20 16:29:59,145 | -------------START Scanning--------------
+2025-11-20 16:29:59,145 | ✅ Seite 78: Name gefunden → OHG Lina Drewski
+2025-11-20 16:29:59,145 | ✅ Seite 78: Name gefunden → OHG Lina Drewski
+2025-11-20 16:29:59,145 | -------------END Scanning----------------
+2025-11-20 16:29:59,146 | Found PLI ID:-->89<--
+2025-11-20 16:29:59,146 | COMPARE ID: --51--
+2025-11-20 16:29:59,146 | ⚠️⚠️⚠️⚠️ For PLI-#: 51 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,146 | 
+2025-11-20 16:29:59,146 | 🎯 Seitenwechsel bei Seite 78 → Neuer Name: OHG Lina Drewski
+2025-11-20 16:29:59,148 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Leonie Rief_76-77.pdf
+2025-11-20 16:29:59,148 | 
+2025-11-20 16:29:59,149 | -------------START Scanning--------------
+2025-11-20 16:29:59,150 | ✅ Seite 79: Name gefunden → OHG Lina Drewski
+2025-11-20 16:29:59,150 | ✅ Seite 79: Name gefunden → OHG Lina Drewski
+2025-11-20 16:29:59,150 | -------------END Scanning----------------
+2025-11-20 16:29:59,150 | Found PLI ID:-->89<--
+2025-11-20 16:29:59,150 | 
+2025-11-20 16:29:59,152 | -------------START Scanning--------------
+2025-11-20 16:29:59,152 | ✅ Seite 80: Name gefunden → OHG Lisa Zerna
+2025-11-20 16:29:59,152 | ✅ Seite 80: Name gefunden → OHG Lisa Zerna
+2025-11-20 16:29:59,152 | -------------END Scanning----------------
+2025-11-20 16:29:59,152 | Found PLI ID:-->75<--
+2025-11-20 16:29:59,152 | COMPARE ID: --89--
+2025-11-20 16:29:59,152 | ⚠️⚠️⚠️⚠️ For PLI-#: 89 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,153 | 
+2025-11-20 16:29:59,153 | 🎯 Seitenwechsel bei Seite 80 → Neuer Name: OHG Lisa Zerna
+2025-11-20 16:29:59,155 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Lina Drewski_78-79.pdf
+2025-11-20 16:29:59,155 | 
+2025-11-20 16:29:59,156 | -------------START Scanning--------------
+2025-11-20 16:29:59,156 | ✅ Seite 81: Name gefunden → OHG Lisa Zerna
+2025-11-20 16:29:59,156 | ✅ Seite 81: Name gefunden → OHG Lisa Zerna
+2025-11-20 16:29:59,156 | -------------END Scanning----------------
+2025-11-20 16:29:59,156 | Found PLI ID:-->75<--
+2025-11-20 16:29:59,156 | 
+2025-11-20 16:29:59,158 | -------------START Scanning--------------
+2025-11-20 16:29:59,158 | ✅ Seite 82: Name gefunden → OHG Luisa Hoch
+2025-11-20 16:29:59,158 | ✅ Seite 82: Name gefunden → OHG Luisa Hoch
+2025-11-20 16:29:59,158 | -------------END Scanning----------------
+2025-11-20 16:29:59,158 | Found PLI ID:-->16<--
+2025-11-20 16:29:59,158 | COMPARE ID: --75--
+2025-11-20 16:29:59,158 | ⚠️⚠️⚠️⚠️ For PLI-#: 75 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,159 | 
+2025-11-20 16:29:59,159 | 🎯 Seitenwechsel bei Seite 82 → Neuer Name: OHG Luisa Hoch
+2025-11-20 16:29:59,160 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Lisa Zerna_80-81.pdf
+2025-11-20 16:29:59,161 | 
+2025-11-20 16:29:59,162 | -------------START Scanning--------------
+2025-11-20 16:29:59,162 | ✅ Seite 83: Name gefunden → OHG Luisa Hoch
+2025-11-20 16:29:59,162 | ✅ Seite 83: Name gefunden → OHG Luisa Hoch
+2025-11-20 16:29:59,162 | -------------END Scanning----------------
+2025-11-20 16:29:59,162 | Found PLI ID:-->16<--
+2025-11-20 16:29:59,162 | 
+2025-11-20 16:29:59,164 | -------------START Scanning--------------
+2025-11-20 16:29:59,164 | ✅ Seite 84: Name gefunden → GbR Lukas Denne
+2025-11-20 16:29:59,164 | ✅ Seite 84: Name gefunden → GbR Lukas Denne
+2025-11-20 16:29:59,164 | -------------END Scanning----------------
+2025-11-20 16:29:59,164 | Found PLI ID:-->29<--
+2025-11-20 16:29:59,164 | COMPARE ID: --16--
+2025-11-20 16:29:59,164 | ⚠️⚠️⚠️⚠️ For PLI-#: 16 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,165 | 
+2025-11-20 16:29:59,165 | 🎯 Seitenwechsel bei Seite 84 → Neuer Name: GbR Lukas Denne
+2025-11-20 16:29:59,167 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Luisa Hoch_82-83.pdf
+2025-11-20 16:29:59,167 | 
+2025-11-20 16:29:59,168 | -------------START Scanning--------------
+2025-11-20 16:29:59,168 | ✅ Seite 85: Name gefunden → GbR Lukas Denne
+2025-11-20 16:29:59,169 | ✅ Seite 85: Name gefunden → GbR Lukas Denne
+2025-11-20 16:29:59,169 | -------------END Scanning----------------
+2025-11-20 16:29:59,169 | Found PLI ID:-->29<--
+2025-11-20 16:29:59,169 | 
+2025-11-20 16:29:59,170 | -------------START Scanning--------------
+2025-11-20 16:29:59,171 | ✅ Seite 86: Name gefunden → OHG Lukas Romes
+2025-11-20 16:29:59,171 | ✅ Seite 86: Name gefunden → OHG Lukas Romes
+2025-11-20 16:29:59,171 | -------------END Scanning----------------
+2025-11-20 16:29:59,171 | Found PLI ID:-->86<--
+2025-11-20 16:29:59,171 | COMPARE ID: --29--
+2025-11-20 16:29:59,171 | ⚠️⚠️⚠️⚠️ For PLI-#: 29 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,171 | 
+2025-11-20 16:29:59,171 | 🎯 Seitenwechsel bei Seite 86 → Neuer Name: OHG Lukas Romes
+2025-11-20 16:29:59,173 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Lukas Denne_84-85.pdf
+2025-11-20 16:29:59,174 | 
+2025-11-20 16:29:59,175 | -------------START Scanning--------------
+2025-11-20 16:29:59,175 | ✅ Seite 87: Name gefunden → GbR Manuel Lacher
+2025-11-20 16:29:59,175 | ✅ Seite 87: Name gefunden → GbR Manuel Lacher
+2025-11-20 16:29:59,175 | -------------END Scanning----------------
+2025-11-20 16:29:59,175 | Found PLI ID:-->42<--
+2025-11-20 16:29:59,176 | COMPARE ID: --86--
+2025-11-20 16:29:59,176 | ⚠️⚠️⚠️⚠️ For PLI-#: 86 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,176 | 
+2025-11-20 16:29:59,176 | 🎯 Seitenwechsel bei Seite 87 → Neuer Name: GbR Manuel Lacher
+2025-11-20 16:29:59,178 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Lukas Romes_86-86.pdf
+2025-11-20 16:29:59,178 | 
+2025-11-20 16:29:59,179 | -------------START Scanning--------------
+2025-11-20 16:29:59,179 | ✅ Seite 88: Name gefunden → GbR Manuel Lacher
+2025-11-20 16:29:59,179 | ✅ Seite 88: Name gefunden → GbR Manuel Lacher
+2025-11-20 16:29:59,179 | -------------END Scanning----------------
+2025-11-20 16:29:59,179 | Found PLI ID:-->42<--
+2025-11-20 16:29:59,179 | 
+2025-11-20 16:29:59,181 | -------------START Scanning--------------
+2025-11-20 16:29:59,181 | ✅ Seite 89: Name gefunden → OHG Manuel Beyer
+2025-11-20 16:29:59,181 | ✅ Seite 89: Name gefunden → OHG Manuel Beyer
+2025-11-20 16:29:59,181 | -------------END Scanning----------------
+2025-11-20 16:29:59,181 | Found PLI ID:-->85<--
+2025-11-20 16:29:59,181 | COMPARE ID: --42--
+2025-11-20 16:29:59,181 | ⚠️⚠️⚠️⚠️ For PLI-#: 42 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,181 | 
+2025-11-20 16:29:59,182 | 🎯 Seitenwechsel bei Seite 89 → Neuer Name: OHG Manuel Beyer
+2025-11-20 16:29:59,184 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Manuel Lacher_87-88.pdf
+2025-11-20 16:29:59,184 | 
+2025-11-20 16:29:59,185 | -------------START Scanning--------------
+2025-11-20 16:29:59,185 | ✅ Seite 90: Name gefunden → OHG Manuel Beyer
+2025-11-20 16:29:59,185 | ✅ Seite 90: Name gefunden → OHG Manuel Beyer
+2025-11-20 16:29:59,185 | -------------END Scanning----------------
+2025-11-20 16:29:59,185 | Found PLI ID:-->85<--
+2025-11-20 16:29:59,185 | 
+2025-11-20 16:29:59,187 | -------------START Scanning--------------
+2025-11-20 16:29:59,187 | ✅ Seite 91: Name gefunden → OHG Marco Jägg
+2025-11-20 16:29:59,187 | ✅ Seite 91: Name gefunden → OHG Marco Jägg
+2025-11-20 16:29:59,187 | -------------END Scanning----------------
+2025-11-20 16:29:59,187 | Found PLI ID:-->57<--
+2025-11-20 16:29:59,188 | COMPARE ID: --85--
+2025-11-20 16:29:59,188 | ⚠️⚠️⚠️⚠️ For PLI-#: 85 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,188 | 
+2025-11-20 16:29:59,188 | 🎯 Seitenwechsel bei Seite 91 → Neuer Name: OHG Marco Jägg
+2025-11-20 16:29:59,190 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Manuel Beyer_89-90.pdf
+2025-11-20 16:29:59,190 | 
+2025-11-20 16:29:59,191 | -------------START Scanning--------------
+2025-11-20 16:29:59,191 | ✅ Seite 92: Name gefunden → GbR Marco Rosas
+2025-11-20 16:29:59,192 | ✅ Seite 92: Name gefunden → GbR Marco Rosas
+2025-11-20 16:29:59,192 | -------------END Scanning----------------
+2025-11-20 16:29:59,192 | Found PLI ID:-->66<--
+2025-11-20 16:29:59,192 | COMPARE ID: --57--
+2025-11-20 16:29:59,192 | ⚠️⚠️⚠️⚠️ For PLI-#: 57 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,192 | 
+2025-11-20 16:29:59,192 | 🎯 Seitenwechsel bei Seite 92 → Neuer Name: GbR Marco Rosas
+2025-11-20 16:29:59,194 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Marco Jägg_91-91.pdf
+2025-11-20 16:29:59,194 | 
+2025-11-20 16:29:59,195 | -------------START Scanning--------------
+2025-11-20 16:29:59,195 | ✅ Seite 93: Name gefunden → GbR Marco Rosas
+2025-11-20 16:29:59,195 | ✅ Seite 93: Name gefunden → GbR Marco Rosas
+2025-11-20 16:29:59,195 | -------------END Scanning----------------
+2025-11-20 16:29:59,196 | Found PLI ID:-->66<--
+2025-11-20 16:29:59,196 | 
+2025-11-20 16:29:59,197 | -------------START Scanning--------------
+2025-11-20 16:29:59,197 | ✅ Seite 94: Name gefunden → OHG Maria Teufel
+2025-11-20 16:29:59,197 | ✅ Seite 94: Name gefunden → OHG Maria Teufel
+2025-11-20 16:29:59,197 | -------------END Scanning----------------
+2025-11-20 16:29:59,198 | Found PLI ID:-->65<--
+2025-11-20 16:29:59,198 | COMPARE ID: --66--
+2025-11-20 16:29:59,198 | ⚠️⚠️⚠️⚠️ For PLI-#: 66 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,198 | 
+2025-11-20 16:29:59,198 | 🎯 Seitenwechsel bei Seite 94 → Neuer Name: OHG Maria Teufel
+2025-11-20 16:29:59,200 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Marco Rosas_92-93.pdf
+2025-11-20 16:29:59,201 | 
+2025-11-20 16:29:59,201 | -------------START Scanning--------------
+2025-11-20 16:29:59,201 | ✅ Seite 95: Name gefunden → OHG Maria Teufel
+2025-11-20 16:29:59,202 | ✅ Seite 95: Name gefunden → OHG Maria Teufel
+2025-11-20 16:29:59,202 | -------------END Scanning----------------
+2025-11-20 16:29:59,202 | Found PLI ID:-->65<--
+2025-11-20 16:29:59,202 | 
+2025-11-20 16:29:59,203 | -------------START Scanning--------------
+2025-11-20 16:29:59,204 | ✅ Seite 96: Name gefunden → GbR Marlene Berger
+2025-11-20 16:29:59,204 | ✅ Seite 96: Name gefunden → GbR Marlene Berger
+2025-11-20 16:29:59,204 | -------------END Scanning----------------
+2025-11-20 16:29:59,204 | Found PLI ID:-->48<--
+2025-11-20 16:29:59,204 | COMPARE ID: --65--
+2025-11-20 16:29:59,204 | ⚠️⚠️⚠️⚠️ For PLI-#: 65 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,204 | 
+2025-11-20 16:29:59,204 | 🎯 Seitenwechsel bei Seite 96 → Neuer Name: GbR Marlene Berger
+2025-11-20 16:29:59,206 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Maria Teufel_94-95.pdf
+2025-11-20 16:29:59,206 | 
+2025-11-20 16:29:59,207 | -------------START Scanning--------------
+2025-11-20 16:29:59,207 | ✅ Seite 97: Name gefunden → GbR Marlene Berger
+2025-11-20 16:29:59,208 | ✅ Seite 97: Name gefunden → GbR Marlene Berger
+2025-11-20 16:29:59,208 | -------------END Scanning----------------
+2025-11-20 16:29:59,208 | Found PLI ID:-->48<--
+2025-11-20 16:29:59,208 | 
+2025-11-20 16:29:59,209 | -------------START Scanning--------------
+2025-11-20 16:29:59,209 | ✅ Seite 98: Name gefunden → GbR Marlies Rosenstock
+2025-11-20 16:29:59,210 | ✅ Seite 98: Name gefunden → GbR Marlies Rosenstock
+2025-11-20 16:29:59,210 | -------------END Scanning----------------
+2025-11-20 16:29:59,210 | Found PLI ID:-->18<--
+2025-11-20 16:29:59,210 | COMPARE ID: --48--
+2025-11-20 16:29:59,210 | ⚠️⚠️⚠️⚠️ For PLI-#: 48 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,210 | 
+2025-11-20 16:29:59,210 | 🎯 Seitenwechsel bei Seite 98 → Neuer Name: GbR Marlies Rosenstock
+2025-11-20 16:29:59,212 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Marlene Berger_96-97.pdf
+2025-11-20 16:29:59,212 | 
+2025-11-20 16:29:59,213 | -------------START Scanning--------------
+2025-11-20 16:29:59,213 | ✅ Seite 99: Name gefunden → GbR Marlies Rosenstock
+2025-11-20 16:29:59,213 | ✅ Seite 99: Name gefunden → GbR Marlies Rosenstock
+2025-11-20 16:29:59,213 | -------------END Scanning----------------
+2025-11-20 16:29:59,214 | Found PLI ID:-->18<--
+2025-11-20 16:29:59,214 | 
+2025-11-20 16:29:59,215 | -------------START Scanning--------------
+2025-11-20 16:29:59,215 | ✅ Seite 100: Name gefunden → OHG Martin Albietz
+2025-11-20 16:29:59,215 | ✅ Seite 100: Name gefunden → OHG Martin Albietz
+2025-11-20 16:29:59,215 | -------------END Scanning----------------
+2025-11-20 16:29:59,216 | Found PLI ID:-->12<--
+2025-11-20 16:29:59,216 | COMPARE ID: --18--
+2025-11-20 16:29:59,216 | ⚠️⚠️⚠️⚠️ For PLI-#: 18 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,216 | 
+2025-11-20 16:29:59,216 | 🎯 Seitenwechsel bei Seite 100 → Neuer Name: OHG Martin Albietz
+2025-11-20 16:29:59,218 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Marlies Rosenstock_98-99.pdf
+2025-11-20 16:29:59,218 | 
+2025-11-20 16:29:59,219 | -------------START Scanning--------------
+2025-11-20 16:29:59,220 | ✅ Seite 101: Name gefunden → OHG Martin Bäumle
+2025-11-20 16:29:59,220 | ✅ Seite 101: Name gefunden → OHG Martin Bäumle
+2025-11-20 16:29:59,220 | -------------END Scanning----------------
+2025-11-20 16:29:59,220 | Found PLI ID:-->5<--
+2025-11-20 16:29:59,220 | COMPARE ID: --12--
+2025-11-20 16:29:59,220 | ⚠️⚠️⚠️⚠️ For PLI-#: 12 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,220 | 
+2025-11-20 16:29:59,221 | 🎯 Seitenwechsel bei Seite 101 → Neuer Name: OHG Martin Bäumle
+2025-11-20 16:29:59,222 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Martin Albietz_100-100.pdf
+2025-11-20 16:29:59,222 | 
+2025-11-20 16:29:59,224 | -------------START Scanning--------------
+2025-11-20 16:29:59,224 | ✅ Seite 102: Name gefunden → GbR Mathias Wolfsberger
+2025-11-20 16:29:59,224 | ✅ Seite 102: Name gefunden → GbR Mathias Wolfsberger
+2025-11-20 16:29:59,224 | -------------END Scanning----------------
+2025-11-20 16:29:59,224 | Found PLI ID:-->9<--
+2025-11-20 16:29:59,224 | COMPARE ID: --5--
+2025-11-20 16:29:59,224 | ⚠️⚠️⚠️⚠️ For PLI-#: 5 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,224 | 
+2025-11-20 16:29:59,225 | 🎯 Seitenwechsel bei Seite 102 → Neuer Name: GbR Mathias Wolfsberger
+2025-11-20 16:29:59,226 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Martin Bäumle_101-101.pdf
+2025-11-20 16:29:59,226 | 
+2025-11-20 16:29:59,227 | -------------START Scanning--------------
+2025-11-20 16:29:59,227 | ✅ Seite 103: Name gefunden → GbR Mathias Wolfsberger
+2025-11-20 16:29:59,228 | ✅ Seite 103: Name gefunden → GbR Mathias Wolfsberger
+2025-11-20 16:29:59,228 | -------------END Scanning----------------
+2025-11-20 16:29:59,228 | Found PLI ID:-->9<--
+2025-11-20 16:29:59,228 | 
+2025-11-20 16:29:59,229 | -------------START Scanning--------------
+2025-11-20 16:29:59,229 | ✅ Seite 104: Name gefunden → OHG Maud Consigny
+2025-11-20 16:29:59,229 | ✅ Seite 104: Name gefunden → OHG Maud Consigny
+2025-11-20 16:29:59,230 | -------------END Scanning----------------
+2025-11-20 16:29:59,230 | Found PLI ID:-->77<--
+2025-11-20 16:29:59,230 | COMPARE ID: --9--
+2025-11-20 16:29:59,230 | ⚠️⚠️⚠️⚠️ For PLI-#: 9 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,230 | 
+2025-11-20 16:29:59,230 | 🎯 Seitenwechsel bei Seite 104 → Neuer Name: OHG Maud Consigny
+2025-11-20 16:29:59,232 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Mathias Wolfsberger_102-103.pdf
+2025-11-20 16:29:59,233 | 
+2025-11-20 16:29:59,233 | -------------START Scanning--------------
+2025-11-20 16:29:59,233 | ✅ Seite 105: Name gefunden → OHG Maud Consigny
+2025-11-20 16:29:59,234 | ✅ Seite 105: Name gefunden → OHG Maud Consigny
+2025-11-20 16:29:59,234 | -------------END Scanning----------------
+2025-11-20 16:29:59,234 | Found PLI ID:-->77<--
+2025-11-20 16:29:59,234 | 
+2025-11-20 16:29:59,235 | -------------START Scanning--------------
+2025-11-20 16:29:59,236 | ✅ Seite 106: Name gefunden → GbR Michael Friese
+2025-11-20 16:29:59,236 | ✅ Seite 106: Name gefunden → GbR Michael Friese
+2025-11-20 16:29:59,236 | -------------END Scanning----------------
+2025-11-20 16:29:59,236 | Found PLI ID:-->7<--
+2025-11-20 16:29:59,236 | COMPARE ID: --77--
+2025-11-20 16:29:59,236 | ⚠️⚠️⚠️⚠️ For PLI-#: 77 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,236 | 
+2025-11-20 16:29:59,236 | 🎯 Seitenwechsel bei Seite 106 → Neuer Name: GbR Michael Friese
+2025-11-20 16:29:59,238 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Maud Consigny_104-105.pdf
+2025-11-20 16:29:59,239 | 
+2025-11-20 16:29:59,239 | -------------START Scanning--------------
+2025-11-20 16:29:59,240 | ✅ Seite 107: Name gefunden → GbR Michael Friese
+2025-11-20 16:29:59,240 | ✅ Seite 107: Name gefunden → GbR Michael Friese
+2025-11-20 16:29:59,240 | -------------END Scanning----------------
+2025-11-20 16:29:59,240 | Found PLI ID:-->7<--
+2025-11-20 16:29:59,240 | 
+2025-11-20 16:29:59,241 | -------------START Scanning--------------
+2025-11-20 16:29:59,242 | ✅ Seite 108: Name gefunden → OHG Michael Holl
+2025-11-20 16:29:59,242 | ✅ Seite 108: Name gefunden → OHG Michael Holl
+2025-11-20 16:29:59,242 | -------------END Scanning----------------
+2025-11-20 16:29:59,242 | Found PLI ID:-->76<--
+2025-11-20 16:29:59,242 | COMPARE ID: --7--
+2025-11-20 16:29:59,242 | ⚠️⚠️⚠️⚠️ For PLI-#: 7 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,242 | 
+2025-11-20 16:29:59,243 | 🎯 Seitenwechsel bei Seite 108 → Neuer Name: OHG Michael Holl
+2025-11-20 16:29:59,244 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Michael Friese_106-107.pdf
+2025-11-20 16:29:59,244 | 
+2025-11-20 16:29:59,245 | -------------START Scanning--------------
+2025-11-20 16:29:59,245 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2025-11-20 16:29:59,245 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2025-11-20 16:29:59,246 | -------------END Scanning----------------
+2025-11-20 16:29:59,246 | Found PLI ID:-->76<--
+2025-11-20 16:29:59,246 | 
+2025-11-20 16:29:59,247 | -------------START Scanning--------------
+2025-11-20 16:29:59,247 | ✅ Seite 110: Name gefunden → OHG Michaela Dinglreiter
+2025-11-20 16:29:59,247 | ✅ Seite 110: Name gefunden → OHG Michaela Dinglreiter
+2025-11-20 16:29:59,247 | -------------END Scanning----------------
+2025-11-20 16:29:59,248 | Found PLI ID:-->21<--
+2025-11-20 16:29:59,248 | COMPARE ID: --76--
+2025-11-20 16:29:59,248 | ⚠️⚠️⚠️⚠️ For PLI-#: 76 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,248 | 
+2025-11-20 16:29:59,248 | 🎯 Seitenwechsel bei Seite 110 → Neuer Name: OHG Michaela Dinglreiter
+2025-11-20 16:29:59,250 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Michael Holl_108-109.pdf
+2025-11-20 16:29:59,251 | 
+2025-11-20 16:29:59,252 | -------------START Scanning--------------
+2025-11-20 16:29:59,252 | ✅ Seite 111: Name gefunden → OHG Michael Meuser
+2025-11-20 16:29:59,252 | ✅ Seite 111: Name gefunden → OHG Michael Meuser
+2025-11-20 16:29:59,252 | -------------END Scanning----------------
+2025-11-20 16:29:59,253 | Found PLI ID:-->20<--
+2025-11-20 16:29:59,253 | COMPARE ID: --21--
+2025-11-20 16:29:59,253 | ⚠️⚠️⚠️⚠️ For PLI-#: 21 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,253 | 
+2025-11-20 16:29:59,253 | 🎯 Seitenwechsel bei Seite 111 → Neuer Name: OHG Michael Meuser
+2025-11-20 16:29:59,255 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Michaela Dinglreiter_110-110.pdf
+2025-11-20 16:29:59,255 | 
+2025-11-20 16:29:59,256 | -------------START Scanning--------------
+2025-11-20 16:29:59,256 | ✅ Seite 112: Name gefunden → OHG Michael Meuser
+2025-11-20 16:29:59,256 | ✅ Seite 112: Name gefunden → OHG Michael Meuser
+2025-11-20 16:29:59,256 | -------------END Scanning----------------
+2025-11-20 16:29:59,256 | Found PLI ID:-->20<--
+2025-11-20 16:29:59,256 | 
+2025-11-20 16:29:59,257 | -------------START Scanning--------------
+2025-11-20 16:29:59,258 | ✅ Seite 113: Name gefunden → OHG Monika Frese
+2025-11-20 16:29:59,258 | ✅ Seite 113: Name gefunden → OHG Monika Frese
+2025-11-20 16:29:59,258 | -------------END Scanning----------------
+2025-11-20 16:29:59,258 | Found PLI ID:-->45<--
+2025-11-20 16:29:59,258 | COMPARE ID: --20--
+2025-11-20 16:29:59,258 | ⚠️⚠️⚠️⚠️ For PLI-#: 20 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,258 | 
+2025-11-20 16:29:59,258 | 🎯 Seitenwechsel bei Seite 113 → Neuer Name: OHG Monika Frese
+2025-11-20 16:29:59,260 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Michael Meuser_111-112.pdf
+2025-11-20 16:29:59,261 | 
+2025-11-20 16:29:59,262 | -------------START Scanning--------------
+2025-11-20 16:29:59,262 | ✅ Seite 114: Name gefunden → OHG Mu Dell' Oro
+2025-11-20 16:29:59,262 | ✅ Seite 114: Name gefunden → OHG Mu Dell' Oro
+2025-11-20 16:29:59,262 | -------------END Scanning----------------
+2025-11-20 16:29:59,262 | Found PLI ID:-->88<--
+2025-11-20 16:29:59,263 | COMPARE ID: --45--
+2025-11-20 16:29:59,263 | ⚠️⚠️⚠️⚠️ For PLI-#: 45 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,263 | 
+2025-11-20 16:29:59,263 | 🎯 Seitenwechsel bei Seite 114 → Neuer Name: OHG Mu Dell' Oro
+2025-11-20 16:29:59,265 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Monika Frese_113-113.pdf
+2025-11-20 16:29:59,265 | 
+2025-11-20 16:29:59,266 | -------------START Scanning--------------
+2025-11-20 16:29:59,266 | ✅ Seite 115: Name gefunden → OHG Mu Dell' Oro
+2025-11-20 16:29:59,266 | ✅ Seite 115: Name gefunden → OHG Mu Dell' Oro
+2025-11-20 16:29:59,266 | -------------END Scanning----------------
+2025-11-20 16:29:59,266 | Found PLI ID:-->88<--
+2025-11-20 16:29:59,266 | 
+2025-11-20 16:29:59,268 | -------------START Scanning--------------
+2025-11-20 16:29:59,268 | ✅ Seite 116: Name gefunden → OHG Nadine Waschewski
+2025-11-20 16:29:59,268 | ✅ Seite 116: Name gefunden → OHG Nadine Waschewski
+2025-11-20 16:29:59,268 | -------------END Scanning----------------
+2025-11-20 16:29:59,268 | Found PLI ID:-->56<--
+2025-11-20 16:29:59,268 | COMPARE ID: --88--
+2025-11-20 16:29:59,268 | Found Contact Data. -> FALSE, calvin.delloro@piluweri.de
+2025-11-20 16:29:59,269 | False calvin.delloro@piluweri.de
+2025-11-20 16:29:59,269 | ✅✅✅✅✅✅✅ For PLI-#: 88 was deliver-information successfully found ✅✅✅✅✅✅
+2025-11-20 16:29:59,269 | 
+2025-11-20 16:29:59,269 | 
+2025-11-20 16:29:59,269 | 🎯 Seitenwechsel bei Seite 116 → Neuer Name: OHG Nadine Waschewski
+2025-11-20 16:29:59,271 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\send\Monatsbericht_OHG Mu Dell' Oro_114-115.pdf
+2025-11-20 16:29:59,271 | 
+2025-11-20 16:29:59,272 | -------------START Scanning--------------
+2025-11-20 16:29:59,272 | ✅ Seite 117: Name gefunden → OHG Nadine Waschewski
+2025-11-20 16:29:59,272 | ✅ Seite 117: Name gefunden → OHG Nadine Waschewski
+2025-11-20 16:29:59,272 | -------------END Scanning----------------
+2025-11-20 16:29:59,272 | Found PLI ID:-->56<--
+2025-11-20 16:29:59,272 | 
+2025-11-20 16:29:59,274 | -------------START Scanning--------------
+2025-11-20 16:29:59,274 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2025-11-20 16:29:59,274 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2025-11-20 16:29:59,274 | -------------END Scanning----------------
+2025-11-20 16:29:59,274 | Found PLI ID:-->43<--
+2025-11-20 16:29:59,274 | COMPARE ID: --56--
+2025-11-20 16:29:59,275 | ⚠️⚠️⚠️⚠️ For PLI-#: 56 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,275 | 
+2025-11-20 16:29:59,275 | 🎯 Seitenwechsel bei Seite 118 → Neuer Name: OHG Nicole Piro
+2025-11-20 16:29:59,277 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Nadine Waschewski_116-117.pdf
+2025-11-20 16:29:59,277 | 
+2025-11-20 16:29:59,278 | -------------START Scanning--------------
+2025-11-20 16:29:59,278 | ✅ Seite 119: Name gefunden → OHG Nicole Piro
+2025-11-20 16:29:59,278 | ✅ Seite 119: Name gefunden → OHG Nicole Piro
+2025-11-20 16:29:59,278 | -------------END Scanning----------------
+2025-11-20 16:29:59,278 | Found PLI ID:-->43<--
+2025-11-20 16:29:59,278 | 
+2025-11-20 16:29:59,280 | -------------START Scanning--------------
+2025-11-20 16:29:59,280 | ✅ Seite 120: Name gefunden → GbR Nyancho Sanneh
+2025-11-20 16:29:59,280 | ✅ Seite 120: Name gefunden → GbR Nyancho Sanneh
+2025-11-20 16:29:59,280 | -------------END Scanning----------------
+2025-11-20 16:29:59,280 | Found PLI ID:-->14<--
+2025-11-20 16:29:59,280 | COMPARE ID: --43--
+2025-11-20 16:29:59,280 | ⚠️⚠️⚠️⚠️ For PLI-#: 43 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,280 | 
+2025-11-20 16:29:59,281 | 🎯 Seitenwechsel bei Seite 120 → Neuer Name: GbR Nyancho Sanneh
+2025-11-20 16:29:59,283 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Nicole Piro_118-119.pdf
+2025-11-20 16:29:59,283 | 
+2025-11-20 16:29:59,284 | -------------START Scanning--------------
+2025-11-20 16:29:59,285 | ✅ Seite 121: Name gefunden → GbR Nyancho Sanneh
+2025-11-20 16:29:59,285 | ✅ Seite 121: Name gefunden → GbR Nyancho Sanneh
+2025-11-20 16:29:59,285 | -------------END Scanning----------------
+2025-11-20 16:29:59,285 | Found PLI ID:-->14<--
+2025-11-20 16:29:59,285 | 
+2025-11-20 16:29:59,286 | -------------START Scanning--------------
+2025-11-20 16:29:59,287 | ✅ Seite 122: Name gefunden → OHG Ottmar Widmaier
+2025-11-20 16:29:59,287 | ✅ Seite 122: Name gefunden → OHG Ottmar Widmaier
+2025-11-20 16:29:59,287 | -------------END Scanning----------------
+2025-11-20 16:29:59,287 | Found PLI ID:-->40<--
+2025-11-20 16:29:59,287 | COMPARE ID: --14--
+2025-11-20 16:29:59,287 | ⚠️⚠️⚠️⚠️ For PLI-#: 14 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,287 | 
+2025-11-20 16:29:59,287 | 🎯 Seitenwechsel bei Seite 122 → Neuer Name: OHG Ottmar Widmaier
+2025-11-20 16:29:59,289 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Nyancho Sanneh_120-121.pdf
+2025-11-20 16:29:59,290 | 
+2025-11-20 16:29:59,291 | -------------START Scanning--------------
+2025-11-20 16:29:59,291 | ✅ Seite 123: Name gefunden → OHG Rico Albat
+2025-11-20 16:29:59,291 | ✅ Seite 123: Name gefunden → OHG Rico Albat
+2025-11-20 16:29:59,292 | -------------END Scanning----------------
+2025-11-20 16:29:59,292 | Found PLI ID:-->31<--
+2025-11-20 16:29:59,292 | COMPARE ID: --40--
+2025-11-20 16:29:59,292 | ⚠️⚠️⚠️⚠️ For PLI-#: 40 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,292 | 
+2025-11-20 16:29:59,292 | 🎯 Seitenwechsel bei Seite 123 → Neuer Name: OHG Rico Albat
+2025-11-20 16:29:59,294 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Ottmar Widmaier_122-122.pdf
+2025-11-20 16:29:59,294 | 
+2025-11-20 16:29:59,294 | -------------START Scanning--------------
+2025-11-20 16:29:59,295 | ✅ Seite 124: Name gefunden → OHG Rico Albat
+2025-11-20 16:29:59,295 | ✅ Seite 124: Name gefunden → OHG Rico Albat
+2025-11-20 16:29:59,295 | -------------END Scanning----------------
+2025-11-20 16:29:59,295 | Found PLI ID:-->31<--
+2025-11-20 16:29:59,295 | 
+2025-11-20 16:29:59,296 | -------------START Scanning--------------
+2025-11-20 16:29:59,296 | ✅ Seite 125: Name gefunden → OHG Romana Aserah
+2025-11-20 16:29:59,297 | ✅ Seite 125: Name gefunden → OHG Romana Aserah
+2025-11-20 16:29:59,297 | -------------END Scanning----------------
+2025-11-20 16:29:59,297 | Found PLI ID:-->62<--
+2025-11-20 16:29:59,297 | COMPARE ID: --31--
+2025-11-20 16:29:59,297 | ⚠️⚠️⚠️⚠️ For PLI-#: 31 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,297 | 
+2025-11-20 16:29:59,297 | 🎯 Seitenwechsel bei Seite 125 → Neuer Name: OHG Romana Aserah
+2025-11-20 16:29:59,299 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Rico Albat_123-124.pdf
+2025-11-20 16:29:59,300 | 
+2025-11-20 16:29:59,301 | -------------START Scanning--------------
+2025-11-20 16:29:59,301 | ✅ Seite 126: Name gefunden → OHG Sabine Gleichauf
+2025-11-20 16:29:59,301 | ✅ Seite 126: Name gefunden → OHG Sabine Gleichauf
+2025-11-20 16:29:59,301 | -------------END Scanning----------------
+2025-11-20 16:29:59,301 | Found PLI ID:-->15<--
+2025-11-20 16:29:59,302 | COMPARE ID: --62--
+2025-11-20 16:29:59,302 | ⚠️⚠️⚠️⚠️ For PLI-#: 62 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,302 | 
+2025-11-20 16:29:59,302 | 🎯 Seitenwechsel bei Seite 126 → Neuer Name: OHG Sabine Gleichauf
+2025-11-20 16:29:59,304 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Romana Aserah_125-125.pdf
+2025-11-20 16:29:59,304 | 
+2025-11-20 16:29:59,305 | -------------START Scanning--------------
+2025-11-20 16:29:59,305 | ✅ Seite 127: Name gefunden → OHG Sabine Gleichauf
+2025-11-20 16:29:59,305 | ✅ Seite 127: Name gefunden → OHG Sabine Gleichauf
+2025-11-20 16:29:59,305 | -------------END Scanning----------------
+2025-11-20 16:29:59,305 | Found PLI ID:-->15<--
+2025-11-20 16:29:59,305 | 
+2025-11-20 16:29:59,306 | -------------START Scanning--------------
+2025-11-20 16:29:59,307 | ✅ Seite 128: Name gefunden → OHG Sabrina Lehmann
+2025-11-20 16:29:59,307 | ✅ Seite 128: Name gefunden → OHG Sabrina Lehmann
+2025-11-20 16:29:59,307 | -------------END Scanning----------------
+2025-11-20 16:29:59,307 | Found PLI ID:-->47<--
+2025-11-20 16:29:59,307 | COMPARE ID: --15--
+2025-11-20 16:29:59,307 | ⚠️⚠️⚠️⚠️ For PLI-#: 15 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,307 | 
+2025-11-20 16:29:59,307 | 🎯 Seitenwechsel bei Seite 128 → Neuer Name: OHG Sabrina Lehmann
+2025-11-20 16:29:59,309 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Sabine Gleichauf_126-127.pdf
+2025-11-20 16:29:59,309 | 
+2025-11-20 16:29:59,310 | -------------START Scanning--------------
+2025-11-20 16:29:59,310 | ✅ Seite 129: Name gefunden → OHG Sabrina Lehmann
+2025-11-20 16:29:59,310 | ✅ Seite 129: Name gefunden → OHG Sabrina Lehmann
+2025-11-20 16:29:59,310 | -------------END Scanning----------------
+2025-11-20 16:29:59,310 | Found PLI ID:-->47<--
+2025-11-20 16:29:59,310 | 
+2025-11-20 16:29:59,312 | -------------START Scanning--------------
+2025-11-20 16:29:59,312 | ✅ Seite 130: Name gefunden → OHG Selina Zanger
+2025-11-20 16:29:59,312 | ✅ Seite 130: Name gefunden → OHG Selina Zanger
+2025-11-20 16:29:59,312 | -------------END Scanning----------------
+2025-11-20 16:29:59,312 | Found PLI ID:-->63<--
+2025-11-20 16:29:59,312 | COMPARE ID: --47--
+2025-11-20 16:29:59,312 | ⚠️⚠️⚠️⚠️ For PLI-#: 47 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,312 | 
+2025-11-20 16:29:59,313 | 🎯 Seitenwechsel bei Seite 130 → Neuer Name: OHG Selina Zanger
+2025-11-20 16:29:59,315 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Sabrina Lehmann_128-129.pdf
+2025-11-20 16:29:59,315 | 
+2025-11-20 16:29:59,316 | -------------START Scanning--------------
+2025-11-20 16:29:59,316 | ✅ Seite 131: Name gefunden → OHG Selina Zanger
+2025-11-20 16:29:59,316 | ✅ Seite 131: Name gefunden → OHG Selina Zanger
+2025-11-20 16:29:59,316 | -------------END Scanning----------------
+2025-11-20 16:29:59,316 | Found PLI ID:-->63<--
+2025-11-20 16:29:59,316 | 
+2025-11-20 16:29:59,318 | -------------START Scanning--------------
+2025-11-20 16:29:59,318 | ✅ Seite 132: Name gefunden → GbR Sigrun Moser
+2025-11-20 16:29:59,318 | ✅ Seite 132: Name gefunden → GbR Sigrun Moser
+2025-11-20 16:29:59,318 | -------------END Scanning----------------
+2025-11-20 16:29:59,318 | Found PLI ID:-->6<--
+2025-11-20 16:29:59,318 | COMPARE ID: --63--
+2025-11-20 16:29:59,318 | ⚠️⚠️⚠️⚠️ For PLI-#: 63 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,318 | 
+2025-11-20 16:29:59,318 | 🎯 Seitenwechsel bei Seite 132 → Neuer Name: GbR Sigrun Moser
+2025-11-20 16:29:59,320 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Selina Zanger_130-131.pdf
+2025-11-20 16:29:59,321 | 
+2025-11-20 16:29:59,321 | -------------START Scanning--------------
+2025-11-20 16:29:59,321 | ✅ Seite 133: Name gefunden → GbR Sigrun Moser
+2025-11-20 16:29:59,322 | ✅ Seite 133: Name gefunden → GbR Sigrun Moser
+2025-11-20 16:29:59,322 | -------------END Scanning----------------
+2025-11-20 16:29:59,322 | Found PLI ID:-->6<--
+2025-11-20 16:29:59,322 | 
+2025-11-20 16:29:59,323 | -------------START Scanning--------------
+2025-11-20 16:29:59,324 | ✅ Seite 134: Name gefunden → OHG Simon Erdmann
+2025-11-20 16:29:59,324 | ✅ Seite 134: Name gefunden → OHG Simon Erdmann
+2025-11-20 16:29:59,324 | -------------END Scanning----------------
+2025-11-20 16:29:59,324 | Found PLI ID:-->74<--
+2025-11-20 16:29:59,324 | COMPARE ID: --6--
+2025-11-20 16:29:59,324 | ⚠️⚠️⚠️⚠️ For PLI-#: 6 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,324 | 
+2025-11-20 16:29:59,324 | 🎯 Seitenwechsel bei Seite 134 → Neuer Name: OHG Simon Erdmann
+2025-11-20 16:29:59,326 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Sigrun Moser_132-133.pdf
+2025-11-20 16:29:59,326 | 
+2025-11-20 16:29:59,327 | -------------START Scanning--------------
+2025-11-20 16:29:59,327 | ✅ Seite 135: Name gefunden → OHG Simon Erdmann
+2025-11-20 16:29:59,327 | ✅ Seite 135: Name gefunden → OHG Simon Erdmann
+2025-11-20 16:29:59,327 | -------------END Scanning----------------
+2025-11-20 16:29:59,328 | Found PLI ID:-->74<--
+2025-11-20 16:29:59,328 | 
+2025-11-20 16:29:59,329 | -------------START Scanning--------------
+2025-11-20 16:29:59,329 | ✅ Seite 136: Name gefunden → OHG Tatsiana Wolf
+2025-11-20 16:29:59,329 | ✅ Seite 136: Name gefunden → OHG Tatsiana Wolf
+2025-11-20 16:29:59,330 | -------------END Scanning----------------
+2025-11-20 16:29:59,330 | Found PLI ID:-->50<--
+2025-11-20 16:29:59,330 | COMPARE ID: --74--
+2025-11-20 16:29:59,330 | ⚠️⚠️⚠️⚠️ For PLI-#: 74 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,330 | 
+2025-11-20 16:29:59,330 | 🎯 Seitenwechsel bei Seite 136 → Neuer Name: OHG Tatsiana Wolf
+2025-11-20 16:29:59,332 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Simon Erdmann_134-135.pdf
+2025-11-20 16:29:59,333 | 
+2025-11-20 16:29:59,333 | -------------START Scanning--------------
+2025-11-20 16:29:59,334 | ✅ Seite 137: Name gefunden → OHG Tatsiana Wolf
+2025-11-20 16:29:59,334 | ✅ Seite 137: Name gefunden → OHG Tatsiana Wolf
+2025-11-20 16:29:59,334 | -------------END Scanning----------------
+2025-11-20 16:29:59,334 | Found PLI ID:-->50<--
+2025-11-20 16:29:59,334 | 
+2025-11-20 16:29:59,336 | -------------START Scanning--------------
+2025-11-20 16:29:59,336 | ✅ Seite 138: Name gefunden → OHG Christine Schwake
+2025-11-20 16:29:59,336 | ✅ Seite 138: Name gefunden → OHG Christine Schwake
+2025-11-20 16:29:59,336 | -------------END Scanning----------------
+2025-11-20 16:29:59,337 | Found PLI ID:-->36<--
+2025-11-20 16:29:59,337 | COMPARE ID: --50--
+2025-11-20 16:29:59,337 | ⚠️⚠️⚠️⚠️ For PLI-#: 50 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,337 | 
+2025-11-20 16:29:59,337 | 🎯 Seitenwechsel bei Seite 138 → Neuer Name: OHG Christine Schwake
+2025-11-20 16:29:59,339 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Tatsiana Wolf_136-137.pdf
+2025-11-20 16:29:59,339 | 
+2025-11-20 16:29:59,340 | -------------START Scanning--------------
+2025-11-20 16:29:59,340 | ✅ Seite 139: Name gefunden → OHG Christine Schwake
+2025-11-20 16:29:59,340 | ✅ Seite 139: Name gefunden → OHG Christine Schwake
+2025-11-20 16:29:59,340 | -------------END Scanning----------------
+2025-11-20 16:29:59,340 | Found PLI ID:-->36<--
+2025-11-20 16:29:59,341 | 
+2025-11-20 16:29:59,342 | -------------START Scanning--------------
+2025-11-20 16:29:59,342 | ✅ Seite 140: Name gefunden → GbR Hans-Ulrich Sallier
+2025-11-20 16:29:59,342 | ✅ Seite 140: Name gefunden → GbR Hans-Ulrich Sallier
+2025-11-20 16:29:59,342 | -------------END Scanning----------------
+2025-11-20 16:29:59,342 | Found PLI ID:-->11<--
+2025-11-20 16:29:59,343 | COMPARE ID: --36--
+2025-11-20 16:29:59,343 | ⚠️⚠️⚠️⚠️ For PLI-#: 36 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,343 | 
+2025-11-20 16:29:59,343 | 🎯 Seitenwechsel bei Seite 140 → Neuer Name: GbR Hans-Ulrich Sallier
+2025-11-20 16:29:59,345 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Christine Schwake_138-139.pdf
+2025-11-20 16:29:59,345 | 
+2025-11-20 16:29:59,346 | -------------START Scanning--------------
+2025-11-20 16:29:59,346 | ✅ Seite 141: Name gefunden → GbR Ulrike Kleingarn
+2025-11-20 16:29:59,346 | ✅ Seite 141: Name gefunden → GbR Ulrike Kleingarn
+2025-11-20 16:29:59,347 | -------------END Scanning----------------
+2025-11-20 16:29:59,347 | Found PLI ID:-->39<--
+2025-11-20 16:29:59,347 | COMPARE ID: --11--
+2025-11-20 16:29:59,347 | ⚠️⚠️⚠️⚠️ For PLI-#: 11 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,347 | 
+2025-11-20 16:29:59,347 | 🎯 Seitenwechsel bei Seite 141 → Neuer Name: GbR Ulrike Kleingarn
+2025-11-20 16:29:59,349 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Hans-Ulrich Sallier_140-140.pdf
+2025-11-20 16:29:59,350 | 
+2025-11-20 16:29:59,351 | -------------START Scanning--------------
+2025-11-20 16:29:59,351 | ✅ Seite 142: Name gefunden → GbR Ulrike Kleingarn
+2025-11-20 16:29:59,351 | ✅ Seite 142: Name gefunden → GbR Ulrike Kleingarn
+2025-11-20 16:29:59,351 | -------------END Scanning----------------
+2025-11-20 16:29:59,351 | Found PLI ID:-->39<--
+2025-11-20 16:29:59,351 | 
+2025-11-20 16:29:59,353 | -------------START Scanning--------------
+2025-11-20 16:29:59,353 | ✅ Seite 143: Name gefunden → OHG Wolfgang Scheller
+2025-11-20 16:29:59,353 | ✅ Seite 143: Name gefunden → OHG Wolfgang Scheller
+2025-11-20 16:29:59,353 | -------------END Scanning----------------
+2025-11-20 16:29:59,353 | Found PLI ID:-->19<--
+2025-11-20 16:29:59,353 | COMPARE ID: --39--
+2025-11-20 16:29:59,353 | ⚠️⚠️⚠️⚠️ For PLI-#: 39 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,354 | 
+2025-11-20 16:29:59,354 | 🎯 Seitenwechsel bei Seite 143 → Neuer Name: OHG Wolfgang Scheller
+2025-11-20 16:29:59,355 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Ulrike Kleingarn_141-142.pdf
+2025-11-20 16:29:59,356 | 
+2025-11-20 16:29:59,357 | -------------START Scanning--------------
+2025-11-20 16:29:59,357 | ✅ Seite 144: Name gefunden → GbR Yannis von Majewski
+2025-11-20 16:29:59,357 | ✅ Seite 144: Name gefunden → GbR Yannis von Majewski
+2025-11-20 16:29:59,357 | -------------END Scanning----------------
+2025-11-20 16:29:59,358 | Found PLI ID:-->59<--
+2025-11-20 16:29:59,358 | COMPARE ID: --19--
+2025-11-20 16:29:59,358 | ⚠️⚠️⚠️⚠️ For PLI-#: 19 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,358 | 
+2025-11-20 16:29:59,358 | 🎯 Seitenwechsel bei Seite 144 → Neuer Name: GbR Yannis von Majewski
+2025-11-20 16:29:59,360 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_OHG Wolfgang Scheller_143-143.pdf
+2025-11-20 16:29:59,360 | 
+2025-11-20 16:29:59,361 | -------------START Scanning--------------
+2025-11-20 16:29:59,362 | ✅ Seite 145: Name gefunden → GbR Yannis von Majewski
+2025-11-20 16:29:59,362 | ✅ Seite 145: Name gefunden → GbR Yannis von Majewski
+2025-11-20 16:29:59,362 | -------------END Scanning----------------
+2025-11-20 16:29:59,362 | Found PLI ID:-->59<--
+2025-11-20 16:29:59,362 | 
+2025-11-20 16:29:59,363 | -------------START Scanning--------------
+2025-11-20 16:29:59,363 | ✅ Seite 146: Name gefunden → GbR Yona Bohez
+2025-11-20 16:29:59,364 | ✅ Seite 146: Name gefunden → GbR Yona Bohez
+2025-11-20 16:29:59,364 | -------------END Scanning----------------
+2025-11-20 16:29:59,364 | Found PLI ID:-->78<--
+2025-11-20 16:29:59,364 | COMPARE ID: --59--
+2025-11-20 16:29:59,364 | ⚠️⚠️⚠️⚠️ For PLI-#: 59 was NO deliver-information found! ⚠️⚠️⚠️⚠️
+2025-11-20 16:29:59,364 | 
+2025-11-20 16:29:59,364 | 🎯 Seitenwechsel bei Seite 146 → Neuer Name: GbR Yona Bohez
+2025-11-20 16:29:59,366 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\data\Neuer Ordner\unsorted\Monatsbericht_GbR Yannis von Majewski_144-145.pdf
+2025-11-20 16:29:59,367 | 
+2025-11-20 16:29:59,368 | -------------START Scanning--------------
+2025-11-20 16:29:59,368 | ✅ Seite 147: Name gefunden → GbR Yona Bohez
+2025-11-20 16:29:59,368 | ✅ Seite 147: Name gefunden → GbR Yona Bohez
+2025-11-20 16:29:59,368 | -------------END Scanning----------------
+2025-11-20 16:29:59,368 | Found PLI ID:-->78<--
+2025-11-20 16:29:59,368 | 
+2025-11-20 16:29:59,368 | 
+
+✅✅✅ PDFs wurden erstellt ✅✅✅
+2025-11-20 16:29:59,368 | 
+
+✅✅✅ 1 Kontaktdaten wurden gefunden: ✅✅✅
+2025-11-20 16:29:59,368 | ✅ {'deliver_via_paper': False, 'email': 'calvin.delloro@piluweri.de', 'pli_id': 88, 'first_name': 'Mu', 'last_name': "Dell'Oro"}
+2025-11-20 16:29:59,369 | 
+⚠️⚠️⚠️ 80 Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Alexej Bergmann war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 44 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Alina Steiner war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 69 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Amadeus Stratz war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 27 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Andrea Drewski war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 52 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Andrea Gregor war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 91 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Andrea Häfelinger war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 54 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,369 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Anja Schrader war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 87 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Anna Volk war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 60 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Anna Habermehl war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 64 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Beate OHG Weltle war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 49 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Carlo Seibel war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 72 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Carolin Klein war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 71 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Christian Wegener war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 46 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Christopher Zerna war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 68 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Clara Schmid war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 83 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,370 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Cosmea Linemann war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 70 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Doreen Vinzelberg war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 80 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Doris Gräßlin war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 61 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Fabian Winkler war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 25 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Felix Dorau war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 34 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Frank Walther war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 24 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Fritz Kessler war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 84 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Grem Wangler war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 81 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,371 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Hartmut Staats war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 30 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Ida Skroblin war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, None 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Ingrid Glaser war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 10 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Inka Harms war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 23 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Jeremias war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 13 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Jette Fortmann war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 38 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Joachim Ruppenthal war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 28 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Johannes Kolonko war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 17 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Johannes Loewe war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 33 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Jonatan Argueta war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 90 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,372 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Jonathan Stoffel war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 58 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Josepha Brehm war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 73 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Judith Muschiol war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 8 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Julia Plath war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 67 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Julia Weigl war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 26 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Julius Klein war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 37 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Katrin Mertel war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 55 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Laura Müller war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 41 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Leonie Rief war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 51 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Lina Drewski war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 89 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,373 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Lisa Zerna war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 75 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Luisa Hoch war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 16 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Lukas Denne war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 29 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Lukas Romes war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 86 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Manuel Lacher war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 42 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Manuel Beyer war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 85 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Marco Jägg war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 57 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Marco Rosas war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 66 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Maria Teufel war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 65 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,374 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Marlene Berger war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 48 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Marlies Rosenstock war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 18 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Martin Albietz war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 12 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Martin Bäumle war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 5 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Mathias Wolfsberger war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 9 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Maud Consigny war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 77 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Michael Friese war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 7 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Michael Holl war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 76 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Michaela Dinglreiter war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 21 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Michael Meuser war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 20 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,375 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Monika Frese war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 45 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Nadine Waschewski war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 56 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Nicole Piro war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 43 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Nyancho Sanneh war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 14 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Ottmar Widmaier war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 40 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Rico Albat war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 31 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Romana Aserah war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 62 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Sabine Gleichauf war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 15 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Sabrina Lehmann war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 47 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Selina Zanger war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 63 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,376 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Sigrun Moser war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 6 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Simon Erdmann war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 74 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Tatsiana Wolf war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 50 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Christine Schwake war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 36 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Hans-Ulrich Sallier war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 11 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Ulrike Kleingarn war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 39 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für OHG Wolfgang Scheller war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 19 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | ⚠️ NICHT GEFUNDEN: ⚠️ Für GbR Yannis von Majewski war Kontaktdatensuche fehlerhaft: ❌ No Deliver Information found, 59 
+⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️
+2025-11-20 16:29:59,377 | 
+
+Willst du ⚠️⚠️ Trotz 80 Kontaktdaten-Fehlern ⚠️⚠️ 
+alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧
+2025-11-20 16:29:59,377 | 
+ (Y -> Ja) | (N -> Nein)
