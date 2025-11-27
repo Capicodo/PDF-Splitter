@@ -14,8 +14,8 @@ and README. This module implements the user-facing CLI orchestration and PDF
 splitting logic.
 
 Author: Mu Dell'Oro
-Version: v2.0 (12.11.2025)
-Date: 12.11.2025
+Version: v2.1 (27.11.2025)
+Date: 27.11.2025
 GitHub: https://github.com/Capicodo/PDF-Splitter.git
 
 """
@@ -540,8 +540,8 @@ def print_banner():
     )
 
     print()
-    print("v2.0")
-    print("12.11.2025")
+    print("v2.1")
+    print("27.11.2025")
     print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
     print("Das Drucken wird in dieser Version noch NICHT unterstützt")
     print("\033[0m")
@@ -641,7 +641,10 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         custom_body = f"""
         <p>Hallo {report.contact_data.first_name} {report.contact_data.last_name},</p>
         <p>Anbei findest Du Deinen aktuellen Monatsbericht.<br>
-        Diese Nachricht wurde automatisch erstellt. Falls Schwierigkeiten auftreten, wende Dich bitte an mich.</p>
+        Diese Nachricht wurde automatisch erstellt. Falls Schwierigkeiten auftreten, wende Dich bitte an mich.<br>
+        <br>
+        Falls in der Spalte 'Bemerkung/Projekt' 'Falsche Buchung' oder 'Durch System korrigiert' steht, kontaktiere bitte Deinen
+        Verantwortlichen.</p>
         <br>
         <p>Viele Grüße</p>
         <br>

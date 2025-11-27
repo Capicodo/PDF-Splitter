@@ -1,3 +1,29 @@
+"""
+Monatsbericht Automat
+----------------------
+
+Script to split a large exported monthly-report PDF (from Timoto) into
+per-person PDFs, sort them according to delivery preference (email or paper),
+and optionally send email attachments via Outlook. The script extracts the
+Piluweri ID (PLI-#) from the "Dienstplan" field printed on the PDF, uses a
+contact CSV to determine delivery preferences and addresses, and logs all
+console output to a central log file.
+
+Background, goals and process description are recorded in the project wiki
+and README. This module implements the user-facing CLI orchestration and PDF
+splitting logic.
+
+Author: Mu Dell'Oro
+Version: v2.1 (27.11.2025)
+Date: 27.11.2025
+GitHub: https://github.com/Capicodo/PDF-Splitter.git
+
+"""
+
+########################################
+############# IMPORTS ##################
+########################################
+
 import datetime
 import locale
 import logging
@@ -15,23 +41,26 @@ import win32com.client as win32
 from ContactData import ContactData
 from Report import Report
 
-from PeopleEmailLookup import getDataFromPLIID, extract_pli_id, init
+from PeopleEmailLookup import get_data_from_pli_id, extract_pli_id, init
 
+########################################
+############# GLOBALS ##################
+########################################
 
 logger: logging.Logger
 
 sort_by_deliver_method: bool = True
 
-contact_fails = []
-contact_datas = []
+contact_failures = []
+contact_data_list = []
 
 reports: Dict[int, Report] = {}
 
-reGexNameFindingPattern = r"Name:\s*(.*?)\n"
-reGexDienstplanFindingPattern = r"Dienstplan:\s*(.*?)\n"
+regex_name_finding_pattern = r"Name:\s*(.*?)\n"
+regex_dienstplan_finding_pattern = r"Dienstplan:\s*(.*?)\n"
 
-rawReportFilePath: str
-destinationFolderPath: str
+raw_report_file_path: str
+destination_folder_path: str
 contact_data_csv_path: str
 
 raw_report_doc: fitz.Document
@@ -42,14 +71,21 @@ accounts = None
 year = ""
 month_name = ""
 
+########################################
+############ FUNCTIONS #################
+########################################
+
 
 def setup_logging(log_file="log.txt", override_print=True):
     """
     Set up logging to file (with timestamp) and console (without timestamp).
 
-    Parameters:
+    Args:
         log_file (str): Path to the log file.
         override_print (bool): If True, overrides the built-in print() to log automatically.
+
+    Returns:
+        logging.Logger: Configured logger instance.
     """
     # Create logger
     logger = logging.getLogger("my_logger")
@@ -93,6 +129,22 @@ def setup_logging(log_file="log.txt", override_print=True):
 
 
 def setup_date_month_year():
+    """
+    Set the global `year` and `month_name` variables to represent the previous
+    month.
+
+    The function configures the German locale for month name formatting if
+    possible, computes the previous month relative to the current date, and
+    stores the localized month name and 4-digit year into the module-level
+    globals `month_name` and `year`.
+
+    Returns:
+        None
+
+    Notes:
+        If the configured German locale is not available this function will
+        attempt a fallback and will print an error message but continue.
+    """
     global year
     global month_name
     try:
@@ -128,31 +180,55 @@ def setup_date_month_year():
 
 
 def clean_path(path: str) -> str:
-    """Remove quotes and surrounding whitespace from a file/folder path."""
+    """Remove quotes and surrounding whitespace from a file or folder path.
+
+    Args:
+        path: Raw file or folder path provided by user input (may include
+            surrounding quotes from drag-and-drop behavior).
+
+    Returns:
+        A cleaned path string with surrounding whitespace and quotes removed.
+    """
     return path.strip().strip('"').strip("'")
 
 
 def input_paths():
+    """
+    Prompt the user for input file paths and initialize required resources.
+
+    The function asks the user (via console input) for the raw monthly report
+    PDF path, the destination folder for the split PDFs, and the CSV path for
+    contact data. It attempts to initialize the contact data lookup, creates
+    the destination folder if necessary, and opens the raw PDF with PyMuPDF.
+
+    Globals set:
+        rawReportFilePath, destinationFolderPath, contact_data_csv_path,
+        raw_report_doc, sort_by_deliver_method
+
+    Raises:
+        SystemExit: If file access or PDF opening fails the function prints an
+            error message and exits the program.
+    """
 
     global sort_by_deliver_method
 
-    global rawReportFilePath
-    global destinationFolderPath
+    global raw_report_file_path
+    global destination_folder_path
     global contact_data_csv_path
     global raw_report_doc
 
     try:
-        rawReportFilePath = input(
+        raw_report_file_path = input(
             "Pfad zum rohen Monatsbericht eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
         )
-        rawReportFilePath = clean_path(rawReportFilePath)
-        print(f"\n✅ Eingabepfad erkannt: {rawReportFilePath}\n")
+        raw_report_file_path = clean_path(raw_report_file_path)
+        print(f"\n✅ Eingabepfad erkannt: {raw_report_file_path}\n")
 
-        destinationFolderPath = input(
+        destination_folder_path = input(
             "\nPfad zum Zielordner für die individuellen PDFs eingeben oder per Drag & Drop in das Fenster ziehen. \nAnschließend mit Enter bestätigen. \n\nPfad: "
         )
-        destinationFolderPath = clean_path(destinationFolderPath)
-        print(f"\n✅ Zielordner erkannt: {destinationFolderPath}\n")
+        destination_folder_path = clean_path(destination_folder_path)
+        print(f"\n✅ Zielordner erkannt: {destination_folder_path}\n")
 
         contact_data_csv_path = input(
             "\nPfad zur Kontaktdaten(CSV)-Datei eingeben oder per Drag & Drop in das Fenster ziehen \nAnschließend mit Enter bestätigen. \n\nPfad: "
@@ -165,14 +241,14 @@ def input_paths():
             print("✅ Kontaktdaten erfolgreich initialisiert")
         except Exception as e:
             sort_by_deliver_method = False
-            destinationFolderPath += f"/Kontaktdatenlos_und_Unsortiert"
+            destination_folder_path += f"/Kontaktdatenlos_und_Unsortiert"
             print(f"❌ FEHLER BEIM DATEI-ZUGRIFF: {e}")
             print(f"ℹ️ Es wird ohne Kontaktdatenliste gearbeitet")
 
-        os.makedirs(destinationFolderPath, exist_ok=True)
+        os.makedirs(destination_folder_path, exist_ok=True)
         print("✅ Zielordner erstellt oder bereits vorhandenen gefunden")
 
-        raw_report_doc = fitz.open(rawReportFilePath)
+        raw_report_doc = fitz.open(raw_report_file_path)
         print("✅ PDF erfolgreich geöffnet\n\n")
 
     except Exception as e:
@@ -181,7 +257,22 @@ def input_paths():
         raise SystemExit
 
 
-def regexSearchText(_regex, _text):
+def regex_search_text(_regex, _text):
+    """
+    Search `_text` for `_regex` and return the first capture group if found.
+
+    Args:
+        _regex: A regular expression pattern with at least one capture group.
+        _text: The text to search.
+
+    Returns:
+        The stripped first capture group as a string if a match is found,
+        otherwise ``None``.
+
+    Notes:
+        Any internal regex errors are caught, logged to console and ``None`` is
+        returned.
+    """
     try:
         match = re.search(_regex, _text)
         if match:
@@ -193,10 +284,33 @@ def regexSearchText(_regex, _text):
 
 
 def create_report(
-    _newNamePageIndex, _pageIndex, _name, contact_data: ContactData = None
+    start_page_index, end_page_index, person_name, contact_data: ContactData = None
 ):
+    """
+    Create a per-person PDF by slicing the raw report and save it to disk.
 
-    group_folder_path: str = destinationFolderPath
+    The function extracts pages from the global `raw_report_doc` starting at
+    `_newNamePageIndex` up to `_pageIndex` (inclusive), writes the new PDF to
+    a subfolder of `destinationFolderPath` depending on delivery preference
+    (``send``, ``print`` or ``unsorted``), and registers a `Report` object in
+    the module-level `reports` dictionary when ``contact_data`` is provided.
+
+    Args:
+        _newNamePageIndex: First page index for the person's report (0-based).
+        _pageIndex: Last page index for the person's report (0-based).
+        _name: Person's name used to build the target filename.
+        contact_data: Optional ``ContactData`` used to determine destination
+            folder and to create a `Report` entry.
+
+    Returns:
+        None
+
+    Notes:
+        Filenames are sanitized for Windows and any errors during save are
+        printed to console.
+    """
+
+    group_folder_path: str = destination_folder_path
 
     if contact_data:
         group_folder_path += rf"\print" if contact_data.deliver_via_paper else rf"\send"
@@ -209,45 +323,58 @@ def create_report(
 
     try:
         safe_name = re.sub(
-            r'[<>:"/\\|?*]', "_", _name
+            r'[<>:"/\\|?*]', "_", person_name
         )  # sanitize for Windows filenames
-        joinedPath = os.path.join(
+        joined_path = os.path.join(
             group_folder_path,
-            f"Monatsbericht_{safe_name}_{_newNamePageIndex+1}-{_pageIndex+1}.pdf",
+            f"Monatsbericht_{safe_name}_{start_page_index+1}-{end_page_index+1}.pdf",
         )
 
         new_doc.insert_pdf(
-            raw_report_doc, from_page=_newNamePageIndex, to_page=_pageIndex
+            raw_report_doc, from_page=start_page_index, to_page=end_page_index
         )
-        new_doc.save(joinedPath)
+        new_doc.save(joined_path)
 
         if contact_data:
 
             pli_id: int = contact_data.pli_id
-            new_report: Report = Report(pli_id, joinedPath, contact_data)
+            new_report: Report = Report(pli_id, joined_path, contact_data)
             reports[pli_id] = new_report
 
-        print(f"💾 Datei gespeichert: {joinedPath}")
-
+        print(f"💾 Datei gespeichert: {joined_path}")
     except Exception as e:
 
         print(f"❌ Fehler beim Speichern: {e}")
 
 
-def getPagePersonInfos(_index):
+def get_page_person_infos(_index):
+    """
+    Extract the name and PLI ID from a page in the raw report PDF.
+
+    Args:
+        _index: Page index (0-based) to scan in `raw_report_doc`.
+
+    Returns:
+        A tuple of ``(name, pli_id)`` where ``name`` is the extracted person
+        name string and ``pli_id`` is an integer PLI ID if successfully
+        extracted; ``pli_id`` will be ``None`` on failure to parse.
+
+    Raises:
+        Exception: If the expected name field is not found on the page.
+    """
 
     currentPage = raw_report_doc[_index]
     currentText = currentPage.get_text()
 
     print("-------------START Scanning--------------")
-    currentName = regexSearchText(reGexNameFindingPattern, currentText)
+    currentName = regex_search_text(regex_name_finding_pattern, currentText)
 
     if currentName:
         print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
     else:
         raise Exception(f"❌ Kein Name auf Seite {_index+1} gefunden ❌")
 
-    currentDienstplan = regexSearchText(reGexDienstplanFindingPattern, currentText)
+    currentDienstplan = regex_search_text(regex_dienstplan_finding_pattern, currentText)
 
     if currentName:
         print(f"✅ Seite {_index+1}: Name gefunden → {currentName}")
@@ -270,32 +397,55 @@ def getPagePersonInfos(_index):
 
 
 def get_searched_contact_data(pli_id):
+    """
+    Retrieve contact data for a given PLI ID using the CSV-based lookup.
+
+    Args:
+        pli_id: Piluweri ID used to search the contact CSV.
+
+    Returns:
+        A ``ContactData`` instance corresponding to the PLI ID.
+
+    Raises:
+        Exception: If no deliver information is found or the lookup raises an
+            error. The original error will be propagated with the PLI ID added
+            for context.
+    """
 
     try:
-
-        contact_data = getDataFromPLIID(pli_id)
-
+        contact_data = get_data_from_pli_id(pli_id)
         print(
             f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"
         )
         print("")
-
     except Exception as e:
-
         print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
         raise Exception(f"{e}, {pli_id}")
 
     return contact_data
 
 
-def iteratePages():
+def iterate_pages():
+    """
+    Iterate over pages in the raw PDF and split them into per-person PDFs.
 
-    last_name, last_pli_id = getPagePersonInfos(0)
+    The function walks through every page of the global `raw_report_doc`,
+    detects changes in the `Name:` field to determine page boundaries for a
+    single person's report, attempts to resolve contact data for each person
+    and calls ``create_report`` to write the per-person PDF files. Found
+    contact entries are appended to `contact_datas` and lookup failures to
+    `contact_fails`.
+
+    Returns:
+        None
+    """
+
+    last_name, last_pli_id = get_page_person_infos(0)
     lastNewNamePageIndex = 0
 
     for pageIndex in range(raw_report_doc.page_count):
 
-        currentName, current_pli_id = getPagePersonInfos(pageIndex)
+        currentName, current_pli_id = get_page_person_infos(pageIndex)
 
         if last_name != currentName:
 
@@ -305,9 +455,9 @@ def iteratePages():
 
                 try:
                     contact_data = get_searched_contact_data(last_pli_id)
-                    contact_datas.append(contact_data)
+                    contact_data_list.append(contact_data)
                 except Exception as e:
-                    contact_fails.append(
+                    contact_failures.append(
                         f"⚠️ Für {last_name} war Kontaktdatensuche fehlerhaft: {e} \n⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️"
                     )
 
@@ -327,21 +477,32 @@ def iteratePages():
 
     print("\n\n✅✅✅ PDFs wurden erstellt ✅✅✅\n\n")
 
-    if contact_datas:
+    if contact_data_list:
         print(
-            f"\n\n✅✅✅ {len(contact_datas)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
+            f"\n\n✅✅✅ {len(contact_data_list)} Kontaktdaten wurden gefunden: ✅✅✅\n\n"
         )
-    for current_contact_data in contact_datas:
+    for current_contact_data in contact_data_list:
 
         print(f"✅ {current_contact_data.__dict__}")
 
-    if contact_fails:
-        print(f"\n⚠️⚠️⚠️ {len(contact_fails)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n")
-        for current_fail in contact_fails:
+    if contact_failures:
+        print(
+            f"\n⚠️⚠️⚠️ {len(contact_failures)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n"
+        )
+        for current_fail in contact_failures:
             print(f"⚠️ NICHT GEFUNDEN: {current_fail}")
 
 
-def getAnswerYesNo():
+def get_answer_yes_no():
+    """
+    Prompt the user for a yes/no answer and return a boolean.
+
+    The prompt accepts 'y' or 'n' (case-insensitive). It will repeat until a
+    valid answer is entered.
+
+    Returns:
+        True if the user entered 'y', False if the user entered 'n'.
+    """
 
     while True:
 
@@ -357,6 +518,13 @@ def getAnswerYesNo():
 
 
 def print_banner():
+    """
+    Print an ASCII banner and version/introduction text to the console.
+
+    The banner includes the module version and a short note about supported
+    features.
+    """
+
     print(
         "\033[32m"
         + """
@@ -372,16 +540,29 @@ def print_banner():
                  | |_) | |_| | | |  | | |_| |
                  |_.__/ \\__, | |_|  |_|\\__,_|
                         |___/
-""")
+"""
+    )
 
     print()
-    print("v2.0 TEST VERSION")
-    print("12.11.2025")
+    print("v2.1 TEST VERSION")
+    print("27.11.2025")
     print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
     print("Das Drucken wird in dieser Version noch NICHT unterstützt")
+    print("Dies ist eine TESTVERSION, es wird nur an Mu Dell'Oro gesendet")
     print("\033[0m")
 
+
 def send_emails():
+    """
+    Send emails for all reports that are configured to be delivered by email.
+
+    The function lists the recipients, prompts the user for the sender account
+    and confirmation, then iterates over created `Report` instances and sends
+    the reports to recipients who prefer email delivery via Outlook.
+
+    Returns:
+        None
+    """
 
     global accounts
     global outlook
@@ -397,7 +578,7 @@ def send_emails():
     print(f"\n❗Willst du wirklich JETZT die Berichte senden?")
     print(f"❗Diese Aktion kann nicht revidiert werden❗\n")
 
-    decision: bool = getAnswerYesNo()
+    decision: bool = get_answer_yes_no()
 
     if decision:
         print("ℹ️ Starting sending Emails")
@@ -411,21 +592,38 @@ def send_emails():
 
 
 def print_people_getting_emailed():
+    """
+    Print a list of people who will receive monthly reports by email.
+
+    Uses the module-level `contact_datas` list and filters for entries where
+    `deliver_via_paper` is ``False``.
+    """
 
     print(f"\nAn die folgenden Personen werden Monatsberichte gesendet:\n")
 
     for current_contact_data in [
         current_contact_data
-        for current_contact_data in contact_datas
+        for current_contact_data in contact_data_list
         if not current_contact_data.deliver_via_paper
     ]:
-        if current_contact_data.last_name == "Dell'Oro":
-            print(
-                f"✅ {current_contact_data.first_name} {current_contact_data.last_name} | {current_contact_data.email}"
-            )
+        print(
+            f"✅ {current_contact_data.first_name} {current_contact_data.last_name} | {current_contact_data.email}"
+        )
 
 
 def send_report_to(report: Report, recipient_email: str, sender_email: str):
+    """
+    Compose and send a single report as an Outlook email message.
+
+    Args:
+        report: A `Report` object holding the document and contact info.
+        recipient_email: The recipient email address.
+        sender_email: The sender email address configured in Outlook.
+
+    Raises:
+        Exception: Re-raises any exception thrown while composing or sending
+            the email after printing a short error notice.
+    """
 
     try:
 
@@ -448,7 +646,10 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
         custom_body = f"""
         <p>Hallo {report.contact_data.first_name} {report.contact_data.last_name},</p>
         <p>Anbei findest Du Deinen aktuellen Monatsbericht.<br>
-        Diese Nachricht wurde automatisch erstellt. Falls Schwierigkeiten auftreten, wende Dich bitte an mich.</p>
+        Diese Nachricht wurde automatisch erstellt. Falls Schwierigkeiten auftreten, wende Dich bitte an mich.<br>
+        <br>
+        Falls in der Spalte 'Bemerkung/Projekt' 'Falsche Buchung' oder 'Durch System korrigiert' steht, kontaktiere bitte Deinen
+        Verantwortlichen.</p>
         <br>
         <p>Viele Grüße</p>
         <br>
@@ -469,6 +670,16 @@ def send_report_to(report: Report, recipient_email: str, sender_email: str):
 
 
 def loop_check_sender(sender_email):
+    """
+    Repeatedly prompt for a sender address until it is validated by
+    ``check_sender``.
+
+    Args:
+        sender_email: Initial sender email to validate.
+
+    Returns:
+        None
+    """
 
     while True:
         try:
@@ -481,9 +692,18 @@ def loop_check_sender(sender_email):
 
 
 def check_sender(sender_email: str):
+    """
+    Verify that the provided sender email exists in the global Outlook
+    `accounts` collection.
+
+    Args:
+        sender_email: Email address to validate.
+
+    Raises:
+        Exception: If the sender email is not found in `accounts`.
+    """
 
     for account in accounts:
-
         if account.SmtpAddress.lower() == sender_email.lower():
             return
 
@@ -493,9 +713,19 @@ def check_sender(sender_email: str):
 
 
 def set_sender(mail, sender_email: str):
+    """
+    Set the Outlook ``SendUsingAccount`` on the provided mail item.
+
+    Args:
+        mail: An Outlook mail item object returned by ``outlook.CreateItem``.
+        sender_email: Email address to set as the sending account.
+
+    Raises:
+        Exception: If no matching Outlook account is found for the provided
+            sender email.
+    """
 
     for account in accounts:
-
         if account.SmtpAddress.lower() == sender_email.lower():
             mail._oleobj_.Invoke(
                 *(64209, 0, 8, 0, account)
@@ -522,13 +752,13 @@ def main():
     input_paths()
 
     try:
-        iteratePages()
+        iterate_pages()
 
         print(
-            f"\n\nWillst du {f'⚠️⚠️ Trotz {len(contact_fails)} Kontaktdaten-Fehlern ⚠️⚠️ \n' if contact_fails else ''}alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
+            f"\n\nWillst du {f'⚠️⚠️ Trotz {len(contact_failures)} Kontaktdaten-Fehlern ⚠️⚠️ \n' if contact_failures else ''}alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
         )
 
-        decision: bool = getAnswerYesNo()
+        decision: bool = get_answer_yes_no()
         if decision:
             send_emails()
 
