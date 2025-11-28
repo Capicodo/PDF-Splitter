@@ -1,5 +1,5 @@
 """
-Monatsbericht Automat
+Monatsbericht Automat Test
 ----------------------
 
 Script to split a large exported monthly-report PDF (from Timoto) into
@@ -14,7 +14,7 @@ and README. This module implements the user-facing CLI orchestration and PDF
 splitting logic.
 
 Author: Mu Dell'Oro
-Version: v2.1 (27.11.2025)
+Version: v2.1 TESTING VERSION (27.11.2025)
 Date: 27.11.2025
 GitHub: https://github.com/Capicodo/PDF-Splitter.git
 
