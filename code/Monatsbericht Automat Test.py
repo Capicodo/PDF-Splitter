@@ -766,6 +766,8 @@ def main():
         print(f"❌ FEHLER BEIM ITERIEREN: {e}")
         print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
 
+    TODO: #Add Display of which reports where successfully sent, which failed, and which were not attempted due to missing contact data. + Add check Email existing when should send?
+
     input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
 
 
