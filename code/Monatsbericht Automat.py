@@ -414,15 +414,15 @@ def get_searched_contact_data(pli_id):
 
     try:
         contact_data = get_data_from_pli_id(pli_id)
-
+        
         if not contact_data.deliver_via_paper and not contact_data.email:
             raise Exception(
                 f"Pilu mit PLI-#: {pli_id} hat keine gültige Email-Adresse, obwohl Email-Versand in der CSV angegeben ist"
             )
-
-        print(
-            f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was correct deliver-information successfully found ✅✅✅✅✅✅"
-        )
+        
+        #print(
+        #    f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was correct deliver-information successfully found ✅✅✅✅✅✅"
+        #)
         print("")
     except Exception as e:
         print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} got error: {e}")
@@ -453,7 +453,7 @@ def iterate_pages():
 
         currentName, current_pli_id = get_page_person_infos(pageIndex)
 
-        if last_name != currentName:
+        if last_name != currentName or pageIndex == raw_report_doc.page_count - 1:
 
             contact_data = None
 
@@ -531,7 +531,9 @@ def print_banner():
     features.
     """
 
-    print("\033[32m" + """
+    print(
+        "\033[32m"
+        + """
  ____  ____  _____   ____        _ _ _   _
 |  _ \\|  _ \\|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
 | |_) | | | | |_    \\___ \\| '_ \\| | | __| __/ _ \\ '__|
@@ -544,7 +546,8 @@ def print_banner():
                  | |_) | |_| | | |  | | |_| |
                  |_.__/ \\__, | |_|  |_|\\__,_|
                         |___/
-""")
+"""
+    )
 
     print()
     print("v2.2")
@@ -589,9 +592,7 @@ def send_emails():
                 send_report_to(report, report.contact_data.email, sender_email)
 
     print("\n\n✔️ Die Emails wurden gesendet ✔️")
-    print(
-        "⚠️ Schaue in deinem Postfach nach, ob die Emails wirklich rausgegangen sind!"
-    )
+    print("⚠️ Schaue in deinem Postfach nach, ob die Emails wirklich rausgegangen sind!")
 
 
 def print_people_getting_emailed():
@@ -737,7 +738,6 @@ def set_sender(mail, sender_email: str):
 
     raise Exception("\n❌ Problem Beim Setzen der Sender Email ❌")
 
-
 class ContactDataError(Exception):
     """Control-flow exception used only to skip the normal error handler."""
 
@@ -767,13 +767,14 @@ def main():
     try:
         iterate_pages()
 
-        if contact_failures:
+        if (contact_failures):
             print(
                 f"\033[31m\n\n❌❌❌\nDie Kontaktdatenliste ist fehlerhaft. Es gibt {len(contact_failures)} Fehler ❌❌❌ \nDie fehlerhaften Einträge sind über dieser Nachricht aufgeliset. \nBitte behebe die Fehler, indem du die Kontaktdatenliste korrigierst und führe das Programm erneut aus.\n❌❌❌\033[0m"
             )
-
+            
             raise ContactDataError()
-
+            
+            
         print(
             f"\n\n✅✅ Die Kontaktdaten sind korrekt ✅✅\nWillst du alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
         )

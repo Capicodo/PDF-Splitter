@@ -5428,3 +5428,1382 @@ Die Kontaktdatenliste ist fehlerhaft. Es gibt 1 Fehler ❌❌❌
 Die fehlerhaften Einträge sind über dieser Nachricht aufgeliset. 
 Bitte behebe die Fehler, indem du die Kontaktdatenliste korrigierst und führe das Programm erneut aus.
 ❌❌❌[0m
+2026-05-12 12:36:48,808 | [32m
+ ____  ____  _____   ____        _ _ _   _
+|  _ \|  _ \|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
+| |_) | | | | |_    \___ \| '_ \| | | __| __/ _ \ '__|
+|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
+|_|   |____/|_|     |____/| .__/|_|_|\__|\__\___|_|
+                          |_|
+                  _             __  __
+                 | |__  _   _  |  \/  |_   _
+                 | '_ \| | | | | |\/| | | | |
+                 | |_) | |_| | | |  | | |_| |
+                 |_.__/ \__, | |_|  |_|\__,_|
+                        |___/
+2026-05-12 12:36:48,808 | 
+2026-05-12 12:36:48,809 | v2.2
+2026-05-12 12:36:48,809 | 12.05.2026
+2026-05-12 12:36:48,809 | Diese Version unterstützt das Teilen und Senden der Monatsberichte
+2026-05-12 12:36:48,809 | Das Drucken wird in dieser Version noch NICHT unterstützt
+2026-05-12 12:36:48,809 | [0m
+2026-05-12 12:36:59,778 | 
+✅ Eingabepfad erkannt: \\hokkaido\Daten\Backups\TimeMoto PC-Software\Berichte\2026\Monatsberichte 4-26\Gesamt.pdf
+2026-05-12 12:37:02,816 | 
+✅ Zielordner erkannt: C:\Users\Piluweri\Desktop\Neuer Ordner (2)
+2026-05-12 12:37:15,097 | 
+✅ Eingabepfad erkannt: \\hokkaido\Daten\Backups\TimeMoto PC-Software\Berichte\2026\Monatsberichte 4-26\Kontaktdaten - Kontaktdaten.csv
+2026-05-12 12:37:15,143 | ✅ Kontaktdaten erfolgreich initialisiert
+2026-05-12 12:37:15,144 | ✅ Zielordner erstellt oder bereits vorhandenen gefunden
+2026-05-12 12:37:15,162 | ✅ PDF erfolgreich geöffnet
+2026-05-12 12:37:15,172 | -------------START Scanning--------------
+2026-05-12 12:37:15,173 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-05-12 12:37:15,173 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-05-12 12:37:15,173 | -------------END Scanning----------------
+2026-05-12 12:37:15,174 | Found PLI ID:-->44<--
+2026-05-12 12:37:15,175 | -------------START Scanning--------------
+2026-05-12 12:37:15,176 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-05-12 12:37:15,176 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-05-12 12:37:15,176 | -------------END Scanning----------------
+2026-05-12 12:37:15,177 | Found PLI ID:-->44<--
+2026-05-12 12:37:15,177 | 
+2026-05-12 12:37:15,179 | -------------START Scanning--------------
+2026-05-12 12:37:15,179 | ✅ Seite 2: Name gefunden → GbR Alina Steiner
+2026-05-12 12:37:15,179 | ✅ Seite 2: Name gefunden → GbR Alina Steiner
+2026-05-12 12:37:15,179 | -------------END Scanning----------------
+2026-05-12 12:37:15,180 | Found PLI ID:-->69<--
+2026-05-12 12:37:15,180 | 
+2026-05-12 12:37:15,180 | 
+2026-05-12 12:37:15,180 | 🎯 Seitenwechsel bei Seite 2 → Neuer Name: GbR Alina Steiner
+2026-05-12 12:37:15,183 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Alexej Bergmann_1-1.pdf
+2026-05-12 12:37:15,184 | 
+2026-05-12 12:37:15,184 | -------------START Scanning--------------
+2026-05-12 12:37:15,185 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2026-05-12 12:37:15,185 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2026-05-12 12:37:15,185 | -------------END Scanning----------------
+2026-05-12 12:37:15,185 | Found PLI ID:-->69<--
+2026-05-12 12:37:15,185 | 
+2026-05-12 12:37:15,187 | -------------START Scanning--------------
+2026-05-12 12:37:15,187 | ✅ Seite 4: Name gefunden → OHG Amadeus Stratz
+2026-05-12 12:37:15,187 | ✅ Seite 4: Name gefunden → OHG Amadeus Stratz
+2026-05-12 12:37:15,188 | -------------END Scanning----------------
+2026-05-12 12:37:15,188 | Found PLI ID:-->27<--
+2026-05-12 12:37:15,188 | 
+2026-05-12 12:37:15,188 | 
+2026-05-12 12:37:15,188 | 🎯 Seitenwechsel bei Seite 4 → Neuer Name: OHG Amadeus Stratz
+2026-05-12 12:37:15,190 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Alina Steiner_2-3.pdf
+2026-05-12 12:37:15,190 | 
+2026-05-12 12:37:15,191 | -------------START Scanning--------------
+2026-05-12 12:37:15,191 | ✅ Seite 5: Name gefunden → OHG Amadeus Stratz
+2026-05-12 12:37:15,191 | ✅ Seite 5: Name gefunden → OHG Amadeus Stratz
+2026-05-12 12:37:15,192 | -------------END Scanning----------------
+2026-05-12 12:37:15,192 | Found PLI ID:-->27<--
+2026-05-12 12:37:15,192 | 
+2026-05-12 12:37:15,194 | -------------START Scanning--------------
+2026-05-12 12:37:15,195 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2026-05-12 12:37:15,195 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2026-05-12 12:37:15,195 | -------------END Scanning----------------
+2026-05-12 12:37:15,195 | Found PLI ID:-->52<--
+2026-05-12 12:37:15,196 | 
+2026-05-12 12:37:15,196 | 
+2026-05-12 12:37:15,196 | 🎯 Seitenwechsel bei Seite 6 → Neuer Name: OHG Andrea Drewski
+2026-05-12 12:37:15,198 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_OHG Amadeus Stratz_4-5.pdf
+2026-05-12 12:37:15,198 | 
+2026-05-12 12:37:15,199 | -------------START Scanning--------------
+2026-05-12 12:37:15,199 | ✅ Seite 7: Name gefunden → OHG Andrea Drewski
+2026-05-12 12:37:15,199 | ✅ Seite 7: Name gefunden → OHG Andrea Drewski
+2026-05-12 12:37:15,199 | -------------END Scanning----------------
+2026-05-12 12:37:15,200 | Found PLI ID:-->52<--
+2026-05-12 12:37:15,200 | 
+2026-05-12 12:37:15,201 | -------------START Scanning--------------
+2026-05-12 12:37:15,201 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2026-05-12 12:37:15,202 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2026-05-12 12:37:15,202 | -------------END Scanning----------------
+2026-05-12 12:37:15,202 | Found PLI ID:-->91<--
+2026-05-12 12:37:15,202 | 
+2026-05-12 12:37:15,203 | 
+2026-05-12 12:37:15,203 | 🎯 Seitenwechsel bei Seite 8 → Neuer Name: OHG Andrea Gregor
+2026-05-12 12:37:15,205 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Andrea Drewski_6-7.pdf
+2026-05-12 12:37:15,206 | 
+2026-05-12 12:37:15,206 | -------------START Scanning--------------
+2026-05-12 12:37:15,207 | ✅ Seite 9: Name gefunden → OHG Andrea Gregor
+2026-05-12 12:37:15,207 | ✅ Seite 9: Name gefunden → OHG Andrea Gregor
+2026-05-12 12:37:15,207 | -------------END Scanning----------------
+2026-05-12 12:37:15,207 | Found PLI ID:-->91<--
+2026-05-12 12:37:15,207 | 
+2026-05-12 12:37:15,208 | -------------START Scanning--------------
+2026-05-12 12:37:15,209 | ✅ Seite 10: Name gefunden → OHG Anja Schrader
+2026-05-12 12:37:15,209 | ✅ Seite 10: Name gefunden → OHG Anja Schrader
+2026-05-12 12:37:15,209 | -------------END Scanning----------------
+2026-05-12 12:37:15,209 | Found PLI ID:-->87<--
+2026-05-12 12:37:15,210 | 
+2026-05-12 12:37:15,210 | 
+2026-05-12 12:37:15,210 | 🎯 Seitenwechsel bei Seite 10 → Neuer Name: OHG Anja Schrader
+2026-05-12 12:37:15,212 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Andrea Gregor_8-9.pdf
+2026-05-12 12:37:15,212 | 
+2026-05-12 12:37:15,213 | -------------START Scanning--------------
+2026-05-12 12:37:15,213 | ✅ Seite 11: Name gefunden → OHG Anja Schrader
+2026-05-12 12:37:15,213 | ✅ Seite 11: Name gefunden → OHG Anja Schrader
+2026-05-12 12:37:15,213 | -------------END Scanning----------------
+2026-05-12 12:37:15,214 | Found PLI ID:-->87<--
+2026-05-12 12:37:15,214 | 
+2026-05-12 12:37:15,215 | -------------START Scanning--------------
+2026-05-12 12:37:15,215 | ✅ Seite 12: Name gefunden → OHG Anna Volk
+2026-05-12 12:37:15,216 | ✅ Seite 12: Name gefunden → OHG Anna Volk
+2026-05-12 12:37:15,216 | -------------END Scanning----------------
+2026-05-12 12:37:15,216 | Found PLI ID:-->60<--
+2026-05-12 12:37:15,216 | 
+2026-05-12 12:37:15,216 | 
+2026-05-12 12:37:15,217 | 🎯 Seitenwechsel bei Seite 12 → Neuer Name: OHG Anna Volk
+2026-05-12 12:37:15,218 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Anja Schrader_10-11.pdf
+2026-05-12 12:37:15,218 | 
+2026-05-12 12:37:15,219 | -------------START Scanning--------------
+2026-05-12 12:37:15,219 | ✅ Seite 13: Name gefunden → OHG Anna Volk
+2026-05-12 12:37:15,220 | ✅ Seite 13: Name gefunden → OHG Anna Volk
+2026-05-12 12:37:15,220 | -------------END Scanning----------------
+2026-05-12 12:37:15,220 | Found PLI ID:-->60<--
+2026-05-12 12:37:15,220 | 
+2026-05-12 12:37:15,222 | -------------START Scanning--------------
+2026-05-12 12:37:15,222 | ✅ Seite 14: Name gefunden → GbR Anna Habermehl
+2026-05-12 12:37:15,222 | ✅ Seite 14: Name gefunden → GbR Anna Habermehl
+2026-05-12 12:37:15,222 | -------------END Scanning----------------
+2026-05-12 12:37:15,222 | Found PLI ID:-->64<--
+2026-05-12 12:37:15,223 | 
+2026-05-12 12:37:15,223 | 
+2026-05-12 12:37:15,223 | 🎯 Seitenwechsel bei Seite 14 → Neuer Name: GbR Anna Habermehl
+2026-05-12 12:37:15,225 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Anna Volk_12-13.pdf
+2026-05-12 12:37:15,225 | 
+2026-05-12 12:37:15,226 | -------------START Scanning--------------
+2026-05-12 12:37:15,226 | ✅ Seite 15: Name gefunden → GbR Anna Habermehl
+2026-05-12 12:37:15,226 | ✅ Seite 15: Name gefunden → GbR Anna Habermehl
+2026-05-12 12:37:15,226 | -------------END Scanning----------------
+2026-05-12 12:37:15,227 | Found PLI ID:-->64<--
+2026-05-12 12:37:15,227 | 
+2026-05-12 12:37:15,228 | -------------START Scanning--------------
+2026-05-12 12:37:15,228 | ✅ Seite 16: Name gefunden → GbR Annika Gabriel
+2026-05-12 12:37:15,228 | ✅ Seite 16: Name gefunden → GbR Annika Gabriel
+2026-05-12 12:37:15,229 | -------------END Scanning----------------
+2026-05-12 12:37:15,229 | Found PLI ID:-->101<--
+2026-05-12 12:37:15,229 | 
+2026-05-12 12:37:15,229 | 
+2026-05-12 12:37:15,229 | 🎯 Seitenwechsel bei Seite 16 → Neuer Name: GbR Annika Gabriel
+2026-05-12 12:37:15,231 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Anna Habermehl_14-15.pdf
+2026-05-12 12:37:15,231 | 
+2026-05-12 12:37:15,232 | -------------START Scanning--------------
+2026-05-12 12:37:15,232 | ✅ Seite 17: Name gefunden → GbR Annika Gabriel
+2026-05-12 12:37:15,232 | ✅ Seite 17: Name gefunden → GbR Annika Gabriel
+2026-05-12 12:37:15,232 | -------------END Scanning----------------
+2026-05-12 12:37:15,232 | Found PLI ID:-->101<--
+2026-05-12 12:37:15,232 | 
+2026-05-12 12:37:15,234 | -------------START Scanning--------------
+2026-05-12 12:37:15,234 | ✅ Seite 18: Name gefunden → OHG Beate Weltle
+2026-05-12 12:37:15,234 | ✅ Seite 18: Name gefunden → OHG Beate Weltle
+2026-05-12 12:37:15,234 | -------------END Scanning----------------
+2026-05-12 12:37:15,234 | Found PLI ID:-->49<--
+2026-05-12 12:37:15,234 | 
+2026-05-12 12:37:15,235 | 
+2026-05-12 12:37:15,235 | 🎯 Seitenwechsel bei Seite 18 → Neuer Name: OHG Beate Weltle
+2026-05-12 12:37:15,236 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Annika Gabriel_16-17.pdf
+2026-05-12 12:37:15,236 | 
+2026-05-12 12:37:15,237 | -------------START Scanning--------------
+2026-05-12 12:37:15,237 | ✅ Seite 19: Name gefunden → OHG Beate Weltle
+2026-05-12 12:37:15,237 | ✅ Seite 19: Name gefunden → OHG Beate Weltle
+2026-05-12 12:37:15,238 | -------------END Scanning----------------
+2026-05-12 12:37:15,238 | Found PLI ID:-->49<--
+2026-05-12 12:37:15,238 | 
+2026-05-12 12:37:15,239 | -------------START Scanning--------------
+2026-05-12 12:37:15,239 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2026-05-12 12:37:15,239 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2026-05-12 12:37:15,239 | -------------END Scanning----------------
+2026-05-12 12:37:15,239 | Found PLI ID:-->72<--
+2026-05-12 12:37:15,240 | 
+2026-05-12 12:37:15,240 | 
+2026-05-12 12:37:15,240 | 🎯 Seitenwechsel bei Seite 20 → Neuer Name: GbR Carlo Seibel
+2026-05-12 12:37:15,241 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Beate Weltle_18-19.pdf
+2026-05-12 12:37:15,241 | 
+2026-05-12 12:37:15,242 | -------------START Scanning--------------
+2026-05-12 12:37:15,242 | ✅ Seite 21: Name gefunden → GbR Carlo Seibel
+2026-05-12 12:37:15,243 | ✅ Seite 21: Name gefunden → GbR Carlo Seibel
+2026-05-12 12:37:15,243 | -------------END Scanning----------------
+2026-05-12 12:37:15,243 | Found PLI ID:-->72<--
+2026-05-12 12:37:15,243 | 
+2026-05-12 12:37:15,244 | -------------START Scanning--------------
+2026-05-12 12:37:15,245 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2026-05-12 12:37:15,245 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2026-05-12 12:37:15,245 | -------------END Scanning----------------
+2026-05-12 12:37:15,245 | Found PLI ID:-->71<--
+2026-05-12 12:37:15,245 | 
+2026-05-12 12:37:15,245 | 
+2026-05-12 12:37:15,245 | 🎯 Seitenwechsel bei Seite 22 → Neuer Name: OHG Carolin Klein
+2026-05-12 12:37:15,247 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Carlo Seibel_20-21.pdf
+2026-05-12 12:37:15,247 | 
+2026-05-12 12:37:15,248 | -------------START Scanning--------------
+2026-05-12 12:37:15,248 | ✅ Seite 23: Name gefunden → OHG Carolin Klein
+2026-05-12 12:37:15,248 | ✅ Seite 23: Name gefunden → OHG Carolin Klein
+2026-05-12 12:37:15,248 | -------------END Scanning----------------
+2026-05-12 12:37:15,248 | Found PLI ID:-->71<--
+2026-05-12 12:37:15,249 | 
+2026-05-12 12:37:15,251 | -------------START Scanning--------------
+2026-05-12 12:37:15,251 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2026-05-12 12:37:15,251 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2026-05-12 12:37:15,251 | -------------END Scanning----------------
+2026-05-12 12:37:15,251 | Found PLI ID:-->46<--
+2026-05-12 12:37:15,252 | 
+2026-05-12 12:37:15,252 | 
+2026-05-12 12:37:15,252 | 🎯 Seitenwechsel bei Seite 24 → Neuer Name: OHG Christian Wegener
+2026-05-12 12:37:15,254 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Carolin Klein_22-23.pdf
+2026-05-12 12:37:15,255 | 
+2026-05-12 12:37:15,255 | -------------START Scanning--------------
+2026-05-12 12:37:15,256 | ✅ Seite 25: Name gefunden → OHG Christian Wegener
+2026-05-12 12:37:15,256 | ✅ Seite 25: Name gefunden → OHG Christian Wegener
+2026-05-12 12:37:15,256 | -------------END Scanning----------------
+2026-05-12 12:37:15,256 | Found PLI ID:-->46<--
+2026-05-12 12:37:15,256 | 
+2026-05-12 12:37:15,257 | -------------START Scanning--------------
+2026-05-12 12:37:15,257 | ✅ Seite 26: Name gefunden → OHG Christopher Zerna
+2026-05-12 12:37:15,257 | ✅ Seite 26: Name gefunden → OHG Christopher Zerna
+2026-05-12 12:37:15,257 | -------------END Scanning----------------
+2026-05-12 12:37:15,258 | Found PLI ID:-->68<--
+2026-05-12 12:37:15,258 | 
+2026-05-12 12:37:15,258 | 
+2026-05-12 12:37:15,258 | 🎯 Seitenwechsel bei Seite 26 → Neuer Name: OHG Christopher Zerna
+2026-05-12 12:37:15,260 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Christian Wegener_24-25.pdf
+2026-05-12 12:37:15,260 | 
+2026-05-12 12:37:15,261 | -------------START Scanning--------------
+2026-05-12 12:37:15,261 | ✅ Seite 27: Name gefunden → OHG Clara Schmid
+2026-05-12 12:37:15,262 | ✅ Seite 27: Name gefunden → OHG Clara Schmid
+2026-05-12 12:37:15,262 | -------------END Scanning----------------
+2026-05-12 12:37:15,262 | Found PLI ID:-->83<--
+2026-05-12 12:37:15,262 | 
+2026-05-12 12:37:15,262 | 
+2026-05-12 12:37:15,262 | 🎯 Seitenwechsel bei Seite 27 → Neuer Name: OHG Clara Schmid
+2026-05-12 12:37:15,264 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Christopher Zerna_26-26.pdf
+2026-05-12 12:37:15,264 | 
+2026-05-12 12:37:15,265 | -------------START Scanning--------------
+2026-05-12 12:37:15,265 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2026-05-12 12:37:15,265 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2026-05-12 12:37:15,265 | -------------END Scanning----------------
+2026-05-12 12:37:15,265 | Found PLI ID:-->83<--
+2026-05-12 12:37:15,266 | 
+2026-05-12 12:37:15,267 | -------------START Scanning--------------
+2026-05-12 12:37:15,267 | ✅ Seite 29: Name gefunden → OHG Cosmea Linemann
+2026-05-12 12:37:15,267 | ✅ Seite 29: Name gefunden → OHG Cosmea Linemann
+2026-05-12 12:37:15,267 | -------------END Scanning----------------
+2026-05-12 12:37:15,267 | Found PLI ID:-->70<--
+2026-05-12 12:37:15,267 | 
+2026-05-12 12:37:15,267 | 
+2026-05-12 12:37:15,267 | 🎯 Seitenwechsel bei Seite 29 → Neuer Name: OHG Cosmea Linemann
+2026-05-12 12:37:15,269 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Clara Schmid_27-28.pdf
+2026-05-12 12:37:15,269 | 
+2026-05-12 12:37:15,270 | -------------START Scanning--------------
+2026-05-12 12:37:15,270 | ✅ Seite 30: Name gefunden → OHG Cosmea Linemann
+2026-05-12 12:37:15,270 | ✅ Seite 30: Name gefunden → OHG Cosmea Linemann
+2026-05-12 12:37:15,270 | -------------END Scanning----------------
+2026-05-12 12:37:15,270 | Found PLI ID:-->70<--
+2026-05-12 12:37:15,270 | 
+2026-05-12 12:37:15,272 | -------------START Scanning--------------
+2026-05-12 12:37:15,272 | ✅ Seite 31: Name gefunden → OHG Doreen Vinzelberg
+2026-05-12 12:37:15,272 | ✅ Seite 31: Name gefunden → OHG Doreen Vinzelberg
+2026-05-12 12:37:15,272 | -------------END Scanning----------------
+2026-05-12 12:37:15,272 | Found PLI ID:-->80<--
+2026-05-12 12:37:15,272 | 
+2026-05-12 12:37:15,273 | 
+2026-05-12 12:37:15,273 | 🎯 Seitenwechsel bei Seite 31 → Neuer Name: OHG Doreen Vinzelberg
+2026-05-12 12:37:15,274 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_OHG Cosmea Linemann_29-30.pdf
+2026-05-12 12:37:15,275 | 
+2026-05-12 12:37:15,275 | -------------START Scanning--------------
+2026-05-12 12:37:15,275 | ✅ Seite 32: Name gefunden → OHG Doreen Vinzelberg
+2026-05-12 12:37:15,275 | ✅ Seite 32: Name gefunden → OHG Doreen Vinzelberg
+2026-05-12 12:37:15,276 | -------------END Scanning----------------
+2026-05-12 12:37:15,276 | Found PLI ID:-->80<--
+2026-05-12 12:37:15,276 | 
+2026-05-12 12:37:15,277 | -------------START Scanning--------------
+2026-05-12 12:37:15,277 | ✅ Seite 33: Name gefunden → OHG Doris Gräßlin
+2026-05-12 12:37:15,278 | ✅ Seite 33: Name gefunden → OHG Doris Gräßlin
+2026-05-12 12:37:15,278 | -------------END Scanning----------------
+2026-05-12 12:37:15,278 | Found PLI ID:-->61<--
+2026-05-12 12:37:15,278 | 
+2026-05-12 12:37:15,278 | 
+2026-05-12 12:37:15,278 | 🎯 Seitenwechsel bei Seite 33 → Neuer Name: OHG Doris Gräßlin
+2026-05-12 12:37:15,280 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Doreen Vinzelberg_31-32.pdf
+2026-05-12 12:37:15,280 | 
+2026-05-12 12:37:15,282 | -------------START Scanning--------------
+2026-05-12 12:37:15,282 | ✅ Seite 34: Name gefunden → GbR Fabian Winkler
+2026-05-12 12:37:15,282 | ✅ Seite 34: Name gefunden → GbR Fabian Winkler
+2026-05-12 12:37:15,282 | -------------END Scanning----------------
+2026-05-12 12:37:15,282 | Found PLI ID:-->25<--
+2026-05-12 12:37:15,282 | 
+2026-05-12 12:37:15,282 | 
+2026-05-12 12:37:15,283 | 🎯 Seitenwechsel bei Seite 34 → Neuer Name: GbR Fabian Winkler
+2026-05-12 12:37:15,284 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Doris Gräßlin_33-33.pdf
+2026-05-12 12:37:15,284 | 
+2026-05-12 12:37:15,285 | -------------START Scanning--------------
+2026-05-12 12:37:15,285 | ✅ Seite 35: Name gefunden → GbR Fabian Winkler
+2026-05-12 12:37:15,286 | ✅ Seite 35: Name gefunden → GbR Fabian Winkler
+2026-05-12 12:37:15,286 | -------------END Scanning----------------
+2026-05-12 12:37:15,286 | Found PLI ID:-->25<--
+2026-05-12 12:37:15,286 | 
+2026-05-12 12:37:15,287 | -------------START Scanning--------------
+2026-05-12 12:37:15,287 | ✅ Seite 36: Name gefunden → GbR Felix Dorau
+2026-05-12 12:37:15,287 | ✅ Seite 36: Name gefunden → GbR Felix Dorau
+2026-05-12 12:37:15,287 | -------------END Scanning----------------
+2026-05-12 12:37:15,287 | Found PLI ID:-->34<--
+2026-05-12 12:37:15,288 | 
+2026-05-12 12:37:15,288 | 
+2026-05-12 12:37:15,288 | 🎯 Seitenwechsel bei Seite 36 → Neuer Name: GbR Felix Dorau
+2026-05-12 12:37:15,289 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Fabian Winkler_34-35.pdf
+2026-05-12 12:37:15,290 | 
+2026-05-12 12:37:15,290 | -------------START Scanning--------------
+2026-05-12 12:37:15,290 | ✅ Seite 37: Name gefunden → GbR Felix Dorau
+2026-05-12 12:37:15,291 | ✅ Seite 37: Name gefunden → GbR Felix Dorau
+2026-05-12 12:37:15,291 | -------------END Scanning----------------
+2026-05-12 12:37:15,291 | Found PLI ID:-->34<--
+2026-05-12 12:37:15,291 | 
+2026-05-12 12:37:15,292 | -------------START Scanning--------------
+2026-05-12 12:37:15,292 | ✅ Seite 38: Name gefunden → OHG Felix Reinalter
+2026-05-12 12:37:15,292 | ✅ Seite 38: Name gefunden → OHG Felix Reinalter
+2026-05-12 12:37:15,293 | -------------END Scanning----------------
+2026-05-12 12:37:15,293 | Found PLI ID:-->92<--
+2026-05-12 12:37:15,293 | 
+2026-05-12 12:37:15,293 | 
+2026-05-12 12:37:15,293 | 🎯 Seitenwechsel bei Seite 38 → Neuer Name: OHG Felix Reinalter
+2026-05-12 12:37:15,295 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Felix Dorau_36-37.pdf
+2026-05-12 12:37:15,295 | 
+2026-05-12 12:37:15,296 | -------------START Scanning--------------
+2026-05-12 12:37:15,297 | ✅ Seite 39: Name gefunden → OHG Felix Reinalter
+2026-05-12 12:37:15,297 | ✅ Seite 39: Name gefunden → OHG Felix Reinalter
+2026-05-12 12:37:15,297 | -------------END Scanning----------------
+2026-05-12 12:37:15,297 | Found PLI ID:-->92<--
+2026-05-12 12:37:15,297 | 
+2026-05-12 12:37:15,298 | -------------START Scanning--------------
+2026-05-12 12:37:15,298 | ✅ Seite 40: Name gefunden → GbR Frank Walther
+2026-05-12 12:37:15,299 | ✅ Seite 40: Name gefunden → GbR Frank Walther
+2026-05-12 12:37:15,299 | -------------END Scanning----------------
+2026-05-12 12:37:15,299 | Found PLI ID:-->24<--
+2026-05-12 12:37:15,299 | 
+2026-05-12 12:37:15,299 | 
+2026-05-12 12:37:15,299 | 🎯 Seitenwechsel bei Seite 40 → Neuer Name: GbR Frank Walther
+2026-05-12 12:37:15,301 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Felix Reinalter_38-39.pdf
+2026-05-12 12:37:15,301 | 
+2026-05-12 12:37:15,302 | -------------START Scanning--------------
+2026-05-12 12:37:15,302 | ✅ Seite 41: Name gefunden → GbR Frank Walther
+2026-05-12 12:37:15,302 | ✅ Seite 41: Name gefunden → GbR Frank Walther
+2026-05-12 12:37:15,302 | -------------END Scanning----------------
+2026-05-12 12:37:15,302 | Found PLI ID:-->24<--
+2026-05-12 12:37:15,302 | 
+2026-05-12 12:37:15,303 | -------------START Scanning--------------
+2026-05-12 12:37:15,304 | ✅ Seite 42: Name gefunden → Zora Zeller
+2026-05-12 12:37:15,304 | ✅ Seite 42: Name gefunden → Zora Zeller
+2026-05-12 12:37:15,304 | -------------END Scanning----------------
+2026-05-12 12:37:15,304 | Found PLI ID:-->102<--
+2026-05-12 12:37:15,304 | 
+2026-05-12 12:37:15,304 | 
+2026-05-12 12:37:15,304 | 🎯 Seitenwechsel bei Seite 42 → Neuer Name: Zora Zeller
+2026-05-12 12:37:15,306 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Frank Walther_40-41.pdf
+2026-05-12 12:37:15,306 | 
+2026-05-12 12:37:15,307 | -------------START Scanning--------------
+2026-05-12 12:37:15,307 | ✅ Seite 43: Name gefunden → Zora Zeller
+2026-05-12 12:37:15,307 | ✅ Seite 43: Name gefunden → Zora Zeller
+2026-05-12 12:37:15,307 | -------------END Scanning----------------
+2026-05-12 12:37:15,307 | Found PLI ID:-->102<--
+2026-05-12 12:37:15,307 | 
+2026-05-12 12:37:15,308 | -------------START Scanning--------------
+2026-05-12 12:37:15,308 | ✅ Seite 44: Name gefunden → OHG Grem Wangler
+2026-05-12 12:37:15,308 | ✅ Seite 44: Name gefunden → OHG Grem Wangler
+2026-05-12 12:37:15,309 | -------------END Scanning----------------
+2026-05-12 12:37:15,309 | Found PLI ID:-->81<--
+2026-05-12 12:37:15,309 | 
+2026-05-12 12:37:15,309 | 
+2026-05-12 12:37:15,309 | 🎯 Seitenwechsel bei Seite 44 → Neuer Name: OHG Grem Wangler
+2026-05-12 12:37:15,311 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_Zora Zeller_42-43.pdf
+2026-05-12 12:37:15,311 | 
+2026-05-12 12:37:15,312 | -------------START Scanning--------------
+2026-05-12 12:37:15,312 | ✅ Seite 45: Name gefunden → OHG Grem Wangler
+2026-05-12 12:37:15,312 | ✅ Seite 45: Name gefunden → OHG Grem Wangler
+2026-05-12 12:37:15,312 | -------------END Scanning----------------
+2026-05-12 12:37:15,312 | Found PLI ID:-->81<--
+2026-05-12 12:37:15,312 | 
+2026-05-12 12:37:15,314 | -------------START Scanning--------------
+2026-05-12 12:37:15,314 | ✅ Seite 46: Name gefunden → OHG Hartmut Staats
+2026-05-12 12:37:15,314 | ✅ Seite 46: Name gefunden → OHG Hartmut Staats
+2026-05-12 12:37:15,314 | -------------END Scanning----------------
+2026-05-12 12:37:15,314 | Found PLI ID:-->30<--
+2026-05-12 12:37:15,314 | 
+2026-05-12 12:37:15,314 | 
+2026-05-12 12:37:15,314 | 🎯 Seitenwechsel bei Seite 46 → Neuer Name: OHG Hartmut Staats
+2026-05-12 12:37:15,316 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Grem Wangler_44-45.pdf
+2026-05-12 12:37:15,316 | 
+2026-05-12 12:37:15,317 | -------------START Scanning--------------
+2026-05-12 12:37:15,318 | ✅ Seite 47: Name gefunden → OHG Honza Supenkämper
+2026-05-12 12:37:15,318 | ✅ Seite 47: Name gefunden → OHG Honza Supenkämper
+2026-05-12 12:37:15,318 | -------------END Scanning----------------
+2026-05-12 12:37:15,318 | Found PLI ID:-->103<--
+2026-05-12 12:37:15,318 | 
+2026-05-12 12:37:15,318 | 
+2026-05-12 12:37:15,318 | 🎯 Seitenwechsel bei Seite 47 → Neuer Name: OHG Honza Supenkämper
+2026-05-12 12:37:15,320 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Hartmut Staats_46-46.pdf
+2026-05-12 12:37:15,320 | 
+2026-05-12 12:37:15,321 | -------------START Scanning--------------
+2026-05-12 12:37:15,321 | ✅ Seite 48: Name gefunden → GbR Ida Skroblin
+2026-05-12 12:37:15,321 | ✅ Seite 48: Name gefunden → GbR Ida Skroblin
+2026-05-12 12:37:15,321 | -------------END Scanning----------------
+2026-05-12 12:37:15,321 | Found PLI ID:-->82<--
+2026-05-12 12:37:15,321 | ⚠️⚠️⚠️⚠️ For PLI-#: 103 got error: Pilu mit PLI-#: 103 hat keine gültige Email-Adresse, obwohl Email-Versand in der CSV angegeben ist
+2026-05-12 12:37:15,322 | 
+2026-05-12 12:37:15,322 | 🎯 Seitenwechsel bei Seite 48 → Neuer Name: GbR Ida Skroblin
+2026-05-12 12:37:15,323 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\unsorted\Monatsbericht_OHG Honza Supenkämper_47-47.pdf
+2026-05-12 12:37:15,324 | 
+2026-05-12 12:37:15,324 | -------------START Scanning--------------
+2026-05-12 12:37:15,324 | ✅ Seite 49: Name gefunden → GbR Ida Skroblin
+2026-05-12 12:37:15,325 | ✅ Seite 49: Name gefunden → GbR Ida Skroblin
+2026-05-12 12:37:15,325 | -------------END Scanning----------------
+2026-05-12 12:37:15,325 | Found PLI ID:-->82<--
+2026-05-12 12:37:15,325 | 
+2026-05-12 12:37:15,326 | -------------START Scanning--------------
+2026-05-12 12:37:15,326 | ✅ Seite 50: Name gefunden → GbR Ingrid Glaser
+2026-05-12 12:37:15,327 | ✅ Seite 50: Name gefunden → GbR Ingrid Glaser
+2026-05-12 12:37:15,327 | -------------END Scanning----------------
+2026-05-12 12:37:15,327 | Found PLI ID:-->10<--
+2026-05-12 12:37:15,327 | 
+2026-05-12 12:37:15,327 | 
+2026-05-12 12:37:15,327 | 🎯 Seitenwechsel bei Seite 50 → Neuer Name: GbR Ingrid Glaser
+2026-05-12 12:37:15,329 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Ida Skroblin_48-49.pdf
+2026-05-12 12:37:15,329 | 
+2026-05-12 12:37:15,330 | -------------START Scanning--------------
+2026-05-12 12:37:15,330 | ✅ Seite 51: Name gefunden → GbR Ingrid Glaser
+2026-05-12 12:37:15,330 | ✅ Seite 51: Name gefunden → GbR Ingrid Glaser
+2026-05-12 12:37:15,331 | -------------END Scanning----------------
+2026-05-12 12:37:15,331 | Found PLI ID:-->10<--
+2026-05-12 12:37:15,331 | 
+2026-05-12 12:37:15,332 | -------------START Scanning--------------
+2026-05-12 12:37:15,333 | ✅ Seite 52: Name gefunden → GbR Inka Harms
+2026-05-12 12:37:15,333 | ✅ Seite 52: Name gefunden → GbR Inka Harms
+2026-05-12 12:37:15,333 | -------------END Scanning----------------
+2026-05-12 12:37:15,333 | Found PLI ID:-->23<--
+2026-05-12 12:37:15,333 | 
+2026-05-12 12:37:15,333 | 
+2026-05-12 12:37:15,333 | 🎯 Seitenwechsel bei Seite 52 → Neuer Name: GbR Inka Harms
+2026-05-12 12:37:15,335 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Ingrid Glaser_50-51.pdf
+2026-05-12 12:37:15,335 | 
+2026-05-12 12:37:15,336 | -------------START Scanning--------------
+2026-05-12 12:37:15,336 | ✅ Seite 53: Name gefunden → OHG Jeremias
+2026-05-12 12:37:15,337 | ✅ Seite 53: Name gefunden → OHG Jeremias
+2026-05-12 12:37:15,337 | -------------END Scanning----------------
+2026-05-12 12:37:15,337 | Found PLI ID:-->13<--
+2026-05-12 12:37:15,337 | 
+2026-05-12 12:37:15,337 | 
+2026-05-12 12:37:15,337 | 🎯 Seitenwechsel bei Seite 53 → Neuer Name: OHG Jeremias
+2026-05-12 12:37:15,339 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Inka Harms_52-52.pdf
+2026-05-12 12:37:15,339 | 
+2026-05-12 12:37:15,340 | -------------START Scanning--------------
+2026-05-12 12:37:15,340 | ✅ Seite 54: Name gefunden → OHG Jette Fortmann
+2026-05-12 12:37:15,340 | ✅ Seite 54: Name gefunden → OHG Jette Fortmann
+2026-05-12 12:37:15,341 | -------------END Scanning----------------
+2026-05-12 12:37:15,341 | Found PLI ID:-->38<--
+2026-05-12 12:37:15,341 | 
+2026-05-12 12:37:15,341 | 
+2026-05-12 12:37:15,341 | 🎯 Seitenwechsel bei Seite 54 → Neuer Name: OHG Jette Fortmann
+2026-05-12 12:37:15,343 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Jeremias_53-53.pdf
+2026-05-12 12:37:15,343 | 
+2026-05-12 12:37:15,344 | -------------START Scanning--------------
+2026-05-12 12:37:15,344 | ✅ Seite 55: Name gefunden → OHG Jette Fortmann
+2026-05-12 12:37:15,344 | ✅ Seite 55: Name gefunden → OHG Jette Fortmann
+2026-05-12 12:37:15,344 | -------------END Scanning----------------
+2026-05-12 12:37:15,345 | Found PLI ID:-->38<--
+2026-05-12 12:37:15,345 | 
+2026-05-12 12:37:15,346 | -------------START Scanning--------------
+2026-05-12 12:37:15,346 | ✅ Seite 56: Name gefunden → OHG Joachim Ruppenthal
+2026-05-12 12:37:15,346 | ✅ Seite 56: Name gefunden → OHG Joachim Ruppenthal
+2026-05-12 12:37:15,347 | -------------END Scanning----------------
+2026-05-12 12:37:15,347 | Found PLI ID:-->28<--
+2026-05-12 12:37:15,347 | 
+2026-05-12 12:37:15,347 | 
+2026-05-12 12:37:15,347 | 🎯 Seitenwechsel bei Seite 56 → Neuer Name: OHG Joachim Ruppenthal
+2026-05-12 12:37:15,349 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_OHG Jette Fortmann_54-55.pdf
+2026-05-12 12:37:15,349 | 
+2026-05-12 12:37:15,349 | -------------START Scanning--------------
+2026-05-12 12:37:15,349 | ✅ Seite 57: Name gefunden → OHG Joachim Ruppenthal
+2026-05-12 12:37:15,350 | ✅ Seite 57: Name gefunden → OHG Joachim Ruppenthal
+2026-05-12 12:37:15,350 | -------------END Scanning----------------
+2026-05-12 12:37:15,350 | Found PLI ID:-->28<--
+2026-05-12 12:37:15,350 | 
+2026-05-12 12:37:15,351 | -------------START Scanning--------------
+2026-05-12 12:37:15,351 | ✅ Seite 58: Name gefunden → OHG Johannes Kolonko
+2026-05-12 12:37:15,351 | ✅ Seite 58: Name gefunden → OHG Johannes Kolonko
+2026-05-12 12:37:15,351 | -------------END Scanning----------------
+2026-05-12 12:37:15,351 | Found PLI ID:-->17<--
+2026-05-12 12:37:15,352 | 
+2026-05-12 12:37:15,352 | 
+2026-05-12 12:37:15,352 | 🎯 Seitenwechsel bei Seite 58 → Neuer Name: OHG Johannes Kolonko
+2026-05-12 12:37:15,353 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Joachim Ruppenthal_56-57.pdf
+2026-05-12 12:37:15,353 | 
+2026-05-12 12:37:15,354 | -------------START Scanning--------------
+2026-05-12 12:37:15,354 | ✅ Seite 59: Name gefunden → OHG Johannes Kolonko
+2026-05-12 12:37:15,354 | ✅ Seite 59: Name gefunden → OHG Johannes Kolonko
+2026-05-12 12:37:15,354 | -------------END Scanning----------------
+2026-05-12 12:37:15,355 | Found PLI ID:-->17<--
+2026-05-12 12:37:15,355 | 
+2026-05-12 12:37:15,356 | -------------START Scanning--------------
+2026-05-12 12:37:15,356 | ✅ Seite 60: Name gefunden → GbR Johannes Loewe
+2026-05-12 12:37:15,356 | ✅ Seite 60: Name gefunden → GbR Johannes Loewe
+2026-05-12 12:37:15,357 | -------------END Scanning----------------
+2026-05-12 12:37:15,357 | Found PLI ID:-->33<--
+2026-05-12 12:37:15,357 | 
+2026-05-12 12:37:15,357 | 
+2026-05-12 12:37:15,357 | 🎯 Seitenwechsel bei Seite 60 → Neuer Name: GbR Johannes Loewe
+2026-05-12 12:37:15,358 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Johannes Kolonko_58-59.pdf
+2026-05-12 12:37:15,359 | 
+2026-05-12 12:37:15,359 | -------------START Scanning--------------
+2026-05-12 12:37:15,360 | ✅ Seite 61: Name gefunden → GbR Johannes Loewe
+2026-05-12 12:37:15,360 | ✅ Seite 61: Name gefunden → GbR Johannes Loewe
+2026-05-12 12:37:15,360 | -------------END Scanning----------------
+2026-05-12 12:37:15,360 | Found PLI ID:-->33<--
+2026-05-12 12:37:15,360 | 
+2026-05-12 12:37:15,362 | -------------START Scanning--------------
+2026-05-12 12:37:15,362 | ✅ Seite 62: Name gefunden → GbR Jonatan Argueta
+2026-05-12 12:37:15,362 | ✅ Seite 62: Name gefunden → GbR Jonatan Argueta
+2026-05-12 12:37:15,362 | -------------END Scanning----------------
+2026-05-12 12:37:15,362 | Found PLI ID:-->90<--
+2026-05-12 12:37:15,363 | 
+2026-05-12 12:37:15,363 | 
+2026-05-12 12:37:15,363 | 🎯 Seitenwechsel bei Seite 62 → Neuer Name: GbR Jonatan Argueta
+2026-05-12 12:37:15,364 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Johannes Loewe_60-61.pdf
+2026-05-12 12:37:15,365 | 
+2026-05-12 12:37:15,366 | -------------START Scanning--------------
+2026-05-12 12:37:15,366 | ✅ Seite 63: Name gefunden → GbR Jonatan Argueta
+2026-05-12 12:37:15,366 | ✅ Seite 63: Name gefunden → GbR Jonatan Argueta
+2026-05-12 12:37:15,366 | -------------END Scanning----------------
+2026-05-12 12:37:15,366 | Found PLI ID:-->90<--
+2026-05-12 12:37:15,366 | 
+2026-05-12 12:37:15,368 | -------------START Scanning--------------
+2026-05-12 12:37:15,368 | ✅ Seite 64: Name gefunden → GbR Jonathan Stoffel
+2026-05-12 12:37:15,368 | ✅ Seite 64: Name gefunden → GbR Jonathan Stoffel
+2026-05-12 12:37:15,368 | -------------END Scanning----------------
+2026-05-12 12:37:15,368 | Found PLI ID:-->58<--
+2026-05-12 12:37:15,368 | 
+2026-05-12 12:37:15,368 | 
+2026-05-12 12:37:15,368 | 🎯 Seitenwechsel bei Seite 64 → Neuer Name: GbR Jonathan Stoffel
+2026-05-12 12:37:15,370 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Jonatan Argueta_62-63.pdf
+2026-05-12 12:37:15,370 | 
+2026-05-12 12:37:15,371 | -------------START Scanning--------------
+2026-05-12 12:37:15,371 | ✅ Seite 65: Name gefunden → GbR Jonathan Stoffel
+2026-05-12 12:37:15,371 | ✅ Seite 65: Name gefunden → GbR Jonathan Stoffel
+2026-05-12 12:37:15,371 | -------------END Scanning----------------
+2026-05-12 12:37:15,372 | Found PLI ID:-->58<--
+2026-05-12 12:37:15,372 | 
+2026-05-12 12:37:15,373 | -------------START Scanning--------------
+2026-05-12 12:37:15,373 | ✅ Seite 66: Name gefunden → GbR Josepha Brehm
+2026-05-12 12:37:15,373 | ✅ Seite 66: Name gefunden → GbR Josepha Brehm
+2026-05-12 12:37:15,373 | -------------END Scanning----------------
+2026-05-12 12:37:15,373 | Found PLI ID:-->73<--
+2026-05-12 12:37:15,373 | 
+2026-05-12 12:37:15,374 | 
+2026-05-12 12:37:15,374 | 🎯 Seitenwechsel bei Seite 66 → Neuer Name: GbR Josepha Brehm
+2026-05-12 12:37:15,375 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Jonathan Stoffel_64-65.pdf
+2026-05-12 12:37:15,376 | 
+2026-05-12 12:37:15,377 | -------------START Scanning--------------
+2026-05-12 12:37:15,377 | ✅ Seite 67: Name gefunden → GbR Judith Muschiol
+2026-05-12 12:37:15,377 | ✅ Seite 67: Name gefunden → GbR Judith Muschiol
+2026-05-12 12:37:15,377 | -------------END Scanning----------------
+2026-05-12 12:37:15,377 | Found PLI ID:-->8<--
+2026-05-12 12:37:15,377 | 
+2026-05-12 12:37:15,378 | 
+2026-05-12 12:37:15,378 | 🎯 Seitenwechsel bei Seite 67 → Neuer Name: GbR Judith Muschiol
+2026-05-12 12:37:15,379 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Josepha Brehm_66-66.pdf
+2026-05-12 12:37:15,380 | 
+2026-05-12 12:37:15,381 | -------------START Scanning--------------
+2026-05-12 12:37:15,381 | ✅ Seite 68: Name gefunden → GbR Judith Muschiol
+2026-05-12 12:37:15,381 | ✅ Seite 68: Name gefunden → GbR Judith Muschiol
+2026-05-12 12:37:15,381 | -------------END Scanning----------------
+2026-05-12 12:37:15,381 | Found PLI ID:-->8<--
+2026-05-12 12:37:15,381 | 
+2026-05-12 12:37:15,382 | -------------START Scanning--------------
+2026-05-12 12:37:15,382 | ✅ Seite 69: Name gefunden → GbR Julia Plath
+2026-05-12 12:37:15,383 | ✅ Seite 69: Name gefunden → GbR Julia Plath
+2026-05-12 12:37:15,383 | -------------END Scanning----------------
+2026-05-12 12:37:15,383 | Found PLI ID:-->67<--
+2026-05-12 12:37:15,383 | 
+2026-05-12 12:37:15,383 | 
+2026-05-12 12:37:15,383 | 🎯 Seitenwechsel bei Seite 69 → Neuer Name: GbR Julia Plath
+2026-05-12 12:37:15,385 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Judith Muschiol_67-68.pdf
+2026-05-12 12:37:15,385 | 
+2026-05-12 12:37:15,386 | -------------START Scanning--------------
+2026-05-12 12:37:15,386 | ✅ Seite 70: Name gefunden → GbR Julia Plath
+2026-05-12 12:37:15,386 | ✅ Seite 70: Name gefunden → GbR Julia Plath
+2026-05-12 12:37:15,386 | -------------END Scanning----------------
+2026-05-12 12:37:15,386 | Found PLI ID:-->67<--
+2026-05-12 12:37:15,387 | 
+2026-05-12 12:37:15,388 | -------------START Scanning--------------
+2026-05-12 12:37:15,388 | ✅ Seite 71: Name gefunden → OHG Julia Weigl
+2026-05-12 12:37:15,388 | ✅ Seite 71: Name gefunden → OHG Julia Weigl
+2026-05-12 12:37:15,388 | -------------END Scanning----------------
+2026-05-12 12:37:15,388 | Found PLI ID:-->26<--
+2026-05-12 12:37:15,388 | 
+2026-05-12 12:37:15,388 | 
+2026-05-12 12:37:15,388 | 🎯 Seitenwechsel bei Seite 71 → Neuer Name: OHG Julia Weigl
+2026-05-12 12:37:15,390 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Julia Plath_69-70.pdf
+2026-05-12 12:37:15,390 | 
+2026-05-12 12:37:15,391 | -------------START Scanning--------------
+2026-05-12 12:37:15,391 | ✅ Seite 72: Name gefunden → OHG Julia Weigl
+2026-05-12 12:37:15,391 | ✅ Seite 72: Name gefunden → OHG Julia Weigl
+2026-05-12 12:37:15,391 | -------------END Scanning----------------
+2026-05-12 12:37:15,391 | Found PLI ID:-->26<--
+2026-05-12 12:37:15,391 | 
+2026-05-12 12:37:15,393 | -------------START Scanning--------------
+2026-05-12 12:37:15,394 | ✅ Seite 73: Name gefunden → OHG Julius Klein
+2026-05-12 12:37:15,394 | ✅ Seite 73: Name gefunden → OHG Julius Klein
+2026-05-12 12:37:15,394 | -------------END Scanning----------------
+2026-05-12 12:37:15,394 | Found PLI ID:-->37<--
+2026-05-12 12:37:15,394 | 
+2026-05-12 12:37:15,394 | 
+2026-05-12 12:37:15,395 | 🎯 Seitenwechsel bei Seite 73 → Neuer Name: OHG Julius Klein
+2026-05-12 12:37:15,396 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Julia Weigl_71-72.pdf
+2026-05-12 12:37:15,397 | 
+2026-05-12 12:37:15,398 | -------------START Scanning--------------
+2026-05-12 12:37:15,399 | ✅ Seite 74: Name gefunden → OHG Katrin Mertel
+2026-05-12 12:37:15,399 | ✅ Seite 74: Name gefunden → OHG Katrin Mertel
+2026-05-12 12:37:15,399 | -------------END Scanning----------------
+2026-05-12 12:37:15,399 | Found PLI ID:-->55<--
+2026-05-12 12:37:15,399 | 
+2026-05-12 12:37:15,399 | 
+2026-05-12 12:37:15,400 | 🎯 Seitenwechsel bei Seite 74 → Neuer Name: OHG Katrin Mertel
+2026-05-12 12:37:15,401 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Julius Klein_73-73.pdf
+2026-05-12 12:37:15,402 | 
+2026-05-12 12:37:15,402 | -------------START Scanning--------------
+2026-05-12 12:37:15,402 | ✅ Seite 75: Name gefunden → OHG Katrin Mertel
+2026-05-12 12:37:15,402 | ✅ Seite 75: Name gefunden → OHG Katrin Mertel
+2026-05-12 12:37:15,402 | -------------END Scanning----------------
+2026-05-12 12:37:15,403 | Found PLI ID:-->55<--
+2026-05-12 12:37:15,403 | 
+2026-05-12 12:37:15,404 | -------------START Scanning--------------
+2026-05-12 12:37:15,404 | ✅ Seite 76: Name gefunden → GbR Laura Müller
+2026-05-12 12:37:15,404 | ✅ Seite 76: Name gefunden → GbR Laura Müller
+2026-05-12 12:37:15,404 | -------------END Scanning----------------
+2026-05-12 12:37:15,404 | Found PLI ID:-->41<--
+2026-05-12 12:37:15,405 | 
+2026-05-12 12:37:15,405 | 
+2026-05-12 12:37:15,405 | 🎯 Seitenwechsel bei Seite 76 → Neuer Name: GbR Laura Müller
+2026-05-12 12:37:15,406 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Katrin Mertel_74-75.pdf
+2026-05-12 12:37:15,407 | 
+2026-05-12 12:37:15,407 | -------------START Scanning--------------
+2026-05-12 12:37:15,408 | ✅ Seite 77: Name gefunden → GbR Laura Müller
+2026-05-12 12:37:15,408 | ✅ Seite 77: Name gefunden → GbR Laura Müller
+2026-05-12 12:37:15,408 | -------------END Scanning----------------
+2026-05-12 12:37:15,408 | Found PLI ID:-->41<--
+2026-05-12 12:37:15,408 | 
+2026-05-12 12:37:15,409 | -------------START Scanning--------------
+2026-05-12 12:37:15,409 | ✅ Seite 78: Name gefunden → GbR Leonie Rief
+2026-05-12 12:37:15,410 | ✅ Seite 78: Name gefunden → GbR Leonie Rief
+2026-05-12 12:37:15,410 | -------------END Scanning----------------
+2026-05-12 12:37:15,410 | Found PLI ID:-->51<--
+2026-05-12 12:37:15,410 | 
+2026-05-12 12:37:15,410 | 
+2026-05-12 12:37:15,411 | 🎯 Seitenwechsel bei Seite 78 → Neuer Name: GbR Leonie Rief
+2026-05-12 12:37:15,413 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Laura Müller_76-77.pdf
+2026-05-12 12:37:15,413 | 
+2026-05-12 12:37:15,414 | -------------START Scanning--------------
+2026-05-12 12:37:15,414 | ✅ Seite 79: Name gefunden → GbR Leonie Rief
+2026-05-12 12:37:15,414 | ✅ Seite 79: Name gefunden → GbR Leonie Rief
+2026-05-12 12:37:15,414 | -------------END Scanning----------------
+2026-05-12 12:37:15,414 | Found PLI ID:-->51<--
+2026-05-12 12:37:15,414 | 
+2026-05-12 12:37:15,416 | -------------START Scanning--------------
+2026-05-12 12:37:15,416 | ✅ Seite 80: Name gefunden → OHG Lina Drewski
+2026-05-12 12:37:15,416 | ✅ Seite 80: Name gefunden → OHG Lina Drewski
+2026-05-12 12:37:15,416 | -------------END Scanning----------------
+2026-05-12 12:37:15,416 | Found PLI ID:-->89<--
+2026-05-12 12:37:15,416 | 
+2026-05-12 12:37:15,417 | 
+2026-05-12 12:37:15,417 | 🎯 Seitenwechsel bei Seite 80 → Neuer Name: OHG Lina Drewski
+2026-05-12 12:37:15,418 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Leonie Rief_78-79.pdf
+2026-05-12 12:37:15,419 | 
+2026-05-12 12:37:15,419 | -------------START Scanning--------------
+2026-05-12 12:37:15,419 | ✅ Seite 81: Name gefunden → OHG Lina Drewski
+2026-05-12 12:37:15,420 | ✅ Seite 81: Name gefunden → OHG Lina Drewski
+2026-05-12 12:37:15,420 | -------------END Scanning----------------
+2026-05-12 12:37:15,420 | Found PLI ID:-->89<--
+2026-05-12 12:37:15,420 | 
+2026-05-12 12:37:15,421 | -------------START Scanning--------------
+2026-05-12 12:37:15,421 | ✅ Seite 82: Name gefunden → OHG Lisa Zerna
+2026-05-12 12:37:15,421 | ✅ Seite 82: Name gefunden → OHG Lisa Zerna
+2026-05-12 12:37:15,422 | -------------END Scanning----------------
+2026-05-12 12:37:15,422 | Found PLI ID:-->75<--
+2026-05-12 12:37:15,422 | 
+2026-05-12 12:37:15,422 | 
+2026-05-12 12:37:15,422 | 🎯 Seitenwechsel bei Seite 82 → Neuer Name: OHG Lisa Zerna
+2026-05-12 12:37:15,424 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Lina Drewski_80-81.pdf
+2026-05-12 12:37:15,424 | 
+2026-05-12 12:37:15,425 | -------------START Scanning--------------
+2026-05-12 12:37:15,425 | ✅ Seite 83: Name gefunden → OHG Lisa Zerna
+2026-05-12 12:37:15,425 | ✅ Seite 83: Name gefunden → OHG Lisa Zerna
+2026-05-12 12:37:15,425 | -------------END Scanning----------------
+2026-05-12 12:37:15,425 | Found PLI ID:-->75<--
+2026-05-12 12:37:15,425 | 
+2026-05-12 12:37:15,426 | -------------START Scanning--------------
+2026-05-12 12:37:15,427 | ✅ Seite 84: Name gefunden → OHG Luisa Hoch
+2026-05-12 12:37:15,427 | ✅ Seite 84: Name gefunden → OHG Luisa Hoch
+2026-05-12 12:37:15,427 | -------------END Scanning----------------
+2026-05-12 12:37:15,427 | Found PLI ID:-->16<--
+2026-05-12 12:37:15,427 | 
+2026-05-12 12:37:15,427 | 
+2026-05-12 12:37:15,427 | 🎯 Seitenwechsel bei Seite 84 → Neuer Name: OHG Luisa Hoch
+2026-05-12 12:37:15,429 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Lisa Zerna_82-83.pdf
+2026-05-12 12:37:15,429 | 
+2026-05-12 12:37:15,430 | -------------START Scanning--------------
+2026-05-12 12:37:15,430 | ✅ Seite 85: Name gefunden → OHG Luisa Hoch
+2026-05-12 12:37:15,430 | ✅ Seite 85: Name gefunden → OHG Luisa Hoch
+2026-05-12 12:37:15,430 | -------------END Scanning----------------
+2026-05-12 12:37:15,430 | Found PLI ID:-->16<--
+2026-05-12 12:37:15,431 | 
+2026-05-12 12:37:15,432 | -------------START Scanning--------------
+2026-05-12 12:37:15,432 | ✅ Seite 86: Name gefunden → GbR Lukas Denne
+2026-05-12 12:37:15,432 | ✅ Seite 86: Name gefunden → GbR Lukas Denne
+2026-05-12 12:37:15,432 | -------------END Scanning----------------
+2026-05-12 12:37:15,432 | Found PLI ID:-->29<--
+2026-05-12 12:37:15,432 | 
+2026-05-12 12:37:15,433 | 
+2026-05-12 12:37:15,433 | 🎯 Seitenwechsel bei Seite 86 → Neuer Name: GbR Lukas Denne
+2026-05-12 12:37:15,434 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Luisa Hoch_84-85.pdf
+2026-05-12 12:37:15,435 | 
+2026-05-12 12:37:15,436 | -------------START Scanning--------------
+2026-05-12 12:37:15,436 | ✅ Seite 87: Name gefunden → GbR Lukas Denne
+2026-05-12 12:37:15,436 | ✅ Seite 87: Name gefunden → GbR Lukas Denne
+2026-05-12 12:37:15,436 | -------------END Scanning----------------
+2026-05-12 12:37:15,436 | Found PLI ID:-->29<--
+2026-05-12 12:37:15,436 | 
+2026-05-12 12:37:15,438 | -------------START Scanning--------------
+2026-05-12 12:37:15,438 | ✅ Seite 88: Name gefunden → OHG Lukas Romes
+2026-05-12 12:37:15,438 | ✅ Seite 88: Name gefunden → OHG Lukas Romes
+2026-05-12 12:37:15,438 | -------------END Scanning----------------
+2026-05-12 12:37:15,438 | Found PLI ID:-->86<--
+2026-05-12 12:37:15,438 | 
+2026-05-12 12:37:15,438 | 
+2026-05-12 12:37:15,438 | 🎯 Seitenwechsel bei Seite 88 → Neuer Name: OHG Lukas Romes
+2026-05-12 12:37:15,440 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Lukas Denne_86-87.pdf
+2026-05-12 12:37:15,440 | 
+2026-05-12 12:37:15,441 | -------------START Scanning--------------
+2026-05-12 12:37:15,441 | ✅ Seite 89: Name gefunden → GbR Lukas Taboritzki
+2026-05-12 12:37:15,442 | ✅ Seite 89: Name gefunden → GbR Lukas Taboritzki
+2026-05-12 12:37:15,442 | -------------END Scanning----------------
+2026-05-12 12:37:15,442 | Found PLI ID:-->104<--
+2026-05-12 12:37:15,442 | 
+2026-05-12 12:37:15,442 | 
+2026-05-12 12:37:15,442 | 🎯 Seitenwechsel bei Seite 89 → Neuer Name: GbR Lukas Taboritzki
+2026-05-12 12:37:15,444 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Lukas Romes_88-88.pdf
+2026-05-12 12:37:15,444 | 
+2026-05-12 12:37:15,446 | -------------START Scanning--------------
+2026-05-12 12:37:15,446 | ✅ Seite 90: Name gefunden → GbR Manuel Lacher
+2026-05-12 12:37:15,446 | ✅ Seite 90: Name gefunden → GbR Manuel Lacher
+2026-05-12 12:37:15,446 | -------------END Scanning----------------
+2026-05-12 12:37:15,446 | Found PLI ID:-->42<--
+2026-05-12 12:37:15,446 | 
+2026-05-12 12:37:15,446 | 
+2026-05-12 12:37:15,446 | 🎯 Seitenwechsel bei Seite 90 → Neuer Name: GbR Manuel Lacher
+2026-05-12 12:37:15,448 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Lukas Taboritzki_89-89.pdf
+2026-05-12 12:37:15,448 | 
+2026-05-12 12:37:15,449 | -------------START Scanning--------------
+2026-05-12 12:37:15,449 | ✅ Seite 91: Name gefunden → GbR Manuel Lacher
+2026-05-12 12:37:15,449 | ✅ Seite 91: Name gefunden → GbR Manuel Lacher
+2026-05-12 12:37:15,449 | -------------END Scanning----------------
+2026-05-12 12:37:15,449 | Found PLI ID:-->42<--
+2026-05-12 12:37:15,449 | 
+2026-05-12 12:37:15,451 | -------------START Scanning--------------
+2026-05-12 12:37:15,451 | ✅ Seite 92: Name gefunden → OHG Manuel Beyer
+2026-05-12 12:37:15,451 | ✅ Seite 92: Name gefunden → OHG Manuel Beyer
+2026-05-12 12:37:15,451 | -------------END Scanning----------------
+2026-05-12 12:37:15,451 | Found PLI ID:-->85<--
+2026-05-12 12:37:15,451 | 
+2026-05-12 12:37:15,451 | 
+2026-05-12 12:37:15,451 | 🎯 Seitenwechsel bei Seite 92 → Neuer Name: OHG Manuel Beyer
+2026-05-12 12:37:15,453 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Manuel Lacher_90-91.pdf
+2026-05-12 12:37:15,453 | 
+2026-05-12 12:37:15,454 | -------------START Scanning--------------
+2026-05-12 12:37:15,454 | ✅ Seite 93: Name gefunden → OHG Manuel Beyer
+2026-05-12 12:37:15,454 | ✅ Seite 93: Name gefunden → OHG Manuel Beyer
+2026-05-12 12:37:15,454 | -------------END Scanning----------------
+2026-05-12 12:37:15,454 | Found PLI ID:-->85<--
+2026-05-12 12:37:15,454 | 
+2026-05-12 12:37:15,456 | -------------START Scanning--------------
+2026-05-12 12:37:15,456 | ✅ Seite 94: Name gefunden → OHG Marco Jägg
+2026-05-12 12:37:15,456 | ✅ Seite 94: Name gefunden → OHG Marco Jägg
+2026-05-12 12:37:15,456 | -------------END Scanning----------------
+2026-05-12 12:37:15,456 | Found PLI ID:-->57<--
+2026-05-12 12:37:15,456 | 
+2026-05-12 12:37:15,456 | 
+2026-05-12 12:37:15,456 | 🎯 Seitenwechsel bei Seite 94 → Neuer Name: OHG Marco Jägg
+2026-05-12 12:37:15,458 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Manuel Beyer_92-93.pdf
+2026-05-12 12:37:15,458 | 
+2026-05-12 12:37:15,459 | -------------START Scanning--------------
+2026-05-12 12:37:15,459 | ✅ Seite 95: Name gefunden → GbR Marco Rosas
+2026-05-12 12:37:15,460 | ✅ Seite 95: Name gefunden → GbR Marco Rosas
+2026-05-12 12:37:15,460 | -------------END Scanning----------------
+2026-05-12 12:37:15,460 | Found PLI ID:-->66<--
+2026-05-12 12:37:15,460 | 
+2026-05-12 12:37:15,460 | 
+2026-05-12 12:37:15,460 | 🎯 Seitenwechsel bei Seite 95 → Neuer Name: GbR Marco Rosas
+2026-05-12 12:37:15,462 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Marco Jägg_94-94.pdf
+2026-05-12 12:37:15,462 | 
+2026-05-12 12:37:15,463 | -------------START Scanning--------------
+2026-05-12 12:37:15,463 | ✅ Seite 96: Name gefunden → GbR Marco Rosas
+2026-05-12 12:37:15,463 | ✅ Seite 96: Name gefunden → GbR Marco Rosas
+2026-05-12 12:37:15,464 | -------------END Scanning----------------
+2026-05-12 12:37:15,464 | Found PLI ID:-->66<--
+2026-05-12 12:37:15,464 | 
+2026-05-12 12:37:15,465 | -------------START Scanning--------------
+2026-05-12 12:37:15,465 | ✅ Seite 97: Name gefunden → OHG Maria Teufel
+2026-05-12 12:37:15,465 | ✅ Seite 97: Name gefunden → OHG Maria Teufel
+2026-05-12 12:37:15,465 | -------------END Scanning----------------
+2026-05-12 12:37:15,466 | Found PLI ID:-->65<--
+2026-05-12 12:37:15,466 | 
+2026-05-12 12:37:15,466 | 
+2026-05-12 12:37:15,466 | 🎯 Seitenwechsel bei Seite 97 → Neuer Name: OHG Maria Teufel
+2026-05-12 12:37:15,467 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Marco Rosas_95-96.pdf
+2026-05-12 12:37:15,468 | 
+2026-05-12 12:37:15,468 | -------------START Scanning--------------
+2026-05-12 12:37:15,468 | ✅ Seite 98: Name gefunden → OHG Maria Teufel
+2026-05-12 12:37:15,468 | ✅ Seite 98: Name gefunden → OHG Maria Teufel
+2026-05-12 12:37:15,469 | -------------END Scanning----------------
+2026-05-12 12:37:15,469 | Found PLI ID:-->65<--
+2026-05-12 12:37:15,469 | 
+2026-05-12 12:37:15,470 | -------------START Scanning--------------
+2026-05-12 12:37:15,470 | ✅ Seite 99: Name gefunden → GbR Marlies Rosenstock
+2026-05-12 12:37:15,470 | ✅ Seite 99: Name gefunden → GbR Marlies Rosenstock
+2026-05-12 12:37:15,470 | -------------END Scanning----------------
+2026-05-12 12:37:15,470 | Found PLI ID:-->18<--
+2026-05-12 12:37:15,470 | 
+2026-05-12 12:37:15,471 | 
+2026-05-12 12:37:15,471 | 🎯 Seitenwechsel bei Seite 99 → Neuer Name: GbR Marlies Rosenstock
+2026-05-12 12:37:15,473 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Maria Teufel_97-98.pdf
+2026-05-12 12:37:15,473 | 
+2026-05-12 12:37:15,473 | -------------START Scanning--------------
+2026-05-12 12:37:15,474 | ✅ Seite 100: Name gefunden → GbR Marlies Rosenstock
+2026-05-12 12:37:15,474 | ✅ Seite 100: Name gefunden → GbR Marlies Rosenstock
+2026-05-12 12:37:15,474 | -------------END Scanning----------------
+2026-05-12 12:37:15,474 | Found PLI ID:-->18<--
+2026-05-12 12:37:15,474 | 
+2026-05-12 12:37:15,475 | -------------START Scanning--------------
+2026-05-12 12:37:15,475 | ✅ Seite 101: Name gefunden → OHG Martin Albietz
+2026-05-12 12:37:15,476 | ✅ Seite 101: Name gefunden → OHG Martin Albietz
+2026-05-12 12:37:15,476 | -------------END Scanning----------------
+2026-05-12 12:37:15,476 | Found PLI ID:-->12<--
+2026-05-12 12:37:15,476 | 
+2026-05-12 12:37:15,476 | 
+2026-05-12 12:37:15,476 | 🎯 Seitenwechsel bei Seite 101 → Neuer Name: OHG Martin Albietz
+2026-05-12 12:37:15,478 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Marlies Rosenstock_99-100.pdf
+2026-05-12 12:37:15,478 | 
+2026-05-12 12:37:15,480 | -------------START Scanning--------------
+2026-05-12 12:37:15,480 | ✅ Seite 102: Name gefunden → OHG Martin Bäumle
+2026-05-12 12:37:15,480 | ✅ Seite 102: Name gefunden → OHG Martin Bäumle
+2026-05-12 12:37:15,480 | -------------END Scanning----------------
+2026-05-12 12:37:15,480 | Found PLI ID:-->5<--
+2026-05-12 12:37:15,480 | 
+2026-05-12 12:37:15,480 | 
+2026-05-12 12:37:15,480 | 🎯 Seitenwechsel bei Seite 102 → Neuer Name: OHG Martin Bäumle
+2026-05-12 12:37:15,482 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Martin Albietz_101-101.pdf
+2026-05-12 12:37:15,482 | 
+2026-05-12 12:37:15,483 | -------------START Scanning--------------
+2026-05-12 12:37:15,484 | ✅ Seite 103: Name gefunden → GbR Mathias Wolfsperger
+2026-05-12 12:37:15,484 | ✅ Seite 103: Name gefunden → GbR Mathias Wolfsperger
+2026-05-12 12:37:15,484 | -------------END Scanning----------------
+2026-05-12 12:37:15,484 | Found PLI ID:-->9<--
+2026-05-12 12:37:15,484 | 
+2026-05-12 12:37:15,484 | 
+2026-05-12 12:37:15,484 | 🎯 Seitenwechsel bei Seite 103 → Neuer Name: GbR Mathias Wolfsperger
+2026-05-12 12:37:15,486 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_OHG Martin Bäumle_102-102.pdf
+2026-05-12 12:37:15,486 | 
+2026-05-12 12:37:15,487 | -------------START Scanning--------------
+2026-05-12 12:37:15,487 | ✅ Seite 104: Name gefunden → GbR Mathias Wolfsperger
+2026-05-12 12:37:15,487 | ✅ Seite 104: Name gefunden → GbR Mathias Wolfsperger
+2026-05-12 12:37:15,487 | -------------END Scanning----------------
+2026-05-12 12:37:15,488 | Found PLI ID:-->9<--
+2026-05-12 12:37:15,488 | 
+2026-05-12 12:37:15,489 | -------------START Scanning--------------
+2026-05-12 12:37:15,489 | ✅ Seite 105: Name gefunden → OHG Maud Consigny
+2026-05-12 12:37:15,489 | ✅ Seite 105: Name gefunden → OHG Maud Consigny
+2026-05-12 12:37:15,489 | -------------END Scanning----------------
+2026-05-12 12:37:15,489 | Found PLI ID:-->77<--
+2026-05-12 12:37:15,489 | 
+2026-05-12 12:37:15,490 | 
+2026-05-12 12:37:15,490 | 🎯 Seitenwechsel bei Seite 105 → Neuer Name: OHG Maud Consigny
+2026-05-12 12:37:15,491 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Mathias Wolfsperger_103-104.pdf
+2026-05-12 12:37:15,491 | 
+2026-05-12 12:37:15,492 | -------------START Scanning--------------
+2026-05-12 12:37:15,492 | ✅ Seite 106: Name gefunden → OHG Maud Consigny
+2026-05-12 12:37:15,492 | ✅ Seite 106: Name gefunden → OHG Maud Consigny
+2026-05-12 12:37:15,492 | -------------END Scanning----------------
+2026-05-12 12:37:15,492 | Found PLI ID:-->77<--
+2026-05-12 12:37:15,493 | 
+2026-05-12 12:37:15,494 | -------------START Scanning--------------
+2026-05-12 12:37:15,494 | ✅ Seite 107: Name gefunden → GbR Meret Klapp
+2026-05-12 12:37:15,494 | ✅ Seite 107: Name gefunden → GbR Meret Klapp
+2026-05-12 12:37:15,494 | -------------END Scanning----------------
+2026-05-12 12:37:15,494 | Found PLI ID:-->94<--
+2026-05-12 12:37:15,494 | 
+2026-05-12 12:37:15,495 | 
+2026-05-12 12:37:15,495 | 🎯 Seitenwechsel bei Seite 107 → Neuer Name: GbR Meret Klapp
+2026-05-12 12:37:15,496 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Maud Consigny_105-106.pdf
+2026-05-12 12:37:15,496 | 
+2026-05-12 12:37:15,497 | -------------START Scanning--------------
+2026-05-12 12:37:15,497 | ✅ Seite 108: Name gefunden → GbR Meret Klapp
+2026-05-12 12:37:15,497 | ✅ Seite 108: Name gefunden → GbR Meret Klapp
+2026-05-12 12:37:15,498 | -------------END Scanning----------------
+2026-05-12 12:37:15,498 | Found PLI ID:-->94<--
+2026-05-12 12:37:15,498 | 
+2026-05-12 12:37:15,499 | -------------START Scanning--------------
+2026-05-12 12:37:15,499 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2026-05-12 12:37:15,499 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2026-05-12 12:37:15,499 | -------------END Scanning----------------
+2026-05-12 12:37:15,499 | Found PLI ID:-->76<--
+2026-05-12 12:37:15,500 | 
+2026-05-12 12:37:15,500 | 
+2026-05-12 12:37:15,500 | 🎯 Seitenwechsel bei Seite 109 → Neuer Name: OHG Michael Holl
+2026-05-12 12:37:15,502 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Meret Klapp_107-108.pdf
+2026-05-12 12:37:15,502 | 
+2026-05-12 12:37:15,503 | -------------START Scanning--------------
+2026-05-12 12:37:15,503 | ✅ Seite 110: Name gefunden → OHG Michaela Dinglreiter
+2026-05-12 12:37:15,503 | ✅ Seite 110: Name gefunden → OHG Michaela Dinglreiter
+2026-05-12 12:37:15,504 | -------------END Scanning----------------
+2026-05-12 12:37:15,504 | Found PLI ID:-->21<--
+2026-05-12 12:37:15,504 | 
+2026-05-12 12:37:15,504 | 
+2026-05-12 12:37:15,504 | 🎯 Seitenwechsel bei Seite 110 → Neuer Name: OHG Michaela Dinglreiter
+2026-05-12 12:37:15,506 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Michael Holl_109-109.pdf
+2026-05-12 12:37:15,506 | 
+2026-05-12 12:37:15,506 | -------------START Scanning--------------
+2026-05-12 12:37:15,506 | ✅ Seite 111: Name gefunden → OHG Michaela Dinglreiter
+2026-05-12 12:37:15,506 | ✅ Seite 111: Name gefunden → OHG Michaela Dinglreiter
+2026-05-12 12:37:15,506 | -------------END Scanning----------------
+2026-05-12 12:37:15,507 | Found PLI ID:-->21<--
+2026-05-12 12:37:15,507 | 
+2026-05-12 12:37:15,508 | -------------START Scanning--------------
+2026-05-12 12:37:15,508 | ✅ Seite 112: Name gefunden → OHG Michael Meuser
+2026-05-12 12:37:15,508 | ✅ Seite 112: Name gefunden → OHG Michael Meuser
+2026-05-12 12:37:15,508 | -------------END Scanning----------------
+2026-05-12 12:37:15,508 | Found PLI ID:-->20<--
+2026-05-12 12:37:15,508 | 
+2026-05-12 12:37:15,508 | 
+2026-05-12 12:37:15,508 | 🎯 Seitenwechsel bei Seite 112 → Neuer Name: OHG Michael Meuser
+2026-05-12 12:37:15,510 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Michaela Dinglreiter_110-111.pdf
+2026-05-12 12:37:15,510 | 
+2026-05-12 12:37:15,511 | -------------START Scanning--------------
+2026-05-12 12:37:15,511 | ✅ Seite 113: Name gefunden → OHG Michael Meuser
+2026-05-12 12:37:15,512 | ✅ Seite 113: Name gefunden → OHG Michael Meuser
+2026-05-12 12:37:15,512 | -------------END Scanning----------------
+2026-05-12 12:37:15,512 | Found PLI ID:-->20<--
+2026-05-12 12:37:15,512 | 
+2026-05-12 12:37:15,513 | -------------START Scanning--------------
+2026-05-12 12:37:15,513 | ✅ Seite 114: Name gefunden → OHG Monika Frese
+2026-05-12 12:37:15,513 | ✅ Seite 114: Name gefunden → OHG Monika Frese
+2026-05-12 12:37:15,514 | -------------END Scanning----------------
+2026-05-12 12:37:15,514 | Found PLI ID:-->45<--
+2026-05-12 12:37:15,514 | 
+2026-05-12 12:37:15,514 | 
+2026-05-12 12:37:15,514 | 🎯 Seitenwechsel bei Seite 114 → Neuer Name: OHG Monika Frese
+2026-05-12 12:37:15,516 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Michael Meuser_112-113.pdf
+2026-05-12 12:37:15,516 | 
+2026-05-12 12:37:15,517 | -------------START Scanning--------------
+2026-05-12 12:37:15,517 | ✅ Seite 115: Name gefunden → OHG Mu Dell'Oro
+2026-05-12 12:37:15,517 | ✅ Seite 115: Name gefunden → OHG Mu Dell'Oro
+2026-05-12 12:37:15,518 | -------------END Scanning----------------
+2026-05-12 12:37:15,518 | Found PLI ID:-->88<--
+2026-05-12 12:37:15,518 | 
+2026-05-12 12:37:15,518 | 
+2026-05-12 12:37:15,518 | 🎯 Seitenwechsel bei Seite 115 → Neuer Name: OHG Mu Dell'Oro
+2026-05-12 12:37:15,520 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Monika Frese_114-114.pdf
+2026-05-12 12:37:15,520 | 
+2026-05-12 12:37:15,521 | -------------START Scanning--------------
+2026-05-12 12:37:15,521 | ✅ Seite 116: Name gefunden → OHG Mu Dell'Oro
+2026-05-12 12:37:15,521 | ✅ Seite 116: Name gefunden → OHG Mu Dell'Oro
+2026-05-12 12:37:15,521 | -------------END Scanning----------------
+2026-05-12 12:37:15,521 | Found PLI ID:-->88<--
+2026-05-12 12:37:15,521 | 
+2026-05-12 12:37:15,523 | -------------START Scanning--------------
+2026-05-12 12:37:15,523 | ✅ Seite 117: Name gefunden → OHG Nicole Piro
+2026-05-12 12:37:15,523 | ✅ Seite 117: Name gefunden → OHG Nicole Piro
+2026-05-12 12:37:15,523 | -------------END Scanning----------------
+2026-05-12 12:37:15,523 | Found PLI ID:-->43<--
+2026-05-12 12:37:15,523 | 
+2026-05-12 12:37:15,523 | 
+2026-05-12 12:37:15,523 | 🎯 Seitenwechsel bei Seite 117 → Neuer Name: OHG Nicole Piro
+2026-05-12 12:37:15,525 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Mu Dell'Oro_115-116.pdf
+2026-05-12 12:37:15,525 | 
+2026-05-12 12:37:15,526 | -------------START Scanning--------------
+2026-05-12 12:37:15,526 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2026-05-12 12:37:15,526 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2026-05-12 12:37:15,526 | -------------END Scanning----------------
+2026-05-12 12:37:15,526 | Found PLI ID:-->43<--
+2026-05-12 12:37:15,527 | 
+2026-05-12 12:37:15,528 | -------------START Scanning--------------
+2026-05-12 12:37:15,528 | ✅ Seite 119: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,528 | ✅ Seite 119: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,528 | -------------END Scanning----------------
+2026-05-12 12:37:15,528 | Found PLI ID:-->95<--
+2026-05-12 12:37:15,528 | 
+2026-05-12 12:37:15,528 | 
+2026-05-12 12:37:15,528 | 🎯 Seitenwechsel bei Seite 119 → Neuer Name: GbR Nina Hofmann
+2026-05-12 12:37:15,530 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Nicole Piro_117-118.pdf
+2026-05-12 12:37:15,530 | 
+2026-05-12 12:37:15,531 | -------------START Scanning--------------
+2026-05-12 12:37:15,532 | ✅ Seite 120: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,532 | ✅ Seite 120: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,532 | -------------END Scanning----------------
+2026-05-12 12:37:15,532 | Found PLI ID:-->95<--
+2026-05-12 12:37:15,532 | 
+2026-05-12 12:37:15,533 | -------------START Scanning--------------
+2026-05-12 12:37:15,533 | ✅ Seite 121: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,533 | ✅ Seite 121: Name gefunden → GbR Nina Hofmann
+2026-05-12 12:37:15,533 | -------------END Scanning----------------
+2026-05-12 12:37:15,533 | Found PLI ID:-->95<--
+2026-05-12 12:37:15,533 | 
+2026-05-12 12:37:15,535 | -------------START Scanning--------------
+2026-05-12 12:37:15,535 | ✅ Seite 122: Name gefunden → GbR Noah Ihlein
+2026-05-12 12:37:15,535 | ✅ Seite 122: Name gefunden → GbR Noah Ihlein
+2026-05-12 12:37:15,535 | -------------END Scanning----------------
+2026-05-12 12:37:15,535 | Found PLI ID:-->93<--
+2026-05-12 12:37:15,535 | 
+2026-05-12 12:37:15,535 | 
+2026-05-12 12:37:15,536 | 🎯 Seitenwechsel bei Seite 122 → Neuer Name: GbR Noah Ihlein
+2026-05-12 12:37:15,537 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Nina Hofmann_119-121.pdf
+2026-05-12 12:37:15,537 | 
+2026-05-12 12:37:15,538 | -------------START Scanning--------------
+2026-05-12 12:37:15,538 | ✅ Seite 123: Name gefunden → GbR Noah Ihlein
+2026-05-12 12:37:15,539 | ✅ Seite 123: Name gefunden → GbR Noah Ihlein
+2026-05-12 12:37:15,539 | -------------END Scanning----------------
+2026-05-12 12:37:15,539 | Found PLI ID:-->93<--
+2026-05-12 12:37:15,539 | 
+2026-05-12 12:37:15,540 | -------------START Scanning--------------
+2026-05-12 12:37:15,540 | ✅ Seite 124: Name gefunden → GbR Nyancho Sanneh
+2026-05-12 12:37:15,540 | ✅ Seite 124: Name gefunden → GbR Nyancho Sanneh
+2026-05-12 12:37:15,541 | -------------END Scanning----------------
+2026-05-12 12:37:15,541 | Found PLI ID:-->14<--
+2026-05-12 12:37:15,541 | 
+2026-05-12 12:37:15,541 | 
+2026-05-12 12:37:15,541 | 🎯 Seitenwechsel bei Seite 124 → Neuer Name: GbR Nyancho Sanneh
+2026-05-12 12:37:15,543 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Noah Ihlein_122-123.pdf
+2026-05-12 12:37:15,543 | 
+2026-05-12 12:37:15,544 | -------------START Scanning--------------
+2026-05-12 12:37:15,544 | ✅ Seite 125: Name gefunden → GbR Nyancho Sanneh
+2026-05-12 12:37:15,544 | ✅ Seite 125: Name gefunden → GbR Nyancho Sanneh
+2026-05-12 12:37:15,544 | -------------END Scanning----------------
+2026-05-12 12:37:15,544 | Found PLI ID:-->14<--
+2026-05-12 12:37:15,544 | 
+2026-05-12 12:37:15,545 | -------------START Scanning--------------
+2026-05-12 12:37:15,546 | ✅ Seite 126: Name gefunden → OHG Ottmar Widmaier
+2026-05-12 12:37:15,546 | ✅ Seite 126: Name gefunden → OHG Ottmar Widmaier
+2026-05-12 12:37:15,546 | -------------END Scanning----------------
+2026-05-12 12:37:15,546 | Found PLI ID:-->40<--
+2026-05-12 12:37:15,546 | 
+2026-05-12 12:37:15,546 | 
+2026-05-12 12:37:15,546 | 🎯 Seitenwechsel bei Seite 126 → Neuer Name: OHG Ottmar Widmaier
+2026-05-12 12:37:15,548 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Nyancho Sanneh_124-125.pdf
+2026-05-12 12:37:15,548 | 
+2026-05-12 12:37:15,549 | -------------START Scanning--------------
+2026-05-12 12:37:15,549 | ✅ Seite 127: Name gefunden → OHG Philipp Schneider
+2026-05-12 12:37:15,549 | ✅ Seite 127: Name gefunden → OHG Philipp Schneider
+2026-05-12 12:37:15,550 | -------------END Scanning----------------
+2026-05-12 12:37:15,550 | Found PLI ID:-->100<--
+2026-05-12 12:37:15,550 | 
+2026-05-12 12:37:15,550 | 
+2026-05-12 12:37:15,550 | 🎯 Seitenwechsel bei Seite 127 → Neuer Name: OHG Philipp Schneider
+2026-05-12 12:37:15,552 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Ottmar Widmaier_126-126.pdf
+2026-05-12 12:37:15,552 | 
+2026-05-12 12:37:15,552 | -------------START Scanning--------------
+2026-05-12 12:37:15,553 | ✅ Seite 128: Name gefunden → OHG Philipp Schneider
+2026-05-12 12:37:15,553 | ✅ Seite 128: Name gefunden → OHG Philipp Schneider
+2026-05-12 12:37:15,553 | -------------END Scanning----------------
+2026-05-12 12:37:15,553 | Found PLI ID:-->100<--
+2026-05-12 12:37:15,553 | 
+2026-05-12 12:37:15,554 | -------------START Scanning--------------
+2026-05-12 12:37:15,555 | ✅ Seite 129: Name gefunden → OHG Rico Albat
+2026-05-12 12:37:15,555 | ✅ Seite 129: Name gefunden → OHG Rico Albat
+2026-05-12 12:37:15,555 | -------------END Scanning----------------
+2026-05-12 12:37:15,555 | Found PLI ID:-->31<--
+2026-05-12 12:37:15,555 | 
+2026-05-12 12:37:15,555 | 
+2026-05-12 12:37:15,555 | 🎯 Seitenwechsel bei Seite 129 → Neuer Name: OHG Rico Albat
+2026-05-12 12:37:15,557 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Philipp Schneider_127-128.pdf
+2026-05-12 12:37:15,557 | 
+2026-05-12 12:37:15,557 | -------------START Scanning--------------
+2026-05-12 12:37:15,557 | ✅ Seite 130: Name gefunden → OHG Rico Albat
+2026-05-12 12:37:15,558 | ✅ Seite 130: Name gefunden → OHG Rico Albat
+2026-05-12 12:37:15,558 | -------------END Scanning----------------
+2026-05-12 12:37:15,558 | Found PLI ID:-->31<--
+2026-05-12 12:37:15,558 | 
+2026-05-12 12:37:15,559 | -------------START Scanning--------------
+2026-05-12 12:37:15,559 | ✅ Seite 131: Name gefunden → OHG Romana Aserah
+2026-05-12 12:37:15,559 | ✅ Seite 131: Name gefunden → OHG Romana Aserah
+2026-05-12 12:37:15,559 | -------------END Scanning----------------
+2026-05-12 12:37:15,560 | Found PLI ID:-->62<--
+2026-05-12 12:37:15,560 | 
+2026-05-12 12:37:15,560 | 
+2026-05-12 12:37:15,560 | 🎯 Seitenwechsel bei Seite 131 → Neuer Name: OHG Romana Aserah
+2026-05-12 12:37:15,562 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Rico Albat_129-130.pdf
+2026-05-12 12:37:15,562 | 
+2026-05-12 12:37:15,564 | -------------START Scanning--------------
+2026-05-12 12:37:15,564 | ✅ Seite 132: Name gefunden → OHG Sabine Gleichauf
+2026-05-12 12:37:15,564 | ✅ Seite 132: Name gefunden → OHG Sabine Gleichauf
+2026-05-12 12:37:15,564 | -------------END Scanning----------------
+2026-05-12 12:37:15,564 | Found PLI ID:-->15<--
+2026-05-12 12:37:15,564 | 
+2026-05-12 12:37:15,564 | 
+2026-05-12 12:37:15,565 | 🎯 Seitenwechsel bei Seite 132 → Neuer Name: OHG Sabine Gleichauf
+2026-05-12 12:37:15,566 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Romana Aserah_131-131.pdf
+2026-05-12 12:37:15,566 | 
+2026-05-12 12:37:15,568 | -------------START Scanning--------------
+2026-05-12 12:37:15,568 | ✅ Seite 133: Name gefunden → OHG Sabrina Lehmann
+2026-05-12 12:37:15,568 | ✅ Seite 133: Name gefunden → OHG Sabrina Lehmann
+2026-05-12 12:37:15,568 | -------------END Scanning----------------
+2026-05-12 12:37:15,568 | Found PLI ID:-->47<--
+2026-05-12 12:37:15,568 | 
+2026-05-12 12:37:15,568 | 
+2026-05-12 12:37:15,568 | 🎯 Seitenwechsel bei Seite 133 → Neuer Name: OHG Sabrina Lehmann
+2026-05-12 12:37:15,570 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Sabine Gleichauf_132-132.pdf
+2026-05-12 12:37:15,570 | 
+2026-05-12 12:37:15,571 | -------------START Scanning--------------
+2026-05-12 12:37:15,571 | ✅ Seite 134: Name gefunden → OHG Sabrina Lehmann
+2026-05-12 12:37:15,571 | ✅ Seite 134: Name gefunden → OHG Sabrina Lehmann
+2026-05-12 12:37:15,571 | -------------END Scanning----------------
+2026-05-12 12:37:15,571 | Found PLI ID:-->47<--
+2026-05-12 12:37:15,571 | 
+2026-05-12 12:37:15,573 | -------------START Scanning--------------
+2026-05-12 12:37:15,573 | ✅ Seite 135: Name gefunden → OHG Selina Zanger
+2026-05-12 12:37:15,573 | ✅ Seite 135: Name gefunden → OHG Selina Zanger
+2026-05-12 12:37:15,573 | -------------END Scanning----------------
+2026-05-12 12:37:15,573 | Found PLI ID:-->63<--
+2026-05-12 12:37:15,573 | 
+2026-05-12 12:37:15,573 | 
+2026-05-12 12:37:15,573 | 🎯 Seitenwechsel bei Seite 135 → Neuer Name: OHG Selina Zanger
+2026-05-12 12:37:15,575 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Sabrina Lehmann_133-134.pdf
+2026-05-12 12:37:15,575 | 
+2026-05-12 12:37:15,576 | -------------START Scanning--------------
+2026-05-12 12:37:15,576 | ✅ Seite 136: Name gefunden → GbR Sigrun Moser
+2026-05-12 12:37:15,577 | ✅ Seite 136: Name gefunden → GbR Sigrun Moser
+2026-05-12 12:37:15,577 | -------------END Scanning----------------
+2026-05-12 12:37:15,577 | Found PLI ID:-->6<--
+2026-05-12 12:37:15,577 | 
+2026-05-12 12:37:15,577 | 
+2026-05-12 12:37:15,577 | 🎯 Seitenwechsel bei Seite 136 → Neuer Name: GbR Sigrun Moser
+2026-05-12 12:37:15,579 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Selina Zanger_135-135.pdf
+2026-05-12 12:37:15,580 | 
+2026-05-12 12:37:15,580 | -------------START Scanning--------------
+2026-05-12 12:37:15,580 | ✅ Seite 137: Name gefunden → GbR Sigrun Moser
+2026-05-12 12:37:15,581 | ✅ Seite 137: Name gefunden → GbR Sigrun Moser
+2026-05-12 12:37:15,581 | -------------END Scanning----------------
+2026-05-12 12:37:15,581 | Found PLI ID:-->6<--
+2026-05-12 12:37:15,581 | 
+2026-05-12 12:37:15,582 | -------------START Scanning--------------
+2026-05-12 12:37:15,582 | ✅ Seite 138: Name gefunden → OHG Simon Erdmann
+2026-05-12 12:37:15,583 | ✅ Seite 138: Name gefunden → OHG Simon Erdmann
+2026-05-12 12:37:15,583 | -------------END Scanning----------------
+2026-05-12 12:37:15,583 | Found PLI ID:-->74<--
+2026-05-12 12:37:15,583 | 
+2026-05-12 12:37:15,583 | 
+2026-05-12 12:37:15,583 | 🎯 Seitenwechsel bei Seite 138 → Neuer Name: OHG Simon Erdmann
+2026-05-12 12:37:15,585 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_GbR Sigrun Moser_136-137.pdf
+2026-05-12 12:37:15,585 | 
+2026-05-12 12:37:15,587 | -------------START Scanning--------------
+2026-05-12 12:37:15,587 | ✅ Seite 139: Name gefunden → OHG Tatsiana Wolf
+2026-05-12 12:37:15,587 | ✅ Seite 139: Name gefunden → OHG Tatsiana Wolf
+2026-05-12 12:37:15,587 | -------------END Scanning----------------
+2026-05-12 12:37:15,587 | Found PLI ID:-->50<--
+2026-05-12 12:37:15,587 | 
+2026-05-12 12:37:15,588 | 
+2026-05-12 12:37:15,588 | 🎯 Seitenwechsel bei Seite 139 → Neuer Name: OHG Tatsiana Wolf
+2026-05-12 12:37:15,589 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\print\Monatsbericht_OHG Simon Erdmann_138-138.pdf
+2026-05-12 12:37:15,589 | 
+2026-05-12 12:37:15,590 | -------------START Scanning--------------
+2026-05-12 12:37:15,590 | ✅ Seite 140: Name gefunden → OHG Tatsiana Wolf
+2026-05-12 12:37:15,590 | ✅ Seite 140: Name gefunden → OHG Tatsiana Wolf
+2026-05-12 12:37:15,590 | -------------END Scanning----------------
+2026-05-12 12:37:15,590 | Found PLI ID:-->50<--
+2026-05-12 12:37:15,590 | 
+2026-05-12 12:37:15,591 | -------------START Scanning--------------
+2026-05-12 12:37:15,592 | ✅ Seite 141: Name gefunden → OHG Christine Schwake
+2026-05-12 12:37:15,592 | ✅ Seite 141: Name gefunden → OHG Christine Schwake
+2026-05-12 12:37:15,592 | -------------END Scanning----------------
+2026-05-12 12:37:15,592 | Found PLI ID:-->36<--
+2026-05-12 12:37:15,592 | 
+2026-05-12 12:37:15,592 | 
+2026-05-12 12:37:15,592 | 🎯 Seitenwechsel bei Seite 141 → Neuer Name: OHG Christine Schwake
+2026-05-12 12:37:15,594 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Tatsiana Wolf_139-140.pdf
+2026-05-12 12:37:15,594 | 
+2026-05-12 12:37:15,595 | -------------START Scanning--------------
+2026-05-12 12:37:15,596 | ✅ Seite 142: Name gefunden → OHG Christine Schwake
+2026-05-12 12:37:15,596 | ✅ Seite 142: Name gefunden → OHG Christine Schwake
+2026-05-12 12:37:15,596 | -------------END Scanning----------------
+2026-05-12 12:37:15,596 | Found PLI ID:-->36<--
+2026-05-12 12:37:15,596 | 
+2026-05-12 12:37:15,597 | -------------START Scanning--------------
+2026-05-12 12:37:15,597 | ✅ Seite 143: Name gefunden → GbR Hans-Ulrich Sallier
+2026-05-12 12:37:15,598 | ✅ Seite 143: Name gefunden → GbR Hans-Ulrich Sallier
+2026-05-12 12:37:15,598 | -------------END Scanning----------------
+2026-05-12 12:37:15,598 | Found PLI ID:-->11<--
+2026-05-12 12:37:15,598 | 
+2026-05-12 12:37:15,598 | 
+2026-05-12 12:37:15,598 | 🎯 Seitenwechsel bei Seite 143 → Neuer Name: GbR Hans-Ulrich Sallier
+2026-05-12 12:37:15,600 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Christine Schwake_141-142.pdf
+2026-05-12 12:37:15,600 | 
+2026-05-12 12:37:15,601 | -------------START Scanning--------------
+2026-05-12 12:37:15,601 | ✅ Seite 144: Name gefunden → GbR Ulrike Kleingarn
+2026-05-12 12:37:15,602 | ✅ Seite 144: Name gefunden → GbR Ulrike Kleingarn
+2026-05-12 12:37:15,602 | -------------END Scanning----------------
+2026-05-12 12:37:15,602 | Found PLI ID:-->39<--
+2026-05-12 12:37:15,602 | 
+2026-05-12 12:37:15,602 | 
+2026-05-12 12:37:15,602 | 🎯 Seitenwechsel bei Seite 144 → Neuer Name: GbR Ulrike Kleingarn
+2026-05-12 12:37:15,604 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Hans-Ulrich Sallier_143-143.pdf
+2026-05-12 12:37:15,604 | 
+2026-05-12 12:37:15,605 | -------------START Scanning--------------
+2026-05-12 12:37:15,605 | ✅ Seite 145: Name gefunden → GbR Ulrike Kleingarn
+2026-05-12 12:37:15,605 | ✅ Seite 145: Name gefunden → GbR Ulrike Kleingarn
+2026-05-12 12:37:15,605 | -------------END Scanning----------------
+2026-05-12 12:37:15,605 | Found PLI ID:-->39<--
+2026-05-12 12:37:15,606 | 
+2026-05-12 12:37:15,607 | -------------START Scanning--------------
+2026-05-12 12:37:15,607 | ✅ Seite 146: Name gefunden → GbR Valentina Volkmer
+2026-05-12 12:37:15,607 | ✅ Seite 146: Name gefunden → GbR Valentina Volkmer
+2026-05-12 12:37:15,607 | -------------END Scanning----------------
+2026-05-12 12:37:15,607 | Found PLI ID:-->96<--
+2026-05-12 12:37:15,607 | 
+2026-05-12 12:37:15,607 | 
+2026-05-12 12:37:15,607 | 🎯 Seitenwechsel bei Seite 146 → Neuer Name: GbR Valentina Volkmer
+2026-05-12 12:37:15,609 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Ulrike Kleingarn_144-145.pdf
+2026-05-12 12:37:15,609 | 
+2026-05-12 12:37:15,610 | -------------START Scanning--------------
+2026-05-12 12:37:15,611 | ✅ Seite 147: Name gefunden → GbR Valentina Volkmer
+2026-05-12 12:37:15,611 | ✅ Seite 147: Name gefunden → GbR Valentina Volkmer
+2026-05-12 12:37:15,611 | -------------END Scanning----------------
+2026-05-12 12:37:15,611 | Found PLI ID:-->96<--
+2026-05-12 12:37:15,611 | 
+2026-05-12 12:37:15,612 | -------------START Scanning--------------
+2026-05-12 12:37:15,613 | ✅ Seite 148: Name gefunden → OHG Wolfgang Scheller
+2026-05-12 12:37:15,613 | ✅ Seite 148: Name gefunden → OHG Wolfgang Scheller
+2026-05-12 12:37:15,613 | -------------END Scanning----------------
+2026-05-12 12:37:15,613 | Found PLI ID:-->19<--
+2026-05-12 12:37:15,613 | 
+2026-05-12 12:37:15,613 | 
+2026-05-12 12:37:15,613 | 🎯 Seitenwechsel bei Seite 148 → Neuer Name: OHG Wolfgang Scheller
+2026-05-12 12:37:15,615 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Valentina Volkmer_146-147.pdf
+2026-05-12 12:37:15,615 | 
+2026-05-12 12:37:15,616 | -------------START Scanning--------------
+2026-05-12 12:37:15,616 | ✅ Seite 149: Name gefunden → GbR Yannis von Majewski
+2026-05-12 12:37:15,616 | ✅ Seite 149: Name gefunden → GbR Yannis von Majewski
+2026-05-12 12:37:15,616 | -------------END Scanning----------------
+2026-05-12 12:37:15,617 | Found PLI ID:-->59<--
+2026-05-12 12:37:15,617 | 
+2026-05-12 12:37:15,617 | 
+2026-05-12 12:37:15,617 | 🎯 Seitenwechsel bei Seite 149 → Neuer Name: GbR Yannis von Majewski
+2026-05-12 12:37:15,618 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_OHG Wolfgang Scheller_148-148.pdf
+2026-05-12 12:37:15,619 | 
+2026-05-12 12:37:15,619 | -------------START Scanning--------------
+2026-05-12 12:37:15,620 | ✅ Seite 150: Name gefunden → GbR Yannis von Majewski
+2026-05-12 12:37:15,620 | ✅ Seite 150: Name gefunden → GbR Yannis von Majewski
+2026-05-12 12:37:15,620 | -------------END Scanning----------------
+2026-05-12 12:37:15,620 | Found PLI ID:-->59<--
+2026-05-12 12:37:15,620 | 
+2026-05-12 12:37:15,620 | 
+2026-05-12 12:37:15,621 | 🎯 Seitenwechsel bei Seite 150 → Neuer Name: GbR Yannis von Majewski
+2026-05-12 12:37:15,622 | 💾 Datei gespeichert: C:\Users\Piluweri\Desktop\Neuer Ordner (2)\send\Monatsbericht_GbR Yannis von Majewski_149-149.pdf
+2026-05-12 12:37:15,622 | 
+2026-05-12 12:37:15,622 | 
+
+✅✅✅ PDFs wurden erstellt ✅✅✅
+2026-05-12 12:37:15,622 | 
+
+✅✅✅ 85 Kontaktdaten wurden gefunden: ✅✅✅
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': False, 'email': 'berg.alexej@proton.me', 'pli_id': 44, 'first_name': 'Alexej', 'last_name': 'Bergmann'}
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': False, 'email': 'alina.steiner@posteo.de', 'pli_id': 69, 'first_name': 'Alina', 'last_name': 'Steiner'}
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': True, 'email': 'amadeus.stratz@t-online.de', 'pli_id': 27, 'first_name': 'Amadeus', 'last_name': 'Stratz'}
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': False, 'email': 'andrea.drewski@freenet.de', 'pli_id': 52, 'first_name': 'Andrea', 'last_name': 'Drewski'}
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': False, 'email': 'andrea.gregor@piluweri.de', 'pli_id': 91, 'first_name': 'Andrea', 'last_name': 'Gregor'}
+2026-05-12 12:37:15,623 | ✅ {'deliver_via_paper': False, 'email': 'schrader.anja@posteo.de', 'pli_id': 87, 'first_name': 'Anja', 'last_name': 'Schrader'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'anna.volk@gmx.net', 'pli_id': 60, 'first_name': 'Anna', 'last_name': 'Volk'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'annahabermehl@gmx.de', 'pli_id': 64, 'first_name': 'Ännie', 'last_name': 'Habermehl'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'gabriel.annika@web.de', 'pli_id': 101, 'first_name': 'Anni', 'last_name': 'Gabriel '}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'bjweltle@gmx.de', 'pli_id': 49, 'first_name': 'Beate', 'last_name': 'Weltle'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'carloseibel40@gmail.com', 'pli_id': 72, 'first_name': 'Carlo', 'last_name': 'Seibel'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'carolin.klein.1@gmx.net', 'pli_id': 71, 'first_name': 'Caro', 'last_name': 'Klein'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'christian.wegener@piluweri.de', 'pli_id': 46, 'first_name': 'Christian', 'last_name': 'Wegener'}
+2026-05-12 12:37:15,624 | ✅ {'deliver_via_paper': False, 'email': 'christopher.zerna@gmx.de', 'pli_id': 68, 'first_name': 'Christopher', 'last_name': 'Zerna'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'clara_schmid@yahoo.de', 'pli_id': 83, 'first_name': 'Clara', 'last_name': 'Schmid'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': True, 'email': 'cosmea.linemann@piluweri.de', 'pli_id': 70, 'first_name': 'Cosmea', 'last_name': 'Linemann'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'doreen@vinzelberg.net', 'pli_id': 80, 'first_name': 'Doreen', 'last_name': 'Vinzelberg'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'doris.graesslin@web.de', 'pli_id': 61, 'first_name': 'Doris', 'last_name': 'Grässlin'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'fabian.winkler@piluweri.de', 'pli_id': 25, 'first_name': 'Fabian', 'last_name': 'Winkler'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'doraufe@posteo.de', 'pli_id': 34, 'first_name': 'Felix', 'last_name': 'Dorau'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'reinalterfelix@gmail.com', 'pli_id': 92, 'first_name': 'Felix', 'last_name': 'Reinalter'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'frankzter@web.de', 'pli_id': 24, 'first_name': 'Frank', 'last_name': 'Walther'}
+2026-05-12 12:37:15,625 | ✅ {'deliver_via_paper': False, 'email': 'ZoLuZe@web.de', 'pli_id': 102, 'first_name': 'Zora', 'last_name': 'Zeller'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'gremwangler@yahoo.com', 'pli_id': 81, 'first_name': 'Grem', 'last_name': 'Wangler'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'staatsh@web.de', 'pli_id': 30, 'first_name': 'Hardy', 'last_name': 'Staats'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'idaskroblin@gmail.com', 'pli_id': 82, 'first_name': 'Ida', 'last_name': 'Skroblin'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'ingrid-glaser@gmx.net', 'pli_id': 10, 'first_name': 'Ingrid', 'last_name': 'Glaser'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': True, 'email': 'inka_harms@posteo.de', 'pli_id': 23, 'first_name': 'Inka', 'last_name': 'Harms'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'handwmilch@gmail.com', 'pli_id': 13, 'first_name': 'Jeremias', 'last_name': 'Supenkämper'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': True, 'email': 'jettefortmann@gmx.de', 'pli_id': 38, 'first_name': 'Jette', 'last_name': 'Fortmann'}
+2026-05-12 12:37:15,626 | ✅ {'deliver_via_paper': False, 'email': 'joachim.ruppenthal@piluweri.de', 'pli_id': 28, 'first_name': 'Achim', 'last_name': 'Ruppenthal'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'kolo1@gmx.de', 'pli_id': 17, 'first_name': 'Johannes', 'last_name': 'Kolonko'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'johannes.schleyer@posteo.de', 'pli_id': 33, 'first_name': 'Johannes', 'last_name': 'Loewe'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'jonatanac14.libros@gmail.com', 'pli_id': 90, 'first_name': 'Jonatan', 'last_name': 'Argueta'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'jonathan.stoffel187@gmail.com', 'pli_id': 58, 'first_name': 'Jonathan', 'last_name': 'Stoffel'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'josepha.brehm@gmail.com', 'pli_id': 73, 'first_name': 'Josepha', 'last_name': 'Brehm'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'hovijudy@web.de', 'pli_id': 8, 'first_name': 'Judith', 'last_name': 'Muschiol'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'juliaplath75@gmail.com', 'pli_id': 67, 'first_name': 'Julia', 'last_name': 'Plath'}
+2026-05-12 12:37:15,627 | ✅ {'deliver_via_paper': False, 'email': 'julia@jweigl.de', 'pli_id': 26, 'first_name': 'Julia', 'last_name': 'Weigl'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'julius-kl@gmx.de', 'pli_id': 37, 'first_name': 'Julius', 'last_name': 'Klein'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'merfried@web.de', 'pli_id': 55, 'first_name': 'Katrin', 'last_name': 'Mertel'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': True, 'email': 'laura.mueller68@posteo.de', 'pli_id': 41, 'first_name': 'Laura', 'last_name': 'Müller'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': True, 'email': 'leonierief25@gmail.com', 'pli_id': 51, 'first_name': 'Leonie', 'last_name': 'Rief'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'linadrewski@web.de', 'pli_id': 89, 'first_name': 'Lina', 'last_name': 'Drewski'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'lisa.zerna@t-online.de', 'pli_id': 75, 'first_name': 'Lisa', 'last_name': 'Zerna'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'luisa.hoch@piluweri.de', 'pli_id': 16, 'first_name': 'Luisa', 'last_name': 'Hoch'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'lukas.denne@piluweri.de', 'pli_id': 29, 'first_name': 'Lukas', 'last_name': 'Denne'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'lukasromes@posteo.de', 'pli_id': 86, 'first_name': 'Lukas', 'last_name': 'Romes'}
+2026-05-12 12:37:15,628 | ✅ {'deliver_via_paper': False, 'email': 'l.vontaboritzki@gmail.com', 'pli_id': 104, 'first_name': 'Lukas', 'last_name': 'Taboritzki'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'lachermanuel79@gmail.com', 'pli_id': 42, 'first_name': 'Manuel', 'last_name': 'Lacher'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'manuelbeyer1991@gmail.com', 'pli_id': 85, 'first_name': 'Manuel', 'last_name': 'Beyer'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'marco-jaegg@web.de', 'pli_id': 57, 'first_name': 'Marco', 'last_name': 'Jägg'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': True, 'email': 'anicia.82@gmail.com', 'pli_id': 66, 'first_name': 'Marco', 'last_name': 'Rosas'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'mariateufel@gmx.de', 'pli_id': 65, 'first_name': 'Maria', 'last_name': 'Teufel'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': True, 'email': '', 'pli_id': 18, 'first_name': 'Marlies', 'last_name': 'Rosenstock'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'tinibus@hotmail.com', 'pli_id': 12, 'first_name': 'Martin', 'last_name': 'Albietz'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': True, 'email': '79395mb@gmail.com', 'pli_id': 5, 'first_name': 'Martin', 'last_name': 'Bäumle'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'mathias.wolfsperger@piluweri.de', 'pli_id': 9, 'first_name': 'Matze', 'last_name': 'Wolfsperger'}
+2026-05-12 12:37:15,629 | ✅ {'deliver_via_paper': False, 'email': 'maudmarikoko@gmail.com', 'pli_id': 77, 'first_name': 'Maud', 'last_name': 'Consigny'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'meretklapp@gmail.com', 'pli_id': 94, 'first_name': 'Meret', 'last_name': 'Klapp'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'm.christian.holl@gmail.com', 'pli_id': 76, 'first_name': 'Micha', 'last_name': 'Holl'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'mdinglreiter@gmx.de', 'pli_id': 21, 'first_name': 'Ela', 'last_name': 'Dinglreiter'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'michael.meuser@piluweri.de', 'pli_id': 20, 'first_name': 'Michi', 'last_name': 'Meuser'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'omimoni2014@gmail.com', 'pli_id': 45, 'first_name': 'Moni', 'last_name': 'Frese'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'calvin.delloro@piluweri.de', 'pli_id': 88, 'first_name': 'Mu', 'last_name': "Dell'Oro"}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'nicole_01890@yahoo.com', 'pli_id': 43, 'first_name': 'Nicole', 'last_name': 'Piro'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'dieninahofmann@gmx.de', 'pli_id': 95, 'first_name': 'Nina', 'last_name': 'Hofmann'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': False, 'email': 'nihlein@gmail.com', 'pli_id': 93, 'first_name': 'Noah', 'last_name': 'Ihlein'}
+2026-05-12 12:37:15,630 | ✅ {'deliver_via_paper': True, 'email': '', 'pli_id': 14, 'first_name': 'Nyancho', 'last_name': 'Sanneh'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'ottmar.widmaier@web.de', 'pli_id': 40, 'first_name': 'Ottmar', 'last_name': 'Widmaier'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'schibidia@gmail.com', 'pli_id': 100, 'first_name': 'Philipp', 'last_name': 'Schneider'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'rico.albat@web.de', 'pli_id': 31, 'first_name': 'Rico', 'last_name': 'Albat'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'voicewisdom@icloud.com', 'pli_id': 62, 'first_name': 'Romana', 'last_name': 'Asherah'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'gleichaufs@gmx.de', 'pli_id': 15, 'first_name': 'Sabine', 'last_name': 'Gleichauf'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 's.wagner16@gmx.de', 'pli_id': 47, 'first_name': 'Sabrina', 'last_name': 'Lehmann'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'sethza@gmx.de', 'pli_id': 63, 'first_name': 'Selina', 'last_name': 'Zanger'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': True, 'email': 'sigrunm@gmx.de', 'pli_id': 6, 'first_name': 'Sigrun', 'last_name': 'Moser'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': True, 'email': 'horizon.info@gmx.de', 'pli_id': 74, 'first_name': 'Simon', 'last_name': 'Erdmann'}
+2026-05-12 12:37:15,631 | ✅ {'deliver_via_paper': False, 'email': 'tatsiana.wolf@piluweri.de', 'pli_id': 50, 'first_name': 'Tanja', 'last_name': 'Wolf'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'christine.schwake@piluweri.de', 'pli_id': 36, 'first_name': 'Christine', 'last_name': 'Schwake'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'haulsa@t-online.de', 'pli_id': 11, 'first_name': 'Uli', 'last_name': 'Sallier'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'u.kleingarn@posteo.de', 'pli_id': 39, 'first_name': 'Ulrike', 'last_name': 'Kleingarn'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'valentinavolkmer@gmail.com', 'pli_id': 96, 'first_name': 'Valentina', 'last_name': 'Volkmer'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'Serafins-Auge@web.de', 'pli_id': 19, 'first_name': 'Woolf', 'last_name': 'Scheller'}
+2026-05-12 12:37:15,632 | ✅ {'deliver_via_paper': False, 'email': 'yannisvonmajewski@outlook.de', 'pli_id': 59, 'first_name': 'Yannis', 'last_name': 'von Majewski'}
+2026-05-12 12:37:15,632 | 
+❌❌❌ 1 Kontaktdaten sind fehlerhaft: ❌❌❌
+2026-05-12 12:37:15,632 |  ❌ Fehler: ❌ Für OHG Honza Supenkämper war Kontaktdatensuche fehlerhaft: Pilu mit PLI-#: 103 hat keine gültige Email-Adresse, obwohl Email-Versand in der CSV angegeben ist, 103 
+❌ Die PDF wurde in den unsorted-Ordner gelegt!❌
+2026-05-12 12:37:15,632 | [31m
+
+❌❌❌
+Die Kontaktdatenliste ist fehlerhaft. Es gibt 1 Fehler ❌❌❌ 
+Die fehlerhaften Einträge sind über dieser Nachricht aufgeliset. 
+Bitte behebe die Fehler, indem du die Kontaktdatenliste korrigierst und führe das Programm erneut aus.
+❌❌❌[0m
