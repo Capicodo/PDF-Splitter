@@ -550,8 +550,8 @@ def print_banner():
     )
 
     print()
-    print("v2.1 TEST VERSION")
-    print("27.11.2025")
+    print("v2.2 TEST VERSION")
+    print("12.05.2026")
     print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
     print("Das Drucken wird in dieser Version noch NICHT unterstützt")
     print("Dies ist eine TESTVERSION, es wird nur an Mu Dell'Oro gesendet")
