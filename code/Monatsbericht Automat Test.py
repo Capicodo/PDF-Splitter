@@ -420,9 +420,9 @@ def get_searched_contact_data(pli_id):
                 f"Pilu mit PLI-#: {pli_id} hat keine gültige Email-Adresse, obwohl Email-Versand in der CSV angegeben ist"
             )
         
-        print(
-            f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was correct deliver-information successfully found ✅✅✅✅✅✅"
-        )
+        #print(
+        #    f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was correct deliver-information successfully found ✅✅✅✅✅✅"
+        #)
         print("")
     except Exception as e:
         print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} got error: {e}")
@@ -453,7 +453,7 @@ def iterate_pages():
 
         currentName, current_pli_id = get_page_person_infos(pageIndex)
 
-        if last_name != currentName:
+        if last_name != currentName or pageIndex == raw_report_doc.page_count - 1:
 
             contact_data = None
 
