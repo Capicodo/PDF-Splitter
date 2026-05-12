@@ -111,11 +111,11 @@ def get_data_from_pli_id(pli_id: int) -> ContactData:
         Exception: If no matching deliver information is found.
     """
     pli_id_str = str(pli_id)
-    print(f"COMPARE ID: --{pli_id_str}--")
+    #print(f"COMPARE ID: --{pli_id_str}--")
 
     for row in csv_data:
         if row["PLI - #"] == pli_id_str:
-            print(f"Found Contact Data. -> {row.get('Papierbericht')}, {row.get('Mail-Adresse')}")
+            #print(f"Found Contact Data. -> {row.get('Papierbericht')}, {row.get('Mail-Adresse')}")
             contact_data = ContactData(
                 sheets_formated_str_to_bool(row["Papierbericht"]),
                 row["Mail-Adresse"],
@@ -123,8 +123,8 @@ def get_data_from_pli_id(pli_id: int) -> ContactData:
                 row["Rufname"],
                 row["Nachname"],
             )
-
-            print(contact_data.deliver_via_paper, contact_data.email)
+            
+            #print(contact_data.deliver_via_paper, contact_data.email)
 
             return contact_data
 

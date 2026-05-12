@@ -14,8 +14,8 @@ and README. This module implements the user-facing CLI orchestration and PDF
 splitting logic.
 
 Author: Mu Dell'Oro
-Version: v2.1 TESTING VERSION (27.11.2025)
-Date: 27.11.2025
+Version: v2.2 TESTING VERSION (12.05.2026)
+Date: 12.05.2026
 GitHub: https://github.com/Capicodo/PDF-Splitter.git
 
 """
@@ -414,12 +414,18 @@ def get_searched_contact_data(pli_id):
 
     try:
         contact_data = get_data_from_pli_id(pli_id)
+        
+        if not contact_data.deliver_via_paper and not contact_data.email:
+            raise Exception(
+                f"Pilu mit PLI-#: {pli_id} hat keine gültige Email-Adresse, obwohl Email-Versand in der CSV angegeben ist"
+            )
+        
         print(
-            f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was deliver-information successfully found ✅✅✅✅✅✅"
+            f"✅✅✅✅✅✅✅ For PLI-#: {pli_id} was correct deliver-information successfully found ✅✅✅✅✅✅"
         )
         print("")
     except Exception as e:
-        print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} was NO deliver-information found! ⚠️⚠️⚠️⚠️")
+        print(f"⚠️⚠️⚠️⚠️ For PLI-#: {pli_id} got error: {e}")
         raise Exception(f"{e}, {pli_id}")
 
     return contact_data
@@ -458,7 +464,7 @@ def iterate_pages():
                     contact_data_list.append(contact_data)
                 except Exception as e:
                     contact_failures.append(
-                        f"⚠️ Für {last_name} war Kontaktdatensuche fehlerhaft: {e} \n⚠️ Die PDF wurde in den unsorted-Ordner gelegt!⚠️"
+                        f"❌ Für {last_name} war Kontaktdatensuche fehlerhaft: {e} \n❌ Die PDF wurde in den unsorted-Ordner gelegt!❌"
                     )
 
             print("\n\n")
@@ -487,10 +493,10 @@ def iterate_pages():
 
     if contact_failures:
         print(
-            f"\n⚠️⚠️⚠️ {len(contact_failures)} Kontaktdaten wurden nicht gefunden: ⚠️⚠️⚠️\n\n"
+            f"\n❌❌❌ {len(contact_failures)} Kontaktdaten sind fehlerhaft: ❌❌❌\n\n"
         )
         for current_fail in contact_failures:
-            print(f"⚠️ NICHT GEFUNDEN: {current_fail}")
+            print(f" ❌ Fehler: {current_fail}")
 
 
 def get_answer_yes_no():
@@ -734,6 +740,15 @@ def set_sender(mail, sender_email: str):
 
     raise Exception("\n❌ Problem Beim Setzen der Sender Email ❌")
 
+class ContactDataError(Exception):
+    """Control-flow exception used only to skip the normal error handler."""
+
+    def __init__(self, message: str = ""):
+        super().__init__(message)
+
+    def __str__(self):
+        return ""
+
 
 ########################################
 ############### MAIN ###################
@@ -754,19 +769,26 @@ def main():
     try:
         iterate_pages()
 
+        if (contact_failures):
+            print(
+                f"\033[31m\n\n❌❌❌\nDie Kontaktdatenliste ist fehlerhaft. Es gibt {len(contact_failures)} Fehler ❌❌❌ \nDie fehlerhaften Einträge sind über dieser Nachricht aufgeliset. \nBitte behebe die Fehler, indem du die Kontaktdatenliste korrigierst und führe das Programm erneut aus.\n❌❌❌\033[0m"
+            )
+            
+            raise ContactDataError()
+            
+            
         print(
-            f"\n\nWillst du {f'⚠️⚠️ Trotz {len(contact_failures)} Kontaktdaten-Fehlern ⚠️⚠️ \n' if contact_failures else ''}alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
+            f"\n\n✅✅ Die Kontaktdaten sind korrekt ✅✅\nWillst du alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧"
         )
 
         decision: bool = get_answer_yes_no()
         if decision:
             send_emails()
-
+    except ContactDataError:
+        pass
     except Exception as e:
         print(f"❌ FEHLER BEIM ITERIEREN: {e}")
         print("❌❌❌ PDFs wurden nicht oder fehlerhaft erstellt ❌❌❌")
-
-    TODO: #Add Display of which reports where successfully sent, which failed, and which were not attempted due to missing contact data. + Add check Email existing when should send?
 
     input("\n\n\n\nZum BEENDEN des Programms beliebige Taste drücken...")
 
