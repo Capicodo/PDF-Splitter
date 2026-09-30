@@ -14,8 +14,8 @@ and README. This module implements the user-facing CLI orchestration and PDF
 splitting logic.
 
 Author: Mu Dell'Oro
-Version: v2.2 (12.05.2026)
-Date: 12.05.2026
+Version: v3.0 (30.09.2026)
+Date: 30.09.2026
 GitHub: https://github.com/Capicodo/PDF-Splitter.git
 
 """
@@ -341,6 +341,10 @@ def create_report(
             new_report: Report = Report(pli_id, joined_path, contact_data)
             reports[pli_id] = new_report
 
+    
+        print(f"\n\nCREATED REPORT FOR {person_name} with delivery preference: {'Paper' if contact_data and contact_data.deliver_via_paper else 'Email' if contact_data else 'Unsorted'} and potential email: {contact_data.email if contact_data.deliver_via_paper == False else 'N/A'}")
+                
+        
         print(f"💾 Datei gespeichert: {joined_path}")
     except Exception as e:
 
@@ -449,11 +453,13 @@ def iterate_pages():
     last_name, last_pli_id = get_page_person_infos(0)
     lastNewNamePageIndex = 0
 
+    contact_data = None
+    
     for pageIndex in range(raw_report_doc.page_count):
 
         currentName, current_pli_id = get_page_person_infos(pageIndex)
 
-        if last_name != currentName or pageIndex == raw_report_doc.page_count - 1:
+        if last_name != currentName:
 
             contact_data = None
 
@@ -471,11 +477,52 @@ def iterate_pages():
             print(
                 f"🎯 Seitenwechsel bei Seite {pageIndex+1} → Neuer Name: {currentName}"
             )
-
+            
+            
             create_report(lastNewNamePageIndex, pageIndex - 1, last_name, contact_data)
-
+            
             lastNewNamePageIndex = pageIndex
+            
+            if pageIndex == raw_report_doc.page_count - 1:
+                
+                print("\n\n")
+                print(f"🎯 Letzte Seite erreicht bei Namensänderung: {currentName}")
+                
+                contact_data = None            
+                if sort_by_deliver_method:
+                
+                    try:
+                        contact_data = get_searched_contact_data(current_pli_id)
+                        contact_data_list.append(contact_data)
+                    except Exception as e:
+                        contact_failures.append(
+                            f"❌ Für {currentName} war Kontaktdatensuche fehlerhaft: {e} \n❌ Die PDF wurde in den unsorted-Ordner gelegt!❌"
+                        )
+                
+                create_report(pageIndex, pageIndex, currentName, contact_data)
+                
+            
+        elif pageIndex == raw_report_doc.page_count - 1:
 
+            contact_data = None     
+                   
+            if sort_by_deliver_method:
+            
+                try:
+                    contact_data = get_searched_contact_data(current_pli_id)
+                    contact_data_list.append(contact_data)
+                except Exception as e:
+                    contact_failures.append(
+                        f"❌ Für {currentName} war Kontaktdatensuche fehlerhaft: {e} \n❌ Die PDF wurde in den unsorted-Ordner gelegt!❌"
+                    )
+            
+            print("\n\n")
+            print(f"🎯 Letzte Seite erreicht bei gleichbleibendem Namen: {currentName}")
+
+            create_report(
+                lastNewNamePageIndex, pageIndex, currentName, contact_data
+            )   
+        
         last_name = currentName
         last_pli_id = current_pli_id
 
@@ -550,8 +597,8 @@ def print_banner():
     )
 
     print()
-    print("v2.2")
-    print("12.05.2026")
+    print("v3.0")
+    print("30.09.2026")
     print("Diese Version unterstützt das Teilen und Senden der Monatsberichte")
     print("Das Drucken wird in dieser Version noch NICHT unterstützt")
     print("\033[0m")

@@ -1,0 +1,1741 @@
+2026-09-30 13:35:24,964 | [32m
+ ____  ____  _____   ____        _ _ _   _
+|  _ \|  _ \|  ___| / ___| _ __ | (_) |_| |_ ___ _ __
+| |_) | | | | |_    \___ \| '_ \| | | __| __/ _ \ '__|
+|  __/| |_| |  _|    ___) | |_) | | | |_| ||  __/ |
+|_|   |____/|_|     |____/| .__/|_|_|\__|\__\___|_|
+                          |_|
+                  _             __  __
+                 | |__  _   _  |  \/  |_   _
+                 | '_ \| | | | | |\/| | | | |
+                 | |_) | |_| | | |  | | |_| |
+                 |_.__/ \__, | |_|  |_|\__,_|
+                        |___/
+2026-09-30 13:35:24,964 | 
+2026-09-30 13:35:24,965 | v2.2
+2026-09-30 13:35:24,965 | 12.05.2026
+2026-09-30 13:35:24,965 | Diese Version unterstützt das Teilen und Senden der Monatsberichte
+2026-09-30 13:35:24,965 | Das Drucken wird in dieser Version noch NICHT unterstützt
+2026-09-30 13:35:24,965 | [0m
+2026-09-30 13:36:16,460 | 
+✅ Eingabepfad erkannt: C:\Github Repositories\PDF-Splitter\code\Gesamt.pdf
+2026-09-30 13:36:22,185 | 
+✅ Zielordner erkannt: C:\Github Repositories\PDF-Splitter\code\Zielordner
+2026-09-30 13:36:26,467 | 
+✅ Eingabepfad erkannt: C:\Github Repositories\PDF-Splitter\code\Kontaktdaten.csv
+2026-09-30 13:36:26,469 | ✅ Kontaktdaten erfolgreich initialisiert
+2026-09-30 13:36:26,469 | ✅ Zielordner erstellt oder bereits vorhandenen gefunden
+2026-09-30 13:36:26,472 | ✅ PDF erfolgreich geöffnet
+2026-09-30 13:36:26,480 | -------------START Scanning--------------
+2026-09-30 13:36:26,480 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-09-30 13:36:26,480 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-09-30 13:36:26,480 | -------------END Scanning----------------
+2026-09-30 13:36:26,480 | Found PLI ID:-->44<--
+2026-09-30 13:36:26,482 | -------------START Scanning--------------
+2026-09-30 13:36:26,482 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-09-30 13:36:26,482 | ✅ Seite 1: Name gefunden → GbR Alexej Bergmann
+2026-09-30 13:36:26,482 | -------------END Scanning----------------
+2026-09-30 13:36:26,482 | Found PLI ID:-->44<--
+2026-09-30 13:36:26,482 | 
+2026-09-30 13:36:26,484 | -------------START Scanning--------------
+2026-09-30 13:36:26,485 | ✅ Seite 2: Name gefunden → GbR Alina Steiner
+2026-09-30 13:36:26,485 | ✅ Seite 2: Name gefunden → GbR Alina Steiner
+2026-09-30 13:36:26,485 | -------------END Scanning----------------
+2026-09-30 13:36:26,485 | Found PLI ID:-->69<--
+2026-09-30 13:36:26,485 | 
+2026-09-30 13:36:26,485 | 
+2026-09-30 13:36:26,485 | 🎯 Seitenwechsel bei Seite 2 → Neuer Name: GbR Alina Steiner
+2026-09-30 13:36:26,488 | 
+
+CREATED REPORT FOR GbR Alexej Bergmann with delivery preference: Email and potential email: berg.alexej@proton.me
+2026-09-30 13:36:26,488 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Alexej Bergmann_1-1.pdf
+2026-09-30 13:36:26,488 | 
+2026-09-30 13:36:26,489 | -------------START Scanning--------------
+2026-09-30 13:36:26,489 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2026-09-30 13:36:26,489 | ✅ Seite 3: Name gefunden → GbR Alina Steiner
+2026-09-30 13:36:26,489 | -------------END Scanning----------------
+2026-09-30 13:36:26,490 | Found PLI ID:-->69<--
+2026-09-30 13:36:26,490 | 
+2026-09-30 13:36:26,491 | -------------START Scanning--------------
+2026-09-30 13:36:26,491 | ✅ Seite 4: Name gefunden → OHG Amadeus Stratz
+2026-09-30 13:36:26,491 | ✅ Seite 4: Name gefunden → OHG Amadeus Stratz
+2026-09-30 13:36:26,492 | -------------END Scanning----------------
+2026-09-30 13:36:26,492 | Found PLI ID:-->27<--
+2026-09-30 13:36:26,492 | 
+2026-09-30 13:36:26,492 | 
+2026-09-30 13:36:26,492 | 🎯 Seitenwechsel bei Seite 4 → Neuer Name: OHG Amadeus Stratz
+2026-09-30 13:36:26,494 | 
+
+CREATED REPORT FOR GbR Alina Steiner with delivery preference: Email and potential email: alina.steiner@posteo.de
+2026-09-30 13:36:26,495 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Alina Steiner_2-3.pdf
+2026-09-30 13:36:26,495 | 
+2026-09-30 13:36:26,496 | -------------START Scanning--------------
+2026-09-30 13:36:26,497 | ✅ Seite 5: Name gefunden → OHG Andrea Drewski
+2026-09-30 13:36:26,497 | ✅ Seite 5: Name gefunden → OHG Andrea Drewski
+2026-09-30 13:36:26,497 | -------------END Scanning----------------
+2026-09-30 13:36:26,497 | Found PLI ID:-->52<--
+2026-09-30 13:36:26,497 | 
+2026-09-30 13:36:26,497 | 
+2026-09-30 13:36:26,497 | 🎯 Seitenwechsel bei Seite 5 → Neuer Name: OHG Andrea Drewski
+2026-09-30 13:36:26,499 | 
+
+CREATED REPORT FOR OHG Amadeus Stratz with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,499 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_OHG Amadeus Stratz_4-4.pdf
+2026-09-30 13:36:26,499 | 
+2026-09-30 13:36:26,500 | -------------START Scanning--------------
+2026-09-30 13:36:26,500 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2026-09-30 13:36:26,500 | ✅ Seite 6: Name gefunden → OHG Andrea Drewski
+2026-09-30 13:36:26,500 | -------------END Scanning----------------
+2026-09-30 13:36:26,501 | Found PLI ID:-->52<--
+2026-09-30 13:36:26,501 | 
+2026-09-30 13:36:26,502 | -------------START Scanning--------------
+2026-09-30 13:36:26,502 | ✅ Seite 7: Name gefunden → OHG Andrea Gregor
+2026-09-30 13:36:26,502 | ✅ Seite 7: Name gefunden → OHG Andrea Gregor
+2026-09-30 13:36:26,502 | -------------END Scanning----------------
+2026-09-30 13:36:26,502 | Found PLI ID:-->91<--
+2026-09-30 13:36:26,502 | 
+2026-09-30 13:36:26,503 | 
+2026-09-30 13:36:26,503 | 🎯 Seitenwechsel bei Seite 7 → Neuer Name: OHG Andrea Gregor
+2026-09-30 13:36:26,505 | 
+
+CREATED REPORT FOR OHG Andrea Drewski with delivery preference: Email and potential email: andrea.drewski@freenet.de
+2026-09-30 13:36:26,505 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Andrea Drewski_5-6.pdf
+2026-09-30 13:36:26,505 | 
+2026-09-30 13:36:26,506 | -------------START Scanning--------------
+2026-09-30 13:36:26,506 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2026-09-30 13:36:26,506 | ✅ Seite 8: Name gefunden → OHG Andrea Gregor
+2026-09-30 13:36:26,506 | -------------END Scanning----------------
+2026-09-30 13:36:26,506 | Found PLI ID:-->91<--
+2026-09-30 13:36:26,506 | 
+2026-09-30 13:36:26,507 | -------------START Scanning--------------
+2026-09-30 13:36:26,508 | ✅ Seite 9: Name gefunden → OHG Anja Schrader
+2026-09-30 13:36:26,508 | ✅ Seite 9: Name gefunden → OHG Anja Schrader
+2026-09-30 13:36:26,508 | -------------END Scanning----------------
+2026-09-30 13:36:26,508 | Found PLI ID:-->87<--
+2026-09-30 13:36:26,508 | 
+2026-09-30 13:36:26,508 | 
+2026-09-30 13:36:26,508 | 🎯 Seitenwechsel bei Seite 9 → Neuer Name: OHG Anja Schrader
+2026-09-30 13:36:26,510 | 
+
+CREATED REPORT FOR OHG Andrea Gregor with delivery preference: Email and potential email: andrea.gregor@piluweri.de
+2026-09-30 13:36:26,510 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Andrea Gregor_7-8.pdf
+2026-09-30 13:36:26,511 | 
+2026-09-30 13:36:26,511 | -------------START Scanning--------------
+2026-09-30 13:36:26,511 | ✅ Seite 10: Name gefunden → OHG Anja Schrader
+2026-09-30 13:36:26,511 | ✅ Seite 10: Name gefunden → OHG Anja Schrader
+2026-09-30 13:36:26,511 | -------------END Scanning----------------
+2026-09-30 13:36:26,512 | Found PLI ID:-->87<--
+2026-09-30 13:36:26,512 | 
+2026-09-30 13:36:26,513 | -------------START Scanning--------------
+2026-09-30 13:36:26,513 | ✅ Seite 11: Name gefunden → OHG Anna Volk
+2026-09-30 13:36:26,513 | ✅ Seite 11: Name gefunden → OHG Anna Volk
+2026-09-30 13:36:26,513 | -------------END Scanning----------------
+2026-09-30 13:36:26,513 | Found PLI ID:-->60<--
+2026-09-30 13:36:26,513 | 
+2026-09-30 13:36:26,513 | 
+2026-09-30 13:36:26,514 | 🎯 Seitenwechsel bei Seite 11 → Neuer Name: OHG Anna Volk
+2026-09-30 13:36:26,515 | 
+
+CREATED REPORT FOR OHG Anja Schrader with delivery preference: Email and potential email: schrader.anja@posteo.de
+2026-09-30 13:36:26,516 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Anja Schrader_9-10.pdf
+2026-09-30 13:36:26,516 | 
+2026-09-30 13:36:26,517 | -------------START Scanning--------------
+2026-09-30 13:36:26,517 | ✅ Seite 12: Name gefunden → OHG Anna Volk
+2026-09-30 13:36:26,517 | ✅ Seite 12: Name gefunden → OHG Anna Volk
+2026-09-30 13:36:26,517 | -------------END Scanning----------------
+2026-09-30 13:36:26,517 | Found PLI ID:-->60<--
+2026-09-30 13:36:26,517 | 
+2026-09-30 13:36:26,518 | -------------START Scanning--------------
+2026-09-30 13:36:26,518 | ✅ Seite 13: Name gefunden → GbR Anna Habermehl
+2026-09-30 13:36:26,518 | ✅ Seite 13: Name gefunden → GbR Anna Habermehl
+2026-09-30 13:36:26,519 | -------------END Scanning----------------
+2026-09-30 13:36:26,519 | Found PLI ID:-->64<--
+2026-09-30 13:36:26,519 | 
+2026-09-30 13:36:26,519 | 
+2026-09-30 13:36:26,519 | 🎯 Seitenwechsel bei Seite 13 → Neuer Name: GbR Anna Habermehl
+2026-09-30 13:36:26,520 | 
+
+CREATED REPORT FOR OHG Anna Volk with delivery preference: Email and potential email: anna.volk@gmx.net
+2026-09-30 13:36:26,521 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Anna Volk_11-12.pdf
+2026-09-30 13:36:26,521 | 
+2026-09-30 13:36:26,522 | -------------START Scanning--------------
+2026-09-30 13:36:26,522 | ✅ Seite 14: Name gefunden → GbR Anna Habermehl
+2026-09-30 13:36:26,522 | ✅ Seite 14: Name gefunden → GbR Anna Habermehl
+2026-09-30 13:36:26,522 | -------------END Scanning----------------
+2026-09-30 13:36:26,522 | Found PLI ID:-->64<--
+2026-09-30 13:36:26,522 | 
+2026-09-30 13:36:26,523 | -------------START Scanning--------------
+2026-09-30 13:36:26,523 | ✅ Seite 15: Name gefunden → GbR Annika Gabriel
+2026-09-30 13:36:26,523 | ✅ Seite 15: Name gefunden → GbR Annika Gabriel
+2026-09-30 13:36:26,523 | -------------END Scanning----------------
+2026-09-30 13:36:26,523 | Found PLI ID:-->101<--
+2026-09-30 13:36:26,524 | 
+2026-09-30 13:36:26,524 | 
+2026-09-30 13:36:26,524 | 🎯 Seitenwechsel bei Seite 15 → Neuer Name: GbR Annika Gabriel
+2026-09-30 13:36:26,526 | 
+
+CREATED REPORT FOR GbR Anna Habermehl with delivery preference: Email and potential email: annahabermehl@gmx.de
+2026-09-30 13:36:26,526 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Anna Habermehl_13-14.pdf
+2026-09-30 13:36:26,526 | 
+2026-09-30 13:36:26,527 | -------------START Scanning--------------
+2026-09-30 13:36:26,527 | ✅ Seite 16: Name gefunden → GbR Annika Gabriel
+2026-09-30 13:36:26,527 | ✅ Seite 16: Name gefunden → GbR Annika Gabriel
+2026-09-30 13:36:26,527 | -------------END Scanning----------------
+2026-09-30 13:36:26,527 | Found PLI ID:-->101<--
+2026-09-30 13:36:26,528 | 
+2026-09-30 13:36:26,529 | -------------START Scanning--------------
+2026-09-30 13:36:26,529 | ✅ Seite 17: Name gefunden → OHG Beate Weltle
+2026-09-30 13:36:26,529 | ✅ Seite 17: Name gefunden → OHG Beate Weltle
+2026-09-30 13:36:26,529 | -------------END Scanning----------------
+2026-09-30 13:36:26,530 | Found PLI ID:-->49<--
+2026-09-30 13:36:26,530 | 
+2026-09-30 13:36:26,530 | 
+2026-09-30 13:36:26,530 | 🎯 Seitenwechsel bei Seite 17 → Neuer Name: OHG Beate Weltle
+2026-09-30 13:36:26,532 | 
+
+CREATED REPORT FOR GbR Annika Gabriel with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,532 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Annika Gabriel_15-16.pdf
+2026-09-30 13:36:26,532 | 
+2026-09-30 13:36:26,533 | -------------START Scanning--------------
+2026-09-30 13:36:26,533 | ✅ Seite 18: Name gefunden → OHG Beate Weltle
+2026-09-30 13:36:26,533 | ✅ Seite 18: Name gefunden → OHG Beate Weltle
+2026-09-30 13:36:26,533 | -------------END Scanning----------------
+2026-09-30 13:36:26,533 | Found PLI ID:-->49<--
+2026-09-30 13:36:26,533 | 
+2026-09-30 13:36:26,535 | -------------START Scanning--------------
+2026-09-30 13:36:26,535 | ✅ Seite 19: Name gefunden → GbR Carlo Seibel
+2026-09-30 13:36:26,535 | ✅ Seite 19: Name gefunden → GbR Carlo Seibel
+2026-09-30 13:36:26,535 | -------------END Scanning----------------
+2026-09-30 13:36:26,535 | Found PLI ID:-->72<--
+2026-09-30 13:36:26,535 | 
+2026-09-30 13:36:26,535 | 
+2026-09-30 13:36:26,535 | 🎯 Seitenwechsel bei Seite 19 → Neuer Name: GbR Carlo Seibel
+2026-09-30 13:36:26,537 | 
+
+CREATED REPORT FOR OHG Beate Weltle with delivery preference: Email and potential email: bjweltle@gmx.de
+2026-09-30 13:36:26,537 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Beate Weltle_17-18.pdf
+2026-09-30 13:36:26,537 | 
+2026-09-30 13:36:26,538 | -------------START Scanning--------------
+2026-09-30 13:36:26,538 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2026-09-30 13:36:26,538 | ✅ Seite 20: Name gefunden → GbR Carlo Seibel
+2026-09-30 13:36:26,538 | -------------END Scanning----------------
+2026-09-30 13:36:26,538 | Found PLI ID:-->72<--
+2026-09-30 13:36:26,538 | 
+2026-09-30 13:36:26,539 | -------------START Scanning--------------
+2026-09-30 13:36:26,540 | ✅ Seite 21: Name gefunden → OHG Carolin Klein
+2026-09-30 13:36:26,540 | ✅ Seite 21: Name gefunden → OHG Carolin Klein
+2026-09-30 13:36:26,540 | -------------END Scanning----------------
+2026-09-30 13:36:26,540 | Found PLI ID:-->71<--
+2026-09-30 13:36:26,540 | 
+2026-09-30 13:36:26,540 | 
+2026-09-30 13:36:26,540 | 🎯 Seitenwechsel bei Seite 21 → Neuer Name: OHG Carolin Klein
+2026-09-30 13:36:26,542 | 
+
+CREATED REPORT FOR GbR Carlo Seibel with delivery preference: Email and potential email: carloseibel40@gmail.com
+2026-09-30 13:36:26,542 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Carlo Seibel_19-20.pdf
+2026-09-30 13:36:26,542 | 
+2026-09-30 13:36:26,543 | -------------START Scanning--------------
+2026-09-30 13:36:26,543 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2026-09-30 13:36:26,543 | ✅ Seite 22: Name gefunden → OHG Carolin Klein
+2026-09-30 13:36:26,543 | -------------END Scanning----------------
+2026-09-30 13:36:26,543 | Found PLI ID:-->71<--
+2026-09-30 13:36:26,544 | 
+2026-09-30 13:36:26,545 | -------------START Scanning--------------
+2026-09-30 13:36:26,545 | ✅ Seite 23: Name gefunden → OHG Christian Wegener
+2026-09-30 13:36:26,545 | ✅ Seite 23: Name gefunden → OHG Christian Wegener
+2026-09-30 13:36:26,545 | -------------END Scanning----------------
+2026-09-30 13:36:26,545 | Found PLI ID:-->46<--
+2026-09-30 13:36:26,545 | 
+2026-09-30 13:36:26,545 | 
+2026-09-30 13:36:26,545 | 🎯 Seitenwechsel bei Seite 23 → Neuer Name: OHG Christian Wegener
+2026-09-30 13:36:26,547 | 
+
+CREATED REPORT FOR OHG Carolin Klein with delivery preference: Email and potential email: carolin.klein.1@gmx.net
+2026-09-30 13:36:26,547 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Carolin Klein_21-22.pdf
+2026-09-30 13:36:26,547 | 
+2026-09-30 13:36:26,548 | -------------START Scanning--------------
+2026-09-30 13:36:26,548 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2026-09-30 13:36:26,548 | ✅ Seite 24: Name gefunden → OHG Christian Wegener
+2026-09-30 13:36:26,548 | -------------END Scanning----------------
+2026-09-30 13:36:26,548 | Found PLI ID:-->46<--
+2026-09-30 13:36:26,548 | 
+2026-09-30 13:36:26,550 | -------------START Scanning--------------
+2026-09-30 13:36:26,550 | ✅ Seite 25: Name gefunden → GbR Christoph Weber
+2026-09-30 13:36:26,550 | ✅ Seite 25: Name gefunden → GbR Christoph Weber
+2026-09-30 13:36:26,550 | -------------END Scanning----------------
+2026-09-30 13:36:26,550 | Found PLI ID:-->106<--
+2026-09-30 13:36:26,550 | 
+2026-09-30 13:36:26,550 | 
+2026-09-30 13:36:26,550 | 🎯 Seitenwechsel bei Seite 25 → Neuer Name: GbR Christoph Weber
+2026-09-30 13:36:26,552 | 
+
+CREATED REPORT FOR OHG Christian Wegener with delivery preference: Email and potential email: christian.wegener@piluweri.de
+2026-09-30 13:36:26,552 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Christian Wegener_23-24.pdf
+2026-09-30 13:36:26,552 | 
+2026-09-30 13:36:26,553 | -------------START Scanning--------------
+2026-09-30 13:36:26,553 | ✅ Seite 26: Name gefunden → GbR Christoph Weber
+2026-09-30 13:36:26,553 | ✅ Seite 26: Name gefunden → GbR Christoph Weber
+2026-09-30 13:36:26,553 | -------------END Scanning----------------
+2026-09-30 13:36:26,553 | Found PLI ID:-->106<--
+2026-09-30 13:36:26,553 | 
+2026-09-30 13:36:26,555 | -------------START Scanning--------------
+2026-09-30 13:36:26,555 | ✅ Seite 27: Name gefunden → OHG Christopher Zerna
+2026-09-30 13:36:26,555 | ✅ Seite 27: Name gefunden → OHG Christopher Zerna
+2026-09-30 13:36:26,555 | -------------END Scanning----------------
+2026-09-30 13:36:26,555 | Found PLI ID:-->68<--
+2026-09-30 13:36:26,555 | 
+2026-09-30 13:36:26,555 | 
+2026-09-30 13:36:26,555 | 🎯 Seitenwechsel bei Seite 27 → Neuer Name: OHG Christopher Zerna
+2026-09-30 13:36:26,557 | 
+
+CREATED REPORT FOR GbR Christoph Weber with delivery preference: Email and potential email: christoph25.9@gmx.de
+2026-09-30 13:36:26,557 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Christoph Weber_25-26.pdf
+2026-09-30 13:36:26,557 | 
+2026-09-30 13:36:26,558 | -------------START Scanning--------------
+2026-09-30 13:36:26,558 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2026-09-30 13:36:26,559 | ✅ Seite 28: Name gefunden → OHG Clara Schmid
+2026-09-30 13:36:26,559 | -------------END Scanning----------------
+2026-09-30 13:36:26,559 | Found PLI ID:-->83<--
+2026-09-30 13:36:26,559 | 
+2026-09-30 13:36:26,559 | 
+2026-09-30 13:36:26,559 | 🎯 Seitenwechsel bei Seite 28 → Neuer Name: OHG Clara Schmid
+2026-09-30 13:36:26,561 | 
+
+CREATED REPORT FOR OHG Christopher Zerna with delivery preference: Email and potential email: christopher.zerna@gmx.de
+2026-09-30 13:36:26,561 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Christopher Zerna_27-27.pdf
+2026-09-30 13:36:26,561 | 
+2026-09-30 13:36:26,562 | -------------START Scanning--------------
+2026-09-30 13:36:26,562 | ✅ Seite 29: Name gefunden → OHG Clara Schmid
+2026-09-30 13:36:26,562 | ✅ Seite 29: Name gefunden → OHG Clara Schmid
+2026-09-30 13:36:26,562 | -------------END Scanning----------------
+2026-09-30 13:36:26,562 | Found PLI ID:-->83<--
+2026-09-30 13:36:26,562 | 
+2026-09-30 13:36:26,564 | -------------START Scanning--------------
+2026-09-30 13:36:26,564 | ✅ Seite 30: Name gefunden → GbR Clara Semmel
+2026-09-30 13:36:26,564 | ✅ Seite 30: Name gefunden → GbR Clara Semmel
+2026-09-30 13:36:26,564 | -------------END Scanning----------------
+2026-09-30 13:36:26,564 | Found PLI ID:-->111<--
+2026-09-30 13:36:26,564 | 
+2026-09-30 13:36:26,564 | 
+2026-09-30 13:36:26,564 | 🎯 Seitenwechsel bei Seite 30 → Neuer Name: GbR Clara Semmel
+2026-09-30 13:36:26,566 | 
+
+CREATED REPORT FOR OHG Clara Schmid with delivery preference: Email and potential email: clara_schmid@yahoo.de
+2026-09-30 13:36:26,566 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Clara Schmid_28-29.pdf
+2026-09-30 13:36:26,566 | 
+2026-09-30 13:36:26,567 | -------------START Scanning--------------
+2026-09-30 13:36:26,568 | ✅ Seite 31: Name gefunden → OHG Dagmar Gries
+2026-09-30 13:36:26,568 | ✅ Seite 31: Name gefunden → OHG Dagmar Gries
+2026-09-30 13:36:26,568 | -------------END Scanning----------------
+2026-09-30 13:36:26,568 | Found PLI ID:-->108<--
+2026-09-30 13:36:26,568 | 
+2026-09-30 13:36:26,568 | 
+2026-09-30 13:36:26,568 | 🎯 Seitenwechsel bei Seite 31 → Neuer Name: OHG Dagmar Gries
+2026-09-30 13:36:26,570 | 
+
+CREATED REPORT FOR GbR Clara Semmel with delivery preference: Email and potential email: clara.semmel@gmx.de
+2026-09-30 13:36:26,570 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Clara Semmel_30-30.pdf
+2026-09-30 13:36:26,570 | 
+2026-09-30 13:36:26,571 | -------------START Scanning--------------
+2026-09-30 13:36:26,571 | ✅ Seite 32: Name gefunden → OHG Dagmar Gries
+2026-09-30 13:36:26,571 | ✅ Seite 32: Name gefunden → OHG Dagmar Gries
+2026-09-30 13:36:26,571 | -------------END Scanning----------------
+2026-09-30 13:36:26,571 | Found PLI ID:-->108<--
+2026-09-30 13:36:26,571 | 
+2026-09-30 13:36:26,573 | -------------START Scanning--------------
+2026-09-30 13:36:26,573 | ✅ Seite 33: Name gefunden → OHG Doreen Vinzelberg
+2026-09-30 13:36:26,573 | ✅ Seite 33: Name gefunden → OHG Doreen Vinzelberg
+2026-09-30 13:36:26,573 | -------------END Scanning----------------
+2026-09-30 13:36:26,573 | Found PLI ID:-->80<--
+2026-09-30 13:36:26,573 | 
+2026-09-30 13:36:26,573 | 
+2026-09-30 13:36:26,573 | 🎯 Seitenwechsel bei Seite 33 → Neuer Name: OHG Doreen Vinzelberg
+2026-09-30 13:36:26,575 | 
+
+CREATED REPORT FOR OHG Dagmar Gries with delivery preference: Email and potential email: dagmar.gries@gmail.com
+2026-09-30 13:36:26,575 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Dagmar Gries_31-32.pdf
+2026-09-30 13:36:26,576 | 
+2026-09-30 13:36:26,576 | -------------START Scanning--------------
+2026-09-30 13:36:26,577 | ✅ Seite 34: Name gefunden → OHG Doreen Vinzelberg
+2026-09-30 13:36:26,577 | ✅ Seite 34: Name gefunden → OHG Doreen Vinzelberg
+2026-09-30 13:36:26,577 | -------------END Scanning----------------
+2026-09-30 13:36:26,577 | Found PLI ID:-->80<--
+2026-09-30 13:36:26,577 | 
+2026-09-30 13:36:26,578 | -------------START Scanning--------------
+2026-09-30 13:36:26,578 | ✅ Seite 35: Name gefunden → OHG Doris Gräßlin
+2026-09-30 13:36:26,578 | ✅ Seite 35: Name gefunden → OHG Doris Gräßlin
+2026-09-30 13:36:26,579 | -------------END Scanning----------------
+2026-09-30 13:36:26,579 | Found PLI ID:-->61<--
+2026-09-30 13:36:26,579 | 
+2026-09-30 13:36:26,579 | 
+2026-09-30 13:36:26,579 | 🎯 Seitenwechsel bei Seite 35 → Neuer Name: OHG Doris Gräßlin
+2026-09-30 13:36:26,581 | 
+
+CREATED REPORT FOR OHG Doreen Vinzelberg with delivery preference: Email and potential email: doreen@vinzelberg.net
+2026-09-30 13:36:26,581 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Doreen Vinzelberg_33-34.pdf
+2026-09-30 13:36:26,581 | 
+2026-09-30 13:36:26,582 | -------------START Scanning--------------
+2026-09-30 13:36:26,582 | ✅ Seite 36: Name gefunden → GbR Fabian Winkler
+2026-09-30 13:36:26,582 | ✅ Seite 36: Name gefunden → GbR Fabian Winkler
+2026-09-30 13:36:26,582 | -------------END Scanning----------------
+2026-09-30 13:36:26,583 | Found PLI ID:-->25<--
+2026-09-30 13:36:26,583 | 
+2026-09-30 13:36:26,583 | 
+2026-09-30 13:36:26,583 | 🎯 Seitenwechsel bei Seite 36 → Neuer Name: GbR Fabian Winkler
+2026-09-30 13:36:26,584 | 
+
+CREATED REPORT FOR OHG Doris Gräßlin with delivery preference: Email and potential email: doris.graesslin@web.de
+2026-09-30 13:36:26,584 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Doris Gräßlin_35-35.pdf
+2026-09-30 13:36:26,585 | 
+2026-09-30 13:36:26,585 | -------------START Scanning--------------
+2026-09-30 13:36:26,585 | ✅ Seite 37: Name gefunden → GbR Fabian Winkler
+2026-09-30 13:36:26,585 | ✅ Seite 37: Name gefunden → GbR Fabian Winkler
+2026-09-30 13:36:26,586 | -------------END Scanning----------------
+2026-09-30 13:36:26,586 | Found PLI ID:-->25<--
+2026-09-30 13:36:26,586 | 
+2026-09-30 13:36:26,587 | -------------START Scanning--------------
+2026-09-30 13:36:26,587 | ✅ Seite 38: Name gefunden → GbR Felix Dorau
+2026-09-30 13:36:26,587 | ✅ Seite 38: Name gefunden → GbR Felix Dorau
+2026-09-30 13:36:26,587 | -------------END Scanning----------------
+2026-09-30 13:36:26,587 | Found PLI ID:-->34<--
+2026-09-30 13:36:26,587 | 
+2026-09-30 13:36:26,587 | 
+2026-09-30 13:36:26,588 | 🎯 Seitenwechsel bei Seite 38 → Neuer Name: GbR Felix Dorau
+2026-09-30 13:36:26,589 | 
+
+CREATED REPORT FOR GbR Fabian Winkler with delivery preference: Email and potential email: fabian.winkler@piluweri.de
+2026-09-30 13:36:26,589 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Fabian Winkler_36-37.pdf
+2026-09-30 13:36:26,589 | 
+2026-09-30 13:36:26,590 | -------------START Scanning--------------
+2026-09-30 13:36:26,590 | ✅ Seite 39: Name gefunden → GbR Felix Dorau
+2026-09-30 13:36:26,590 | ✅ Seite 39: Name gefunden → GbR Felix Dorau
+2026-09-30 13:36:26,590 | -------------END Scanning----------------
+2026-09-30 13:36:26,590 | Found PLI ID:-->34<--
+2026-09-30 13:36:26,590 | 
+2026-09-30 13:36:26,592 | -------------START Scanning--------------
+2026-09-30 13:36:26,592 | ✅ Seite 40: Name gefunden → OHG Felix Reinalter
+2026-09-30 13:36:26,592 | ✅ Seite 40: Name gefunden → OHG Felix Reinalter
+2026-09-30 13:36:26,592 | -------------END Scanning----------------
+2026-09-30 13:36:26,592 | Found PLI ID:-->92<--
+2026-09-30 13:36:26,592 | 
+2026-09-30 13:36:26,592 | 
+2026-09-30 13:36:26,593 | 🎯 Seitenwechsel bei Seite 40 → Neuer Name: OHG Felix Reinalter
+2026-09-30 13:36:26,594 | 
+
+CREATED REPORT FOR GbR Felix Dorau with delivery preference: Email and potential email: doraufe@posteo.de
+2026-09-30 13:36:26,594 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Felix Dorau_38-39.pdf
+2026-09-30 13:36:26,595 | 
+2026-09-30 13:36:26,596 | -------------START Scanning--------------
+2026-09-30 13:36:26,596 | ✅ Seite 41: Name gefunden → OHG Florence Tafesse
+2026-09-30 13:36:26,596 | ✅ Seite 41: Name gefunden → OHG Florence Tafesse
+2026-09-30 13:36:26,596 | -------------END Scanning----------------
+2026-09-30 13:36:26,596 | Found PLI ID:-->105<--
+2026-09-30 13:36:26,596 | 
+2026-09-30 13:36:26,596 | 
+2026-09-30 13:36:26,597 | 🎯 Seitenwechsel bei Seite 41 → Neuer Name: OHG Florence Tafesse
+2026-09-30 13:36:26,598 | 
+
+CREATED REPORT FOR OHG Felix Reinalter with delivery preference: Email and potential email: reinalterfelix@gmail.com
+2026-09-30 13:36:26,598 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Felix Reinalter_40-40.pdf
+2026-09-30 13:36:26,598 | 
+2026-09-30 13:36:26,599 | -------------START Scanning--------------
+2026-09-30 13:36:26,599 | ✅ Seite 42: Name gefunden → OHG Florence Tafesse
+2026-09-30 13:36:26,599 | ✅ Seite 42: Name gefunden → OHG Florence Tafesse
+2026-09-30 13:36:26,599 | -------------END Scanning----------------
+2026-09-30 13:36:26,599 | Found PLI ID:-->105<--
+2026-09-30 13:36:26,599 | 
+2026-09-30 13:36:26,600 | -------------START Scanning--------------
+2026-09-30 13:36:26,600 | ✅ Seite 43: Name gefunden → GbR Frank Walther
+2026-09-30 13:36:26,601 | ✅ Seite 43: Name gefunden → GbR Frank Walther
+2026-09-30 13:36:26,601 | -------------END Scanning----------------
+2026-09-30 13:36:26,601 | Found PLI ID:-->24<--
+2026-09-30 13:36:26,601 | 
+2026-09-30 13:36:26,601 | 
+2026-09-30 13:36:26,601 | 🎯 Seitenwechsel bei Seite 43 → Neuer Name: GbR Frank Walther
+2026-09-30 13:36:26,603 | 
+
+CREATED REPORT FOR OHG Florence Tafesse with delivery preference: Email and potential email: florencetafesse@gmail.com
+2026-09-30 13:36:26,603 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Florence Tafesse_41-42.pdf
+2026-09-30 13:36:26,603 | 
+2026-09-30 13:36:26,604 | -------------START Scanning--------------
+2026-09-30 13:36:26,604 | ✅ Seite 44: Name gefunden → GbR Frank Walther
+2026-09-30 13:36:26,604 | ✅ Seite 44: Name gefunden → GbR Frank Walther
+2026-09-30 13:36:26,604 | -------------END Scanning----------------
+2026-09-30 13:36:26,604 | Found PLI ID:-->24<--
+2026-09-30 13:36:26,604 | 
+2026-09-30 13:36:26,605 | -------------START Scanning--------------
+2026-09-30 13:36:26,605 | ✅ Seite 45: Name gefunden → OHG Grem Wangler
+2026-09-30 13:36:26,606 | ✅ Seite 45: Name gefunden → OHG Grem Wangler
+2026-09-30 13:36:26,606 | -------------END Scanning----------------
+2026-09-30 13:36:26,606 | Found PLI ID:-->81<--
+2026-09-30 13:36:26,606 | 
+2026-09-30 13:36:26,606 | 
+2026-09-30 13:36:26,606 | 🎯 Seitenwechsel bei Seite 45 → Neuer Name: OHG Grem Wangler
+2026-09-30 13:36:26,607 | 
+
+CREATED REPORT FOR GbR Frank Walther with delivery preference: Email and potential email: frankzter@web.de
+2026-09-30 13:36:26,608 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Frank Walther_43-44.pdf
+2026-09-30 13:36:26,608 | 
+2026-09-30 13:36:26,609 | -------------START Scanning--------------
+2026-09-30 13:36:26,609 | ✅ Seite 46: Name gefunden → OHG Grem Wangler
+2026-09-30 13:36:26,609 | ✅ Seite 46: Name gefunden → OHG Grem Wangler
+2026-09-30 13:36:26,609 | -------------END Scanning----------------
+2026-09-30 13:36:26,609 | Found PLI ID:-->81<--
+2026-09-30 13:36:26,609 | 
+2026-09-30 13:36:26,610 | -------------START Scanning--------------
+2026-09-30 13:36:26,611 | ✅ Seite 47: Name gefunden → OHG Hartmut Staats
+2026-09-30 13:36:26,611 | ✅ Seite 47: Name gefunden → OHG Hartmut Staats
+2026-09-30 13:36:26,611 | -------------END Scanning----------------
+2026-09-30 13:36:26,611 | Found PLI ID:-->30<--
+2026-09-30 13:36:26,611 | 
+2026-09-30 13:36:26,611 | 
+2026-09-30 13:36:26,611 | 🎯 Seitenwechsel bei Seite 47 → Neuer Name: OHG Hartmut Staats
+2026-09-30 13:36:26,613 | 
+
+CREATED REPORT FOR OHG Grem Wangler with delivery preference: Email and potential email: gremwangler@yahoo.com
+2026-09-30 13:36:26,613 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Grem Wangler_45-46.pdf
+2026-09-30 13:36:26,613 | 
+2026-09-30 13:36:26,614 | -------------START Scanning--------------
+2026-09-30 13:36:26,614 | ✅ Seite 48: Name gefunden → OHG Hartmut Staats
+2026-09-30 13:36:26,614 | ✅ Seite 48: Name gefunden → OHG Hartmut Staats
+2026-09-30 13:36:26,614 | -------------END Scanning----------------
+2026-09-30 13:36:26,614 | Found PLI ID:-->30<--
+2026-09-30 13:36:26,614 | 
+2026-09-30 13:36:26,615 | -------------START Scanning--------------
+2026-09-30 13:36:26,615 | ✅ Seite 49: Name gefunden → OHG Honza Supenkämper
+2026-09-30 13:36:26,615 | ✅ Seite 49: Name gefunden → OHG Honza Supenkämper
+2026-09-30 13:36:26,616 | -------------END Scanning----------------
+2026-09-30 13:36:26,616 | Found PLI ID:-->103<--
+2026-09-30 13:36:26,616 | 
+2026-09-30 13:36:26,616 | 
+2026-09-30 13:36:26,616 | 🎯 Seitenwechsel bei Seite 49 → Neuer Name: OHG Honza Supenkämper
+2026-09-30 13:36:26,617 | 
+
+CREATED REPORT FOR OHG Hartmut Staats with delivery preference: Email and potential email: staatsh@web.de
+2026-09-30 13:36:26,617 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Hartmut Staats_47-48.pdf
+2026-09-30 13:36:26,618 | 
+2026-09-30 13:36:26,619 | -------------START Scanning--------------
+2026-09-30 13:36:26,619 | ✅ Seite 50: Name gefunden → GbR Ingrid Glaser
+2026-09-30 13:36:26,619 | ✅ Seite 50: Name gefunden → GbR Ingrid Glaser
+2026-09-30 13:36:26,619 | -------------END Scanning----------------
+2026-09-30 13:36:26,619 | Found PLI ID:-->10<--
+2026-09-30 13:36:26,619 | 
+2026-09-30 13:36:26,619 | 
+2026-09-30 13:36:26,619 | 🎯 Seitenwechsel bei Seite 50 → Neuer Name: GbR Ingrid Glaser
+2026-09-30 13:36:26,621 | 
+
+CREATED REPORT FOR OHG Honza Supenkämper with delivery preference: Email and potential email: Honza@regioernaehrung.de
+2026-09-30 13:36:26,621 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Honza Supenkämper_49-49.pdf
+2026-09-30 13:36:26,621 | 
+2026-09-30 13:36:26,622 | -------------START Scanning--------------
+2026-09-30 13:36:26,622 | ✅ Seite 51: Name gefunden → GbR Ingrid Glaser
+2026-09-30 13:36:26,622 | ✅ Seite 51: Name gefunden → GbR Ingrid Glaser
+2026-09-30 13:36:26,622 | -------------END Scanning----------------
+2026-09-30 13:36:26,622 | Found PLI ID:-->10<--
+2026-09-30 13:36:26,623 | 
+2026-09-30 13:36:26,624 | -------------START Scanning--------------
+2026-09-30 13:36:26,624 | ✅ Seite 52: Name gefunden → OHG Jeremias
+2026-09-30 13:36:26,624 | ✅ Seite 52: Name gefunden → OHG Jeremias
+2026-09-30 13:36:26,624 | -------------END Scanning----------------
+2026-09-30 13:36:26,624 | Found PLI ID:-->13<--
+2026-09-30 13:36:26,624 | 
+2026-09-30 13:36:26,625 | 
+2026-09-30 13:36:26,625 | 🎯 Seitenwechsel bei Seite 52 → Neuer Name: OHG Jeremias
+2026-09-30 13:36:26,626 | 
+
+CREATED REPORT FOR GbR Ingrid Glaser with delivery preference: Email and potential email: ingrid-glaser@gmx.net
+2026-09-30 13:36:26,626 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Ingrid Glaser_50-51.pdf
+2026-09-30 13:36:26,627 | 
+2026-09-30 13:36:26,627 | -------------START Scanning--------------
+2026-09-30 13:36:26,627 | ✅ Seite 53: Name gefunden → OHG Jeremias
+2026-09-30 13:36:26,627 | ✅ Seite 53: Name gefunden → OHG Jeremias
+2026-09-30 13:36:26,627 | -------------END Scanning----------------
+2026-09-30 13:36:26,628 | Found PLI ID:-->13<--
+2026-09-30 13:36:26,628 | 
+2026-09-30 13:36:26,629 | -------------START Scanning--------------
+2026-09-30 13:36:26,629 | ✅ Seite 54: Name gefunden → OHG Jette Fortmann
+2026-09-30 13:36:26,629 | ✅ Seite 54: Name gefunden → OHG Jette Fortmann
+2026-09-30 13:36:26,629 | -------------END Scanning----------------
+2026-09-30 13:36:26,629 | Found PLI ID:-->38<--
+2026-09-30 13:36:26,629 | 
+2026-09-30 13:36:26,630 | 
+2026-09-30 13:36:26,630 | 🎯 Seitenwechsel bei Seite 54 → Neuer Name: OHG Jette Fortmann
+2026-09-30 13:36:26,631 | 
+
+CREATED REPORT FOR OHG Jeremias with delivery preference: Email and potential email: handwmilch@gmail.com
+2026-09-30 13:36:26,631 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Jeremias_52-53.pdf
+2026-09-30 13:36:26,631 | 
+2026-09-30 13:36:26,633 | -------------START Scanning--------------
+2026-09-30 13:36:26,633 | ✅ Seite 55: Name gefunden → OHG Joachim Ruppenthal
+2026-09-30 13:36:26,633 | ✅ Seite 55: Name gefunden → OHG Joachim Ruppenthal
+2026-09-30 13:36:26,633 | -------------END Scanning----------------
+2026-09-30 13:36:26,633 | Found PLI ID:-->28<--
+2026-09-30 13:36:26,633 | 
+2026-09-30 13:36:26,633 | 
+2026-09-30 13:36:26,633 | 🎯 Seitenwechsel bei Seite 55 → Neuer Name: OHG Joachim Ruppenthal
+2026-09-30 13:36:26,635 | 
+
+CREATED REPORT FOR OHG Jette Fortmann with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,635 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_OHG Jette Fortmann_54-54.pdf
+2026-09-30 13:36:26,635 | 
+2026-09-30 13:36:26,636 | -------------START Scanning--------------
+2026-09-30 13:36:26,636 | ✅ Seite 56: Name gefunden → OHG Johannes Kolonko
+2026-09-30 13:36:26,636 | ✅ Seite 56: Name gefunden → OHG Johannes Kolonko
+2026-09-30 13:36:26,637 | -------------END Scanning----------------
+2026-09-30 13:36:26,637 | Found PLI ID:-->17<--
+2026-09-30 13:36:26,637 | 
+2026-09-30 13:36:26,637 | 
+2026-09-30 13:36:26,637 | 🎯 Seitenwechsel bei Seite 56 → Neuer Name: OHG Johannes Kolonko
+2026-09-30 13:36:26,638 | 
+
+CREATED REPORT FOR OHG Joachim Ruppenthal with delivery preference: Email and potential email: joachim.ruppenthal@piluweri.de
+2026-09-30 13:36:26,639 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Joachim Ruppenthal_55-55.pdf
+2026-09-30 13:36:26,639 | 
+2026-09-30 13:36:26,640 | -------------START Scanning--------------
+2026-09-30 13:36:26,640 | ✅ Seite 57: Name gefunden → GbR Johannes Loewe
+2026-09-30 13:36:26,640 | ✅ Seite 57: Name gefunden → GbR Johannes Loewe
+2026-09-30 13:36:26,640 | -------------END Scanning----------------
+2026-09-30 13:36:26,640 | Found PLI ID:-->33<--
+2026-09-30 13:36:26,641 | 
+2026-09-30 13:36:26,641 | 
+2026-09-30 13:36:26,641 | 🎯 Seitenwechsel bei Seite 57 → Neuer Name: GbR Johannes Loewe
+2026-09-30 13:36:26,642 | 
+
+CREATED REPORT FOR OHG Johannes Kolonko with delivery preference: Email and potential email: kolo1@gmx.de
+2026-09-30 13:36:26,642 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Johannes Kolonko_56-56.pdf
+2026-09-30 13:36:26,643 | 
+2026-09-30 13:36:26,643 | -------------START Scanning--------------
+2026-09-30 13:36:26,643 | ✅ Seite 58: Name gefunden → GbR Johannes Loewe
+2026-09-30 13:36:26,644 | ✅ Seite 58: Name gefunden → GbR Johannes Loewe
+2026-09-30 13:36:26,644 | -------------END Scanning----------------
+2026-09-30 13:36:26,644 | Found PLI ID:-->33<--
+2026-09-30 13:36:26,644 | 
+2026-09-30 13:36:26,645 | -------------START Scanning--------------
+2026-09-30 13:36:26,645 | ✅ Seite 59: Name gefunden → GbR Jonatan Argueta
+2026-09-30 13:36:26,645 | ✅ Seite 59: Name gefunden → GbR Jonatan Argueta
+2026-09-30 13:36:26,645 | -------------END Scanning----------------
+2026-09-30 13:36:26,645 | Found PLI ID:-->90<--
+2026-09-30 13:36:26,646 | 
+2026-09-30 13:36:26,646 | 
+2026-09-30 13:36:26,646 | 🎯 Seitenwechsel bei Seite 59 → Neuer Name: GbR Jonatan Argueta
+2026-09-30 13:36:26,647 | 
+
+CREATED REPORT FOR GbR Johannes Loewe with delivery preference: Email and potential email: johannes.schleyer@posteo.de
+2026-09-30 13:36:26,647 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Johannes Loewe_57-58.pdf
+2026-09-30 13:36:26,647 | 
+2026-09-30 13:36:26,648 | -------------START Scanning--------------
+2026-09-30 13:36:26,648 | ✅ Seite 60: Name gefunden → GbR Jonatan Argueta
+2026-09-30 13:36:26,648 | ✅ Seite 60: Name gefunden → GbR Jonatan Argueta
+2026-09-30 13:36:26,648 | -------------END Scanning----------------
+2026-09-30 13:36:26,649 | Found PLI ID:-->90<--
+2026-09-30 13:36:26,649 | 
+2026-09-30 13:36:26,650 | -------------START Scanning--------------
+2026-09-30 13:36:26,650 | ✅ Seite 61: Name gefunden → GbR Jonathan Stoffel
+2026-09-30 13:36:26,650 | ✅ Seite 61: Name gefunden → GbR Jonathan Stoffel
+2026-09-30 13:36:26,650 | -------------END Scanning----------------
+2026-09-30 13:36:26,650 | Found PLI ID:-->58<--
+2026-09-30 13:36:26,650 | 
+2026-09-30 13:36:26,650 | 
+2026-09-30 13:36:26,650 | 🎯 Seitenwechsel bei Seite 61 → Neuer Name: GbR Jonathan Stoffel
+2026-09-30 13:36:26,652 | 
+
+CREATED REPORT FOR GbR Jonatan Argueta with delivery preference: Email and potential email: jonatanac14.libros@gmail.com
+2026-09-30 13:36:26,652 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Jonatan Argueta_59-60.pdf
+2026-09-30 13:36:26,652 | 
+2026-09-30 13:36:26,653 | -------------START Scanning--------------
+2026-09-30 13:36:26,653 | ✅ Seite 62: Name gefunden → GbR Jonathan Stoffel
+2026-09-30 13:36:26,653 | ✅ Seite 62: Name gefunden → GbR Jonathan Stoffel
+2026-09-30 13:36:26,653 | -------------END Scanning----------------
+2026-09-30 13:36:26,653 | Found PLI ID:-->58<--
+2026-09-30 13:36:26,654 | 
+2026-09-30 13:36:26,655 | -------------START Scanning--------------
+2026-09-30 13:36:26,655 | ✅ Seite 63: Name gefunden → GbR Josepha Brehm
+2026-09-30 13:36:26,655 | ✅ Seite 63: Name gefunden → GbR Josepha Brehm
+2026-09-30 13:36:26,655 | -------------END Scanning----------------
+2026-09-30 13:36:26,655 | Found PLI ID:-->73<--
+2026-09-30 13:36:26,655 | 
+2026-09-30 13:36:26,655 | 
+2026-09-30 13:36:26,655 | 🎯 Seitenwechsel bei Seite 63 → Neuer Name: GbR Josepha Brehm
+2026-09-30 13:36:26,657 | 
+
+CREATED REPORT FOR GbR Jonathan Stoffel with delivery preference: Email and potential email: jonathan.stoffel187@gmail.com
+2026-09-30 13:36:26,657 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Jonathan Stoffel_61-62.pdf
+2026-09-30 13:36:26,657 | 
+2026-09-30 13:36:26,658 | -------------START Scanning--------------
+2026-09-30 13:36:26,658 | ✅ Seite 64: Name gefunden → GbR Josepha Brehm
+2026-09-30 13:36:26,658 | ✅ Seite 64: Name gefunden → GbR Josepha Brehm
+2026-09-30 13:36:26,658 | -------------END Scanning----------------
+2026-09-30 13:36:26,658 | Found PLI ID:-->73<--
+2026-09-30 13:36:26,658 | 
+2026-09-30 13:36:26,659 | -------------START Scanning--------------
+2026-09-30 13:36:26,660 | ✅ Seite 65: Name gefunden → GbR Judith Muschiol
+2026-09-30 13:36:26,660 | ✅ Seite 65: Name gefunden → GbR Judith Muschiol
+2026-09-30 13:36:26,660 | -------------END Scanning----------------
+2026-09-30 13:36:26,660 | Found PLI ID:-->8<--
+2026-09-30 13:36:26,660 | 
+2026-09-30 13:36:26,660 | 
+2026-09-30 13:36:26,660 | 🎯 Seitenwechsel bei Seite 65 → Neuer Name: GbR Judith Muschiol
+2026-09-30 13:36:26,662 | 
+
+CREATED REPORT FOR GbR Josepha Brehm with delivery preference: Email and potential email: josepha.brehm@gmail.com
+2026-09-30 13:36:26,662 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Josepha Brehm_63-64.pdf
+2026-09-30 13:36:26,662 | 
+2026-09-30 13:36:26,663 | -------------START Scanning--------------
+2026-09-30 13:36:26,663 | ✅ Seite 66: Name gefunden → GbR Judith Muschiol
+2026-09-30 13:36:26,663 | ✅ Seite 66: Name gefunden → GbR Judith Muschiol
+2026-09-30 13:36:26,663 | -------------END Scanning----------------
+2026-09-30 13:36:26,663 | Found PLI ID:-->8<--
+2026-09-30 13:36:26,663 | 
+2026-09-30 13:36:26,665 | -------------START Scanning--------------
+2026-09-30 13:36:26,665 | ✅ Seite 67: Name gefunden → GbR Julia Plath
+2026-09-30 13:36:26,665 | ✅ Seite 67: Name gefunden → GbR Julia Plath
+2026-09-30 13:36:26,665 | -------------END Scanning----------------
+2026-09-30 13:36:26,665 | Found PLI ID:-->67<--
+2026-09-30 13:36:26,665 | 
+2026-09-30 13:36:26,665 | 
+2026-09-30 13:36:26,665 | 🎯 Seitenwechsel bei Seite 67 → Neuer Name: GbR Julia Plath
+2026-09-30 13:36:26,667 | 
+
+CREATED REPORT FOR GbR Judith Muschiol with delivery preference: Email and potential email: hovijudy@web.de
+2026-09-30 13:36:26,667 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Judith Muschiol_65-66.pdf
+2026-09-30 13:36:26,667 | 
+2026-09-30 13:36:26,668 | -------------START Scanning--------------
+2026-09-30 13:36:26,668 | ✅ Seite 68: Name gefunden → GbR Julia Plath
+2026-09-30 13:36:26,668 | ✅ Seite 68: Name gefunden → GbR Julia Plath
+2026-09-30 13:36:26,668 | -------------END Scanning----------------
+2026-09-30 13:36:26,668 | Found PLI ID:-->67<--
+2026-09-30 13:36:26,668 | 
+2026-09-30 13:36:26,670 | -------------START Scanning--------------
+2026-09-30 13:36:26,670 | ✅ Seite 69: Name gefunden → OHG Julia Weigl
+2026-09-30 13:36:26,670 | ✅ Seite 69: Name gefunden → OHG Julia Weigl
+2026-09-30 13:36:26,670 | -------------END Scanning----------------
+2026-09-30 13:36:26,670 | Found PLI ID:-->26<--
+2026-09-30 13:36:26,670 | 
+2026-09-30 13:36:26,670 | 
+2026-09-30 13:36:26,670 | 🎯 Seitenwechsel bei Seite 69 → Neuer Name: OHG Julia Weigl
+2026-09-30 13:36:26,672 | 
+
+CREATED REPORT FOR GbR Julia Plath with delivery preference: Email and potential email: juliaplath75@gmail.com
+2026-09-30 13:36:26,672 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Julia Plath_67-68.pdf
+2026-09-30 13:36:26,672 | 
+2026-09-30 13:36:26,673 | -------------START Scanning--------------
+2026-09-30 13:36:26,673 | ✅ Seite 70: Name gefunden → OHG Julia Weigl
+2026-09-30 13:36:26,673 | ✅ Seite 70: Name gefunden → OHG Julia Weigl
+2026-09-30 13:36:26,673 | -------------END Scanning----------------
+2026-09-30 13:36:26,673 | Found PLI ID:-->26<--
+2026-09-30 13:36:26,673 | 
+2026-09-30 13:36:26,675 | -------------START Scanning--------------
+2026-09-30 13:36:26,675 | ✅ Seite 71: Name gefunden → OHG Julius Klein
+2026-09-30 13:36:26,675 | ✅ Seite 71: Name gefunden → OHG Julius Klein
+2026-09-30 13:36:26,675 | -------------END Scanning----------------
+2026-09-30 13:36:26,675 | Found PLI ID:-->37<--
+2026-09-30 13:36:26,675 | 
+2026-09-30 13:36:26,675 | 
+2026-09-30 13:36:26,675 | 🎯 Seitenwechsel bei Seite 71 → Neuer Name: OHG Julius Klein
+2026-09-30 13:36:26,677 | 
+
+CREATED REPORT FOR OHG Julia Weigl with delivery preference: Email and potential email: julia@jweigl.de
+2026-09-30 13:36:26,677 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Julia Weigl_69-70.pdf
+2026-09-30 13:36:26,677 | 
+2026-09-30 13:36:26,678 | -------------START Scanning--------------
+2026-09-30 13:36:26,678 | ✅ Seite 72: Name gefunden → OHG Julius Klein
+2026-09-30 13:36:26,678 | ✅ Seite 72: Name gefunden → OHG Julius Klein
+2026-09-30 13:36:26,678 | -------------END Scanning----------------
+2026-09-30 13:36:26,678 | Found PLI ID:-->37<--
+2026-09-30 13:36:26,678 | 
+2026-09-30 13:36:26,679 | -------------START Scanning--------------
+2026-09-30 13:36:26,680 | ✅ Seite 73: Name gefunden → OHG Katrin Mertel
+2026-09-30 13:36:26,680 | ✅ Seite 73: Name gefunden → OHG Katrin Mertel
+2026-09-30 13:36:26,680 | -------------END Scanning----------------
+2026-09-30 13:36:26,680 | Found PLI ID:-->55<--
+2026-09-30 13:36:26,680 | 
+2026-09-30 13:36:26,680 | 
+2026-09-30 13:36:26,680 | 🎯 Seitenwechsel bei Seite 73 → Neuer Name: OHG Katrin Mertel
+2026-09-30 13:36:26,682 | 
+
+CREATED REPORT FOR OHG Julius Klein with delivery preference: Email and potential email: julius-kl@gmx.de
+2026-09-30 13:36:26,682 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Julius Klein_71-72.pdf
+2026-09-30 13:36:26,682 | 
+2026-09-30 13:36:26,683 | -------------START Scanning--------------
+2026-09-30 13:36:26,683 | ✅ Seite 74: Name gefunden → GbR Klara Klara
+2026-09-30 13:36:26,683 | ✅ Seite 74: Name gefunden → GbR Klara Klara
+2026-09-30 13:36:26,683 | -------------END Scanning----------------
+2026-09-30 13:36:26,683 | Found PLI ID:-->110<--
+2026-09-30 13:36:26,684 | 
+2026-09-30 13:36:26,684 | 
+2026-09-30 13:36:26,684 | 🎯 Seitenwechsel bei Seite 74 → Neuer Name: GbR Klara Klara
+2026-09-30 13:36:26,685 | 
+
+CREATED REPORT FOR OHG Katrin Mertel with delivery preference: Email and potential email: merfried@web.de
+2026-09-30 13:36:26,685 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Katrin Mertel_73-73.pdf
+2026-09-30 13:36:26,686 | 
+2026-09-30 13:36:26,687 | -------------START Scanning--------------
+2026-09-30 13:36:26,687 | ✅ Seite 75: Name gefunden → GbR Laura Müller
+2026-09-30 13:36:26,687 | ✅ Seite 75: Name gefunden → GbR Laura Müller
+2026-09-30 13:36:26,687 | -------------END Scanning----------------
+2026-09-30 13:36:26,687 | Found PLI ID:-->41<--
+2026-09-30 13:36:26,687 | 
+2026-09-30 13:36:26,687 | 
+2026-09-30 13:36:26,687 | 🎯 Seitenwechsel bei Seite 75 → Neuer Name: GbR Laura Müller
+2026-09-30 13:36:26,689 | 
+
+CREATED REPORT FOR GbR Klara Klara with delivery preference: Email and potential email: clara.semmel@gmx.de
+2026-09-30 13:36:26,689 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Klara Klara_74-74.pdf
+2026-09-30 13:36:26,689 | 
+2026-09-30 13:36:26,690 | -------------START Scanning--------------
+2026-09-30 13:36:26,690 | ✅ Seite 76: Name gefunden → GbR Laura Müller
+2026-09-30 13:36:26,690 | ✅ Seite 76: Name gefunden → GbR Laura Müller
+2026-09-30 13:36:26,690 | -------------END Scanning----------------
+2026-09-30 13:36:26,690 | Found PLI ID:-->41<--
+2026-09-30 13:36:26,691 | 
+2026-09-30 13:36:26,692 | -------------START Scanning--------------
+2026-09-30 13:36:26,692 | ✅ Seite 77: Name gefunden → OHG Leo Hilser
+2026-09-30 13:36:26,692 | ✅ Seite 77: Name gefunden → OHG Leo Hilser
+2026-09-30 13:36:26,692 | -------------END Scanning----------------
+2026-09-30 13:36:26,692 | Found PLI ID:-->109<--
+2026-09-30 13:36:26,692 | 
+2026-09-30 13:36:26,692 | 
+2026-09-30 13:36:26,693 | 🎯 Seitenwechsel bei Seite 77 → Neuer Name: OHG Leo Hilser
+2026-09-30 13:36:26,694 | 
+
+CREATED REPORT FOR GbR Laura Müller with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,694 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Laura Müller_75-76.pdf
+2026-09-30 13:36:26,695 | 
+2026-09-30 13:36:26,695 | -------------START Scanning--------------
+2026-09-30 13:36:26,695 | ✅ Seite 78: Name gefunden → OHG Leo Hilser
+2026-09-30 13:36:26,695 | ✅ Seite 78: Name gefunden → OHG Leo Hilser
+2026-09-30 13:36:26,696 | -------------END Scanning----------------
+2026-09-30 13:36:26,696 | Found PLI ID:-->109<--
+2026-09-30 13:36:26,696 | 
+2026-09-30 13:36:26,697 | -------------START Scanning--------------
+2026-09-30 13:36:26,697 | ✅ Seite 79: Name gefunden → GbR Leonie Rief
+2026-09-30 13:36:26,697 | ✅ Seite 79: Name gefunden → GbR Leonie Rief
+2026-09-30 13:36:26,697 | -------------END Scanning----------------
+2026-09-30 13:36:26,697 | Found PLI ID:-->51<--
+2026-09-30 13:36:26,697 | 
+2026-09-30 13:36:26,697 | 
+2026-09-30 13:36:26,698 | 🎯 Seitenwechsel bei Seite 79 → Neuer Name: GbR Leonie Rief
+2026-09-30 13:36:26,699 | 
+
+CREATED REPORT FOR OHG Leo Hilser with delivery preference: Email and potential email: hilserleonie@gmail.com
+2026-09-30 13:36:26,699 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Leo Hilser_77-78.pdf
+2026-09-30 13:36:26,699 | 
+2026-09-30 13:36:26,700 | -------------START Scanning--------------
+2026-09-30 13:36:26,700 | ✅ Seite 80: Name gefunden → GbR Leonie Rief
+2026-09-30 13:36:26,700 | ✅ Seite 80: Name gefunden → GbR Leonie Rief
+2026-09-30 13:36:26,700 | -------------END Scanning----------------
+2026-09-30 13:36:26,700 | Found PLI ID:-->51<--
+2026-09-30 13:36:26,700 | 
+2026-09-30 13:36:26,702 | -------------START Scanning--------------
+2026-09-30 13:36:26,702 | ✅ Seite 81: Name gefunden → OHG Lina Drewski
+2026-09-30 13:36:26,702 | ✅ Seite 81: Name gefunden → OHG Lina Drewski
+2026-09-30 13:36:26,702 | -------------END Scanning----------------
+2026-09-30 13:36:26,702 | Found PLI ID:-->89<--
+2026-09-30 13:36:26,702 | 
+2026-09-30 13:36:26,702 | 
+2026-09-30 13:36:26,702 | 🎯 Seitenwechsel bei Seite 81 → Neuer Name: OHG Lina Drewski
+2026-09-30 13:36:26,704 | 
+
+CREATED REPORT FOR GbR Leonie Rief with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,704 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Leonie Rief_79-80.pdf
+2026-09-30 13:36:26,704 | 
+2026-09-30 13:36:26,705 | -------------START Scanning--------------
+2026-09-30 13:36:26,705 | ✅ Seite 82: Name gefunden → OHG Lina Drewski
+2026-09-30 13:36:26,705 | ✅ Seite 82: Name gefunden → OHG Lina Drewski
+2026-09-30 13:36:26,705 | -------------END Scanning----------------
+2026-09-30 13:36:26,705 | Found PLI ID:-->89<--
+2026-09-30 13:36:26,705 | 
+2026-09-30 13:36:26,707 | -------------START Scanning--------------
+2026-09-30 13:36:26,707 | ✅ Seite 83: Name gefunden → OHG Lisa Zerna
+2026-09-30 13:36:26,707 | ✅ Seite 83: Name gefunden → OHG Lisa Zerna
+2026-09-30 13:36:26,707 | -------------END Scanning----------------
+2026-09-30 13:36:26,707 | Found PLI ID:-->75<--
+2026-09-30 13:36:26,707 | 
+2026-09-30 13:36:26,707 | 
+2026-09-30 13:36:26,707 | 🎯 Seitenwechsel bei Seite 83 → Neuer Name: OHG Lisa Zerna
+2026-09-30 13:36:26,709 | 
+
+CREATED REPORT FOR OHG Lina Drewski with delivery preference: Email and potential email: linadrewski@web.de
+2026-09-30 13:36:26,709 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Lina Drewski_81-82.pdf
+2026-09-30 13:36:26,709 | 
+2026-09-30 13:36:26,710 | -------------START Scanning--------------
+2026-09-30 13:36:26,710 | ✅ Seite 84: Name gefunden → OHG Lisa Zerna
+2026-09-30 13:36:26,710 | ✅ Seite 84: Name gefunden → OHG Lisa Zerna
+2026-09-30 13:36:26,710 | -------------END Scanning----------------
+2026-09-30 13:36:26,710 | Found PLI ID:-->75<--
+2026-09-30 13:36:26,711 | 
+2026-09-30 13:36:26,712 | -------------START Scanning--------------
+2026-09-30 13:36:26,712 | ✅ Seite 85: Name gefunden → OHG Luisa Hoch
+2026-09-30 13:36:26,712 | ✅ Seite 85: Name gefunden → OHG Luisa Hoch
+2026-09-30 13:36:26,712 | -------------END Scanning----------------
+2026-09-30 13:36:26,712 | Found PLI ID:-->16<--
+2026-09-30 13:36:26,712 | 
+2026-09-30 13:36:26,712 | 
+2026-09-30 13:36:26,712 | 🎯 Seitenwechsel bei Seite 85 → Neuer Name: OHG Luisa Hoch
+2026-09-30 13:36:26,714 | 
+
+CREATED REPORT FOR OHG Lisa Zerna with delivery preference: Email and potential email: lisa.zerna@t-online.de
+2026-09-30 13:36:26,714 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Lisa Zerna_83-84.pdf
+2026-09-30 13:36:26,714 | 
+2026-09-30 13:36:26,715 | -------------START Scanning--------------
+2026-09-30 13:36:26,715 | ✅ Seite 86: Name gefunden → OHG Luisa Hoch
+2026-09-30 13:36:26,715 | ✅ Seite 86: Name gefunden → OHG Luisa Hoch
+2026-09-30 13:36:26,715 | -------------END Scanning----------------
+2026-09-30 13:36:26,715 | Found PLI ID:-->16<--
+2026-09-30 13:36:26,715 | 
+2026-09-30 13:36:26,717 | -------------START Scanning--------------
+2026-09-30 13:36:26,717 | ✅ Seite 87: Name gefunden → GbR Lukas Denne
+2026-09-30 13:36:26,717 | ✅ Seite 87: Name gefunden → GbR Lukas Denne
+2026-09-30 13:36:26,717 | -------------END Scanning----------------
+2026-09-30 13:36:26,717 | Found PLI ID:-->29<--
+2026-09-30 13:36:26,717 | 
+2026-09-30 13:36:26,717 | 
+2026-09-30 13:36:26,717 | 🎯 Seitenwechsel bei Seite 87 → Neuer Name: GbR Lukas Denne
+2026-09-30 13:36:26,719 | 
+
+CREATED REPORT FOR OHG Luisa Hoch with delivery preference: Email and potential email: luisa.hoch@piluweri.de
+2026-09-30 13:36:26,719 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Luisa Hoch_85-86.pdf
+2026-09-30 13:36:26,719 | 
+2026-09-30 13:36:26,720 | -------------START Scanning--------------
+2026-09-30 13:36:26,720 | ✅ Seite 88: Name gefunden → GbR Lukas Denne
+2026-09-30 13:36:26,720 | ✅ Seite 88: Name gefunden → GbR Lukas Denne
+2026-09-30 13:36:26,720 | -------------END Scanning----------------
+2026-09-30 13:36:26,720 | Found PLI ID:-->29<--
+2026-09-30 13:36:26,720 | 
+2026-09-30 13:36:26,722 | -------------START Scanning--------------
+2026-09-30 13:36:26,722 | ✅ Seite 89: Name gefunden → OHG Lukas Romes
+2026-09-30 13:36:26,722 | ✅ Seite 89: Name gefunden → OHG Lukas Romes
+2026-09-30 13:36:26,722 | -------------END Scanning----------------
+2026-09-30 13:36:26,722 | Found PLI ID:-->86<--
+2026-09-30 13:36:26,722 | 
+2026-09-30 13:36:26,722 | 
+2026-09-30 13:36:26,722 | 🎯 Seitenwechsel bei Seite 89 → Neuer Name: OHG Lukas Romes
+2026-09-30 13:36:26,724 | 
+
+CREATED REPORT FOR GbR Lukas Denne with delivery preference: Email and potential email: lukas.denne@piluweri.de
+2026-09-30 13:36:26,724 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Lukas Denne_87-88.pdf
+2026-09-30 13:36:26,724 | 
+2026-09-30 13:36:26,725 | -------------START Scanning--------------
+2026-09-30 13:36:26,726 | ✅ Seite 90: Name gefunden → GbR Lukas Taboritzki
+2026-09-30 13:36:26,726 | ✅ Seite 90: Name gefunden → GbR Lukas Taboritzki
+2026-09-30 13:36:26,726 | -------------END Scanning----------------
+2026-09-30 13:36:26,726 | Found PLI ID:-->104<--
+2026-09-30 13:36:26,726 | 
+2026-09-30 13:36:26,726 | 
+2026-09-30 13:36:26,726 | 🎯 Seitenwechsel bei Seite 90 → Neuer Name: GbR Lukas Taboritzki
+2026-09-30 13:36:26,728 | 
+
+CREATED REPORT FOR OHG Lukas Romes with delivery preference: Email and potential email: lukasromes@posteo.de
+2026-09-30 13:36:26,728 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Lukas Romes_89-89.pdf
+2026-09-30 13:36:26,728 | 
+2026-09-30 13:36:26,729 | -------------START Scanning--------------
+2026-09-30 13:36:26,729 | ✅ Seite 91: Name gefunden → GbR Lukas Taboritzki
+2026-09-30 13:36:26,729 | ✅ Seite 91: Name gefunden → GbR Lukas Taboritzki
+2026-09-30 13:36:26,729 | -------------END Scanning----------------
+2026-09-30 13:36:26,729 | Found PLI ID:-->104<--
+2026-09-30 13:36:26,729 | 
+2026-09-30 13:36:26,730 | -------------START Scanning--------------
+2026-09-30 13:36:26,731 | ✅ Seite 92: Name gefunden → GbR Manuel Lacher
+2026-09-30 13:36:26,731 | ✅ Seite 92: Name gefunden → GbR Manuel Lacher
+2026-09-30 13:36:26,731 | -------------END Scanning----------------
+2026-09-30 13:36:26,731 | Found PLI ID:-->42<--
+2026-09-30 13:36:26,731 | 
+2026-09-30 13:36:26,731 | 
+2026-09-30 13:36:26,731 | 🎯 Seitenwechsel bei Seite 92 → Neuer Name: GbR Manuel Lacher
+2026-09-30 13:36:26,733 | 
+
+CREATED REPORT FOR GbR Lukas Taboritzki with delivery preference: Email and potential email: l.vontaboritzki@gmail.com
+2026-09-30 13:36:26,734 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Lukas Taboritzki_90-91.pdf
+2026-09-30 13:36:26,734 | 
+2026-09-30 13:36:26,734 | -------------START Scanning--------------
+2026-09-30 13:36:26,734 | ✅ Seite 93: Name gefunden → GbR Manuel Lacher
+2026-09-30 13:36:26,735 | ✅ Seite 93: Name gefunden → GbR Manuel Lacher
+2026-09-30 13:36:26,735 | -------------END Scanning----------------
+2026-09-30 13:36:26,735 | Found PLI ID:-->42<--
+2026-09-30 13:36:26,735 | 
+2026-09-30 13:36:26,736 | -------------START Scanning--------------
+2026-09-30 13:36:26,736 | ✅ Seite 94: Name gefunden → OHG Manuel Beyer
+2026-09-30 13:36:26,736 | ✅ Seite 94: Name gefunden → OHG Manuel Beyer
+2026-09-30 13:36:26,737 | -------------END Scanning----------------
+2026-09-30 13:36:26,737 | Found PLI ID:-->85<--
+2026-09-30 13:36:26,737 | 
+2026-09-30 13:36:26,737 | 
+2026-09-30 13:36:26,737 | 🎯 Seitenwechsel bei Seite 94 → Neuer Name: OHG Manuel Beyer
+2026-09-30 13:36:26,738 | 
+
+CREATED REPORT FOR GbR Manuel Lacher with delivery preference: Email and potential email: lachermanuel79@gmail.com
+2026-09-30 13:36:26,738 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Manuel Lacher_92-93.pdf
+2026-09-30 13:36:26,739 | 
+2026-09-30 13:36:26,740 | -------------START Scanning--------------
+2026-09-30 13:36:26,740 | ✅ Seite 95: Name gefunden → OHG Marco Jägg
+2026-09-30 13:36:26,740 | ✅ Seite 95: Name gefunden → OHG Marco Jägg
+2026-09-30 13:36:26,740 | -------------END Scanning----------------
+2026-09-30 13:36:26,740 | Found PLI ID:-->57<--
+2026-09-30 13:36:26,740 | 
+2026-09-30 13:36:26,741 | 
+2026-09-30 13:36:26,741 | 🎯 Seitenwechsel bei Seite 95 → Neuer Name: OHG Marco Jägg
+2026-09-30 13:36:26,742 | 
+
+CREATED REPORT FOR OHG Manuel Beyer with delivery preference: Email and potential email: manuelbeyer1991@gmail.com
+2026-09-30 13:36:26,742 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Manuel Beyer_94-94.pdf
+2026-09-30 13:36:26,743 | 
+2026-09-30 13:36:26,743 | -------------START Scanning--------------
+2026-09-30 13:36:26,743 | ✅ Seite 96: Name gefunden → OHG Marco Jägg
+2026-09-30 13:36:26,743 | ✅ Seite 96: Name gefunden → OHG Marco Jägg
+2026-09-30 13:36:26,743 | -------------END Scanning----------------
+2026-09-30 13:36:26,743 | Found PLI ID:-->57<--
+2026-09-30 13:36:26,744 | 
+2026-09-30 13:36:26,745 | -------------START Scanning--------------
+2026-09-30 13:36:26,745 | ✅ Seite 97: Name gefunden → GbR Marco Rosas
+2026-09-30 13:36:26,745 | ✅ Seite 97: Name gefunden → GbR Marco Rosas
+2026-09-30 13:36:26,745 | -------------END Scanning----------------
+2026-09-30 13:36:26,745 | Found PLI ID:-->66<--
+2026-09-30 13:36:26,745 | 
+2026-09-30 13:36:26,745 | 
+2026-09-30 13:36:26,746 | 🎯 Seitenwechsel bei Seite 97 → Neuer Name: GbR Marco Rosas
+2026-09-30 13:36:26,747 | 
+
+CREATED REPORT FOR OHG Marco Jägg with delivery preference: Email and potential email: marco-jaegg@web.de
+2026-09-30 13:36:26,747 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Marco Jägg_95-96.pdf
+2026-09-30 13:36:26,748 | 
+2026-09-30 13:36:26,748 | -------------START Scanning--------------
+2026-09-30 13:36:26,748 | ✅ Seite 98: Name gefunden → GbR Marco Rosas
+2026-09-30 13:36:26,749 | ✅ Seite 98: Name gefunden → GbR Marco Rosas
+2026-09-30 13:36:26,749 | -------------END Scanning----------------
+2026-09-30 13:36:26,749 | Found PLI ID:-->66<--
+2026-09-30 13:36:26,749 | 
+2026-09-30 13:36:26,750 | -------------START Scanning--------------
+2026-09-30 13:36:26,750 | ✅ Seite 99: Name gefunden → OHG Maria Teufel
+2026-09-30 13:36:26,750 | ✅ Seite 99: Name gefunden → OHG Maria Teufel
+2026-09-30 13:36:26,750 | -------------END Scanning----------------
+2026-09-30 13:36:26,750 | Found PLI ID:-->65<--
+2026-09-30 13:36:26,751 | 
+2026-09-30 13:36:26,751 | 
+2026-09-30 13:36:26,751 | 🎯 Seitenwechsel bei Seite 99 → Neuer Name: OHG Maria Teufel
+2026-09-30 13:36:26,752 | 
+
+CREATED REPORT FOR GbR Marco Rosas with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,752 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Marco Rosas_97-98.pdf
+2026-09-30 13:36:26,752 | 
+2026-09-30 13:36:26,753 | -------------START Scanning--------------
+2026-09-30 13:36:26,753 | ✅ Seite 100: Name gefunden → OHG Maria Teufel
+2026-09-30 13:36:26,753 | ✅ Seite 100: Name gefunden → OHG Maria Teufel
+2026-09-30 13:36:26,753 | -------------END Scanning----------------
+2026-09-30 13:36:26,754 | Found PLI ID:-->65<--
+2026-09-30 13:36:26,754 | 
+2026-09-30 13:36:26,755 | -------------START Scanning--------------
+2026-09-30 13:36:26,755 | ✅ Seite 101: Name gefunden → GbR Marlies Rosenstock
+2026-09-30 13:36:26,755 | ✅ Seite 101: Name gefunden → GbR Marlies Rosenstock
+2026-09-30 13:36:26,755 | -------------END Scanning----------------
+2026-09-30 13:36:26,755 | Found PLI ID:-->18<--
+2026-09-30 13:36:26,755 | 
+2026-09-30 13:36:26,755 | 
+2026-09-30 13:36:26,755 | 🎯 Seitenwechsel bei Seite 101 → Neuer Name: GbR Marlies Rosenstock
+2026-09-30 13:36:26,757 | 
+
+CREATED REPORT FOR OHG Maria Teufel with delivery preference: Email and potential email: mariateufel@gmx.de
+2026-09-30 13:36:26,757 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Maria Teufel_99-100.pdf
+2026-09-30 13:36:26,757 | 
+2026-09-30 13:36:26,758 | -------------START Scanning--------------
+2026-09-30 13:36:26,758 | ✅ Seite 102: Name gefunden → GbR Marlies Rosenstock
+2026-09-30 13:36:26,758 | ✅ Seite 102: Name gefunden → GbR Marlies Rosenstock
+2026-09-30 13:36:26,758 | -------------END Scanning----------------
+2026-09-30 13:36:26,758 | Found PLI ID:-->18<--
+2026-09-30 13:36:26,759 | 
+2026-09-30 13:36:26,760 | -------------START Scanning--------------
+2026-09-30 13:36:26,760 | ✅ Seite 103: Name gefunden → OHG Martin Albietz
+2026-09-30 13:36:26,760 | ✅ Seite 103: Name gefunden → OHG Martin Albietz
+2026-09-30 13:36:26,760 | -------------END Scanning----------------
+2026-09-30 13:36:26,760 | Found PLI ID:-->12<--
+2026-09-30 13:36:26,760 | 
+2026-09-30 13:36:26,760 | 
+2026-09-30 13:36:26,760 | 🎯 Seitenwechsel bei Seite 103 → Neuer Name: OHG Martin Albietz
+2026-09-30 13:36:26,762 | 
+
+CREATED REPORT FOR GbR Marlies Rosenstock with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,762 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Marlies Rosenstock_101-102.pdf
+2026-09-30 13:36:26,762 | 
+2026-09-30 13:36:26,763 | -------------START Scanning--------------
+2026-09-30 13:36:26,764 | ✅ Seite 104: Name gefunden → OHG Martin Bäumle
+2026-09-30 13:36:26,764 | ✅ Seite 104: Name gefunden → OHG Martin Bäumle
+2026-09-30 13:36:26,764 | -------------END Scanning----------------
+2026-09-30 13:36:26,764 | Found PLI ID:-->5<--
+2026-09-30 13:36:26,764 | 
+2026-09-30 13:36:26,764 | 
+2026-09-30 13:36:26,764 | 🎯 Seitenwechsel bei Seite 104 → Neuer Name: OHG Martin Bäumle
+2026-09-30 13:36:26,766 | 
+
+CREATED REPORT FOR OHG Martin Albietz with delivery preference: Email and potential email: tinibus@hotmail.com
+2026-09-30 13:36:26,766 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Martin Albietz_103-103.pdf
+2026-09-30 13:36:26,766 | 
+2026-09-30 13:36:26,767 | -------------START Scanning--------------
+2026-09-30 13:36:26,767 | ✅ Seite 105: Name gefunden → GbR Mathias Wolfsperger
+2026-09-30 13:36:26,767 | ✅ Seite 105: Name gefunden → GbR Mathias Wolfsperger
+2026-09-30 13:36:26,767 | -------------END Scanning----------------
+2026-09-30 13:36:26,768 | Found PLI ID:-->9<--
+2026-09-30 13:36:26,768 | 
+2026-09-30 13:36:26,768 | 
+2026-09-30 13:36:26,768 | 🎯 Seitenwechsel bei Seite 105 → Neuer Name: GbR Mathias Wolfsperger
+2026-09-30 13:36:26,769 | 
+
+CREATED REPORT FOR OHG Martin Bäumle with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,769 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_OHG Martin Bäumle_104-104.pdf
+2026-09-30 13:36:26,769 | 
+2026-09-30 13:36:26,770 | -------------START Scanning--------------
+2026-09-30 13:36:26,770 | ✅ Seite 106: Name gefunden → GbR Mathias Wolfsperger
+2026-09-30 13:36:26,770 | ✅ Seite 106: Name gefunden → GbR Mathias Wolfsperger
+2026-09-30 13:36:26,770 | -------------END Scanning----------------
+2026-09-30 13:36:26,770 | Found PLI ID:-->9<--
+2026-09-30 13:36:26,771 | 
+2026-09-30 13:36:26,772 | -------------START Scanning--------------
+2026-09-30 13:36:26,772 | ✅ Seite 107: Name gefunden → OHG Maud Consigny
+2026-09-30 13:36:26,772 | ✅ Seite 107: Name gefunden → OHG Maud Consigny
+2026-09-30 13:36:26,772 | -------------END Scanning----------------
+2026-09-30 13:36:26,772 | Found PLI ID:-->77<--
+2026-09-30 13:36:26,772 | 
+2026-09-30 13:36:26,772 | 
+2026-09-30 13:36:26,772 | 🎯 Seitenwechsel bei Seite 107 → Neuer Name: OHG Maud Consigny
+2026-09-30 13:36:26,774 | 
+
+CREATED REPORT FOR GbR Mathias Wolfsperger with delivery preference: Email and potential email: mathias.wolfsperger@piluweri.de
+2026-09-30 13:36:26,774 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Mathias Wolfsperger_105-106.pdf
+2026-09-30 13:36:26,774 | 
+2026-09-30 13:36:26,775 | -------------START Scanning--------------
+2026-09-30 13:36:26,775 | ✅ Seite 108: Name gefunden → OHG Maud Consigny
+2026-09-30 13:36:26,775 | ✅ Seite 108: Name gefunden → OHG Maud Consigny
+2026-09-30 13:36:26,775 | -------------END Scanning----------------
+2026-09-30 13:36:26,775 | Found PLI ID:-->77<--
+2026-09-30 13:36:26,775 | 
+2026-09-30 13:36:26,777 | -------------START Scanning--------------
+2026-09-30 13:36:26,777 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2026-09-30 13:36:26,777 | ✅ Seite 109: Name gefunden → OHG Michael Holl
+2026-09-30 13:36:26,777 | -------------END Scanning----------------
+2026-09-30 13:36:26,777 | Found PLI ID:-->76<--
+2026-09-30 13:36:26,777 | 
+2026-09-30 13:36:26,777 | 
+2026-09-30 13:36:26,777 | 🎯 Seitenwechsel bei Seite 109 → Neuer Name: OHG Michael Holl
+2026-09-30 13:36:26,779 | 
+
+CREATED REPORT FOR OHG Maud Consigny with delivery preference: Email and potential email: maudmarikoko@gmail.com
+2026-09-30 13:36:26,779 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Maud Consigny_107-108.pdf
+2026-09-30 13:36:26,779 | 
+2026-09-30 13:36:26,780 | -------------START Scanning--------------
+2026-09-30 13:36:26,780 | ✅ Seite 110: Name gefunden → OHG Michael Holl
+2026-09-30 13:36:26,780 | ✅ Seite 110: Name gefunden → OHG Michael Holl
+2026-09-30 13:36:26,780 | -------------END Scanning----------------
+2026-09-30 13:36:26,780 | Found PLI ID:-->76<--
+2026-09-30 13:36:26,780 | 
+2026-09-30 13:36:26,782 | -------------START Scanning--------------
+2026-09-30 13:36:26,782 | ✅ Seite 111: Name gefunden → OHG Michaela Dinglreiter
+2026-09-30 13:36:26,782 | ✅ Seite 111: Name gefunden → OHG Michaela Dinglreiter
+2026-09-30 13:36:26,782 | -------------END Scanning----------------
+2026-09-30 13:36:26,782 | Found PLI ID:-->21<--
+2026-09-30 13:36:26,782 | 
+2026-09-30 13:36:26,782 | 
+2026-09-30 13:36:26,782 | 🎯 Seitenwechsel bei Seite 111 → Neuer Name: OHG Michaela Dinglreiter
+2026-09-30 13:36:26,784 | 
+
+CREATED REPORT FOR OHG Michael Holl with delivery preference: Email and potential email: m.christian.holl@gmail.com
+2026-09-30 13:36:26,784 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Michael Holl_109-110.pdf
+2026-09-30 13:36:26,784 | 
+2026-09-30 13:36:26,785 | -------------START Scanning--------------
+2026-09-30 13:36:26,785 | ✅ Seite 112: Name gefunden → OHG Michaela Dinglreiter
+2026-09-30 13:36:26,785 | ✅ Seite 112: Name gefunden → OHG Michaela Dinglreiter
+2026-09-30 13:36:26,785 | -------------END Scanning----------------
+2026-09-30 13:36:26,785 | Found PLI ID:-->21<--
+2026-09-30 13:36:26,785 | 
+2026-09-30 13:36:26,786 | -------------START Scanning--------------
+2026-09-30 13:36:26,786 | ✅ Seite 113: Name gefunden → OHG Michael Meuser
+2026-09-30 13:36:26,786 | ✅ Seite 113: Name gefunden → OHG Michael Meuser
+2026-09-30 13:36:26,787 | -------------END Scanning----------------
+2026-09-30 13:36:26,787 | Found PLI ID:-->20<--
+2026-09-30 13:36:26,787 | 
+2026-09-30 13:36:26,787 | 
+2026-09-30 13:36:26,787 | 🎯 Seitenwechsel bei Seite 113 → Neuer Name: OHG Michael Meuser
+2026-09-30 13:36:26,789 | 
+
+CREATED REPORT FOR OHG Michaela Dinglreiter with delivery preference: Email and potential email: mdinglreiter@gmx.de
+2026-09-30 13:36:26,789 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Michaela Dinglreiter_111-112.pdf
+2026-09-30 13:36:26,789 | 
+2026-09-30 13:36:26,790 | -------------START Scanning--------------
+2026-09-30 13:36:26,790 | ✅ Seite 114: Name gefunden → OHG Michael Meuser
+2026-09-30 13:36:26,790 | ✅ Seite 114: Name gefunden → OHG Michael Meuser
+2026-09-30 13:36:26,790 | -------------END Scanning----------------
+2026-09-30 13:36:26,790 | Found PLI ID:-->20<--
+2026-09-30 13:36:26,790 | 
+2026-09-30 13:36:26,792 | -------------START Scanning--------------
+2026-09-30 13:36:26,792 | ✅ Seite 115: Name gefunden → OHG Monika Frese
+2026-09-30 13:36:26,792 | ✅ Seite 115: Name gefunden → OHG Monika Frese
+2026-09-30 13:36:26,792 | -------------END Scanning----------------
+2026-09-30 13:36:26,792 | Found PLI ID:-->45<--
+2026-09-30 13:36:26,792 | 
+2026-09-30 13:36:26,792 | 
+2026-09-30 13:36:26,792 | 🎯 Seitenwechsel bei Seite 115 → Neuer Name: OHG Monika Frese
+2026-09-30 13:36:26,794 | 
+
+CREATED REPORT FOR OHG Michael Meuser with delivery preference: Email and potential email: michael.meuser@piluweri.de
+2026-09-30 13:36:26,794 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Michael Meuser_113-114.pdf
+2026-09-30 13:36:26,794 | 
+2026-09-30 13:36:26,796 | -------------START Scanning--------------
+2026-09-30 13:36:26,796 | ✅ Seite 116: Name gefunden → OHG Mu Dell'Oro
+2026-09-30 13:36:26,796 | ✅ Seite 116: Name gefunden → OHG Mu Dell'Oro
+2026-09-30 13:36:26,796 | -------------END Scanning----------------
+2026-09-30 13:36:26,796 | Found PLI ID:-->88<--
+2026-09-30 13:36:26,796 | 
+2026-09-30 13:36:26,796 | 
+2026-09-30 13:36:26,796 | 🎯 Seitenwechsel bei Seite 116 → Neuer Name: OHG Mu Dell'Oro
+2026-09-30 13:36:26,798 | 
+
+CREATED REPORT FOR OHG Monika Frese with delivery preference: Email and potential email: omimoni2014@gmail.com
+2026-09-30 13:36:26,798 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Monika Frese_115-115.pdf
+2026-09-30 13:36:26,798 | 
+2026-09-30 13:36:26,799 | -------------START Scanning--------------
+2026-09-30 13:36:26,799 | ✅ Seite 117: Name gefunden → OHG Mu Dell'Oro
+2026-09-30 13:36:26,799 | ✅ Seite 117: Name gefunden → OHG Mu Dell'Oro
+2026-09-30 13:36:26,799 | -------------END Scanning----------------
+2026-09-30 13:36:26,799 | Found PLI ID:-->88<--
+2026-09-30 13:36:26,799 | 
+2026-09-30 13:36:26,800 | -------------START Scanning--------------
+2026-09-30 13:36:26,800 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2026-09-30 13:36:26,800 | ✅ Seite 118: Name gefunden → OHG Nicole Piro
+2026-09-30 13:36:26,801 | -------------END Scanning----------------
+2026-09-30 13:36:26,801 | Found PLI ID:-->43<--
+2026-09-30 13:36:26,801 | 
+2026-09-30 13:36:26,801 | 
+2026-09-30 13:36:26,801 | 🎯 Seitenwechsel bei Seite 118 → Neuer Name: OHG Nicole Piro
+2026-09-30 13:36:26,803 | 
+
+CREATED REPORT FOR OHG Mu Dell'Oro with delivery preference: Email and potential email: calvin.delloro@piluweri.de
+2026-09-30 13:36:26,803 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Mu Dell'Oro_116-117.pdf
+2026-09-30 13:36:26,803 | 
+2026-09-30 13:36:26,803 | -------------START Scanning--------------
+2026-09-30 13:36:26,804 | ✅ Seite 119: Name gefunden → OHG Nicole Piro
+2026-09-30 13:36:26,804 | ✅ Seite 119: Name gefunden → OHG Nicole Piro
+2026-09-30 13:36:26,804 | -------------END Scanning----------------
+2026-09-30 13:36:26,804 | Found PLI ID:-->43<--
+2026-09-30 13:36:26,804 | 
+2026-09-30 13:36:26,805 | -------------START Scanning--------------
+2026-09-30 13:36:26,805 | ✅ Seite 120: Name gefunden → OHG Nils Meyer
+2026-09-30 13:36:26,806 | ✅ Seite 120: Name gefunden → OHG Nils Meyer
+2026-09-30 13:36:26,806 | -------------END Scanning----------------
+2026-09-30 13:36:26,806 | Found PLI ID:-->107<--
+2026-09-30 13:36:26,806 | 
+2026-09-30 13:36:26,806 | 
+2026-09-30 13:36:26,806 | 🎯 Seitenwechsel bei Seite 120 → Neuer Name: OHG Nils Meyer
+2026-09-30 13:36:26,807 | 
+
+CREATED REPORT FOR OHG Nicole Piro with delivery preference: Email and potential email: nicole_01890@yahoo.com
+2026-09-30 13:36:26,807 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Nicole Piro_118-119.pdf
+2026-09-30 13:36:26,808 | 
+2026-09-30 13:36:26,809 | -------------START Scanning--------------
+2026-09-30 13:36:26,809 | ✅ Seite 121: Name gefunden → GbR Nina Hofmann
+2026-09-30 13:36:26,809 | ✅ Seite 121: Name gefunden → GbR Nina Hofmann
+2026-09-30 13:36:26,809 | -------------END Scanning----------------
+2026-09-30 13:36:26,809 | Found PLI ID:-->95<--
+2026-09-30 13:36:26,809 | 
+2026-09-30 13:36:26,809 | 
+2026-09-30 13:36:26,809 | 🎯 Seitenwechsel bei Seite 121 → Neuer Name: GbR Nina Hofmann
+2026-09-30 13:36:26,811 | 
+
+CREATED REPORT FOR OHG Nils Meyer with delivery preference: Email and potential email: nilsmeyer@gmx.info
+2026-09-30 13:36:26,811 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Nils Meyer_120-120.pdf
+2026-09-30 13:36:26,811 | 
+2026-09-30 13:36:26,812 | -------------START Scanning--------------
+2026-09-30 13:36:26,812 | ✅ Seite 122: Name gefunden → GbR Nina Hofmann
+2026-09-30 13:36:26,813 | ✅ Seite 122: Name gefunden → GbR Nina Hofmann
+2026-09-30 13:36:26,813 | -------------END Scanning----------------
+2026-09-30 13:36:26,813 | Found PLI ID:-->95<--
+2026-09-30 13:36:26,813 | 
+2026-09-30 13:36:26,814 | -------------START Scanning--------------
+2026-09-30 13:36:26,814 | ✅ Seite 123: Name gefunden → GbR Noah Ihlein
+2026-09-30 13:36:26,814 | ✅ Seite 123: Name gefunden → GbR Noah Ihlein
+2026-09-30 13:36:26,814 | -------------END Scanning----------------
+2026-09-30 13:36:26,814 | Found PLI ID:-->93<--
+2026-09-30 13:36:26,815 | 
+2026-09-30 13:36:26,815 | 
+2026-09-30 13:36:26,815 | 🎯 Seitenwechsel bei Seite 123 → Neuer Name: GbR Noah Ihlein
+2026-09-30 13:36:26,816 | 
+
+CREATED REPORT FOR GbR Nina Hofmann with delivery preference: Email and potential email: dieninahofmann@gmx.de
+2026-09-30 13:36:26,816 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Nina Hofmann_121-122.pdf
+2026-09-30 13:36:26,817 | 
+2026-09-30 13:36:26,817 | -------------START Scanning--------------
+2026-09-30 13:36:26,817 | ✅ Seite 124: Name gefunden → GbR Noah Ihlein
+2026-09-30 13:36:26,817 | ✅ Seite 124: Name gefunden → GbR Noah Ihlein
+2026-09-30 13:36:26,818 | -------------END Scanning----------------
+2026-09-30 13:36:26,818 | Found PLI ID:-->93<--
+2026-09-30 13:36:26,818 | 
+2026-09-30 13:36:26,819 | -------------START Scanning--------------
+2026-09-30 13:36:26,819 | ✅ Seite 125: Name gefunden → GbR Nyancho Sanneh
+2026-09-30 13:36:26,819 | ✅ Seite 125: Name gefunden → GbR Nyancho Sanneh
+2026-09-30 13:36:26,819 | -------------END Scanning----------------
+2026-09-30 13:36:26,819 | Found PLI ID:-->14<--
+2026-09-30 13:36:26,819 | 
+2026-09-30 13:36:26,819 | 
+2026-09-30 13:36:26,820 | 🎯 Seitenwechsel bei Seite 125 → Neuer Name: GbR Nyancho Sanneh
+2026-09-30 13:36:26,821 | 
+
+CREATED REPORT FOR GbR Noah Ihlein with delivery preference: Email and potential email: nihlein@gmail.com
+2026-09-30 13:36:26,821 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Noah Ihlein_123-124.pdf
+2026-09-30 13:36:26,821 | 
+2026-09-30 13:36:26,822 | -------------START Scanning--------------
+2026-09-30 13:36:26,822 | ✅ Seite 126: Name gefunden → GbR Nyancho Sanneh
+2026-09-30 13:36:26,822 | ✅ Seite 126: Name gefunden → GbR Nyancho Sanneh
+2026-09-30 13:36:26,823 | -------------END Scanning----------------
+2026-09-30 13:36:26,823 | Found PLI ID:-->14<--
+2026-09-30 13:36:26,823 | 
+2026-09-30 13:36:26,824 | -------------START Scanning--------------
+2026-09-30 13:36:26,824 | ✅ Seite 127: Name gefunden → OHG Ottmar Widmaier
+2026-09-30 13:36:26,824 | ✅ Seite 127: Name gefunden → OHG Ottmar Widmaier
+2026-09-30 13:36:26,824 | -------------END Scanning----------------
+2026-09-30 13:36:26,824 | Found PLI ID:-->40<--
+2026-09-30 13:36:26,824 | 
+2026-09-30 13:36:26,825 | 
+2026-09-30 13:36:26,825 | 🎯 Seitenwechsel bei Seite 127 → Neuer Name: OHG Ottmar Widmaier
+2026-09-30 13:36:26,826 | 
+
+CREATED REPORT FOR GbR Nyancho Sanneh with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,827 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_GbR Nyancho Sanneh_125-126.pdf
+2026-09-30 13:36:26,827 | 
+2026-09-30 13:36:26,828 | -------------START Scanning--------------
+2026-09-30 13:36:26,828 | ✅ Seite 128: Name gefunden → OHG Philipp Schneider
+2026-09-30 13:36:26,828 | ✅ Seite 128: Name gefunden → OHG Philipp Schneider
+2026-09-30 13:36:26,829 | -------------END Scanning----------------
+2026-09-30 13:36:26,829 | Found PLI ID:-->100<--
+2026-09-30 13:36:26,829 | 
+2026-09-30 13:36:26,829 | 
+2026-09-30 13:36:26,829 | 🎯 Seitenwechsel bei Seite 128 → Neuer Name: OHG Philipp Schneider
+2026-09-30 13:36:26,830 | 
+
+CREATED REPORT FOR OHG Ottmar Widmaier with delivery preference: Email and potential email: ottmar.widmaier@web.de
+2026-09-30 13:36:26,831 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Ottmar Widmaier_127-127.pdf
+2026-09-30 13:36:26,831 | 
+2026-09-30 13:36:26,832 | -------------START Scanning--------------
+2026-09-30 13:36:26,832 | ✅ Seite 129: Name gefunden → OHG Rico Albat
+2026-09-30 13:36:26,832 | ✅ Seite 129: Name gefunden → OHG Rico Albat
+2026-09-30 13:36:26,833 | -------------END Scanning----------------
+2026-09-30 13:36:26,833 | Found PLI ID:-->31<--
+2026-09-30 13:36:26,833 | 
+2026-09-30 13:36:26,833 | 
+2026-09-30 13:36:26,833 | 🎯 Seitenwechsel bei Seite 129 → Neuer Name: OHG Rico Albat
+2026-09-30 13:36:26,835 | 
+
+CREATED REPORT FOR OHG Philipp Schneider with delivery preference: Email and potential email: schibidia@gmail.com
+2026-09-30 13:36:26,835 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Philipp Schneider_128-128.pdf
+2026-09-30 13:36:26,835 | 
+2026-09-30 13:36:26,836 | -------------START Scanning--------------
+2026-09-30 13:36:26,836 | ✅ Seite 130: Name gefunden → OHG Romana Aserah
+2026-09-30 13:36:26,836 | ✅ Seite 130: Name gefunden → OHG Romana Aserah
+2026-09-30 13:36:26,836 | -------------END Scanning----------------
+2026-09-30 13:36:26,837 | Found PLI ID:-->62<--
+2026-09-30 13:36:26,837 | 
+2026-09-30 13:36:26,837 | 
+2026-09-30 13:36:26,837 | 🎯 Seitenwechsel bei Seite 130 → Neuer Name: OHG Romana Aserah
+2026-09-30 13:36:26,838 | 
+
+CREATED REPORT FOR OHG Rico Albat with delivery preference: Email and potential email: rico.albat@web.de
+2026-09-30 13:36:26,838 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Rico Albat_129-129.pdf
+2026-09-30 13:36:26,838 | 
+2026-09-30 13:36:26,839 | -------------START Scanning--------------
+2026-09-30 13:36:26,839 | ✅ Seite 131: Name gefunden → OHG Romana Aserah
+2026-09-30 13:36:26,839 | ✅ Seite 131: Name gefunden → OHG Romana Aserah
+2026-09-30 13:36:26,839 | -------------END Scanning----------------
+2026-09-30 13:36:26,839 | Found PLI ID:-->62<--
+2026-09-30 13:36:26,839 | 
+2026-09-30 13:36:26,841 | -------------START Scanning--------------
+2026-09-30 13:36:26,841 | ✅ Seite 132: Name gefunden → OHG Sabine Gleichauf
+2026-09-30 13:36:26,841 | ✅ Seite 132: Name gefunden → OHG Sabine Gleichauf
+2026-09-30 13:36:26,841 | -------------END Scanning----------------
+2026-09-30 13:36:26,841 | Found PLI ID:-->15<--
+2026-09-30 13:36:26,841 | 
+2026-09-30 13:36:26,841 | 
+2026-09-30 13:36:26,841 | 🎯 Seitenwechsel bei Seite 132 → Neuer Name: OHG Sabine Gleichauf
+2026-09-30 13:36:26,843 | 
+
+CREATED REPORT FOR OHG Romana Aserah with delivery preference: Email and potential email: voicewisdom@icloud.com
+2026-09-30 13:36:26,843 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Romana Aserah_130-131.pdf
+2026-09-30 13:36:26,843 | 
+2026-09-30 13:36:26,844 | -------------START Scanning--------------
+2026-09-30 13:36:26,844 | ✅ Seite 133: Name gefunden → OHG Sabine Gleichauf
+2026-09-30 13:36:26,844 | ✅ Seite 133: Name gefunden → OHG Sabine Gleichauf
+2026-09-30 13:36:26,844 | -------------END Scanning----------------
+2026-09-30 13:36:26,844 | Found PLI ID:-->15<--
+2026-09-30 13:36:26,844 | 
+2026-09-30 13:36:26,846 | -------------START Scanning--------------
+2026-09-30 13:36:26,846 | ✅ Seite 134: Name gefunden → OHG Sabrina Lehmann
+2026-09-30 13:36:26,846 | ✅ Seite 134: Name gefunden → OHG Sabrina Lehmann
+2026-09-30 13:36:26,846 | -------------END Scanning----------------
+2026-09-30 13:36:26,846 | Found PLI ID:-->47<--
+2026-09-30 13:36:26,846 | 
+2026-09-30 13:36:26,846 | 
+2026-09-30 13:36:26,846 | 🎯 Seitenwechsel bei Seite 134 → Neuer Name: OHG Sabrina Lehmann
+2026-09-30 13:36:26,848 | 
+
+CREATED REPORT FOR OHG Sabine Gleichauf with delivery preference: Email and potential email: gleichaufs@gmx.de
+2026-09-30 13:36:26,848 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Sabine Gleichauf_132-133.pdf
+2026-09-30 13:36:26,848 | 
+2026-09-30 13:36:26,848 | -------------START Scanning--------------
+2026-09-30 13:36:26,849 | ✅ Seite 135: Name gefunden → OHG Sabrina Lehmann
+2026-09-30 13:36:26,849 | ✅ Seite 135: Name gefunden → OHG Sabrina Lehmann
+2026-09-30 13:36:26,849 | -------------END Scanning----------------
+2026-09-30 13:36:26,849 | Found PLI ID:-->47<--
+2026-09-30 13:36:26,849 | 
+2026-09-30 13:36:26,850 | -------------START Scanning--------------
+2026-09-30 13:36:26,850 | ✅ Seite 136: Name gefunden → OHG Selina Zanger
+2026-09-30 13:36:26,850 | ✅ Seite 136: Name gefunden → OHG Selina Zanger
+2026-09-30 13:36:26,850 | -------------END Scanning----------------
+2026-09-30 13:36:26,851 | Found PLI ID:-->63<--
+2026-09-30 13:36:26,851 | 
+2026-09-30 13:36:26,851 | 
+2026-09-30 13:36:26,851 | 🎯 Seitenwechsel bei Seite 136 → Neuer Name: OHG Selina Zanger
+2026-09-30 13:36:26,852 | 
+
+CREATED REPORT FOR OHG Sabrina Lehmann with delivery preference: Email and potential email: s.wagner16@gmx.de
+2026-09-30 13:36:26,853 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Sabrina Lehmann_134-135.pdf
+2026-09-30 13:36:26,853 | 
+2026-09-30 13:36:26,854 | -------------START Scanning--------------
+2026-09-30 13:36:26,854 | ✅ Seite 137: Name gefunden → OHG Simon Erdmann
+2026-09-30 13:36:26,854 | ✅ Seite 137: Name gefunden → OHG Simon Erdmann
+2026-09-30 13:36:26,854 | -------------END Scanning----------------
+2026-09-30 13:36:26,854 | Found PLI ID:-->74<--
+2026-09-30 13:36:26,854 | 
+2026-09-30 13:36:26,854 | 
+2026-09-30 13:36:26,855 | 🎯 Seitenwechsel bei Seite 137 → Neuer Name: OHG Simon Erdmann
+2026-09-30 13:36:26,856 | 
+
+CREATED REPORT FOR OHG Selina Zanger with delivery preference: Email and potential email: sethza@gmx.de
+2026-09-30 13:36:26,856 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Selina Zanger_136-136.pdf
+2026-09-30 13:36:26,856 | 
+2026-09-30 13:36:26,857 | -------------START Scanning--------------
+2026-09-30 13:36:26,857 | ✅ Seite 138: Name gefunden → OHG Simon Erdmann
+2026-09-30 13:36:26,857 | ✅ Seite 138: Name gefunden → OHG Simon Erdmann
+2026-09-30 13:36:26,857 | -------------END Scanning----------------
+2026-09-30 13:36:26,857 | Found PLI ID:-->74<--
+2026-09-30 13:36:26,857 | 
+2026-09-30 13:36:26,859 | -------------START Scanning--------------
+2026-09-30 13:36:26,859 | ✅ Seite 139: Name gefunden → OHG Tatsiana Wolf
+2026-09-30 13:36:26,859 | ✅ Seite 139: Name gefunden → OHG Tatsiana Wolf
+2026-09-30 13:36:26,859 | -------------END Scanning----------------
+2026-09-30 13:36:26,859 | Found PLI ID:-->50<--
+2026-09-30 13:36:26,859 | 
+2026-09-30 13:36:26,859 | 
+2026-09-30 13:36:26,860 | 🎯 Seitenwechsel bei Seite 139 → Neuer Name: OHG Tatsiana Wolf
+2026-09-30 13:36:26,861 | 
+
+CREATED REPORT FOR OHG Simon Erdmann with delivery preference: Paper and potential email: N/A
+2026-09-30 13:36:26,861 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\print\Monatsbericht_OHG Simon Erdmann_137-138.pdf
+2026-09-30 13:36:26,861 | 
+2026-09-30 13:36:26,862 | -------------START Scanning--------------
+2026-09-30 13:36:26,862 | ✅ Seite 140: Name gefunden → OHG Tatsiana Wolf
+2026-09-30 13:36:26,862 | ✅ Seite 140: Name gefunden → OHG Tatsiana Wolf
+2026-09-30 13:36:26,862 | -------------END Scanning----------------
+2026-09-30 13:36:26,862 | Found PLI ID:-->50<--
+2026-09-30 13:36:26,863 | 
+2026-09-30 13:36:26,864 | -------------START Scanning--------------
+2026-09-30 13:36:26,864 | ✅ Seite 141: Name gefunden → OHG Christine Schwake
+2026-09-30 13:36:26,864 | ✅ Seite 141: Name gefunden → OHG Christine Schwake
+2026-09-30 13:36:26,864 | -------------END Scanning----------------
+2026-09-30 13:36:26,864 | Found PLI ID:-->36<--
+2026-09-30 13:36:26,864 | 
+2026-09-30 13:36:26,864 | 
+2026-09-30 13:36:26,864 | 🎯 Seitenwechsel bei Seite 141 → Neuer Name: OHG Christine Schwake
+2026-09-30 13:36:26,866 | 
+
+CREATED REPORT FOR OHG Tatsiana Wolf with delivery preference: Email and potential email: tatsiana.wolf@piluweri.de
+2026-09-30 13:36:26,866 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Tatsiana Wolf_139-140.pdf
+2026-09-30 13:36:26,866 | 
+2026-09-30 13:36:26,867 | -------------START Scanning--------------
+2026-09-30 13:36:26,867 | ✅ Seite 142: Name gefunden → OHG Christine Schwake
+2026-09-30 13:36:26,867 | ✅ Seite 142: Name gefunden → OHG Christine Schwake
+2026-09-30 13:36:26,867 | -------------END Scanning----------------
+2026-09-30 13:36:26,867 | Found PLI ID:-->36<--
+2026-09-30 13:36:26,867 | 
+2026-09-30 13:36:26,869 | -------------START Scanning--------------
+2026-09-30 13:36:26,869 | ✅ Seite 143: Name gefunden → GbR Hans-Ulrich Sallier
+2026-09-30 13:36:26,869 | ✅ Seite 143: Name gefunden → GbR Hans-Ulrich Sallier
+2026-09-30 13:36:26,869 | -------------END Scanning----------------
+2026-09-30 13:36:26,869 | Found PLI ID:-->11<--
+2026-09-30 13:36:26,869 | 
+2026-09-30 13:36:26,869 | 
+2026-09-30 13:36:26,869 | 🎯 Seitenwechsel bei Seite 143 → Neuer Name: GbR Hans-Ulrich Sallier
+2026-09-30 13:36:26,871 | 
+
+CREATED REPORT FOR OHG Christine Schwake with delivery preference: Email and potential email: christine.schwake@piluweri.de
+2026-09-30 13:36:26,871 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Christine Schwake_141-142.pdf
+2026-09-30 13:36:26,871 | 
+2026-09-30 13:36:26,872 | -------------START Scanning--------------
+2026-09-30 13:36:26,872 | ✅ Seite 144: Name gefunden → GbR Ulrike Kleingarn
+2026-09-30 13:36:26,872 | ✅ Seite 144: Name gefunden → GbR Ulrike Kleingarn
+2026-09-30 13:36:26,873 | -------------END Scanning----------------
+2026-09-30 13:36:26,873 | Found PLI ID:-->39<--
+2026-09-30 13:36:26,873 | 
+2026-09-30 13:36:26,873 | 
+2026-09-30 13:36:26,873 | 🎯 Seitenwechsel bei Seite 144 → Neuer Name: GbR Ulrike Kleingarn
+2026-09-30 13:36:26,874 | 
+
+CREATED REPORT FOR GbR Hans-Ulrich Sallier with delivery preference: Email and potential email: haulsa@t-online.de
+2026-09-30 13:36:26,875 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Hans-Ulrich Sallier_143-143.pdf
+2026-09-30 13:36:26,875 | 
+2026-09-30 13:36:26,876 | -------------START Scanning--------------
+2026-09-30 13:36:26,876 | ✅ Seite 145: Name gefunden → GbR Ulrike Kleingarn
+2026-09-30 13:36:26,876 | ✅ Seite 145: Name gefunden → GbR Ulrike Kleingarn
+2026-09-30 13:36:26,876 | -------------END Scanning----------------
+2026-09-30 13:36:26,876 | Found PLI ID:-->39<--
+2026-09-30 13:36:26,876 | 
+2026-09-30 13:36:26,877 | -------------START Scanning--------------
+2026-09-30 13:36:26,878 | ✅ Seite 146: Name gefunden → GbR Valentina Volkmer
+2026-09-30 13:36:26,878 | ✅ Seite 146: Name gefunden → GbR Valentina Volkmer
+2026-09-30 13:36:26,878 | -------------END Scanning----------------
+2026-09-30 13:36:26,878 | Found PLI ID:-->96<--
+2026-09-30 13:36:26,878 | 
+2026-09-30 13:36:26,878 | 
+2026-09-30 13:36:26,878 | 🎯 Seitenwechsel bei Seite 146 → Neuer Name: GbR Valentina Volkmer
+2026-09-30 13:36:26,880 | 
+
+CREATED REPORT FOR GbR Ulrike Kleingarn with delivery preference: Email and potential email: u.kleingarn@posteo.de
+2026-09-30 13:36:26,880 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Ulrike Kleingarn_144-145.pdf
+2026-09-30 13:36:26,880 | 
+2026-09-30 13:36:26,881 | -------------START Scanning--------------
+2026-09-30 13:36:26,881 | ✅ Seite 147: Name gefunden → GbR Valentina Volkmer
+2026-09-30 13:36:26,881 | ✅ Seite 147: Name gefunden → GbR Valentina Volkmer
+2026-09-30 13:36:26,881 | -------------END Scanning----------------
+2026-09-30 13:36:26,881 | Found PLI ID:-->96<--
+2026-09-30 13:36:26,881 | 
+2026-09-30 13:36:26,883 | -------------START Scanning--------------
+2026-09-30 13:36:26,883 | ✅ Seite 148: Name gefunden → OHG Wolfgang Scheller
+2026-09-30 13:36:26,883 | ✅ Seite 148: Name gefunden → OHG Wolfgang Scheller
+2026-09-30 13:36:26,883 | -------------END Scanning----------------
+2026-09-30 13:36:26,883 | Found PLI ID:-->19<--
+2026-09-30 13:36:26,883 | 
+2026-09-30 13:36:26,883 | 
+2026-09-30 13:36:26,883 | 🎯 Seitenwechsel bei Seite 148 → Neuer Name: OHG Wolfgang Scheller
+2026-09-30 13:36:26,885 | 
+
+CREATED REPORT FOR GbR Valentina Volkmer with delivery preference: Email and potential email: valentinavolkmer@gmail.com
+2026-09-30 13:36:26,885 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Valentina Volkmer_146-147.pdf
+2026-09-30 13:36:26,885 | 
+2026-09-30 13:36:26,885 | -------------START Scanning--------------
+2026-09-30 13:36:26,885 | ✅ Seite 149: Name gefunden → OHG Wolfgang Scheller
+2026-09-30 13:36:26,886 | ✅ Seite 149: Name gefunden → OHG Wolfgang Scheller
+2026-09-30 13:36:26,886 | -------------END Scanning----------------
+2026-09-30 13:36:26,886 | Found PLI ID:-->19<--
+2026-09-30 13:36:26,886 | 
+2026-09-30 13:36:26,887 | -------------START Scanning--------------
+2026-09-30 13:36:26,887 | ✅ Seite 150: Name gefunden → GbR Yannis von Majewski
+2026-09-30 13:36:26,887 | ✅ Seite 150: Name gefunden → GbR Yannis von Majewski
+2026-09-30 13:36:26,887 | -------------END Scanning----------------
+2026-09-30 13:36:26,888 | Found PLI ID:-->59<--
+2026-09-30 13:36:26,888 | 
+2026-09-30 13:36:26,888 | 
+2026-09-30 13:36:26,888 | 🎯 Seitenwechsel bei Seite 150 → Neuer Name: GbR Yannis von Majewski
+2026-09-30 13:36:26,889 | 
+
+CREATED REPORT FOR OHG Wolfgang Scheller with delivery preference: Email and potential email: Serafins-Auge@web.de
+2026-09-30 13:36:26,889 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_OHG Wolfgang Scheller_148-149.pdf
+2026-09-30 13:36:26,890 | 
+2026-09-30 13:36:26,891 | -------------START Scanning--------------
+2026-09-30 13:36:26,891 | ✅ Seite 151: Name gefunden → GbR Zora Zeller
+2026-09-30 13:36:26,891 | ✅ Seite 151: Name gefunden → GbR Zora Zeller
+2026-09-30 13:36:26,891 | -------------END Scanning----------------
+2026-09-30 13:36:26,891 | Found PLI ID:-->102<--
+2026-09-30 13:36:26,891 | 
+2026-09-30 13:36:26,891 | 
+2026-09-30 13:36:26,891 | 🎯 Seitenwechsel bei Seite 151 → Neuer Name: GbR Zora Zeller
+2026-09-30 13:36:26,893 | 
+
+CREATED REPORT FOR GbR Yannis von Majewski with delivery preference: Email and potential email: yannisvonmajewski@outlook.de
+2026-09-30 13:36:26,893 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Yannis von Majewski_150-150.pdf
+2026-09-30 13:36:26,893 | 
+2026-09-30 13:36:26,894 | -------------START Scanning--------------
+2026-09-30 13:36:26,894 | ✅ Seite 152: Name gefunden → GbR Zora Zeller
+2026-09-30 13:36:26,894 | ✅ Seite 152: Name gefunden → GbR Zora Zeller
+2026-09-30 13:36:26,895 | -------------END Scanning----------------
+2026-09-30 13:36:26,895 | Found PLI ID:-->102<--
+2026-09-30 13:36:26,895 | 
+2026-09-30 13:36:26,895 | 
+2026-09-30 13:36:26,895 | 🎯 Letzte Seite erreicht bei gleichbleibendem Namen: GbR Zora Zeller
+2026-09-30 13:36:26,896 | 
+
+CREATED REPORT FOR GbR Zora Zeller with delivery preference: Email and potential email: zora.zeller@piluweri.de
+2026-09-30 13:36:26,897 | 💾 Datei gespeichert: C:\Github Repositories\PDF-Splitter\code\Zielordner\send\Monatsbericht_GbR Zora Zeller_151-152.pdf
+2026-09-30 13:36:26,897 | 
+2026-09-30 13:36:26,897 | 
+
+✅✅✅ PDFs wurden erstellt ✅✅✅
+2026-09-30 13:36:26,897 | 
+
+✅✅✅ 88 Kontaktdaten wurden gefunden: ✅✅✅
+2026-09-30 13:36:26,897 | ✅ {'deliver_via_paper': False, 'email': 'berg.alexej@proton.me', 'pli_id': 44, 'first_name': 'Alexej', 'last_name': 'Bergmann'}
+2026-09-30 13:36:26,897 | ✅ {'deliver_via_paper': False, 'email': 'alina.steiner@posteo.de', 'pli_id': 69, 'first_name': 'Alina', 'last_name': 'Steiner'}
+2026-09-30 13:36:26,897 | ✅ {'deliver_via_paper': True, 'email': 'amadeus.stratz@t-online.de', 'pli_id': 27, 'first_name': 'Amadeus', 'last_name': 'Stratz'}
+2026-09-30 13:36:26,897 | ✅ {'deliver_via_paper': False, 'email': 'andrea.drewski@freenet.de', 'pli_id': 52, 'first_name': 'Andrea', 'last_name': 'Drewski'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'andrea.gregor@piluweri.de', 'pli_id': 91, 'first_name': 'Andrea', 'last_name': 'Gregor'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'schrader.anja@posteo.de', 'pli_id': 87, 'first_name': 'Anja', 'last_name': 'Schrader'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'anna.volk@gmx.net', 'pli_id': 60, 'first_name': 'Anna', 'last_name': 'Volk'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'annahabermehl@gmx.de', 'pli_id': 64, 'first_name': 'Ännie', 'last_name': 'Habermehl'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': True, 'email': 'gabriel.annika@web.de', 'pli_id': 101, 'first_name': 'Anni', 'last_name': 'Gabriel'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'bjweltle@gmx.de', 'pli_id': 49, 'first_name': 'Beate', 'last_name': 'Weltle'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'carloseibel40@gmail.com', 'pli_id': 72, 'first_name': 'Carlo', 'last_name': 'Seibel'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'carolin.klein.1@gmx.net', 'pli_id': 71, 'first_name': 'Caro', 'last_name': 'Klein'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'christian.wegener@piluweri.de', 'pli_id': 46, 'first_name': 'Christian', 'last_name': 'Wegener'}
+2026-09-30 13:36:26,898 | ✅ {'deliver_via_paper': False, 'email': 'christoph25.9@gmx.de', 'pli_id': 106, 'first_name': 'Christoph ', 'last_name': 'Weber'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'christopher.zerna@gmx.de', 'pli_id': 68, 'first_name': 'Christopher', 'last_name': 'Zerna'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'clara_schmid@yahoo.de', 'pli_id': 83, 'first_name': 'Clara', 'last_name': 'Schmid'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'clara.semmel@gmx.de', 'pli_id': 111, 'first_name': 'Clarazubi', 'last_name': 'Semmel'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'dagmar.gries@gmail.com', 'pli_id': 108, 'first_name': 'Dagmar', 'last_name': 'Gries'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'doreen@vinzelberg.net', 'pli_id': 80, 'first_name': 'Doreen', 'last_name': 'Vinzelberg'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'doris.graesslin@web.de', 'pli_id': 61, 'first_name': 'Doris', 'last_name': 'Grässlin'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'fabian.winkler@piluweri.de', 'pli_id': 25, 'first_name': 'Fabian', 'last_name': 'Winkler'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'doraufe@posteo.de', 'pli_id': 34, 'first_name': 'Felix', 'last_name': 'Dorau'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'reinalterfelix@gmail.com', 'pli_id': 92, 'first_name': 'Felix', 'last_name': 'Reinalter'}
+2026-09-30 13:36:26,899 | ✅ {'deliver_via_paper': False, 'email': 'florencetafesse@gmail.com', 'pli_id': 105, 'first_name': 'Flo', 'last_name': 'Tafesse'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'frankzter@web.de', 'pli_id': 24, 'first_name': 'Frank', 'last_name': 'Walther'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'gremwangler@yahoo.com', 'pli_id': 81, 'first_name': 'Grem', 'last_name': 'Wangler'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'staatsh@web.de', 'pli_id': 30, 'first_name': 'Hardy', 'last_name': 'Staats'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'Honza@regioernaehrung.de', 'pli_id': 103, 'first_name': 'Honza', 'last_name': 'Supenkämper'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'ingrid-glaser@gmx.net', 'pli_id': 10, 'first_name': 'Ingrid', 'last_name': 'Glaser'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'handwmilch@gmail.com', 'pli_id': 13, 'first_name': 'Jeremias', 'last_name': 'Supenkämper'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': True, 'email': 'jettefortmann@gmx.de', 'pli_id': 38, 'first_name': 'Jette', 'last_name': 'Fortmann'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'joachim.ruppenthal@piluweri.de', 'pli_id': 28, 'first_name': 'Achim', 'last_name': 'Ruppenthal'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'kolo1@gmx.de', 'pli_id': 17, 'first_name': 'Johannes', 'last_name': 'Kolonko'}
+2026-09-30 13:36:26,900 | ✅ {'deliver_via_paper': False, 'email': 'johannes.schleyer@posteo.de', 'pli_id': 33, 'first_name': 'Johannes', 'last_name': 'Loewe'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'jonatanac14.libros@gmail.com', 'pli_id': 90, 'first_name': 'Jonatan', 'last_name': 'Argueta'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'jonathan.stoffel187@gmail.com', 'pli_id': 58, 'first_name': 'Jonathan', 'last_name': 'Stoffel'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'josepha.brehm@gmail.com', 'pli_id': 73, 'first_name': 'Josepha', 'last_name': 'Brehm'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'hovijudy@web.de', 'pli_id': 8, 'first_name': 'Judith', 'last_name': 'Muschiol'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'juliaplath75@gmail.com', 'pli_id': 67, 'first_name': 'Jay', 'last_name': 'Plath'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'julia@jweigl.de', 'pli_id': 26, 'first_name': 'Julia', 'last_name': 'Weigl'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'julius-kl@gmx.de', 'pli_id': 37, 'first_name': 'Julius', 'last_name': 'Klein'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'merfried@web.de', 'pli_id': 55, 'first_name': 'Katrin', 'last_name': 'Mertel'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': False, 'email': 'clara.semmel@gmx.de', 'pli_id': 110, 'first_name': 'Klarazubi', 'last_name': 'Wessel'}
+2026-09-30 13:36:26,901 | ✅ {'deliver_via_paper': True, 'email': 'laura.mueller68@posteo.de', 'pli_id': 41, 'first_name': 'Laura', 'last_name': 'Müller'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'hilserleonie@gmail.com', 'pli_id': 109, 'first_name': 'Leo', 'last_name': 'Hilser'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': True, 'email': 'leonierief25@gmail.com', 'pli_id': 51, 'first_name': 'Leonie', 'last_name': 'Rief'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'linadrewski@web.de', 'pli_id': 89, 'first_name': 'Lina', 'last_name': 'Drewski'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'lisa.zerna@t-online.de', 'pli_id': 75, 'first_name': 'Lisa', 'last_name': 'Zerna'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'luisa.hoch@piluweri.de', 'pli_id': 16, 'first_name': 'Luisa', 'last_name': 'Hoch'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'lukas.denne@piluweri.de', 'pli_id': 29, 'first_name': 'Lukas', 'last_name': 'Denne'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'lukasromes@posteo.de', 'pli_id': 86, 'first_name': 'Lukas', 'last_name': 'Romes'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'l.vontaboritzki@gmail.com', 'pli_id': 104, 'first_name': 'Lukas', 'last_name': 'Taboritzki'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'lachermanuel79@gmail.com', 'pli_id': 42, 'first_name': 'Manuel', 'last_name': 'Lacher'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'manuelbeyer1991@gmail.com', 'pli_id': 85, 'first_name': 'Manuel', 'last_name': 'Beyer'}
+2026-09-30 13:36:26,902 | ✅ {'deliver_via_paper': False, 'email': 'marco-jaegg@web.de', 'pli_id': 57, 'first_name': 'Marco', 'last_name': 'Jägg'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': True, 'email': 'anicia.82@gmail.com', 'pli_id': 66, 'first_name': 'Marco', 'last_name': 'Rosas'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'mariateufel@gmx.de', 'pli_id': 65, 'first_name': 'Maria', 'last_name': 'Teufel'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': True, 'email': '', 'pli_id': 18, 'first_name': 'Marlies', 'last_name': 'Rosenstock'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'tinibus@hotmail.com', 'pli_id': 12, 'first_name': 'Martin', 'last_name': 'Albietz'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': True, 'email': '79395mb@gmail.com', 'pli_id': 5, 'first_name': 'Martin', 'last_name': 'Bäumle'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'mathias.wolfsperger@piluweri.de', 'pli_id': 9, 'first_name': 'Matze', 'last_name': 'Wolfsperger'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'maudmarikoko@gmail.com', 'pli_id': 77, 'first_name': 'Maud', 'last_name': 'Consigny'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'm.christian.holl@gmail.com', 'pli_id': 76, 'first_name': 'Micha', 'last_name': 'Holl'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'mdinglreiter@gmx.de', 'pli_id': 21, 'first_name': 'Ela', 'last_name': 'Dinglreiter'}
+2026-09-30 13:36:26,903 | ✅ {'deliver_via_paper': False, 'email': 'michael.meuser@piluweri.de', 'pli_id': 20, 'first_name': 'Michi', 'last_name': 'Meuser'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'omimoni2014@gmail.com', 'pli_id': 45, 'first_name': 'Moni', 'last_name': 'Frese'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'calvin.delloro@piluweri.de', 'pli_id': 88, 'first_name': 'Mu', 'last_name': "Dell'Oro"}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'nicole_01890@yahoo.com', 'pli_id': 43, 'first_name': 'Nicole', 'last_name': 'Piro'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'nilsmeyer@gmx.info', 'pli_id': 107, 'first_name': 'Nils', 'last_name': 'Meyer'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'dieninahofmann@gmx.de', 'pli_id': 95, 'first_name': 'Nina', 'last_name': 'Hofmann'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'nihlein@gmail.com', 'pli_id': 93, 'first_name': 'Noah', 'last_name': 'Ihlein'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': True, 'email': '', 'pli_id': 14, 'first_name': 'Nyancho', 'last_name': 'Sanneh'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'ottmar.widmaier@web.de', 'pli_id': 40, 'first_name': 'Ottmar', 'last_name': 'Widmaier'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'schibidia@gmail.com', 'pli_id': 100, 'first_name': 'Philipp', 'last_name': 'Schneider'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'rico.albat@web.de', 'pli_id': 31, 'first_name': 'Rico', 'last_name': 'Albat'}
+2026-09-30 13:36:26,904 | ✅ {'deliver_via_paper': False, 'email': 'voicewisdom@icloud.com', 'pli_id': 62, 'first_name': 'Romana', 'last_name': 'Asherah'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'gleichaufs@gmx.de', 'pli_id': 15, 'first_name': 'Sabine', 'last_name': 'Gleichauf'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 's.wagner16@gmx.de', 'pli_id': 47, 'first_name': 'Sabrina', 'last_name': 'Lehmann'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'sethza@gmx.de', 'pli_id': 63, 'first_name': 'Selina', 'last_name': 'Zanger'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': True, 'email': 'horizon.info@gmx.de', 'pli_id': 74, 'first_name': 'Simon', 'last_name': 'Erdmann'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'tatsiana.wolf@piluweri.de', 'pli_id': 50, 'first_name': 'Tanja', 'last_name': 'Wolf'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'christine.schwake@piluweri.de', 'pli_id': 36, 'first_name': 'Christine', 'last_name': 'Schwake'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'haulsa@t-online.de', 'pli_id': 11, 'first_name': 'Uli', 'last_name': 'Sallier'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'u.kleingarn@posteo.de', 'pli_id': 39, 'first_name': 'Ulrike', 'last_name': 'Kleingarn'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'valentinavolkmer@gmail.com', 'pli_id': 96, 'first_name': 'Valentina', 'last_name': 'Volkmer'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'Serafins-Auge@web.de', 'pli_id': 19, 'first_name': 'Woolf', 'last_name': 'Scheller'}
+2026-09-30 13:36:26,905 | ✅ {'deliver_via_paper': False, 'email': 'yannisvonmajewski@outlook.de', 'pli_id': 59, 'first_name': 'Yannis', 'last_name': 'von Majewski'}
+2026-09-30 13:36:26,906 | ✅ {'deliver_via_paper': False, 'email': 'zora.zeller@piluweri.de', 'pli_id': 102, 'first_name': 'Zora', 'last_name': 'Zeller'}
+2026-09-30 13:36:26,906 | 
+
+✅✅ Die Kontaktdaten sind korrekt ✅✅
+Willst du alle digital zu verarbeitenden Monatsberichte per EMAIL SENDEN? 📧
+2026-09-30 13:36:26,906 | 
+ (Y -> Ja) | (N -> Nein)
+2026-09-30 13:39:07,641 | 
+An die folgenden Personen werden Monatsberichte gesendet:
+2026-09-30 13:39:07,642 | ✅ Alexej Bergmann | berg.alexej@proton.me
+2026-09-30 13:39:07,642 | ✅ Alina Steiner | alina.steiner@posteo.de
+2026-09-30 13:39:07,642 | ✅ Andrea Drewski | andrea.drewski@freenet.de
+2026-09-30 13:39:07,642 | ✅ Andrea Gregor | andrea.gregor@piluweri.de
+2026-09-30 13:39:07,642 | ✅ Anja Schrader | schrader.anja@posteo.de
+2026-09-30 13:39:07,643 | ✅ Anna Volk | anna.volk@gmx.net
+2026-09-30 13:39:07,643 | ✅ Ännie Habermehl | annahabermehl@gmx.de
+2026-09-30 13:39:07,643 | ✅ Beate Weltle | bjweltle@gmx.de
+2026-09-30 13:39:07,643 | ✅ Carlo Seibel | carloseibel40@gmail.com
+2026-09-30 13:39:07,643 | ✅ Caro Klein | carolin.klein.1@gmx.net
+2026-09-30 13:39:07,643 | ✅ Christian Wegener | christian.wegener@piluweri.de
+2026-09-30 13:39:07,643 | ✅ Christoph  Weber | christoph25.9@gmx.de
+2026-09-30 13:39:07,644 | ✅ Christopher Zerna | christopher.zerna@gmx.de
+2026-09-30 13:39:07,644 | ✅ Clara Schmid | clara_schmid@yahoo.de
+2026-09-30 13:39:07,644 | ✅ Clarazubi Semmel | clara.semmel@gmx.de
+2026-09-30 13:39:07,644 | ✅ Dagmar Gries | dagmar.gries@gmail.com
+2026-09-30 13:39:07,644 | ✅ Doreen Vinzelberg | doreen@vinzelberg.net
+2026-09-30 13:39:07,644 | ✅ Doris Grässlin | doris.graesslin@web.de
+2026-09-30 13:39:07,644 | ✅ Fabian Winkler | fabian.winkler@piluweri.de
+2026-09-30 13:39:07,644 | ✅ Felix Dorau | doraufe@posteo.de
+2026-09-30 13:39:07,644 | ✅ Felix Reinalter | reinalterfelix@gmail.com
+2026-09-30 13:39:07,645 | ✅ Flo Tafesse | florencetafesse@gmail.com
+2026-09-30 13:39:07,645 | ✅ Frank Walther | frankzter@web.de
+2026-09-30 13:39:07,645 | ✅ Grem Wangler | gremwangler@yahoo.com
+2026-09-30 13:39:07,645 | ✅ Hardy Staats | staatsh@web.de
+2026-09-30 13:39:07,645 | ✅ Honza Supenkämper | Honza@regioernaehrung.de
+2026-09-30 13:39:07,645 | ✅ Ingrid Glaser | ingrid-glaser@gmx.net
+2026-09-30 13:39:07,645 | ✅ Jeremias Supenkämper | handwmilch@gmail.com
+2026-09-30 13:39:07,645 | ✅ Achim Ruppenthal | joachim.ruppenthal@piluweri.de
+2026-09-30 13:39:07,645 | ✅ Johannes Kolonko | kolo1@gmx.de
+2026-09-30 13:39:07,645 | ✅ Johannes Loewe | johannes.schleyer@posteo.de
+2026-09-30 13:39:07,645 | ✅ Jonatan Argueta | jonatanac14.libros@gmail.com
+2026-09-30 13:39:07,646 | ✅ Jonathan Stoffel | jonathan.stoffel187@gmail.com
+2026-09-30 13:39:07,646 | ✅ Josepha Brehm | josepha.brehm@gmail.com
+2026-09-30 13:39:07,646 | ✅ Judith Muschiol | hovijudy@web.de
+2026-09-30 13:39:07,646 | ✅ Jay Plath | juliaplath75@gmail.com
+2026-09-30 13:39:07,646 | ✅ Julia Weigl | julia@jweigl.de
+2026-09-30 13:39:07,646 | ✅ Julius Klein | julius-kl@gmx.de
+2026-09-30 13:39:07,646 | ✅ Katrin Mertel | merfried@web.de
+2026-09-30 13:39:07,646 | ✅ Klarazubi Wessel | clara.semmel@gmx.de
+2026-09-30 13:39:07,646 | ✅ Leo Hilser | hilserleonie@gmail.com
+2026-09-30 13:39:07,646 | ✅ Lina Drewski | linadrewski@web.de
+2026-09-30 13:39:07,646 | ✅ Lisa Zerna | lisa.zerna@t-online.de
+2026-09-30 13:39:07,647 | ✅ Luisa Hoch | luisa.hoch@piluweri.de
+2026-09-30 13:39:07,647 | ✅ Lukas Denne | lukas.denne@piluweri.de
+2026-09-30 13:39:07,647 | ✅ Lukas Romes | lukasromes@posteo.de
+2026-09-30 13:39:07,647 | ✅ Lukas Taboritzki | l.vontaboritzki@gmail.com
+2026-09-30 13:39:07,647 | ✅ Manuel Lacher | lachermanuel79@gmail.com
+2026-09-30 13:39:07,647 | ✅ Manuel Beyer | manuelbeyer1991@gmail.com
+2026-09-30 13:39:07,647 | ✅ Marco Jägg | marco-jaegg@web.de
+2026-09-30 13:39:07,647 | ✅ Maria Teufel | mariateufel@gmx.de
+2026-09-30 13:39:07,647 | ✅ Martin Albietz | tinibus@hotmail.com
+2026-09-30 13:39:07,648 | ✅ Matze Wolfsperger | mathias.wolfsperger@piluweri.de
+2026-09-30 13:39:07,648 | ✅ Maud Consigny | maudmarikoko@gmail.com
+2026-09-30 13:39:07,648 | ✅ Micha Holl | m.christian.holl@gmail.com
+2026-09-30 13:39:07,648 | ✅ Ela Dinglreiter | mdinglreiter@gmx.de
+2026-09-30 13:39:07,648 | ✅ Michi Meuser | michael.meuser@piluweri.de
+2026-09-30 13:39:07,648 | ✅ Moni Frese | omimoni2014@gmail.com
+2026-09-30 13:39:07,648 | ✅ Mu Dell'Oro | calvin.delloro@piluweri.de
+2026-09-30 13:39:07,648 | ✅ Nicole Piro | nicole_01890@yahoo.com
+2026-09-30 13:39:07,648 | ✅ Nils Meyer | nilsmeyer@gmx.info
+2026-09-30 13:39:07,648 | ✅ Nina Hofmann | dieninahofmann@gmx.de
+2026-09-30 13:39:07,648 | ✅ Noah Ihlein | nihlein@gmail.com
+2026-09-30 13:39:07,649 | ✅ Ottmar Widmaier | ottmar.widmaier@web.de
+2026-09-30 13:39:07,649 | ✅ Philipp Schneider | schibidia@gmail.com
+2026-09-30 13:39:07,649 | ✅ Rico Albat | rico.albat@web.de
+2026-09-30 13:39:07,649 | ✅ Romana Asherah | voicewisdom@icloud.com
+2026-09-30 13:39:07,649 | ✅ Sabine Gleichauf | gleichaufs@gmx.de
+2026-09-30 13:39:07,649 | ✅ Sabrina Lehmann | s.wagner16@gmx.de
+2026-09-30 13:39:07,649 | ✅ Selina Zanger | sethza@gmx.de
+2026-09-30 13:39:07,649 | ✅ Tanja Wolf | tatsiana.wolf@piluweri.de
+2026-09-30 13:39:07,649 | ✅ Christine Schwake | christine.schwake@piluweri.de
+2026-09-30 13:39:07,649 | ✅ Uli Sallier | haulsa@t-online.de
+2026-09-30 13:39:07,649 | ✅ Ulrike Kleingarn | u.kleingarn@posteo.de
+2026-09-30 13:39:07,650 | ✅ Valentina Volkmer | valentinavolkmer@gmail.com
+2026-09-30 13:39:07,650 | ✅ Woolf Scheller | Serafins-Auge@web.de
+2026-09-30 13:39:07,650 | ✅ Yannis von Majewski | yannisvonmajewski@outlook.de
+2026-09-30 13:39:07,650 | ✅ Zora Zeller | zora.zeller@piluweri.de
