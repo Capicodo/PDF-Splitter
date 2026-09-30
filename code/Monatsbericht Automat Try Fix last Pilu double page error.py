@@ -506,6 +506,18 @@ def iterate_pages():
             
         elif pageIndex == raw_report_doc.page_count - 1:
 
+            contact_data = None     
+                   
+            if sort_by_deliver_method:
+            
+                try:
+                    contact_data = get_searched_contact_data(current_pli_id)
+                    contact_data_list.append(contact_data)
+                except Exception as e:
+                    contact_failures.append(
+                        f"❌ Für {currentName} war Kontaktdatensuche fehlerhaft: {e} \n❌ Die PDF wurde in den unsorted-Ordner gelegt!❌"
+                    )
+            
             print("\n\n")
             print(f"🎯 Letzte Seite erreicht bei gleichbleibendem Namen: {currentName}")
 
